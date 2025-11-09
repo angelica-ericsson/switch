@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "GOfXwyuxKuh3taJ6wWjzh",
+      "type": "scene",
+      "position": {
+        "x": -420,
+        "y": -165
+      },
+      "data": {
+        "headline": "asdasdasd",
+        "text": null,
+        "option1": null,
+        "option2": "asd",
+        "option3": null
+      },
+      "measured": {
+        "width": 180,
+        "height": 200
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "start",
+      "type": "start",
+      "position": {
+        "x": -1305,
+        "y": -60
+      },
+      "data": {},
+      "measured": {
+        "width": 160,
+        "height": 66
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "NmMyfO3xIANgGKG8D50yr",
+      "type": "end",
+      "position": {
+        "x": 420,
+        "y": -255
+      },
+      "data": {
+        "headline": "this is the end!",
+        "text": "the end the end!"
+      },
+      "measured": {
+        "width": 209,
+        "height": 104
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "xRQBjTq5ogVM38zRuArjN",
+      "type": "setState",
+      "position": {
+        "x": -885,
+        "y": -75
+      },
+      "data": {
+        "demandA": "12",
+        "demandB": null,
+        "priceA": null,
+        "priceB": null,
+        "sentimentPro": null,
+        "sentimentNeutral": null,
+        "sentimentAgainst": null
+      },
+      "measured": {
+        "width": 310,
+        "height": 160
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4yvPsjZ74kdhe9r4K1uxl",
+      "type": "random",
+      "position": {
+        "x": -105,
+        "y": -225
+      },
+      "data": {},
+      "measured": {
+        "width": 121,
+        "height": 118
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "oYiaxhL6jhsM-2xVuLSGJ",
+      "type": "end",
+      "position": {
+        "x": 420,
+        "y": 0
+      },
+      "data": {},
+      "measured": {
+        "width": 188,
+        "height": 104
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7xjABgi7kjMUQaM4MqwtM",
+      "type": "stockUp",
+      "position": {
+        "x": -105,
+        "y": -45
+      },
+      "data": {},
+      "measured": {
+        "width": 141,
+        "height": 66
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "start",
+      "target": "xRQBjTq5ogVM38zRuArjN",
+      "id": "xy-edge__start-xRQBjTq5ogVM38zRuArjN"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "xRQBjTq5ogVM38zRuArjN",
+      "target": "GOfXwyuxKuh3taJ6wWjzh",
+      "id": "xy-edge__xRQBjTq5ogVM38zRuArjN-GOfXwyuxKuh3taJ6wWjzh"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "GOfXwyuxKuh3taJ6wWjzh",
+      "sourceHandle": "option1",
+      "target": "4yvPsjZ74kdhe9r4K1uxl",
+      "id": "xy-edge__GOfXwyuxKuh3taJ6wWjzhoption1-4yvPsjZ74kdhe9r4K1uxl"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "4yvPsjZ74kdhe9r4K1uxl",
+      "sourceHandle": "option1",
+      "target": "NmMyfO3xIANgGKG8D50yr",
+      "id": "xy-edge__4yvPsjZ74kdhe9r4K1uxloption1-NmMyfO3xIANgGKG8D50yr"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "GOfXwyuxKuh3taJ6wWjzh",
+      "sourceHandle": "option2",
+      "target": "7xjABgi7kjMUQaM4MqwtM",
+      "id": "xy-edge__GOfXwyuxKuh3taJ6wWjzhoption2-7xjABgi7kjMUQaM4MqwtM"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "7xjABgi7kjMUQaM4MqwtM",
+      "target": "oYiaxhL6jhsM-2xVuLSGJ",
+      "id": "xy-edge__7xjABgi7kjMUQaM4MqwtM-oYiaxhL6jhsM-2xVuLSGJ"
+    },
+    {
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "4yvPsjZ74kdhe9r4K1uxl",
+      "sourceHandle": "option2",
+      "target": "oYiaxhL6jhsM-2xVuLSGJ",
+      "id": "xy-edge__4yvPsjZ74kdhe9r4K1uxloption2-oYiaxhL6jhsM-2xVuLSGJ"
+    }
+  ]
+}
