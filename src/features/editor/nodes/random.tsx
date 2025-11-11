@@ -2,32 +2,30 @@ import { BaseHandle } from '@/components/base-handle';
 import {
   BaseNode,
   BaseNodeContent,
-  BaseNodeHeader,
   BaseNodeHeaderTitle,
 } from '@/components/base-node';
-import { LabeledHandle } from '@/components/labeled-handle';
 import { Position } from '@xyflow/react';
 import { Shuffle } from 'lucide-react';
 
 export function RandomNode() {
   return (
     <BaseNode className="bg-yellow-50 border-yellow-700">
-      <BaseNodeHeader>
-        <Shuffle />
-        <BaseNodeHeaderTitle>Random</BaseNodeHeaderTitle>
-      </BaseNodeHeader>
       <BaseNodeContent>
-        <BaseHandle type="target" position={Position.Left} />
-        <LabeledHandle
+        <div className="flex gap-2 p-2">
+          <Shuffle />
+          <BaseNodeHeaderTitle>Random</BaseNodeHeaderTitle>
+        </div>
+        <BaseHandle type="target" position={Position.Top} />
+        <BaseHandle
           type="source"
-          position={Position.Right}
-          title="50%"
+          position={Position.Bottom}
+          style={{ left: '25%' }}
           id="option1"
         />
-        <LabeledHandle
+        <BaseHandle
           type="source"
-          position={Position.Right}
-          title="50%"
+          position={Position.Bottom}
+          style={{ left: '75%' }}
           id="option2"
         />
       </BaseNodeContent>

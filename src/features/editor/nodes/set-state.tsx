@@ -147,8 +147,8 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
         </Dialog>
       </BaseNodeHeader>
       <BaseNodeContent>
-        <BaseHandle type="target" position={Position.Left} />
-        <BaseHandle type="source" position={Position.Right} />
+        <BaseHandle type="target" position={Position.Top} />
+        <BaseHandle type="source" position={Position.Bottom} />
 
         <div className="flex gap-4">
           <p className="font-medium">Product A:</p>

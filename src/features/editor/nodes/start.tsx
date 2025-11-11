@@ -15,7 +15,7 @@ export function StartNode() {
           <CirclePlay />
           <BaseNodeHeaderTitle>Game Start</BaseNodeHeaderTitle>
         </div>
-        <BaseHandle type="source" position={Position.Right} />
+        <BaseHandle type="source" position={Position.Bottom} />
       </BaseNodeContent>
     </BaseNode>
   );

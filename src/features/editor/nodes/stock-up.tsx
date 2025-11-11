@@ -15,8 +15,8 @@ export function StockUpNode() {
           <Banknote />
           <BaseNodeHeaderTitle>Stock up</BaseNodeHeaderTitle>
         </div>
-        <BaseHandle type="target" position={Position.Left} />
-        <BaseHandle type="source" position={Position.Right} />
+        <BaseHandle type="target" position={Position.Top} />
+        <BaseHandle type="source" position={Position.Bottom} />
       </BaseNodeContent>
     </BaseNode>
   );

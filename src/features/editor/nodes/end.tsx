@@ -96,7 +96,7 @@ export function EndNode({ data, id }: NodeProps<EndGameNodeType>) {
         <p className="font-mono text-xs bg-white border border-orange-700 p-2 rounded-md">
           {data.text ?? 'No text'}
         </p>
-        <BaseHandle type="target" position={Position.Left} />
+        <BaseHandle type="target" position={Position.Top} />
       </BaseNodeContent>
     </BaseNode>
   );

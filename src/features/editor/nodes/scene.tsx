@@ -5,7 +5,7 @@ import {
   BaseNodeHeader,
   BaseNodeHeaderTitle,
 } from '@/components/base-node';
-import { LabeledHandle } from '@/components/labeled-handle';
+import { NumberedHandle } from '@/components/numbered-handle';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -121,24 +121,31 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
         <p className="font-mono text-xs bg-white border border-indigo-700 p-2 rounded-md">
           {data.text ?? 'No text'}
         </p>
-        <BaseHandle type="target" position={Position.Left} />
-        <LabeledHandle
+        <ol className="list-decimal list-inside">
+          <li>{data.option1 ?? <NotUsed />}</li>
+          <li>{data.option2 ?? <NotUsed />}</li>
+          <li>{data.option3 ?? <NotUsed />}</li>
+        </ol>
+        <BaseHandle type="target" position={Position.Top} />
+        <NumberedHandle
           type="source"
-          position={Position.Right}
-          title={data.option1 ?? <NotUsed />}
+          position={Position.Bottom}
           id="option1"
+          style={{ left: '25%' }}
+          number="1"
         />
-        <LabeledHandle
+        <NumberedHandle
           type="source"
-          position={Position.Right}
-          title={data.option2 ?? <NotUsed />}
+          position={Position.Bottom}
           id="option2"
+          number="2"
         />
-        <LabeledHandle
+        <NumberedHandle
           type="source"
-          position={Position.Right}
-          title={data.option3 ?? <NotUsed />}
+          position={Position.Bottom}
           id="option3"
+          style={{ left: '75%' }}
+          number="3"
         />
       </BaseNodeContent>
     </BaseNode>
