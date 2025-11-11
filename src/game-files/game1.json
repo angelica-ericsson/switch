@@ -4,22 +4,22 @@
       "id": "GOfXwyuxKuh3taJ6wWjzh",
       "type": "scene",
       "position": {
-        "x": -420,
-        "y": -165
+        "x": -525,
+        "y": -240
       },
       "data": {
-        "headline": "asdasdasd",
-        "text": null,
-        "option1": null,
-        "option2": "asd",
+        "headline": "Here's a game screen",
+        "text": "lsdkjflöskjdf sdlfknasdkfj sadkf",
+        "option1": "go to random",
+        "option2": "go directly to the end",
         "option3": null
       },
       "measured": {
-        "width": 180,
+        "width": 275,
         "height": 200
       },
-      "selected": false,
-      "dragging": false
+      "selected": true,
+      "dragging": true
     },
     {
       "id": "start",
@@ -44,11 +44,11 @@
         "y": -255
       },
       "data": {
-        "headline": "this is the end!",
-        "text": "the end the end!"
+        "headline": "a random end!",
+        "text": "this will happen 50% of the time"
       },
       "measured": {
-        "width": 209,
+        "width": 275,
         "height": 104
       },
       "selected": false,
@@ -58,8 +58,8 @@
       "id": "xRQBjTq5ogVM38zRuArjN",
       "type": "setState",
       "position": {
-        "x": -885,
-        "y": -75
+        "x": -915,
+        "y": -135
       },
       "data": {
         "demandA": "12",
@@ -99,9 +99,12 @@
         "x": 420,
         "y": 0
       },
-      "data": {},
+      "data": {
+        "headline": "the normal end",
+        "text": "this is the normal end"
+      },
       "measured": {
-        "width": 188,
+        "width": 212,
         "height": 104
       },
       "selected": false,
