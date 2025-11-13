@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import './editor.css';
 import { Editor } from './features/editor/editor.tsx';
 
 createRoot(document.getElementById('root')!).render(
