@@ -14,7 +14,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { Textarea } from '@/components/ui/textarea';
 import { Panel } from '@xyflow/react';
 import { useReactFlow } from '@xyflow/react';
-import { FileInput, Save, Check } from 'lucide-react';
+import { FileInput, Save, Check, Rocket } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export function ImportExportToolbar() {
@@ -23,6 +23,11 @@ export function ImportExportToolbar() {
       <ButtonGroup>
         <ImportDialog />
         <ExportDialog />
+        <Button variant="outline" asChild>
+          <a href="index.html#localstorage" target="_blank">
+            <Rocket /> Launch game
+          </a>
+        </Button>
       </ButtonGroup>
     </Panel>
   );
