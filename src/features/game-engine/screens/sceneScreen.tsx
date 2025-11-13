@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { ScreenLayout } from './screenLayout';
 import { useGameState } from '../state';
 import type { SceneNodeType } from '../zod-schema';
+import { TypingAnimation } from '@/components/ui/typing-animation';
 
 interface SceneScreenProps {
   node: SceneNodeType;
@@ -28,7 +29,7 @@ export function SceneScreen({ node }: SceneScreenProps) {
         )}
         {node.data?.text && (
           <p className="text-lg text-muted-foreground whitespace-pre-wrap">
-            {node.data.text}
+            <TypingAnimation>{node.data.text}</TypingAnimation>
           </p>
         )}
         <div className="flex flex-col gap-3 mt-8">
