@@ -15,6 +15,8 @@ export interface GameState {
   stockA: number;
   stockB: number;
 
+  points: number;
+
   currentNode: UnionNodeType | null;
   nodes: Map<string, UnionNodeType>;
   edges: Map<string, EdgeTarget>;
@@ -40,6 +42,7 @@ export const useGameState = create<GameState>((set) => ({
   sentimentNeutral: 0,
   stockA: 0,
   stockB: 0,
+  points: 0,
   currentNode: null,
   nodes: new Map(),
   edges: new Map(),
