@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import game1 from '../../game-files/game1.json';
+import game from '../../game-files/game.json';
 import { generateGameNodeGraph, useGameState } from './state';
 import { SceneScreen } from './screens/sceneScreen';
 import { StockUpScreen } from './screens/stockUpScreen';
@@ -11,6 +11,7 @@ import type { Edge, Node } from '@xyflow/react';
 export function GameEngine() {
   const setNodesAndEdges = useGameState((state) => state.setNodesAndEdges);
   const setCurrentNode = useGameState((state) => state.setCurrentNode);
+  const setGameState = useGameState((state) => state.setGameState);
 
   const [localStorageNodes] = useLocalStorage<Node[]>('editor/nodes', []);
   const [localStorageEdges] = useLocalStorage<Edge[]>('editor/edges', []);
@@ -18,16 +19,24 @@ export function GameEngine() {
   // initialize the game:
   useEffect(() => {
     let gameData: unknown = null;
-    if (location.hash.slice(1) === 'localstorage')
-      gameData = { nodes: localStorageNodes, edges: localStorageEdges };
+    const params = new URLSearchParams(location.hash.slice(1));
 
-    if (location.hash.slice(1) === 'game1') gameData = game1;
+    if (params.get('load') === 'localstorage') {
+      console.info('Loading game from Localstorage');
+      gameData = { nodes: localStorageNodes, edges: localStorageEdges };
+    }
 
     // if there hasn't been any direct command which game data to load, we chose randomly:
     if (gameData === null) {
       // since we only have one game right now, it's always game1:
-      gameData = game1;
+      gameData = game;
     }
+
+    let variant = Math.random() > 0.5 ? ('A' as const) : ('B' as const);
+    if (params.has('variant')) {
+      variant = params.get('variant') === 'A' ? ('A' as const) : ('B' as const);
+    }
+    setGameState({ gameVariant: variant });
 
     const { nodes, edges, startNode } = generateGameNodeGraph(gameData);
     setNodesAndEdges(nodes, edges);

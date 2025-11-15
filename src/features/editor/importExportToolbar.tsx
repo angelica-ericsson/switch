@@ -1,14 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ButtonGroup } from '@/components/ui/button-group';
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Field, FieldError } from '@/components/ui/field';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Textarea } from '@/components/ui/textarea';
@@ -24,8 +16,15 @@ export function ImportExportToolbar() {
         <ImportDialog />
         <ExportDialog />
         <Button variant="outline" asChild>
-          <a href="index.html#localstorage" target="_blank">
-            <Rocket /> Launch game
+          <a href="index.html#load=localstorage&variant=A" target="_blank">
+            <Rocket />
+            Launch A
+          </a>
+        </Button>
+        <Button variant="outline" asChild>
+          <a href="index.html#load=localstorage&variant=B" target="_blank">
+            <Rocket />
+            Launch B
           </a>
         </Button>
       </ButtonGroup>
@@ -52,11 +51,9 @@ function ImportDialog() {
           action={(formData) => {
             try {
               const raw = formData.get('json');
-              if (typeof raw !== 'string')
-                throw Error('Import data is not a string');
+              if (typeof raw !== 'string') throw Error('Import data is not a string');
               const parsed = JSON.parse(raw);
-              if (!Array.isArray(parsed.nodes) || !Array.isArray(parsed.edges))
-                throw Error('Data has the wrong format');
+              if (!Array.isArray(parsed.nodes) || !Array.isArray(parsed.edges)) throw Error('Data has the wrong format');
 
               reactFlow.setNodes(parsed.nodes);
               reactFlow.setEdges(parsed.edges);
@@ -97,11 +94,7 @@ function ImportDialog() {
 
 function ExportDialog() {
   const reactFlow = useReactFlow();
-  const jsonExport = JSON.stringify(
-    { nodes: reactFlow.getNodes(), edges: reactFlow.getEdges() },
-    null,
-    2,
-  );
+  const jsonExport = JSON.stringify({ nodes: reactFlow.getNodes(), edges: reactFlow.getEdges() }, null, 2);
 
   const [hasCopied, setHasCopied] = useState(false);
   useEffect(() => {
@@ -135,9 +128,7 @@ function ExportDialog() {
           {hasCopied ? 'copied!' : 'Copy to clipboard'}
         </Button>
         <ScrollArea className="h-72 w-fit rounded-md border">
-          <pre className="bg-muted rounded font-mono text-xs font-light p-3">
-            {jsonExport}
-          </pre>
+          <pre className="bg-muted rounded font-mono text-xs font-light p-3">{jsonExport}</pre>
         </ScrollArea>
       </DialogContent>
     </Dialog>

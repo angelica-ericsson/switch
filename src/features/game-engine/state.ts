@@ -16,16 +16,14 @@ export interface GameState {
   stockB: number;
 
   points: number;
+  gameVariant: 'A' | 'B';
 
   currentNode: UnionNodeType | null;
   nodes: Map<string, UnionNodeType>;
   edges: Map<string, EdgeTarget>;
   setCurrentNode: (newCurrent: UnionNodeType) => void;
   setGameState: (newState: Partial<GameState>) => void;
-  setNodesAndEdges: (
-    nodes: Map<string, UnionNodeType>,
-    edges: Map<string, EdgeTarget>,
-  ) => void;
+  setNodesAndEdges: (nodes: Map<string, UnionNodeType>, edges: Map<string, EdgeTarget>) => void;
   moveForward: (direction: string) => void;
 }
 
@@ -43,6 +41,7 @@ export const useGameState = create<GameState>((set) => ({
   stockA: 0,
   stockB: 0,
   points: 0,
+  gameVariant: 'A',
   currentNode: null,
   nodes: new Map(),
   edges: new Map(),
@@ -99,10 +98,7 @@ export function generateGameNodeGraph(input: unknown) {
  * State-updating nodes (setState, random) are processed automatically and
  * the game continues until it reaches a UI-rendering node (start, scene, stockUp, end).
  */
-function moveGameForward(
-  state: GameState,
-  direction: string,
-): Partial<GameState> {
+function moveGameForward(state: GameState, direction: string): Partial<GameState> {
   if (!state.currentNode) throw Error('current node cannot be null');
 
   // Get the edge from the current node
@@ -111,16 +107,13 @@ function moveGameForward(
     throw Error(`couldn't find any edges for node id ${state.currentNode.id}`);
   }
   if (!(direction in edge)) {
-    throw Error(
-      `direction "${direction}" is not a property of Edge ${JSON.stringify(edge)}`,
-    );
+    throw Error(`direction "${direction}" is not a property of Edge ${JSON.stringify(edge)}`);
   }
 
   // Move to the next node
   const nextNodeId = edge[direction];
   const nextNode = state.nodes.get(nextNodeId);
-  if (!nextNode)
-    throw Error(`Next node "${nextNodeId}" not found in node list`);
+  if (!nextNode) throw Error(`Next node "${nextNodeId}" not found in node list`);
 
   // Process the next node based on its type
   return processNode(state, nextNode);
@@ -131,17 +124,9 @@ function moveGameForward(
  * State-updating nodes are processed automatically and the game continues.
  * UI-rendering nodes update currentNode and stop.
  */
-function processNode(
-  state: GameState,
-  node: UnionNodeType,
-): Partial<GameState> {
+function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
   // UI-rendering nodes: update currentNode and stop
-  if (
-    node.type === 'scene' ||
-    node.type === 'stockUp' ||
-    node.type === 'end' ||
-    node.type === 'start'
-  ) {
+  if (node.type === 'scene' || node.type === 'stockUp' || node.type === 'end' || node.type === 'start') {
     return { currentNode: node };
   }
 
@@ -154,20 +139,15 @@ function processNode(
       if (node.data.demandB != null) stateUpdates.demandB = node.data.demandB;
       if (node.data.priceA != null) stateUpdates.priceA = node.data.priceA;
       if (node.data.priceB != null) stateUpdates.priceB = node.data.priceB;
-      if (node.data.sentimentPro != null)
-        stateUpdates.sentimentPro = node.data.sentimentPro;
-      if (node.data.sentimentNeutral != null)
-        stateUpdates.sentimentNeutral = node.data.sentimentNeutral;
-      if (node.data.sentimentAgainst != null)
-        stateUpdates.sentimentAgainst = node.data.sentimentAgainst;
+      if (node.data.sentimentPro != null) stateUpdates.sentimentPro = node.data.sentimentPro;
+      if (node.data.sentimentNeutral != null) stateUpdates.sentimentNeutral = node.data.sentimentNeutral;
+      if (node.data.sentimentAgainst != null) stateUpdates.sentimentAgainst = node.data.sentimentAgainst;
     }
 
     // Move to next node using 'default' direction
     const edge = state.edges.get(node.id);
     if (!edge || !edge.default) {
-      throw Error(
-        `setState node "${node.id}" must have a 'default' edge, but found: ${JSON.stringify(edge)}`,
-      );
+      throw Error(`setState node "${node.id}" must have a 'default' edge, but found: ${JSON.stringify(edge)}`);
     }
 
     const nextNodeId = edge.default;
@@ -191,9 +171,7 @@ function processNode(
     // Get available options
     const options = Object.keys(edge).filter((key) => key !== 'default');
     if (options.length === 0) {
-      throw Error(
-        `random node "${node.id}" has no option edges (option1, option2, etc.)`,
-      );
+      throw Error(`random node "${node.id}" has no option edges (option1, option2, etc.)`);
     }
 
     // Randomly select an option
@@ -218,18 +196,14 @@ function processNode(
     // Get threshold from node data
     const threshold = node.data?.threshold;
     if (threshold == null) {
-      throw Error(
-        `if node "${node.id}" must have a threshold value configured`,
-      );
+      throw Error(`if node "${node.id}" must have a threshold value configured`);
     }
 
     // Determine which path to take based on stockA comparison
     const direction = state.stockA <= threshold ? 'lowerOrEqual' : 'higher';
 
     if (!(direction in edge)) {
-      throw Error(
-        `if node "${node.id}" is missing the "${direction}" edge`,
-      );
+      throw Error(`if node "${node.id}" is missing the "${direction}" edge`);
     }
 
     const nextNodeId = edge[direction];
