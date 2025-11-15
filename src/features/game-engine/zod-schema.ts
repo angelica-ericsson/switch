@@ -5,7 +5,8 @@ export const sceneNodeSchema = z.object({
   id: z.string(),
   type: z.literal('scene'),
   data: z.object({
-    text: z.string().nullable().optional(),
+    textA: z.string().nullable().optional(),
+    textB: z.string().nullable().optional(),
     option1: z.string().nullable().optional(),
     option2: z.string().nullable().optional(),
     option3: z.string().nullable().optional(),

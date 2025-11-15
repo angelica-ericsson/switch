@@ -42,18 +42,9 @@ export function Editor() {
   const [nodes, setNodes] = useLocalStorage<Node[]>('editor/nodes', []);
   const [edges, setEdges] = useLocalStorage<Edge[]>('editor/edges', []);
 
-  const onNodesChange: OnNodesChange = useCallback(
-    (changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
-    [setNodes],
-  );
-  const onEdgesChange: OnEdgesChange = useCallback(
-    (changes) => setEdges((eds) => applyEdgeChanges(changes, eds)),
-    [setEdges],
-  );
-  const onConnect: OnConnect = useCallback(
-    (connection) => setEdges((eds) => addEdge(connection, eds)),
-    [setEdges],
-  );
+  const onNodesChange: OnNodesChange = useCallback((changes) => setNodes((nds) => applyNodeChanges(changes, nds)), [setNodes]);
+  const onEdgesChange: OnEdgesChange = useCallback((changes) => setEdges((eds) => applyEdgeChanges(changes, eds)), [setEdges]);
+  const onConnect: OnConnect = useCallback((connection) => setEdges((eds) => addEdge(connection, eds)), [setEdges]);
 
   return (
     <ReactFlowProvider>
@@ -74,11 +65,7 @@ export function Editor() {
         >
           <EditorToolbar />
           <ImportExportToolbar />
-          <Background
-            color="var(--secondary-foreground)"
-            bgColor="var(--primary-foreground)"
-            variant={BackgroundVariant.Dots}
-          />
+          <Background color="var(--secondary-foreground)" bgColor="var(--primary-foreground)" variant={BackgroundVariant.Dots} />
           <Controls />
           <MiniMap />
         </ReactFlow>

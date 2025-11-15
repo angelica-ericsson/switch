@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { ScreenLayout } from './screenLayout';
 import { useGameState } from '../state';
 import { Slider } from '@/components/ui/slider';
+import { Trans, useTranslation } from 'react-i18next';
 
 export function StockUpScreen() {
   const oldStockA = useGameState((state) => state.stockA);
@@ -33,40 +34,36 @@ export function StockUpScreen() {
     });
   };
 
+  const { t } = useTranslation();
+
   return (
     <ScreenLayout>
       <div className="max-w-2xl mx-auto p-8 space-y-6">
-        <h1 className="text-3xl font-bold">Stock Up</h1>
-        <p className="text-lg text-muted-foreground">
-          Great! You sold{' '}
-          <span className="font-mono bg-gray-600 p-2 rounded-full">
-            {soldProductA}
-          </span>{' '}
-          of Product A and{' '}
-          <span className="font-mono bg-gray-600 p-2 rounded-full">
-            {soldProductB}
-          </span>{' '}
-          of Product B
-        </p>
-        <p className="text-lg text-muted-foreground">
-          Enter the stock quantities for Product A and Product B
-        </p>
+        <h1 className="text-3xl font-bold"> {t('stockUp.headline')}</h1>
+        {(soldProductA > 0 || soldProductB > 0) && (
+          <p className="text-lg text-muted-foreground">
+            <Trans
+              i18nKey="stockUp.youSold"
+              defaults="Great! You sold <num>{{soldA}}</num> of Product A and <num>{{soldB}}</num> of Product B"
+              values={{ soldA: soldProductA, soldB: soldProductB }}
+              components={{
+                num: <span className="font-mono bg-gray-600 p-2 rounded-full" />,
+              }}
+            />
+          </p>
+        )}
+        <p className="text-lg text-muted-foreground">{t('stockUp.description')}</p>
         <div className="flex gap-5">
-          <div>Product A: {100 - sliderValue}</div>
-          <Slider
-            defaultValue={[sliderValue]}
-            max={100}
-            onValueChange={(values) => setSlider(values[0])}
-          />
-          <div>Product B: {sliderValue}</div>
+          <div>
+            {t('productA')} {100 - sliderValue}
+          </div>
+          <Slider defaultValue={[sliderValue]} max={100} onValueChange={(values) => setSlider(values[0])} />
+          <div>
+            {t('productB')} {sliderValue}
+          </div>
         </div>
-        <Button
-          type="submit"
-          size="lg"
-          className="w-full"
-          onClick={handleSubmit}
-        >
-          Confirm Stock-Up
+        <Button type="submit" size="lg" className="w-full" onClick={handleSubmit}>
+          {t('stockUp.button')}
         </Button>
       </div>
     </ScreenLayout>
