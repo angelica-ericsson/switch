@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ScreenLayout } from './screenLayout';
 import { useGameState } from '../state';
-import { TypingAnimation } from '@/components/ui/typing-animation';
 
 export function StartScreen() {
   const moveForward = useGameState((state) => state.moveForward);
@@ -15,9 +14,7 @@ export function StartScreen() {
       <div className="max-w-2xl mx-auto p-8 space-y-6 text-center">
         <h1 className="text-4xl font-bold">Welcome to the Game</h1>
         <p className="text-lg text-muted-foreground">
-          <TypingAnimation>
-            Click the button below to start your adventure
-          </TypingAnimation>
+          Click the button below to start your adventure
         </p>
         <Button onClick={handleStartClick} size="lg" className="mt-8">
           Start the game
