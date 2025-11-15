@@ -10,6 +10,7 @@ import {
   Cog,
   ImagePlus,
   Shuffle,
+  GitBranch,
 } from 'lucide-react';
 
 export function EditorToolbar() {
@@ -102,6 +103,20 @@ export function EditorToolbar() {
           }}
         >
           <Shuffle /> Random
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => {
+            const pos = reactFlow.screenToFlowPosition({ x: 70, y: 70 });
+            reactFlow.addNodes({
+              id: nanoid(),
+              type: 'if',
+              position: pos,
+              data: {},
+            });
+          }}
+        >
+          <GitBranch /> If
         </Button>
       </ButtonGroup>
     </Panel>

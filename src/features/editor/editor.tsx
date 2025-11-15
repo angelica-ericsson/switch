@@ -25,6 +25,7 @@ import { SetStateNode } from './nodes/set-state';
 import { StartNode } from './nodes/start';
 import { EndNode } from './nodes/end';
 import { RandomNode } from './nodes/random';
+import { IfNode } from './nodes/if';
 import { ImportExportToolbar } from './importExportToolbar';
 
 const nodeTypes = {
@@ -34,6 +35,7 @@ const nodeTypes = {
   end: EndNode,
   setState: SetStateNode,
   random: RandomNode,
+  if: IfNode,
 };
 
 export function Editor() {

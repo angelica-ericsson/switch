@@ -208,6 +208,40 @@ function processNode(
     return processNode(state, nextNode);
   }
 
+  if (node.type === 'if') {
+    // Check if stockA <= threshold or stockA > threshold
+    const edge = state.edges.get(node.id);
+    if (!edge) {
+      throw Error(`if node "${node.id}" has no outgoing edges`);
+    }
+
+    // Get threshold from node data
+    const threshold = node.data?.threshold;
+    if (threshold == null) {
+      throw Error(
+        `if node "${node.id}" must have a threshold value configured`,
+      );
+    }
+
+    // Determine which path to take based on stockA comparison
+    const direction = state.stockA <= threshold ? 'lowerOrEqual' : 'higher';
+
+    if (!(direction in edge)) {
+      throw Error(
+        `if node "${node.id}" is missing the "${direction}" edge`,
+      );
+    }
+
+    const nextNodeId = edge[direction];
+    const nextNode = state.nodes.get(nextNodeId);
+    if (!nextNode) {
+      throw Error(`Next node "${nextNodeId}" not found in node list`);
+    }
+
+    // Recursively process the next node
+    return processNode(state, nextNode);
+  }
+
   // Unknown node type
   throw Error(`Unknown node type: ${(node as { type: string }).type}`);
 }

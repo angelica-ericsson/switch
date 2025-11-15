@@ -68,6 +68,17 @@ export const setStateNodeSchema = z.object({
 
 export type SetStateNodeType = z.infer<typeof setStateNodeSchema>;
 
+// If node schema and type
+export const ifNodeSchema = z.object({
+  id: z.string(),
+  type: z.literal('if'),
+  data: z.object({
+    threshold: z.coerce.number().nullable().optional(),
+  }),
+});
+
+export type IfNodeType = z.infer<typeof ifNodeSchema>;
+
 // Union type for all node types
 export type UnionNodeType =
   | SceneNodeType
@@ -75,7 +86,8 @@ export type UnionNodeType =
   | RandomNodeType
   | StockUpNodeType
   | EndNodeType
-  | SetStateNodeType;
+  | SetStateNodeType
+  | IfNodeType;
 
 // Game schema using discriminated union
 export const gameSchema = z.object({
@@ -87,6 +99,7 @@ export const gameSchema = z.object({
       stockUpNodeSchema,
       endNodeSchema,
       setStateNodeSchema,
+      ifNodeSchema,
     ]),
   ),
   edges: z.array(
