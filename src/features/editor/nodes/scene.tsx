@@ -18,7 +18,6 @@ import {
 } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
 import { fdOrNull } from '@/lib/editorNodeHelpers';
 import {
   Position,
@@ -31,7 +30,6 @@ import { useState } from 'react';
 
 type SceneNodeType = Node<
   {
-    headline: string;
     text: string;
     option1: string;
     option2: string;
@@ -45,13 +43,11 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="bg-indigo-50 border-indigo-700">
+    <BaseNode className="bg-indigo-50 border-indigo-700 max-w-96">
       <BaseNodeHeader>
         <Image className="text-indigo-800" />
         <BaseNodeHeaderTitle className="text-indigo-800">
-          {data.headline ?? (
-            <span className="text-indigo-700/50">Scene has no headline</span>
-          )}
+          Scene
         </BaseNodeHeaderTitle>
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
@@ -67,7 +63,6 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
             <form
               action={(formData) => {
                 reactFlow.updateNodeData(id, {
-                  headline: fdOrNull(formData.get('headline')),
                   text: fdOrNull(formData.get('text')),
                   option1: fdOrNull(formData.get('option1')),
                   option2: fdOrNull(formData.get('option2')),
@@ -80,16 +75,8 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
               <DialogHeader>
                 <DialogTitle>Configure Scene</DialogTitle>
               </DialogHeader>
-              <Input
-                placeholder="Headline"
-                name="headline"
-                defaultValue={data.headline}
-              />
-              <Textarea
-                placeholder="Text"
-                name="text"
-                defaultValue={data.text}
-              />
+
+              <Input placeholder="Text" name="text" defaultValue={data.text} />
 
               <Label>Options:</Label>
               <Input
@@ -118,7 +105,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
         </Dialog>
       </BaseNodeHeader>
       <BaseNodeContent>
-        <p className="font-mono text-xs bg-white border border-indigo-700 p-2 rounded-md">
+        <p className="font-mono bg-white border border-indigo-700 p-2 rounded-md line-clamp-6">
           {data.text ?? 'No text'}
         </p>
         <ol className="list-decimal list-inside">
