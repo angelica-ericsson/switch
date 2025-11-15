@@ -13,6 +13,7 @@ import {
   type OnEdgesChange,
   type OnConnect,
   MarkerType,
+  MiniMap,
 } from '@xyflow/react';
 import { SceneNode } from './nodes/scene';
 import { useLocalStorage } from 'usehooks-ts';
@@ -63,7 +64,8 @@ export function Editor() {
           onConnect={onConnect}
           fitView
           nodeTypes={nodeTypes}
-          snapToGrid
+          maxZoom={5}
+          minZoom={0.1}
           defaultEdgeOptions={{
             markerEnd: { type: MarkerType.ArrowClosed },
           }}
@@ -76,6 +78,7 @@ export function Editor() {
             variant={BackgroundVariant.Dots}
           />
           <Controls />
+          <MiniMap />
         </ReactFlow>
       </div>
     </ReactFlowProvider>
