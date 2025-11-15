@@ -108,7 +108,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
         <p className="font-mono bg-white border border-indigo-700 p-2 rounded-md line-clamp-6">
           {data.text ?? 'No text'}
         </p>
-        <ol className="list-decimal list-inside">
+        <ol className="list-decimal list-inside space-y-2">
           <li>{data.option1 ?? <NotUsed />}</li>
           <li>{data.option2 ?? <NotUsed />}</li>
           <li>{data.option3 ?? <NotUsed />}</li>
