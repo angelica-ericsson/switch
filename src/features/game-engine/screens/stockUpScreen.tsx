@@ -56,7 +56,6 @@ export function StockUpScreen() {
           <Slider
             defaultValue={[sliderValue]}
             max={100}
-            step={10}
             onValueChange={(values) => setSlider(values[0])}
           />
           <div>Product B: {sliderValue}</div>
