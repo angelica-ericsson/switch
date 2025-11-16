@@ -16,7 +16,9 @@ export interface GameState {
   stockB: number;
 
   points: number;
+
   gameVariant: 'A' | 'B';
+  isInitialized: boolean;
 
   currentNode: UnionNodeType | null;
   nodes: Map<string, UnionNodeType>;
@@ -42,6 +44,7 @@ export const useGameState = create<GameState>((set) => ({
   stockB: 0,
   points: 0,
   gameVariant: 'A',
+  isInitialized: false,
   currentNode: null,
   nodes: new Map(),
   edges: new Map(),

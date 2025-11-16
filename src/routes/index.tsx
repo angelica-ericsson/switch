@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
 import { Button } from '@/components/ui/button';
 import { useConsentStore } from '@/features/onboarding/consentStore';
+import { useInitializeGame } from '@/features/game-engine/useInitializeGame';
 import { useDemographicStore } from '@/features/onboarding/demographicStore';
 
 export const Route = createFileRoute('/')({
@@ -10,6 +11,7 @@ export const Route = createFileRoute('/')({
 });
 
 function Index() {
+  useInitializeGame();
   const { t } = useTranslation();
   const navigate = useNavigate();
   const isConsentValid = useConsentStore((state) => state.validate);
