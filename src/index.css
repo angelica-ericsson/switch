@@ -1,7 +1,12 @@
+@import "@xyflow/react/dist/base.css";
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
+.react-flow {
+  --xy-edge-stroke-width-default: 2px;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
