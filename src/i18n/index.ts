@@ -65,7 +65,8 @@ i18n
             },
             statement4: {
               prefix: 'I understand that my participation in the study is completely',
-              suffix: '. I can withdraw my consent at any time with no consequences and without having to give a reason. If I wish to withdraw my consent after playing the game I have to contact the responsible researcher (see contact details below).',
+              suffix:
+                '. I can withdraw my consent at any time with no consequences and without having to give a reason. If I wish to withdraw my consent after playing the game I have to contact the responsible researcher (see contact details below).',
               options: {
                 voluntary: 'voluntary',
                 optional: 'optional',
@@ -90,6 +91,83 @@ i18n
               email: 'aner5235@student.su.se',
             },
             screenshot: 'Please take a screenshot of this page in case you need to contact the researcher later.',
+          },
+          demographic: {
+            title: 'WHO ARE YOU?',
+            instruction: 'Before we start, please tell us a little about yourself:',
+            birthYear: {
+              label: 'What year were you born?',
+            },
+            gender: {
+              label: 'Gender',
+              options: {
+                male: 'Male',
+                female: 'Female',
+                other: 'Other',
+              },
+            },
+            education: {
+              label: 'What is your highest level of education?',
+              placeholder: 'Choose one',
+              options: {
+                primary: 'Primary school (grundskola)',
+                secondary: 'Secondary school (gymnasium)',
+                folkHighSchool: 'Folk high school',
+                adultEducation: 'Adult education (Komvux)',
+                university: 'University or high school',
+                other: 'Other',
+              },
+            },
+            newsSources: {
+              title: 'Which are your favourite news sources?',
+              description: 'Please drag and drop to rank them, with your favourite at the top.',
+              options: {
+                blogs: 'Blogs',
+                magazines: 'Magazines',
+                newspapers: 'Newspapers',
+                publicService: 'Public service',
+                socialMedia: 'Social media',
+                websites: 'Websites',
+                youtube: 'Youtube',
+                other: 'Other',
+              },
+            },
+            electionIssues: {
+              title: 'Which of these issues are most important to you in the next election?',
+              description: 'Please drag and drop to rank them, with the most important at the top.',
+              options: {
+                criminality: 'Criminality',
+                defense: 'Defense',
+                economy: 'Economy',
+                education: 'Education',
+                employment: 'Employment',
+                environment: 'Environment',
+                equality: 'Equality',
+                healthcare: 'Healthcare',
+                immigration: 'Immigration',
+                preparedness: 'Preparedness',
+              },
+            },
+            howDidYouFindGame: {
+              label: 'How did you find this game?',
+              placeholder: 'Choose one',
+              options: {
+                internetLink: 'Clicked a link on internet',
+                socialMediaLink: 'Clicked a link on social media',
+                friend: 'Heard about it from a friend',
+                poster: 'Saw a poster',
+                gameSession: 'Signed up for a game session',
+                other: 'Other',
+              },
+            },
+            alias: {
+              title: 'And, most importantly, which alias have you chosen?',
+              description: "Your alias is needed to keep your answers anonymous, please don't use your real name.",
+              placeholder: 'Enter your alias',
+            },
+            button: {
+              submit: 'Continue',
+            },
           },
         },
       },
@@ -122,7 +200,8 @@ i18n
               },
             },
             statement2: {
-              prefix: 'Jag är medveten om och samtycker till att mina spelresultat och all information jag anger på denna webbplats kommer att',
+              prefix:
+                'Jag är medveten om och samtycker till att mina spelresultat och all information jag anger på denna webbplats kommer att',
               suffix: '. Informationen kommer att sparas i minst 10 år och kan användas för framtida forskning.',
               options: {
                 storedDigitally: 'lagras digitalt',
@@ -141,7 +220,8 @@ i18n
             },
             statement4: {
               prefix: 'Jag förstår att mitt deltagande i studien är helt',
-              suffix: '. Jag kan när som helst dra tillbaka mitt samtycke utan konsekvenser och utan att behöva ange en anledning. Om jag vill dra tillbaka mitt samtycke efter att ha spelat spelet måste jag kontakta den ansvarige forskaren (se kontaktuppgifter nedan).',
+              suffix:
+                '. Jag kan när som helst dra tillbaka mitt samtycke utan konsekvenser och utan att behöva ange en anledning. Om jag vill dra tillbaka mitt samtycke efter att ha spelat spelet måste jag kontakta den ansvarige forskaren (se kontaktuppgifter nedan).',
               options: {
                 voluntary: 'frivilligt',
                 optional: 'valfritt',
@@ -166,6 +246,83 @@ i18n
               email: 'aner5235@student.su.se',
             },
             screenshot: 'Vänligen ta en skärmbild av denna sida om du behöver kontakta forskaren senare.',
+          },
+          demographic: {
+            title: 'VEM ÄR DU?',
+            instruction: 'Innan vi börjar, berätta gärna lite om dig själv:',
+            birthYear: {
+              label: 'Vilket år föddes du?',
+            },
+            gender: {
+              label: 'Kön',
+              options: {
+                male: 'Man',
+                female: 'Kvinna',
+                other: 'Annat',
+              },
+            },
+            education: {
+              label: 'Vad är din högsta utbildningsnivå?',
+              placeholder: 'Välj ett',
+              options: {
+                primary: 'Grundskola',
+                secondary: 'Gymnasium',
+                folkHighSchool: 'Folkhögskola',
+                adultEducation: 'Vuxenutbildning (Komvux)',
+                university: 'Universitet eller högskola',
+                other: 'Annat',
+              },
+            },
+            newsSources: {
+              title: 'Vilka är dina favoritnyhetskällor?',
+              description: 'Vänligen dra och släpp för att rangordna dem, med din favorit längst upp.',
+              options: {
+                blogs: 'Bloggar',
+                magazines: 'Tidskrifter',
+                newspapers: 'Tidningar',
+                publicService: 'Public service',
+                socialMedia: 'Sociala medier',
+                websites: 'Webbplatser',
+                youtube: 'Youtube',
+                other: 'Annat',
+              },
+            },
+            electionIssues: {
+              title: 'Vilka av dessa frågor är viktigast för dig i nästa val?',
+              description: 'Vänligen dra och släpp för att rangordna dem, med de viktigaste längst upp.',
+              options: {
+                criminality: 'Brottslighet',
+                defense: 'Försvar',
+                economy: 'Ekonomi',
+                education: 'Utbildning',
+                employment: 'Sysselsättning',
+                environment: 'Miljö',
+                equality: 'Jämställdhet',
+                healthcare: 'Hälsovård',
+                immigration: 'Invandring',
+                preparedness: 'Beredskap',
+              },
+            },
+            howDidYouFindGame: {
+              label: 'Hur hittade du detta spel?',
+              placeholder: 'Välj ett',
+              options: {
+                internetLink: 'Klickade på en länk på internet',
+                socialMediaLink: 'Klickade på en länk på sociala medier',
+                friend: 'Hörde om det från en vän',
+                poster: 'Såg en affisch',
+                gameSession: 'Anmälde mig till en spelsession',
+                other: 'Annat',
+              },
+            },
+            alias: {
+              title: 'Och, viktigast av allt, vilket alias har du valt?',
+              description: 'Ditt alias behövs för att hålla dina svar anonyma, använd inte ditt riktiga namn.',
+              placeholder: 'Ange ditt alias',
+            },
+            button: {
+              submit: 'Fortsätt',
+            },
           },
         },
       },

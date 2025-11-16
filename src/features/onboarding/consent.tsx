@@ -1,74 +1,38 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useSessionStorage } from 'usehooks-ts';
+import { useNavigate } from '@tanstack/react-router';
 import { NativeSelect, NativeSelectOption } from '@/components/ui/native-select';
 import { Button } from '@/components/ui/button';
 import { ScreenLayout } from '../game-engine/screens/screenLayout';
-
-interface ConsentFormData {
-  studyAbout: string;
-  informationStorage: string;
-  personalDetails: string;
-  participation: string;
-  contactResearcher: string;
-}
-
-// Use translation keys as values for validation
-const VALID_ANSWERS = {
-  studyAbout: ['games'],
-  informationStorage: ['storedDigitally'],
-  personalDetails: ['not', 'absolutelyNot', 'underNoCircumstances'],
-  participation: ['voluntary', 'optional', 'upToMe'],
-  contactResearcher: ['responsibleResearcher', 'personListedBelow'],
-};
+import { useConsentStore } from './consentStore';
+import { useShallow } from 'zustand/shallow';
 
 export function ConsentForm() {
   const { t } = useTranslation();
-  const [formData, setFormData] = useSessionStorage<ConsentFormData>('consent-form', {
-    studyAbout: '',
-    informationStorage: '',
-    personalDetails: '',
-    participation: '',
-    contactResearcher: '',
-  });
+  const navigate = useNavigate();
 
-  const [errors, setErrors] = useState<Partial<Record<keyof ConsentFormData, boolean>>>({});
-
-  const updateField = (field: keyof ConsentFormData, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }));
-    // Clear error when user makes a selection
-    if (errors[field]) {
-      setErrors((prev) => ({ ...prev, [field]: false }));
-    }
-  };
-
-  const validateForm = (): boolean => {
-    const newErrors: Partial<Record<keyof ConsentFormData, boolean>> = {};
-    let isValid = true;
-
-    Object.keys(VALID_ANSWERS).forEach((key) => {
-      const field = key as keyof ConsentFormData;
-      if (!VALID_ANSWERS[field].includes(formData[field])) {
-        newErrors[field] = true;
-        isValid = false;
-      }
-    });
-
-    setErrors(newErrors);
-    return isValid;
-  };
+  const formData = useConsentStore(
+    useShallow((state) => ({
+      studyAbout: state.studyAbout,
+      informationStorage: state.informationStorage,
+      personalDetails: state.personalDetails,
+      participation: state.participation,
+      contactResearcher: state.contactResearcher,
+    })),
+  );
+  const errors = useConsentStore((state) => state.errors);
+  const updateField = useConsentStore((state) => state.updateField);
+  const validate = useConsentStore((state) => state.validate);
 
   const handleConsent = () => {
-    if (validateForm()) {
-      // Form is valid, proceed with consent
-      // You can add navigation or callback here
-      console.log('Consent given with valid answers');
+    if (validate()) {
+      // Form is valid, proceed with consent and navigate to demographic form
+      navigate({ to: '/demographic' });
     }
   };
 
   const handleNoConsent = () => {
-    // Handle no consent action
-    console.log('Consent not given');
+    // TODO: Handle no consent action
+    alert('Consent not given');
   };
 
   return (
@@ -184,12 +148,10 @@ export function ConsentForm() {
 
         {/* Action Buttons */}
         <div className="flex gap-4 justify-center pt-6">
-          <Button onClick={handleConsent} className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-            {t('consent.buttons.consent')}
-          </Button>
-          <Button onClick={handleNoConsent} variant="destructive" className="px-8 py-3 text-lg">
+          <Button onClick={handleNoConsent} variant="secondary">
             {t('consent.buttons.noConsent')}
           </Button>
+          <Button onClick={handleConsent}>{t('consent.buttons.consent')}</Button>
         </div>
 
         {/* Contact Information */}
@@ -198,13 +160,7 @@ export function ConsentForm() {
             <strong>{t('consent.contact.label')}</strong>
           </p>
           <p>
-            {t('consent.contact.name')}{' '}
-            <a
-              href={`mailto:${t('consent.contact.email')}`}
-              className="text-blue-600 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
-            >
-              {t('consent.contact.email')}
-            </a>
+            {t('consent.contact.name')} <a href={`mailto:${t('consent.contact.email')}`}>{t('consent.contact.email')}</a>
           </p>
         </div>
 

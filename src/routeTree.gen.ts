@@ -11,6 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as GameRouteImport } from './routes/game'
 import { Route as EditorRouteImport } from './routes/editor'
+import { Route as DemographicRouteImport } from './routes/demographic'
+import { Route as ConsentRouteImport } from './routes/consent'
 import { Route as IndexRouteImport } from './routes/index'
 
 const GameRoute = GameRouteImport.update({
@@ -23,6 +25,16 @@ const EditorRoute = EditorRouteImport.update({
   path: '/editor',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DemographicRoute = DemographicRouteImport.update({
+  id: '/demographic',
+  path: '/demographic',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConsentRoute = ConsentRouteImport.update({
+  id: '/consent',
+  path: '/consent',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -31,30 +43,38 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/consent': typeof ConsentRoute
+  '/demographic': typeof DemographicRoute
   '/editor': typeof EditorRoute
   '/game': typeof GameRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/consent': typeof ConsentRoute
+  '/demographic': typeof DemographicRoute
   '/editor': typeof EditorRoute
   '/game': typeof GameRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/consent': typeof ConsentRoute
+  '/demographic': typeof DemographicRoute
   '/editor': typeof EditorRoute
   '/game': typeof GameRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/editor' | '/game'
+  fullPaths: '/' | '/consent' | '/demographic' | '/editor' | '/game'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/editor' | '/game'
-  id: '__root__' | '/' | '/editor' | '/game'
+  to: '/' | '/consent' | '/demographic' | '/editor' | '/game'
+  id: '__root__' | '/' | '/consent' | '/demographic' | '/editor' | '/game'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ConsentRoute: typeof ConsentRoute
+  DemographicRoute: typeof DemographicRoute
   EditorRoute: typeof EditorRoute
   GameRoute: typeof GameRoute
 }
@@ -75,6 +95,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EditorRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/demographic': {
+      id: '/demographic'
+      path: '/demographic'
+      fullPath: '/demographic'
+      preLoaderRoute: typeof DemographicRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/consent': {
+      id: '/consent'
+      path: '/consent'
+      fullPath: '/consent'
+      preLoaderRoute: typeof ConsentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -87,6 +121,8 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ConsentRoute: ConsentRoute,
+  DemographicRoute: DemographicRoute,
   EditorRoute: EditorRoute,
   GameRoute: GameRoute,
 }
