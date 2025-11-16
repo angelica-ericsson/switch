@@ -23,8 +23,6 @@ interface ConsentStore extends ConsentFormData {
   updateField: (field: keyof ConsentFormData, value: string) => void;
   validate: () => boolean;
   clearErrors: () => void;
-  isValid: () => boolean;
-  isComplete: () => boolean;
   reset: () => void;
 }
 
@@ -73,22 +71,6 @@ export const useConsentStore = create<ConsentStore>()(
 
       clearErrors: () => {
         set({ errors: {} });
-      },
-
-      isValid: () => {
-        const state = get();
-        return Object.keys(VALID_ANSWERS).every((key) => {
-          const field = key as keyof ConsentFormData;
-          return VALID_ANSWERS[field].includes(state[field] as never);
-        });
-      },
-
-      isComplete: () => {
-        const state = get();
-        return Object.keys(VALID_ANSWERS).every((key) => {
-          const field = key as keyof ConsentFormData;
-          return state[field] !== '';
-        });
       },
 
       reset: () => {
