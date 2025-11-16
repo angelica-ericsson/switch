@@ -15,6 +15,7 @@ import {
   MarkerType,
   MiniMap,
 } from '@xyflow/react';
+import '@xyflow/react/dist/base.css';
 import { SceneNode } from './nodes/scene';
 import { useLocalStorage } from 'usehooks-ts';
 
