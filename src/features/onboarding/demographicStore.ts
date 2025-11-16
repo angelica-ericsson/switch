@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -9,6 +10,7 @@ export interface DemographicFormData {
   electionIssues: string[];
   howDidYouFindGame: string;
   alias: string;
+  sessionId: string;
 }
 
 interface DemographicStore extends DemographicFormData {
@@ -46,6 +48,7 @@ const defaultState: DemographicFormData = {
   electionIssues: [...DEFAULT_ELECTION_ISSUES],
   howDidYouFindGame: '',
   alias: '',
+  sessionId: nanoid(),
 };
 
 export const useDemographicStore = create<DemographicStore>()(
@@ -151,6 +154,7 @@ export const useDemographicStore = create<DemographicStore>()(
         electionIssues: state.electionIssues,
         howDidYouFindGame: state.howDidYouFindGame,
         alias: state.alias,
+        sessionId: state.sessionId,
       }),
     },
   ),
