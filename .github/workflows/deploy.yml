@@ -38,7 +38,7 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
-      - run: cp ./dist/index.html ./dist/404.html # only needed to support TanStack router as SAP on Github pages:
+      - run: cp ./dist/index.html ./dist/404.html # only needed to support TanStack router as SPA on Github pages:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

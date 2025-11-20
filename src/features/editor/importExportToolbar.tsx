@@ -16,13 +16,13 @@ export function ImportExportToolbar() {
         <ImportDialog />
         <ExportDialog />
         <Button variant="outline" asChild>
-          <a href="index.html#load=localstorage&variant=A" target="_blank">
+          <a href="/switch/#load=localstorage&variant=A" target="_blank">
             <Rocket />
             Launch A
           </a>
         </Button>
         <Button variant="outline" asChild>
-          <a href="index.html#load=localstorage&variant=B" target="_blank">
+          <a href="/switch/#load=localstorage&variant=B" target="_blank">
             <Rocket />
             Launch B
           </a>
