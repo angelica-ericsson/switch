@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { ScreenLayout } from './screenLayout';
 import { useGameState } from '../state';
 import type { NewsFlashNodeType } from '../zod-schema';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Newspaper } from 'lucide-react';
+import { GameLayout } from '../layout/gameLayout';
 
 interface NewsFlashScreenProps {
   node: NewsFlashNodeType;
@@ -23,7 +23,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
   };
 
   return (
-    <ScreenLayout>
+    <GameLayout>
       <div className="flex items-center justify-center min-h-screen">
         <Button onClick={() => setDialogOpen(true)} size="lg" className="flex items-center gap-2">
           <Newspaper className="size-5" />
@@ -64,6 +64,6 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
           </div>
         </DialogContent>
       </Dialog>
-    </ScreenLayout>
+    </GameLayout>
   );
 }

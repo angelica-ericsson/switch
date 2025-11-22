@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from '@tanstack/react-router';
-import { NativeSelect, NativeSelectOption } from '@/components/ui/native-select';
-import { Button } from '@/components/ui/button';
-import { ScreenLayout } from '../game-engine/screens/screenLayout';
+import { NativeSelectOption } from '@/components/ui/native-select';
 import { useConsentStore } from './consentStore';
 import { useShallow } from 'zustand/shallow';
+import { GameLayout } from '../game-engine/layout/gameLayout';
+import { GameButton } from '@/components/ui/gameButton';
+import { GameNativeSelect } from '@/components/ui/game-native-select';
+import { ChevronRight, X } from 'lucide-react';
 
 export function ConsentForm() {
   const { t } = useTranslation();
@@ -36,11 +38,11 @@ export function ConsentForm() {
   };
 
   return (
-    <ScreenLayout>
+    <GameLayout>
       <div className="max-w-3xl mx-auto p-8 space-y-6">
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold">{t('consent.welcome')}</h1>
-          <p className="text-lg italic">{t('consent.instruction')}</p>
+        <div className="space-y-4">
+          <h1 className="text-5xl font-script">{t('consent.welcome')}</h1>
+          <p className="text-xl font-script">{t('consent.instruction')}</p>
         </div>
 
         <div className="space-y-6 text-base">
@@ -48,7 +50,7 @@ export function ConsentForm() {
           <p>
             {t('consent.statement1.prefix')}{' '}
             <span className="inline-flex items-center gap-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 value={formData.studyAbout}
                 onChange={(e) => updateField('studyAbout', e.target.value)}
                 className={errors.studyAbout ? 'border-destructive' : ''}
@@ -58,7 +60,7 @@ export function ConsentForm() {
                 <NativeSelectOption value="games">{t('consent.statement1.options.games')}</NativeSelectOption>
                 <NativeSelectOption value="kites">{t('consent.statement1.options.kites')}</NativeSelectOption>
                 <NativeSelectOption value="lamas">{t('consent.statement1.options.lamas')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.studyAbout && <span className="text-destructive text-lg font-bold">*</span>}
             </span>{' '}
             {t('consent.statement1.suffix')}
@@ -68,7 +70,7 @@ export function ConsentForm() {
           <p>
             {t('consent.statement2.prefix')}{' '}
             <span className="inline-flex items-center gap-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 value={formData.informationStorage}
                 onChange={(e) => updateField('informationStorage', e.target.value)}
                 className={errors.informationStorage ? 'border-destructive' : ''}
@@ -78,7 +80,7 @@ export function ConsentForm() {
                 <NativeSelectOption value="storedDigitally">{t('consent.statement2.options.storedDigitally')}</NativeSelectOption>
                 <NativeSelectOption value="runestone">{t('consent.statement2.options.runestone')}</NativeSelectOption>
                 <NativeSelectOption value="beach">{t('consent.statement2.options.beach')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.informationStorage && <span className="text-destructive text-lg font-bold">*</span>}
             </span>
             {t('consent.statement2.suffix')}
@@ -88,7 +90,7 @@ export function ConsentForm() {
           <p>
             {t('consent.statement3.prefix')}{' '}
             <span className="inline-flex items-center gap-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 value={formData.personalDetails}
                 onChange={(e) => updateField('personalDetails', e.target.value)}
                 className={errors.personalDetails ? 'border-destructive' : ''}
@@ -98,7 +100,7 @@ export function ConsentForm() {
                 <NativeSelectOption value="not">{t('consent.statement3.options.not')}</NativeSelectOption>
                 <NativeSelectOption value="absolutelyNot">{t('consent.statement3.options.absolutelyNot')}</NativeSelectOption>
                 <NativeSelectOption value="underNoCircumstances">{t('consent.statement3.options.underNoCircumstances')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.personalDetails && <span className="text-destructive text-lg font-bold">*</span>}
             </span>{' '}
             {t('consent.statement3.suffix')}
@@ -108,7 +110,7 @@ export function ConsentForm() {
           <p>
             {t('consent.statement4.prefix')}{' '}
             <span className="inline-flex items-center gap-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 value={formData.participation}
                 onChange={(e) => updateField('participation', e.target.value)}
                 className={errors.participation ? 'border-destructive' : ''}
@@ -118,7 +120,7 @@ export function ConsentForm() {
                 <NativeSelectOption value="voluntary">{t('consent.statement4.options.voluntary')}</NativeSelectOption>
                 <NativeSelectOption value="optional">{t('consent.statement4.options.optional')}</NativeSelectOption>
                 <NativeSelectOption value="upToMe">{t('consent.statement4.options.upToMe')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.participation && <span className="text-destructive text-lg font-bold">*</span>}
             </span>
             {t('consent.statement4.suffix')}
@@ -128,7 +130,7 @@ export function ConsentForm() {
           <p>
             {t('consent.statement5.prefix')}{' '}
             <span className="inline-flex items-center gap-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 value={formData.contactResearcher}
                 onChange={(e) => updateField('contactResearcher', e.target.value)}
                 className={errors.contactResearcher ? 'border-destructive' : ''}
@@ -139,7 +141,7 @@ export function ConsentForm() {
                   {t('consent.statement5.options.responsibleResearcher')}
                 </NativeSelectOption>
                 <NativeSelectOption value="personListedBelow">{t('consent.statement5.options.personListedBelow')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.contactResearcher && <span className="text-destructive text-lg font-bold">*</span>}
             </span>{' '}
             {t('consent.statement5.suffix')}
@@ -148,10 +150,13 @@ export function ConsentForm() {
 
         {/* Action Buttons */}
         <div className="flex gap-4 justify-center pt-6">
-          <Button onClick={handleNoConsent} variant="secondary">
+          <GameButton onClick={handleNoConsent} size="lg">
+            <X className="size-6" />
             {t('consent.buttons.noConsent')}
-          </Button>
-          <Button onClick={handleConsent}>{t('consent.buttons.consent')}</Button>
+          </GameButton>
+          <GameButton onClick={handleConsent} size="lg">
+            {t('consent.buttons.consent')} <ChevronRight className="size-6" />
+          </GameButton>
         </div>
 
         {/* Contact Information */}
@@ -167,6 +172,6 @@ export function ConsentForm() {
         {/* Screenshot Instruction */}
         <p className="text-center text-sm text-muted-foreground pt-4">{t('consent.screenshot')}</p>
       </div>
-    </ScreenLayout>
+    </GameLayout>
   );
 }

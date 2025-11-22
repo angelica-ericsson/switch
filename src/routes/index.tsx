@@ -46,7 +46,7 @@ function Index() {
         </GameButton>
       </div>
 
-      <img src={logoUrl} />
+      <img src={logoUrl} style={{ viewTransitionName: 'logo' }} />
 
       {/* Large headline in center */}
       <h1 className="text-5xl font-bold text-center m-12 font-script text-white text-shadow-lg text-shadow-eastbay-900">

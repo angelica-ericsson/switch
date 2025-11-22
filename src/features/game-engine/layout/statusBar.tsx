@@ -3,7 +3,7 @@ import { useGameState } from '../state';
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
 
-export function ScreenLayout(props: React.PropsWithChildren) {
+export function StatusBar(props: React.PropsWithChildren) {
   const points = useGameState((state) => state.points);
   const state = useGameState((state) => state);
 
@@ -15,7 +15,7 @@ export function ScreenLayout(props: React.PropsWithChildren) {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div>
       {/* Status Bar */}
       <div className="w-full border-b border-border bg-card shadow-sm">
         <div className="container mx-auto px-4 py-3">

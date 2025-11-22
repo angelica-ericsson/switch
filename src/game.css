@@ -3,4 +3,11 @@
     url('assets/45-degree-fabric-dark.png'),
     center / cover no-repeat url('assets/mountains-1412683_1920.png');
   background-blend-mode: color-burn;
+  background-attachment: fixed;
+}
+
+.elem-background {
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url(/switch/src/assets/green-dust-and-scratches.png);
+    backdrop-filter: blur(32px);
 }

@@ -1,12 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from '@tanstack/react-router';
-import { NativeSelect, NativeSelectOption } from '@/components/ui/native-select';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
+import { NativeSelectOption } from '@/components/ui/native-select';
 import { Sortable, SortableContent, SortableItem } from '@/components/ui/sortable';
-import { ScreenLayout } from '../game-engine/screens/screenLayout';
 import { useDemographicStore } from './demographicStore';
 import { useShallow } from 'zustand/shallow';
+import { GameLayout } from '../game-engine/layout/gameLayout';
+import { GameNativeSelect } from '@/components/ui/game-native-select';
+import { GameInput } from '@/components/ui/game-input';
+import { GameButton } from '@/components/ui/gameButton';
 
 export function DemographicForm() {
   const { t } = useTranslation();
@@ -36,11 +37,11 @@ export function DemographicForm() {
   };
 
   return (
-    <ScreenLayout>
+    <GameLayout>
       <div className="max-w-3xl mx-auto p-8 space-y-6">
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold">{t('demographic.title')}</h1>
-          <p className="text-lg italic">{t('demographic.instruction')}</p>
+        <div className="space-y-4">
+          <h1 className="text-5xl font-script">{t('demographic.title')}</h1>
+          <p className="text-xl font-script">{t('demographic.instruction')}</p>
         </div>
 
         <div className="space-y-6 text-base">
@@ -50,7 +51,7 @@ export function DemographicForm() {
               {t('demographic.birthYear.label')}
             </label>
             <div className="flex-1 relative">
-              <Input
+              <GameInput
                 id="birthYear"
                 type="text"
                 placeholder="YYYY"
@@ -122,7 +123,7 @@ export function DemographicForm() {
               {t('demographic.education.label')}
             </label>
             <div className="flex-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 id="education"
                 value={formData.education}
                 onChange={(e) => updateField('education', e.target.value)}
@@ -136,7 +137,7 @@ export function DemographicForm() {
                 <NativeSelectOption value="adultEducation">{t('demographic.education.options.adultEducation')}</NativeSelectOption>
                 <NativeSelectOption value="university">{t('demographic.education.options.university')}</NativeSelectOption>
                 <NativeSelectOption value="other">{t('demographic.education.options.other')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.education && <span className="text-destructive text-lg font-bold absolute right-2 top-1/2 -translate-y-1/2">*</span>}
             </div>
           </div>
@@ -145,13 +146,13 @@ export function DemographicForm() {
           <div className="space-y-3">
             <div>
               <h3 className="text-lg font-semibold mb-2">{t('demographic.newsSources.title')}</h3>
-              <p className="text-sm text-muted-foreground mb-4">{t('demographic.newsSources.description')}</p>
+              <p className="text-sm mb-4">{t('demographic.newsSources.description')}</p>
             </div>
             <Sortable value={formData.newsSources} onValueChange={updateNewsSources} orientation="vertical">
               <SortableContent className="space-y-2">
                 {formData.newsSources.map((source) => (
                   <SortableItem key={source} value={source} asHandle asChild>
-                    <div className="p-3 border rounded-md bg-background hover:bg-accent transition-colors">
+                    <div className="p-2 border border-thistle-400 rounded-md bg-thistle-50 hover:bg-accent transition-colors">
                       {t(`demographic.newsSources.options.${source}`)}
                     </div>
                   </SortableItem>
@@ -165,13 +166,13 @@ export function DemographicForm() {
           <div className="space-y-3">
             <div>
               <h3 className="text-lg font-semibold mb-2">{t('demographic.electionIssues.title')}</h3>
-              <p className="text-sm text-muted-foreground mb-4">{t('demographic.electionIssues.description')}</p>
+              <p className="text-sm mb-4">{t('demographic.electionIssues.description')}</p>
             </div>
             <Sortable value={formData.electionIssues} onValueChange={updateElectionIssues} orientation="vertical">
               <SortableContent className="space-y-2">
                 {formData.electionIssues.map((issue) => (
                   <SortableItem key={issue} value={issue} asHandle asChild>
-                    <div className="p-3 border rounded-md bg-background hover:bg-accent transition-colors">
+                    <div className="p-2 border border-thistle-400 rounded-md bg-thistle-50 hover:bg-accent transition-colors">
                       {t(`demographic.electionIssues.options.${issue}`)}
                     </div>
                   </SortableItem>
@@ -187,7 +188,7 @@ export function DemographicForm() {
               {t('demographic.howDidYouFindGame.label')}
             </label>
             <div className="flex-1 relative">
-              <NativeSelect
+              <GameNativeSelect
                 id="howDidYouFindGame"
                 value={formData.howDidYouFindGame}
                 onChange={(e) => updateField('howDidYouFindGame', e.target.value)}
@@ -203,7 +204,7 @@ export function DemographicForm() {
                 <NativeSelectOption value="poster">{t('demographic.howDidYouFindGame.options.poster')}</NativeSelectOption>
                 <NativeSelectOption value="gameSession">{t('demographic.howDidYouFindGame.options.gameSession')}</NativeSelectOption>
                 <NativeSelectOption value="other">{t('demographic.howDidYouFindGame.options.other')}</NativeSelectOption>
-              </NativeSelect>
+              </GameNativeSelect>
               {errors.howDidYouFindGame && (
                 <span className="text-destructive text-lg font-bold absolute right-2 top-1/2 -translate-y-1/2">*</span>
               )}
@@ -214,10 +215,10 @@ export function DemographicForm() {
           <div className="space-y-3">
             <div>
               <h3 className="text-lg font-semibold mb-2">{t('demographic.alias.title')}</h3>
-              <p className="text-sm text-muted-foreground mb-4">{t('demographic.alias.description')}</p>
+              <p className="text-sm mb-4">{t('demographic.alias.description')}</p>
             </div>
             <div className="relative">
-              <Input
+              <GameInput
                 id="alias"
                 type="text"
                 value={formData.alias}
@@ -233,9 +234,11 @@ export function DemographicForm() {
 
         {/* Submit Button */}
         <div className="flex gap-4 justify-center pt-6">
-          <Button onClick={handleSubmit}>{t('demographic.button.submit')}</Button>
+          <GameButton onClick={handleSubmit} size="lg">
+            {t('demographic.button.submit')}
+          </GameButton>
         </div>
       </div>
-    </ScreenLayout>
+    </GameLayout>
   );
 }

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { ScreenLayout } from './screenLayout';
 import { useGameState } from '../state';
 import { Slider } from '@/components/ui/slider';
 import { Trans, useTranslation } from 'react-i18next';
+import { GameLayout } from '../layout/gameLayout';
 
 export function StockUpScreen() {
   const oldStockA = useGameState((state) => state.stockA);
@@ -37,7 +37,7 @@ export function StockUpScreen() {
   const { t } = useTranslation();
 
   return (
-    <ScreenLayout>
+    <GameLayout>
       <div className="max-w-2xl mx-auto p-8 space-y-6">
         <h1 className="text-3xl font-bold"> {t('stockUp.headline')}</h1>
         {(soldProductA > 0 || soldProductB > 0) && (
@@ -66,6 +66,6 @@ export function StockUpScreen() {
           {t('stockUp.button')}
         </Button>
       </div>
-    </ScreenLayout>
+    </GameLayout>
   );
 }
