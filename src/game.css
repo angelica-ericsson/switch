@@ -1,0 +1,6 @@
+.game-background {
+  background:
+    url('assets/45-degree-fabric-dark.png'),
+    center / cover no-repeat url('assets/mountains-1412683_1920.png');
+  background-blend-mode: color-burn;
+}

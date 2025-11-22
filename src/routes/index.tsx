@@ -1,10 +1,13 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
-import { Button } from '@/components/ui/button';
 import { useConsentStore } from '@/features/onboarding/consentStore';
 import { useInitializeGame } from '@/features/game-engine/useInitializeGame';
 import { useDemographicStore } from '@/features/onboarding/demographicStore';
+import '../game.css';
+import logoUrl from '../assets/logo.svg';
+import { GameButton } from '@/components/ui/gameButton';
+import { Check } from 'lucide-react';
 
 export const Route = createFileRoute('/')({
   component: Index,
@@ -30,24 +33,30 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      {/* Large headline in center */}
-      <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-center mb-12">{t('welcome.headline')}</h1>
-
+    <div className="min-h-screen flex flex-col items-center justify-center p-8 game-background">
       {/* Language buttons - smaller, below headline */}
       <div className="flex gap-3 mb-16">
-        <Button variant={i18n.resolvedLanguage === 'en' ? 'default' : 'outline'} size="sm" onClick={() => handleLanguageChange('en')}>
+        <GameButton size="sm" onClick={() => handleLanguageChange('en')}>
+          {i18n.resolvedLanguage === 'en' ? <Check /> : null}
           English
-        </Button>
-        <Button variant={i18n.resolvedLanguage === 'sv' ? 'default' : 'outline'} size="sm" onClick={() => handleLanguageChange('sv')}>
+        </GameButton>
+        <GameButton size="sm" onClick={() => handleLanguageChange('sv')}>
+          {i18n.resolvedLanguage === 'sv' ? <Check /> : null}
           Svenska
-        </Button>
+        </GameButton>
       </div>
 
+      <img src={logoUrl} />
+
+      {/* Large headline in center */}
+      <h1 className="text-5xl font-bold text-center m-12 font-script text-white text-shadow-lg text-shadow-eastbay-900">
+        {t('welcome.headline')}
+      </h1>
+
       {/* Start game button - bigger, further down */}
-      <Button size="lg" onClick={handleStartGame} className="text-lg px-8 py-6">
+      <GameButton size="lg" onClick={handleStartGame} className="text-lg px-8 py-6 animate-bounce">
         {t('welcome.button')}
-      </Button>
+      </GameButton>
     </div>
   );
 }
