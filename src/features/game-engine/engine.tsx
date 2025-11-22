@@ -3,6 +3,7 @@ import { SceneScreen } from './screens/sceneScreen';
 import { StockUpScreen } from './screens/stockUpScreen';
 import { EndScreen } from './screens/endScreen';
 import { StartScreen } from './screens/startScreen';
+import { NewsFlashScreen } from './screens/newsFlashScreen';
 import { useInitializeGame } from './useInitializeGame';
 
 export function GameEngine() {
@@ -34,6 +35,9 @@ export function GameRenderer() {
   }
   if (currentNode.type === 'end') {
     return <EndScreen node={currentNode} />;
+  }
+  if (currentNode.type === 'newsFlash') {
+    return <NewsFlashScreen node={currentNode} />;
   }
 
   return (

@@ -27,6 +27,7 @@ import { StartNode } from './nodes/start';
 import { EndNode } from './nodes/end';
 import { RandomNode } from './nodes/random';
 import { IfNode } from './nodes/if';
+import { NewsFlashNode } from './nodes/news-flash';
 import { ImportExportToolbar } from './importExportToolbar';
 
 const nodeTypes = {
@@ -37,6 +38,7 @@ const nodeTypes = {
   setState: SetStateNode,
   random: RandomNode,
   if: IfNode,
+  newsFlash: NewsFlashNode,
 };
 
 export function Editor() {

@@ -79,8 +79,21 @@ export const ifNodeSchema = z.object({
 
 export type IfNodeType = z.infer<typeof ifNodeSchema>;
 
+// NewsFlash node schema and type
+export const newsFlashNodeSchema = z.object({
+  id: z.string(),
+  type: z.literal('newsFlash'),
+  data: z.object({
+    headline: z.string().nullable().optional(),
+    text: z.string().nullable().optional(),
+    imageUrl: z.string().nullable().optional(),
+  }),
+});
+
+export type NewsFlashNodeType = z.infer<typeof newsFlashNodeSchema>;
+
 // Union type for all node types
-export type UnionNodeType = SceneNodeType | StartNodeType | RandomNodeType | StockUpNodeType | EndNodeType | SetStateNodeType | IfNodeType;
+export type UnionNodeType = SceneNodeType | StartNodeType | RandomNodeType | StockUpNodeType | EndNodeType | SetStateNodeType | IfNodeType | NewsFlashNodeType;
 
 // Game schema using discriminated union
 export const gameSchema = z.object({
@@ -93,6 +106,7 @@ export const gameSchema = z.object({
       endNodeSchema,
       setStateNodeSchema,
       ifNodeSchema,
+      newsFlashNodeSchema,
     ]),
   ),
   edges: z.array(
