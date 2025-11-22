@@ -33,8 +33,11 @@ export function ConsentForm() {
   };
 
   const handleNoConsent = () => {
-    // TODO: Handle no consent action
-    alert('Consent not given');
+    if (confirm("Sorry that you couldn't consent. Are you really sure that you want to leave the game?")) {
+      alert('Sad to see you go. Off you go to a happier place...');
+      if (Math.random() > 0.5) window.location.href = 'https://www.youtube.com/watch?v=ipNFjfriPR8';
+      else window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    }
   };
 
   return (
@@ -170,7 +173,7 @@ export function ConsentForm() {
         </div>
 
         {/* Screenshot Instruction */}
-        <p className="text-center text-sm text-muted-foreground pt-4">{t('consent.screenshot')}</p>
+        <p className="text-center text-sm pt-4">{t('consent.screenshot')}</p>
       </div>
     </GameLayout>
   );
