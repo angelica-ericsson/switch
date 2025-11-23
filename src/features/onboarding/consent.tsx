@@ -42,7 +42,7 @@ export function ConsentForm() {
 
   return (
     <GameLayout>
-      <div className="max-w-3xl mx-auto p-8 space-y-6">
+      <div className="intro-screens-bg rounded-2xl border-3 border-eastbay-900 shadow-2xl max-w-3xl mx-auto p-8 space-y-6">
         <div className="space-y-4">
           <h1 className="text-5xl font-script">{t('consent.welcome')}</h1>
           <p className="text-xl font-script">{t('consent.instruction')}</p>

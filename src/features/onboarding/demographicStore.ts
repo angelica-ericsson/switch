@@ -123,11 +123,6 @@ export const useDemographicStore = create<DemographicStore>()(
           newErrors.howDidYouFindGame = true;
         }
 
-        // Validate alias (should not be empty)
-        if (!state.alias || state.alias.trim() === '') {
-          newErrors.alias = true;
-        }
-
         set({ errors: newErrors });
         return Object.keys(newErrors).length === 0;
       },
