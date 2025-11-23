@@ -80,8 +80,15 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                           month: 'short',
                         })}
                       </span>
-                      <span className={`${event.type === 'sell' ? 'text-green-700' : 'text-red-700'}`}>
-                        {event.type === 'buy' ? t('stockUp.eventTypeBuy') : t('stockUp.eventTypeSell')}
+                      <span
+                        className={`${event.type === 'buy' ? 'text-red-700' : event.type === 'sell' ? 'text-green-700' : 'text-black'}`}
+                      >
+                        {event.type === 'buy'
+                          ? t('stockUp.eventTypeBuy')
+                          : event.type === 'sell'
+                            ? t('stockUp.eventTypeSell')
+                            : t('stockUp.eventTypeInitial')}
+                        :
                       </span>
                     </p>
                     <p>{event.productA}</p>

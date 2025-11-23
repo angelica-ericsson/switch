@@ -15,8 +15,8 @@ i18n
     resources: {
       en: {
         translation: {
-          productA: 'Blitz Coffee',
-          productB: 'Zoom Coffee',
+          productA: 'WildertonWear',
+          productB: 'BlueSkin',
           headerBar: { points: 'Points:', sentiment: 'Sentiment:' },
           welcome: {
             headline: 'Welcome to Wilderton',
@@ -32,8 +32,9 @@ i18n
             button: 'Do it',
             inventoryHeadline: 'Inventory',
             inventoryEmpty: 'Empty',
-            eventTypeBuy: 'BUY',
-            eventTypeSell: 'SELL',
+            eventTypeBuy: 'Bought',
+            eventTypeSell: 'Sold',
+            eventTypeInitial: 'Inital',
             noDate: 'No date',
           },
           intro: {
@@ -187,8 +188,8 @@ i18n
       },
       sv: {
         translation: {
-          productA: 'Blitz Kaffe',
-          productB: 'Zoom Kaffe',
+          productA: 'WildertonWear',
+          productB: 'BlueSkin',
           headerBar: { points: 'Poäng:', sentiment: 'Sentiment:' },
           welcome: {
             headline: 'Swedish: Headline of the start screen',
@@ -201,8 +202,9 @@ i18n
             button: 'Gör detta',
             inventoryHeadline: 'Inventariet',
             inventoryEmpty: 'Tom',
-            eventTypeBuy: 'KÖP',
-            eventTypeSell: 'SÄLJ',
+            eventTypeBuy: 'Köpt',
+            eventTypeSell: 'Såld',
+            eventTypeInitial: 'Initial',
             noDate: 'Inget datum',
           },
           newsFlash: {

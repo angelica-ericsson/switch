@@ -1,8 +1,9 @@
-import { Button } from '@/components/ui/button';
 import { useGameState } from '../state';
 import type { SceneNodeType } from '../zod-schema';
 import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
+import { GameButton } from '@/components/ui/gameButton';
+import { motion } from 'motion/react';
 
 interface SceneScreenProps {
   node: SceneNodeType;
@@ -24,25 +25,25 @@ export function SceneScreen({ node }: SceneScreenProps) {
 
   return (
     <GameLayout>
-      <div className="max-w-2xl mx-auto p-8 space-y-6">
-        {gameVariant === 'A' && (
-          <p className="text-lg text-muted-foreground whitespace-pre-line text-pretty">{node.data.textA ? t(node.data.textA) : ''}</p>
-        )}
-        {gameVariant === 'B' && (
-          <p className="text-lg text-muted-foreground whitespace-pre-line text-pretty">{node.data.textB ? t(node.data.textB) : ''}</p>
-        )}
-        <div className="flex flex-col gap-3 mt-8">
+      <motion.div
+        // initial={{ translateX: '100vh', translateY: '-10%', rotateZ: '20deg', scale: 1.5 }}
+        // animate={{ translateX: 0, translateY: '0', rotateZ: '0deg', scale: 1 }}
+        // transition={{ duration: 0.3, type: 'tween' }}
+        className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl"
+      >
+        <p className="text-xl text-pretty whitespace-pre-line">{gameVariant === 'A' ? t(node.data.textA!) : t(node.data.textB!)}</p>
+        <div className="mt-8 flex flex-col gap-7">
           {node.data?.option1 && availableOptions.includes('option1') && (
-            <Button onClick={() => handleOptionClick('option1')}>{t(node.data.option1)}</Button>
+            <GameButton onClick={() => handleOptionClick('option1')}>{t(node.data.option1)}</GameButton>
           )}
           {node.data?.option2 && availableOptions.includes('option2') && (
-            <Button onClick={() => handleOptionClick('option2')}>{t(node.data.option2)}</Button>
+            <GameButton onClick={() => handleOptionClick('option2')}>{t(node.data.option2)}</GameButton>
           )}
           {node.data?.option3 && availableOptions.includes('option3') && (
-            <Button onClick={() => handleOptionClick('option3')}>{t(node.data.option3)}</Button>
+            <GameButton onClick={() => handleOptionClick('option3')}>{t(node.data.option3)}</GameButton>
           )}
         </div>
-      </div>
+      </motion.div>
     </GameLayout>
   );
 }

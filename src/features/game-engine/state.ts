@@ -6,7 +6,8 @@ import { gameSchema, type UnionNodeType } from './zod-schema';
  */
 export type BuyEvent = { type: 'buy'; productA: number; productB: number; date: string };
 export type SellEvent = { type: 'sell'; productA: number; productB: number; date: string };
-export type GameEvent = BuyEvent | SellEvent;
+export type InitalStock = { type: 'inital'; productA: number; productB: number; date: string };
+export type GameEvent = BuyEvent | SellEvent | InitalStock;
 
 /**
  * Type of the game state
@@ -39,10 +40,10 @@ export interface GameState {
 function calculateStock(events: GameEvent[], product: 'A' | 'B'): number {
   const productKey = product === 'A' ? 'productA' : 'productB';
   return events.reduce((stock, event) => {
-    if (event.type === 'buy') {
-      return stock + event[productKey];
-    } else {
+    if (event.type === 'sell') {
       return stock - event[productKey];
+    } else {
+      return stock + event[productKey];
     }
   }, 0);
 }
@@ -56,7 +57,7 @@ export const useGameState = create<GameState>((set, get) => ({
   sentimentNeutral: 0,
   events: [],
   points: 0,
-  gameVariant: 'A',
+  gameVariant: 'A' as const,
   isInitialized: false,
   currentNode: null,
   nodes: new Map(),
@@ -190,7 +191,18 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
       const demandA = node.data.demandA ?? 0;
       const demandB = node.data.demandB ?? 0;
       if (demandA > 0 || demandB > 0) {
-        state.pushEvent({
+        // push an inital state of the inventory
+        if (state.events.length === 0) {
+          state.events = [
+            {
+              date: node.data.date ?? new Date().toISOString(),
+              type: 'inital',
+              productA: demandA + 10,
+              productB: demandB + 10,
+            },
+          ];
+        }
+        state.events.push({
           date: node.data.date ?? new Date().toISOString(),
           type: 'sell',
           productA: demandA,
