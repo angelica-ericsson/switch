@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { Position, useReactFlow, type Node, type NodeProps } from '@xyflow/react';
 import { GitBranch, Pencil } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 type IfNodeType = Node<
   {
@@ -20,9 +21,10 @@ type IfNodeType = Node<
 export function IfNode({ data, id }: NodeProps<IfNodeType>) {
   const reactFlow = useReactFlow();
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
-    <BaseNode className="bg-purple-50 border-purple-700">
+    <BaseNode className="border-purple-700 bg-purple-50">
       <BaseNodeHeader>
         <GitBranch />
         <BaseNodeHeaderTitle>Control Flow</BaseNodeHeaderTitle>
@@ -47,13 +49,13 @@ export function IfNode({ data, id }: NodeProps<IfNodeType>) {
                 });
                 setOpen(false);
               }}
-              className="gap-4 grid"
+              className="grid gap-4"
             >
               <DialogHeader>
                 <DialogTitle>Configure If Condition</DialogTitle>
               </DialogHeader>
               <Field>
-                <FieldLabel>Threshold</FieldLabel>
+                <FieldLabel>"{t('productA')}" Threshold</FieldLabel>
                 <Input placeholder="Enter number" name="threshold" type="number" defaultValue={data.threshold ?? undefined} />
               </Field>
               <DialogFooter>
@@ -70,11 +72,11 @@ export function IfNode({ data, id }: NodeProps<IfNodeType>) {
         <BaseHandle type="target" position={Position.Top} />
         <NumberedHandle type="source" position={Position.Bottom} style={{ left: '25%' }} id="lowerOrEqual" number="low or eq" />
         <NumberedHandle type="source" position={Position.Bottom} style={{ left: '75%' }} id="higher" number="higher" />
-        <div className="flex gap-4 items-center">
-          <p className="font-medium">Stock (Product A) threshold</p>
+        <div className="flex items-center gap-4">
+          <p className="font-medium">Last buy of "{t('productA')}" – threshold</p>
           <span
             className={cn(
-              'bg-gray-100 font-mono px-2 py-1 rounded-sm border-gray-300 border',
+              'rounded-sm border border-gray-300 bg-gray-100 px-2 py-1',
               data.threshold != null ? 'font-semibold' : 'text-gray-400',
             )}
           >

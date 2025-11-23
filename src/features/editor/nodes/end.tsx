@@ -1,29 +1,11 @@
 import { BaseHandle } from '@/components/base-handle';
-import {
-  BaseNode,
-  BaseNodeContent,
-  BaseNodeHeader,
-  BaseNodeHeaderTitle,
-} from '@/components/base-node';
+import { BaseNode, BaseNodeContent, BaseNodeHeader, BaseNodeHeaderTitle } from '@/components/base-node';
 import { Button } from '@/components/ui/button';
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { fdOrNull } from '@/lib/editorNodeHelpers';
-import {
-  Position,
-  useReactFlow,
-  type Node,
-  type NodeProps,
-} from '@xyflow/react';
+import { Position, useReactFlow, type Node, type NodeProps } from '@xyflow/react';
 import { CircleStop, Pencil } from 'lucide-react';
 import { useState } from 'react';
 
@@ -40,21 +22,15 @@ export function EndNode({ data, id }: NodeProps<EndGameNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="bg-orange-50 border-orange-700">
+    <BaseNode className="border-orange-700 bg-orange-50">
       <BaseNodeHeader>
         <CircleStop className="text-orange-800" />
         <BaseNodeHeaderTitle className="text-orange-800">
-          {data.headline ?? (
-            <span className="text-orange-700/50">No headline</span>
-          )}
+          {data.headline ?? <span className="text-orange-700/50">No headline</span>}
         </BaseNodeHeaderTitle>{' '}
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
-            <Button
-              variant="outline"
-              size="icon-sm"
-              className="nodrag rounded-full"
-            >
+            <Button variant="outline" size="icon-sm" className="nodrag rounded-full">
               <Pencil className="size-4" />
             </Button>
           </DialogTrigger>
@@ -67,21 +43,13 @@ export function EndNode({ data, id }: NodeProps<EndGameNodeType>) {
                 });
                 setOpen(false);
               }}
-              className="gap-4 grid"
+              className="grid gap-4"
             >
               <DialogHeader>
                 <DialogTitle>Configure End Game Screen</DialogTitle>
               </DialogHeader>
-              <Input
-                placeholder="Headline"
-                name="headline"
-                defaultValue={data.headline}
-              />
-              <Textarea
-                placeholder="Text"
-                name="text"
-                defaultValue={data.text}
-              />
+              <Input placeholder="Headline" name="headline" defaultValue={data.headline} />
+              <Textarea placeholder="Text" name="text" defaultValue={data.text} />
               <DialogFooter>
                 <DialogClose asChild>
                   <Button variant="outline">Cancel</Button>
@@ -93,9 +61,7 @@ export function EndNode({ data, id }: NodeProps<EndGameNodeType>) {
         </Dialog>
       </BaseNodeHeader>
       <BaseNodeContent>
-        <p className="font-mono text-xs bg-white border border-orange-700 p-2 rounded-md">
-          {data.text ?? 'No text'}
-        </p>
+        <p className="rounded-md border border-orange-700 bg-white p-2 text-xs">{data.text ?? 'No text'}</p>
         <BaseHandle type="target" position={Position.Top} />
       </BaseNodeContent>
     </BaseNode>

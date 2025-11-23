@@ -68,8 +68,8 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
               <div>
                 <div className="grid grid-cols-3 leading-8">
                   <p></p>
-                  <p> {t('productA')}:</p>
-                  <p> {t('productB')}:</p>
+                  <p>{t('productA')}:</p>
+                  <p>{t('productB')}:</p>
                 </div>
                 {events.map((event, index) => (
                   <div key={index} className="grid grid-cols-3 leading-8">

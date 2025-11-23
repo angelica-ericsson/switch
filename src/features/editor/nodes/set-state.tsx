@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { Position, useReactFlow, type Node, type NodeProps } from '@xyflow/react';
 import { Cog, Pencil } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 type SetStateNodeType = Node<
   {
@@ -25,6 +26,7 @@ type SetStateNodeType = Node<
 export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
   const reactFlow = useReactFlow();
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <BaseNode className="border-pink-700 bg-pink-50">
@@ -56,13 +58,13 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
                 <DialogTitle>Configure Game State</DialogTitle>
               </DialogHeader>
               <Field>
-                <FieldLabel>Product A:</FieldLabel>
+                <FieldLabel>Demand {t('productA')}</FieldLabel>
                 <div className="flex gap-2">
                   <Input placeholder="Demand" name="demandA" type="number" defaultValue={data.demandA} />
                 </div>
               </Field>
               <Field>
-                <FieldLabel>Product B:</FieldLabel>
+                <FieldLabel>Demand {t('productB')}</FieldLabel>
                 <div className="flex gap-2">
                   <Input placeholder="Demand" name="demandB" type="number" defaultValue={data.demandB} />
                 </div>
@@ -94,11 +96,11 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
         <BaseHandle type="source" position={Position.Bottom} />
 
         <div className="flex gap-4">
-          <p className="font-medium">Product A:</p>
+          <p className="font-medium">{t('productA')}:</p>
           <Variable text="Demand" value={data.demandA} />
         </div>
         <div className="flex gap-4">
-          <p className="font-medium">Product B:</p>
+          <p className="font-medium">{t('productB')}:</p>
           <Variable text="Demand" value={data.demandB} />
         </div>
         <div className="flex gap-4">
@@ -124,9 +126,7 @@ function Variable(props: { text: string; value: number }) {
   return (
     <p className="text-right">
       {props.text}
-      <span
-        className={cn('ml-1 rounded-sm border border-gray-300 bg-gray-100 px-1 font-mono', props.value ? 'font-semibold' : 'text-gray-400')}
-      >
+      <span className={cn('ml-1 rounded-sm border border-gray-300 bg-gray-100 px-1', props.value ? 'font-semibold' : 'text-gray-400')}>
         {props.value ?? '∅'}
       </span>
     </p>
