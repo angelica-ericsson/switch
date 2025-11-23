@@ -3,7 +3,6 @@ import type { SceneNodeType } from '../zod-schema';
 import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
-import { motion } from 'motion/react';
 
 interface SceneScreenProps {
   node: SceneNodeType;
@@ -25,12 +24,7 @@ export function SceneScreen({ node }: SceneScreenProps) {
 
   return (
     <GameLayout>
-      <motion.div
-        // initial={{ translateX: '100vh', translateY: '-10%', rotateZ: '20deg', scale: 1.5 }}
-        // animate={{ translateX: 0, translateY: '0', rotateZ: '0deg', scale: 1 }}
-        // transition={{ duration: 0.3, type: 'tween' }}
-        className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl"
-      >
+      <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
         <p className="text-xl text-pretty whitespace-pre-line">{gameVariant === 'A' ? t(node.data.textA!) : t(node.data.textB!)}</p>
         <div className="mt-8 flex flex-col gap-7">
           {node.data?.option1 && availableOptions.includes('option1') && (
@@ -43,7 +37,7 @@ export function SceneScreen({ node }: SceneScreenProps) {
             <GameButton onClick={() => handleOptionClick('option3')}>{t(node.data.option3)}</GameButton>
           )}
         </div>
-      </motion.div>
+      </div>
     </GameLayout>
   );
 }

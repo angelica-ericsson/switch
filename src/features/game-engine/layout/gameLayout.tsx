@@ -5,11 +5,11 @@ export function GameLayout(props: React.PropsWithChildren) {
   const state = useGameState((state) => state);
 
   return (
-    <div className="min-h-screen game-background">
-      <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="size-30 fixed left-10" />
+    <div className="game-background min-h-screen">
+      <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="fixed left-10 size-30" />
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col lg:flex-row items-center justify-center  p-8 min-h-[90vh]">{props.children}</div>
+      <div className="flex min-h-[90vh] flex-1 flex-col items-center justify-center p-8 lg:flex-row">{props.children}</div>
 
       {/* Debug Bar */}
       <div className="flex gap-4 text-white">
