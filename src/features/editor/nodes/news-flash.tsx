@@ -11,8 +11,10 @@ import { useState } from 'react';
 
 type NewsFlashNodeType = Node<
   {
-    headline: string;
-    text: string;
+    headlineA: string;
+    headlineB: string;
+    textA: string;
+    textB: string;
     imageUrl: string;
   },
   'newsFlash'
@@ -37,8 +39,10 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
             <form
               action={(formData) => {
                 reactFlow.updateNodeData(id, {
-                  headline: fdOrNull(formData.get('headline')),
-                  text: fdOrNull(formData.get('text')),
+                  headlineA: fdOrNull(formData.get('headlineA')),
+                  headlineB: fdOrNull(formData.get('headlineB')),
+                  textA: fdOrNull(formData.get('textA')),
+                  textB: fdOrNull(formData.get('textB')),
                   imageUrl: fdOrNull(formData.get('imageUrl')),
                 });
                 setOpen(false);
@@ -50,12 +54,21 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
               </DialogHeader>
 
               <div className="flex flex-col gap-2">
-                <Label>Headline:</Label>
-                <Input placeholder="Headline" name="headline" defaultValue={data.headline} />
+                <Label>Translation Key for Headline Variant A:</Label>
+                <Input placeholder="Headline Variant A" name="headlineA" defaultValue={data.headlineA} />
+              </div>
+              <div className="flex flex-col gap-2 pb-5">
+                <Label>Translation Key for Text Variant A:</Label>
+                <Input placeholder="Text Variant A" name="textA" defaultValue={data.textA} />
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <Label>Translation Key for Headline Variant B:</Label>
+                <Input placeholder="Headline Variant B" name="headlineB" defaultValue={data.headlineB} />
               </div>
               <div className="flex flex-col gap-2">
-                <Label>Text:</Label>
-                <Input placeholder="Text" name="text" defaultValue={data.text} />
+                <Label>Translation Key for Text Variant B:</Label>
+                <Input placeholder="Text Variant B" name="textB" defaultValue={data.textB} />
               </div>
               <div className="flex flex-col gap-2">
                 <Label>Image URL:</Label>
@@ -73,13 +86,25 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
       </BaseNodeHeader>
       <BaseNodeContent>
         <div className="flex flex-col gap-2">
-          <div>
-            <p className="font-semibold text-sm mb-1">Headline:</p>
-            <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2">{data.headline ?? 'No headline'}</p>
-          </div>
-          <div>
-            <p className="font-semibold text-sm mb-1">Text:</p>
-            <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-3">{data.text ?? 'No text'}</p>
+          <div className="grid grid-cols-2 gap-1">
+            <p className="font-semibold text-sm">Variant A:</p>
+            <p className="font-semibold text-sm">Variant B:</p>
+            <div>
+              <p className="font-semibold text-xs mb-1">Headline:</p>
+              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.headlineA ?? 'No headline'}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs mb-1">Headline:</p>
+              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.headlineB ?? 'No headline'}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs mb-1">Text:</p>
+              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.textA ?? 'No text'}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs mb-1">Text:</p>
+              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.textB ?? 'No text'}</p>
+            </div>
           </div>
           <div>
             <p className="font-semibold text-sm mb-1">Image URL:</p>

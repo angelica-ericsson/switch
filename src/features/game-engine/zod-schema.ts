@@ -84,8 +84,10 @@ export const newsFlashNodeSchema = z.object({
   id: z.string(),
   type: z.literal('newsFlash'),
   data: z.object({
-    headline: z.string().nullable().optional(),
-    text: z.string().nullable().optional(),
+    headlineA: z.string().nullable().optional(),
+    headlineB: z.string().nullable().optional(),
+    textA: z.string().nullable().optional(),
+    textB: z.string().nullable().optional(),
     imageUrl: z.string().nullable().optional(),
   }),
 });

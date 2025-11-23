@@ -11,6 +11,7 @@ interface NewsFlashScreenProps {
 }
 
 export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
+  const gameVariant = useGameState((state) => state.gameVariant);
   const moveForward = useGameState((state) => state.moveForward);
   const [dialogOpen, setDialogOpen] = useState(false);
 
@@ -21,6 +22,10 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
       moveForward('default');
     }
   };
+
+  // Select variant-specific content
+  const headline = gameVariant === 'A' ? node.data.headlineA : node.data.headlineB;
+  const text = gameVariant === 'A' ? node.data.textA : node.data.textB;
 
   return (
     <GameLayout>
@@ -43,7 +48,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
               <div className="w-full">
                 <img
                   src={node.data.imageUrl}
-                  alt={node.data.headline || 'News image'}
+                  alt={headline || 'News image'}
                   className="w-full h-auto rounded-lg object-cover"
                   onError={(e) => {
                     // Hide image if it fails to load
@@ -52,15 +57,13 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
                 />
               </div>
             )}
-            {node.data.headline && (
-              <h1 className="text-4xl font-bold leading-tight text-gray-900 border-b-2 border-gray-300 pb-4">{node.data.headline}</h1>
-            )}
-            {node.data.text && (
+            {headline && <h1 className="text-4xl font-bold leading-tight text-gray-900 border-b-2 border-gray-300 pb-4">{headline}</h1>}
+            {text && (
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg leading-relaxed text-gray-700 whitespace-pre-line">{node.data.text}</p>
+                <p className="text-lg leading-relaxed text-gray-700 whitespace-pre-line">{text}</p>
               </div>
             )}
-            {!node.data.headline && !node.data.text && !node.data.imageUrl && <p className="text-muted-foreground">No content available</p>}
+            {!headline && !text && !node.data.imageUrl && <p className="text-muted-foreground">No content available</p>}
           </div>
         </DialogContent>
       </Dialog>
