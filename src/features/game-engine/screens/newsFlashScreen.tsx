@@ -38,8 +38,8 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
           <div className="text-center mb-2">
             <h1 className="text-6xl font-black font-serif tracking-tight text-black/70 mb-2 uppercase">{t('newsFlash.newspaperName')}</h1>
             <div className="flex justify-between items-center text-sm text-gray-600 border-t-2 border-b-2 border-black/70 py-2">
-              <span className="font-semibold">{formattedDate}</span>
-              <span className="font-semibold">PRICE 25¢</span>
+              <span className="font-semibold capitalize">{formattedDate}</span>
+              <span className="font-semibold capitalize">{t('newsFlash.price')}</span>
             </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
         <div className="space-y-6">
           {/* Headline */}
           {headline && (
-            <h2 className="text-5xl italic font-serif leading-tight text-black/70 border-b-4 border-black/70 pb-4">
-              {headline.toUpperCase()}
+            <h2 className="text-5xl italic font-serif leading-tight text-black/70 border-b-4 border-black/70 pb-4 text-center">
+              {headline}
             </h2>
           )}
 

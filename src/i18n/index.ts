@@ -38,6 +38,7 @@ i18n
           },
           newsFlash: {
             newspaperName: 'The Daily Times',
+            price: 'price: 18 cents',
           },
           consent: {
             welcome: 'WELCOME!',
@@ -198,6 +199,7 @@ i18n
           },
           newsFlash: {
             newspaperName: 'Dagens Tidning',
+            price: 'price: 18 kr',
           },
           consent: {
             welcome: 'VÄLKOMMEN!',
