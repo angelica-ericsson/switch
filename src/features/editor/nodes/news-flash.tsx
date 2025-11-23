@@ -16,6 +16,7 @@ type NewsFlashNodeType = Node<
     textA: string;
     textB: string;
     imageUrl: string;
+    date: string;
   },
   'newsFlash'
 >;
@@ -44,6 +45,7 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
                   textA: fdOrNull(formData.get('textA')),
                   textB: fdOrNull(formData.get('textB')),
                   imageUrl: fdOrNull(formData.get('imageUrl')),
+                  date: fdOrNull(formData.get('date')),
                 });
                 setOpen(false);
               }}
@@ -73,6 +75,10 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
               <div className="flex flex-col gap-2">
                 <Label>Image URL:</Label>
                 <Input placeholder="Image URL" name="imageUrl" defaultValue={data.imageUrl} />
+              </div>
+              <div className="flex flex-col gap-2">
+                <Label>Date (leave empty for current date):</Label>
+                <Input type="date" name="date" defaultValue={data.date || ''} />
               </div>
               <DialogFooter>
                 <DialogClose asChild>
@@ -109,6 +115,12 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
           <div>
             <p className="font-semibold text-sm mb-1">Image URL:</p>
             <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-sm">{data.imageUrl ?? 'No image URL'}</p>
+          </div>
+          <div>
+            <p className="font-semibold text-sm mb-1">Date:</p>
+            <p className="bg-white border border-amber-700 p-2 rounded-md text-sm">
+              {data.date ? new Date(data.date).toLocaleDateString() : 'Current date'}
+            </p>
           </div>
         </div>
         <BaseHandle type="target" position={Position.Top} />

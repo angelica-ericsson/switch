@@ -36,6 +36,9 @@ i18n
             text: 'Something something about the game...',
             button: 'OK got it, move on...',
           },
+          newsFlash: {
+            newspaperName: 'The Daily Times',
+          },
           consent: {
             welcome: 'WELCOME!',
             instruction: 'Before you start playing, you need to read and agree to the following:',
@@ -192,6 +195,9 @@ i18n
             description: 'Enter the stock quantities for Product A and Product B',
             youSold: 'Du sålde <num>{{soldA}}</num> of Product A and <num>{{soldB}}</num> of Product B',
             button: 'Gör detta',
+          },
+          newsFlash: {
+            newspaperName: 'Dagens Tidning',
           },
           consent: {
             welcome: 'VÄLKOMMEN!',

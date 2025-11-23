@@ -5,3 +5,4 @@
 - `src/assets/green-dust-and-scratches.png`: https://www.transparenttextures.com/
 - `src/assets/cardboard.png`: https://www.transparenttextures.com/
 - `src/assets/mountains-1412683_1920.png`: https://pixabay.com/vectors/mountains-panorama-forest-mountain-1412683/
+- `public/factory.jpg`: https://unsplash.com/photos/a-large-brick-building-with-a-tall-chimney-OrXqgVC72Jg

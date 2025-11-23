@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -8,46 +8,45 @@
 }
 
 @theme {
-  --font-sans: "DM Sans", sans-serif;
-  --font-script:  "Story Script", sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-script: 'Story Script', sans-serif;
+  --font-serif: 'Playfair Display', serif;
 
+  --color-thistle-50: #f9f6f9;
+  --color-thistle-100: #f5eef5;
+  --color-thistle-200: #ecdeec;
+  --color-thistle-300: #d3b4d3;
+  --color-thistle-400: #c6a0c5;
+  --color-thistle-500: #b381b1;
+  --color-thistle-600: #9c6697;
+  --color-thistle-700: #84527e;
+  --color-thistle-800: #6e4668;
+  --color-thistle-900: #5e3d59;
+  --color-thistle-950: #362133;
 
---color-thistle-50: #f9f6f9;
---color-thistle-100: #f5eef5;
---color-thistle-200: #ecdeec;
---color-thistle-300: #d3b4d3;
---color-thistle-400: #c6a0c5;
---color-thistle-500: #b381b1;
---color-thistle-600: #9c6697;
---color-thistle-700: #84527e;
---color-thistle-800: #6e4668;
---color-thistle-900: #5e3d59;
---color-thistle-950: #362133;
+  --color-eastbay-50: #f4f6fa;
+  --color-eastbay-100: #e5e9f4;
+  --color-eastbay-200: #d1d9ec;
+  --color-eastbay-300: #b1c1df;
+  --color-eastbay-400: #8ca1ce;
+  --color-eastbay-500: #7084c1;
+  --color-eastbay-600: #5e6db2;
+  --color-eastbay-700: #525ca3;
+  --color-eastbay-800: #454b81;
+  --color-eastbay-900: #3d436b;
+  --color-eastbay-950: #282a43;
 
---color-eastbay-50: #f4f6fa;
---color-eastbay-100: #e5e9f4;
---color-eastbay-200: #d1d9ec;
---color-eastbay-300: #b1c1df;
---color-eastbay-400: #8ca1ce;
---color-eastbay-500: #7084c1;
---color-eastbay-600: #5e6db2;
---color-eastbay-700: #525ca3;
---color-eastbay-800: #454b81;
---color-eastbay-900: #3d436b;
---color-eastbay-950: #282a43;
-
---color-yourpink-50: #fef2f2;
---color-yourpink-100: #ffe1e2;
---color-yourpink-200: #ffcbcc;
---color-yourpink-300: #fea3a5;
---color-yourpink-400: #fb6e71;
---color-yourpink-500: #f24144;
---color-yourpink-600: #e02226;
---color-yourpink-700: #bc191c;
---color-yourpink-800: #9b191c;
---color-yourpink-900: #811b1d;
---color-yourpink-950: #46090a;
-
+  --color-yourpink-50: #fef2f2;
+  --color-yourpink-100: #ffe1e2;
+  --color-yourpink-200: #ffcbcc;
+  --color-yourpink-300: #fea3a5;
+  --color-yourpink-400: #fb6e71;
+  --color-yourpink-500: #f24144;
+  --color-yourpink-600: #e02226;
+  --color-yourpink-700: #bc191c;
+  --color-yourpink-800: #9b191c;
+  --color-yourpink-900: #811b1d;
+  --color-yourpink-950: #46090a;
 }
 
 @theme inline {
@@ -88,11 +87,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
   --animate-blink-cursor: blink-cursor 1.2s step-end infinite;
   @keyframes blink-cursor {
-  0%, 49% {
-    opacity: 1;
+    0%,
+    49% {
+      opacity: 1;
     }
-  50%, 100% {
-    opacity: 0;
+    50%,
+    100% {
+      opacity: 0;
     }
   }
 }

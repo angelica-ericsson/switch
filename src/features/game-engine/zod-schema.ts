@@ -89,6 +89,7 @@ export const newsFlashNodeSchema = z.object({
     textA: z.string().nullable().optional(),
     textB: z.string().nullable().optional(),
     imageUrl: z.string().nullable().optional(),
+    date: z.string().nullable().optional(),
   }),
 });
 

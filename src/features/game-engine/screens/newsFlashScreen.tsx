@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import { useGameState } from '../state';
 import type { NewsFlashNodeType } from '../zod-schema';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { Button } from '@/components/ui/button';
-import { Newspaper } from 'lucide-react';
 import { GameLayout } from '../layout/gameLayout';
+import { useTranslation } from 'react-i18next';
+import i18n from '@/i18n';
 
 interface NewsFlashScreenProps {
   node: NewsFlashNodeType;
@@ -13,60 +11,83 @@ interface NewsFlashScreenProps {
 export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
   const gameVariant = useGameState((state) => state.gameVariant);
   const moveForward = useGameState((state) => state.moveForward);
-  const [dialogOpen, setDialogOpen] = useState(false);
-
-  const handleDialogClose = (open: boolean) => {
-    setDialogOpen(open);
-    if (!open) {
-      // Advance the game
-      moveForward('default');
-    }
-  };
+  const { t } = useTranslation();
 
   // Select variant-specific content
   const headline = gameVariant === 'A' ? node.data.headlineA : node.data.headlineB;
   const text = gameVariant === 'A' ? node.data.textA : node.data.textB;
 
+  const handleClick = () => {
+    moveForward('default');
+  };
+
+  // Format date in newspaper style - use configured date or fallback to current date
+  const dateToDisplay = node.data.date ? new Date(node.data.date) : new Date();
+  const formattedDate = dateToDisplay.toLocaleDateString(i18n.resolvedLanguage, {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+
   return (
     <GameLayout>
-      <div className="flex items-center justify-center min-h-screen">
-        <Button onClick={() => setDialogOpen(true)} size="lg" className="flex items-center gap-2">
-          <Newspaper className="size-5" />
-          Breaking News!
-        </Button>
-      </div>
-      <Dialog open={dialogOpen} onOpenChange={handleDialogClose}>
-        <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto" showCloseButton={true}>
-          <DialogHeader>
-            <div className="flex items-center gap-2 mb-2">
-              <Newspaper className="size-6 text-amber-800" />
-              <DialogTitle className="text-3xl font-bold text-amber-900">News Article</DialogTitle>
+      <div className="max-w-4xl p-12 newspaper-bg rotate-2 font-serif cursor-pointer" onClick={handleClick}>
+        {/* Newspaper Header */}
+        <div className="border-b-4 border-black/70 mb-6 pb-4">
+          <div className="text-center mb-2">
+            <h1 className="text-6xl font-black font-serif tracking-tight text-black/70 mb-2 uppercase">{t('newsFlash.newspaperName')}</h1>
+            <div className="flex justify-between items-center text-sm text-gray-600 border-t-2 border-b-2 border-black/70 py-2">
+              <span className="font-semibold">{formattedDate}</span>
+              <span className="font-semibold">PRICE 25¢</span>
             </div>
-          </DialogHeader>
-          <div className="space-y-6">
+          </div>
+        </div>
+
+        {/* Main Content */}
+        <div className="space-y-6">
+          {/* Headline */}
+          {headline && (
+            <h2 className="text-5xl italic font-serif leading-tight text-black/70 border-b-4 border-black/70 pb-4">
+              {headline.toUpperCase()}
+            </h2>
+          )}
+
+          {/* Image and Text Layout */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Image Column */}
             {node.data.imageUrl && (
-              <div className="w-full">
+              <div className="md:col-span-1">
                 <img
                   src={node.data.imageUrl}
                   alt={headline || 'News image'}
-                  className="w-full h-auto rounded-lg object-cover"
+                  className="w-full h-auto border-2 border-black/70 object-cover newspaper-image"
                   onError={(e) => {
-                    // Hide image if it fails to load
                     (e.target as HTMLImageElement).style.display = 'none';
                   }}
                 />
+                {headline && (
+                  <p className="text-xs italic text-gray-600 mt-2 border-t border-gray-400 pt-2">Photo: {t('newsFlash.newspaperName')}</p>
+                )}
               </div>
             )}
-            {headline && <h1 className="text-4xl font-bold leading-tight text-gray-900 border-b-2 border-gray-300 pb-4">{headline}</h1>}
+
+            {/* Text Columns */}
             {text && (
-              <div className="prose prose-lg max-w-none">
-                <p className="text-lg leading-relaxed text-gray-700 whitespace-pre-line">{text}</p>
+              <div className={`columns-1 gap-6 text-justify`}>
+                <p className="text-base leading-relaxed text-black/70 mb-4 first-letter:text-6xl first-letter:font-bold first-letter:float-left first-letter:mr-2 first-letter:leading-none whitespace-pre-line">
+                  {text}
+                </p>
               </div>
             )}
-            {!headline && !text && !node.data.imageUrl && <p className="text-muted-foreground">No content available</p>}
           </div>
-        </DialogContent>
-      </Dialog>
+
+          {/* Footer */}
+          <div className="border-t-2 border-black/70 pt-4 mt-8">
+            <p className="text-center text-gray-800/90 italic">Click anywhere to continue...</p>
+          </div>
+        </div>
+      </div>
     </GameLayout>
   );
 }
