@@ -17,6 +17,7 @@ i18n
         translation: {
           productA: 'WildertonWear',
           productB: 'BlueSkin',
+          continue: 'Continue',
           headerBar: { points: 'Points:', sentiment: 'Sentiment:' },
           welcome: {
             headline: 'Welcome to Wilderton',
@@ -190,6 +191,7 @@ i18n
         translation: {
           productA: 'WildertonWear',
           productB: 'BlueSkin',
+          continue: 'Fortsätt',
           headerBar: { points: 'Poäng:', sentiment: 'Sentiment:' },
           welcome: {
             headline: 'Swedish: Headline of the start screen',

@@ -25,12 +25,12 @@ export function StartScreen() {
 
   return (
     <GameLayout>
-      <div className="p-5 postcard-bg rounded-xl shadow-xl -rotate-10 max-w-[500px] lg:translate-x-5">
-        <img src={imagePath} className="object-cover rounded" />
+      <div className="postcard-bg max-w-[500px] -rotate-10 rounded-xl p-5 shadow-xl lg:translate-x-5">
+        <img src={imagePath} className="rounded object-cover" />
       </div>
-      <form onSubmit={handleSubmit} className="p-5 postcard-bg rounded-xl shadow-xl rotate-5 lg:-translate-x-5">
-        <h1 className="text-4xl font-bold font-script pb-5">{t('welcome.headline')}</h1>
-        <p className="font-script text-xl max-w-[500px] whitespace-pre-line">
+      <form onSubmit={handleSubmit} className="postcard-bg rotate-5 rounded-xl p-5 shadow-xl lg:-translate-x-5">
+        <h1 className="font-script pb-5 text-4xl font-bold">{t('welcome.headline')}</h1>
+        <p className="font-script max-w-[500px] text-xl whitespace-pre-line">
           {t('welcome.description1')}{' '}
           <input
             className="border-b-2 border-dotted border-black/50 font-mono"

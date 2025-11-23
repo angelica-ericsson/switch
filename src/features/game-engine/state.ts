@@ -174,7 +174,7 @@ function moveGameForward(state: GameState, direction: string): Partial<GameState
  */
 function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
   // UI-rendering nodes: update currentNode and stop
-  if (node.type === 'scene' || node.type === 'stockUp' || node.type === 'end' || node.type === 'start' || node.type === 'newsFlash') {
+  if (node.type === 'scene' || node.type === 'stockUp' || node.type === 'end' || node.type === 'start' || node.type === 'newsFlash' || node.type === 'social') {
     return { currentNode: node };
   }
 
