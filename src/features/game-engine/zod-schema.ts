@@ -35,6 +35,9 @@ export type RandomNodeType = z.infer<typeof randomNodeSchema>;
 export const stockUpNodeSchema = z.object({
   id: z.string(),
   type: z.literal('stockUp'),
+  data: z.object({
+    date: z.string().nullable().optional(),
+  }),
 });
 
 export type StockUpNodeType = z.infer<typeof stockUpNodeSchema>;
@@ -58,11 +61,10 @@ export const setStateNodeSchema = z.object({
   data: z.object({
     demandA: z.coerce.number().nullable().optional(),
     demandB: z.coerce.number().nullable().optional(),
-    priceA: z.coerce.number().nullable().optional(),
-    priceB: z.coerce.number().nullable().optional(),
     sentimentPro: z.coerce.number().nullable().optional(),
     sentimentNeutral: z.coerce.number().nullable().optional(),
     sentimentAgainst: z.coerce.number().nullable().optional(),
+    date: z.string().nullable().optional(),
   }),
 });
 

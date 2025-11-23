@@ -28,9 +28,13 @@ i18n
           },
           stockUp: {
             headline: 'Stock up!',
-            description: 'Enter the stock quantities for Product A and Product B',
-            youSold: 'Great! You sold <num>{{soldA}}</num> of Product A and <num>{{soldB}}</num> of Product B',
+            buyHeadline: 'Enter the stock quantities for Product A and Product B',
             button: 'Do it',
+            inventoryHeadline: 'Inventory',
+            inventoryEmpty: 'Empty',
+            eventTypeBuy: 'BUY',
+            eventTypeSell: 'SELL',
+            noDate: 'No date',
           },
           intro: {
             text: 'Something something about the game...',
@@ -192,10 +196,14 @@ i18n
             button: 'SWEStart the adventure',
           },
           stockUp: {
-            headline: 'Sjock upp',
-            description: 'Enter the stock quantities for Product A and Product B',
-            youSold: 'Du sålde <num>{{soldA}}</num> of Product A and <num>{{soldB}}</num> of Product B',
+            headline: 'Order form',
+            buyHeadline: 'Enter the stock quantities for Product A and Product B',
             button: 'Gör detta',
+            inventoryHeadline: 'Inventariet',
+            inventoryEmpty: 'Tom',
+            eventTypeBuy: 'KÖP',
+            eventTypeSell: 'SÄLJ',
+            noDate: 'Inget datum',
           },
           newsFlash: {
             newspaperName: 'Dagens Tidning',

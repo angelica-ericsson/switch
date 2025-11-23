@@ -1,70 +1,136 @@
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
 import { useGameState } from '../state';
-import { Slider } from '@/components/ui/slider';
-import { Trans, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
+import { GameButton } from '@/components/ui/gameButton';
+import { useDemographicStore } from '@/features/onboarding/demographicStore';
+import i18n from '@/i18n';
+import type { StockUpNodeType } from '../zod-schema';
 
-export function StockUpScreen() {
-  const oldStockA = useGameState((state) => state.stockA);
-  const oldStockB = useGameState((state) => state.stockB);
-  const demandA = useGameState((state) => state.demandA);
-  const demandB = useGameState((state) => state.demandB);
-  const priceA = useGameState((state) => state.priceA);
-  const priceB = useGameState((state) => state.priceB);
-  const soldProductA = Math.max(0, oldStockA - demandA);
-  const soldProductB = Math.max(0, oldStockB - demandB);
+interface StockUpScreenProps {
+  node: StockUpNodeType;
+}
 
-  const oldPoints = useGameState((state) => state.points);
-
+export function StockUpScreen({ node }: StockUpScreenProps) {
   const moveForward = useGameState((state) => state.moveForward);
-  const setGameState = useGameState((state) => state.setGameState);
+  const pushEvent = useGameState((state) => state.pushEvent);
+  const events = useGameState((state) => state.events);
+  const alias = useDemographicStore((state) => state.alias);
+  const stockA = useGameState((state) => state.getStock('A'));
+  const stockB = useGameState((state) => state.getStock('A'));
+  const formattedDate = new Date(node.data?.date ?? '').toLocaleDateString(i18n.resolvedLanguage, {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 
-  const [sliderValue, setSlider] = useState<number>(50);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
 
-  const handleSubmit = () => {
+    // Use date prop or fallback to current date
+    const eventDate = node.data?.date || new Date().toISOString();
+
+    // Get values from form data
+    const productA = Number(formData.get('productA')) || 0;
+    const productB = Number(formData.get('productB')) || 0;
+
+    // Push buy event
+    pushEvent({
+      type: 'buy',
+      productA,
+      productB,
+      date: eventDate,
+    });
+
+    e.currentTarget.reset();
+
     // Move forward with 'default' direction
     moveForward('default');
-
-    // Update game state with stock values
-    setGameState({
-      stockA: 100 - sliderValue,
-      stockB: sliderValue,
-      points: oldPoints + soldProductA * priceA + soldProductB * priceB,
-    });
   };
 
   const { t } = useTranslation();
 
   return (
     <GameLayout>
-      <div className="max-w-2xl mx-auto p-8 space-y-6">
-        <h1 className="text-3xl font-bold"> {t('stockUp.headline')}</h1>
-        {(soldProductA > 0 || soldProductB > 0) && (
-          <p className="text-lg text-muted-foreground">
-            <Trans
-              i18nKey="stockUp.youSold"
-              defaults="Great! You sold <num>{{soldA}}</num> of Product A and <num>{{soldB}}</num> of Product B"
-              values={{ soldA: soldProductA, soldB: soldProductB }}
-              components={{
-                num: <span className="font-mono bg-gray-600 p-2 rounded-full" />,
-              }}
-            />
-          </p>
-        )}
-        <p className="text-lg text-muted-foreground">{t('stockUp.description')}</p>
-        <div className="flex gap-5">
-          <div>
-            {t('productA')} {100 - sliderValue}
+      <div className="order-form-bg mx-auto max-w-2xl rotate-1 font-mono shadow-2xl">
+        <div className="ml-8 border-l-2 border-red-300/50 p-8 text-black/70">
+          <h1 className="text-3xl leading-8">
+            {alias} {t('stockUp.headline')}
+          </h1>
+          <p className="mb-8 text-xs leading-8">{formattedDate}</p>
+
+          <div className="mb-8">
+            <h2 className="text-xl leading-8">{t('stockUp.inventoryHeadline')}</h2>
+            {events.length === 0 ? (
+              <p className="leading-8 text-gray-500">{t('stockUp.inventoryEmpty')}</p>
+            ) : (
+              <div>
+                <div className="grid grid-cols-3 leading-8">
+                  <p></p>
+                  <p> {t('productA')}:</p>
+                  <p> {t('productB')}:</p>
+                </div>
+                {events.map((event, index) => (
+                  <div key={index} className="grid grid-cols-3 leading-8">
+                    <p>
+                      <span className="mr-3">
+                        {new Date(event.date).toLocaleDateString(i18n.resolvedLanguage, {
+                          year: 'numeric',
+                          month: 'short',
+                        })}
+                      </span>
+                      <span className={`${event.type === 'sell' ? 'text-green-700' : 'text-red-700'}`}>
+                        {event.type === 'buy' ? t('stockUp.eventTypeBuy') : t('stockUp.eventTypeSell')}
+                      </span>
+                    </p>
+                    <p>{event.productA}</p>
+                    <p>{event.productB}</p>
+                  </div>
+                ))}
+                <div className="grid grid-cols-3 border-t border-black leading-8">
+                  <p>Total:</p>
+                  <p> {stockA}</p>
+                  <p> {stockB}</p>
+                </div>
+              </div>
+            )}
           </div>
-          <Slider defaultValue={[sliderValue]} max={100} onValueChange={(values) => setSlider(values[0])} />
-          <div>
-            {t('productB')} {sliderValue}
-          </div>
+
+          <p className="text-xl leading-8">{t('stockUp.buyHeadline')}</p>
+          <form onSubmit={handleSubmit}>
+            <div className="mb-8 grid grid-cols-2">
+              <label htmlFor="productA" className="text-sm leading-8">
+                {t('productA')}:
+              </label>
+              <input
+                type="number"
+                id="productA"
+                name="productA"
+                min="0"
+                step="1"
+                required
+                className="border-b-3 border-dotted border-black/50"
+              />
+
+              <label htmlFor="productB" className="text-sm leading-8">
+                {t('productB')}:
+              </label>
+              <input
+                type="number"
+                id="productB"
+                name="productB"
+                min="0"
+                step="1"
+                required
+                className="border-b-3 border-dotted border-black/50"
+              />
+            </div>
+            <GameButton type="submit" size="lg" className="w-full">
+              {t('stockUp.button')}
+            </GameButton>
+          </form>
         </div>
-        <Button type="submit" size="lg" className="w-full" onClick={handleSubmit}>
-          {t('stockUp.button')}
-        </Button>
       </div>
     </GameLayout>
   );

@@ -2,18 +2,20 @@ import { create } from 'zustand';
 import { gameSchema, type UnionNodeType } from './zod-schema';
 
 /**
+ * Event types for buy/sell operations
+ */
+export type BuyEvent = { type: 'buy'; productA: number; productB: number; date: string };
+export type SellEvent = { type: 'sell'; productA: number; productB: number; date: string };
+export type GameEvent = BuyEvent | SellEvent;
+
+/**
  * Type of the game state
  */
 export interface GameState {
-  demandA: number;
-  demandB: number;
-  priceA: number;
-  priceB: number;
   sentimentPro: number;
   sentimentNeutral: number;
   sentimentAgainst: number;
-  stockA: number;
-  stockB: number;
+  events: GameEvent[];
 
   points: number;
 
@@ -27,21 +29,32 @@ export interface GameState {
   setGameState: (newState: Partial<GameState>) => void;
   setNodesAndEdges: (nodes: Map<string, UnionNodeType>, edges: Map<string, EdgeTarget>) => void;
   moveForward: (direction: string) => void;
+  pushEvent: (event: GameEvent) => void;
+  getStock: (product: 'A' | 'B') => number;
+}
+
+/**
+ * Calculates the current stock for a product based on events
+ */
+function calculateStock(events: GameEvent[], product: 'A' | 'B'): number {
+  const productKey = product === 'A' ? 'productA' : 'productB';
+  return events.reduce((stock, event) => {
+    if (event.type === 'buy') {
+      return stock + event[productKey];
+    } else {
+      return stock - event[productKey];
+    }
+  }, 0);
 }
 
 /**
  * the actual game state
  */
-export const useGameState = create<GameState>((set) => ({
-  demandA: 0,
-  demandB: 0,
-  priceA: 0,
-  priceB: 0,
+export const useGameState = create<GameState>((set, get) => ({
   sentimentPro: 0,
   sentimentAgainst: 0,
   sentimentNeutral: 0,
-  stockA: 0,
-  stockB: 0,
+  events: [],
   points: 0,
   gameVariant: 'A',
   isInitialized: false,
@@ -59,6 +72,37 @@ export const useGameState = create<GameState>((set) => ({
       edges,
     })),
   moveForward: (direction) => set((state) => moveGameForward(state, direction)),
+  pushEvent: (event) =>
+    set((state) => {
+      // For sell events, clamp to available stock - sell as much as possible
+      if (event.type === 'sell') {
+        const currentStockA = calculateStock(state.events, 'A');
+        const currentStockB = calculateStock(state.events, 'B');
+
+        console.log('currentStockA', currentStockA);
+        console.log('currentStockB', currentStockB);
+
+        // Clamp sell amounts to available stock, preserve date
+        const clampedEvent: SellEvent = {
+          type: 'sell',
+          productA: Math.min(event.productA, currentStockA),
+          productB: Math.min(event.productB, currentStockB),
+          date: event.date,
+        };
+
+        return {
+          events: [...state.events, clampedEvent],
+        };
+      }
+
+      return {
+        events: [...state.events, event],
+      };
+    }),
+  getStock: (product) => {
+    const state = get();
+    return calculateStock(state.events, product);
+  },
 }));
 
 export type EdgeTarget = Record<string, string>;
@@ -138,13 +182,21 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
     // Update game state with values from node.data (only non-null/undefined values)
     const stateUpdates: Partial<GameState> = {};
     if (node.data) {
-      if (node.data.demandA != null) stateUpdates.demandA = node.data.demandA;
-      if (node.data.demandB != null) stateUpdates.demandB = node.data.demandB;
-      if (node.data.priceA != null) stateUpdates.priceA = node.data.priceA;
-      if (node.data.priceB != null) stateUpdates.priceB = node.data.priceB;
       if (node.data.sentimentPro != null) stateUpdates.sentimentPro = node.data.sentimentPro;
       if (node.data.sentimentNeutral != null) stateUpdates.sentimentNeutral = node.data.sentimentNeutral;
       if (node.data.sentimentAgainst != null) stateUpdates.sentimentAgainst = node.data.sentimentAgainst;
+
+      // Push a sell event with demand properties
+      const demandA = node.data.demandA ?? 0;
+      const demandB = node.data.demandB ?? 0;
+      if (demandA > 0 || demandB > 0) {
+        state.pushEvent({
+          date: node.data.date ?? new Date().toISOString(),
+          type: 'sell',
+          productA: demandA,
+          productB: demandB,
+        });
+      }
     }
 
     // Move to next node using 'default' direction
@@ -202,8 +254,11 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
       throw Error(`if node "${node.id}" must have a threshold value configured`);
     }
 
+    // Calculate current stock for product A from events
+    const currentStockA = calculateStock(state.events, 'A');
+
     // Determine which path to take based on stockA comparison
-    const direction = state.stockA <= threshold ? 'lowerOrEqual' : 'higher';
+    const direction = currentStockA <= threshold ? 'lowerOrEqual' : 'higher';
 
     if (!(direction in edge)) {
       throw Error(`if node "${node.id}" is missing the "${direction}" edge`);

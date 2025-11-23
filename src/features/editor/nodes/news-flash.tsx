@@ -26,7 +26,7 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="bg-amber-50 border-amber-700 max-w-[500px]">
+    <BaseNode className="max-w-[500px] border-amber-700 bg-amber-50">
       <BaseNodeHeader>
         <Newspaper className="text-amber-800" />
         <BaseNodeHeaderTitle className="text-amber-800">News Flash</BaseNodeHeaderTitle>
@@ -49,7 +49,7 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
                 });
                 setOpen(false);
               }}
-              className="gap-4 grid"
+              className="grid gap-4"
             >
               <DialogHeader>
                 <DialogTitle>Configure News Flash</DialogTitle>
@@ -93,33 +93,35 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
       <BaseNodeContent>
         <div className="flex flex-col gap-2">
           <div className="grid grid-cols-2 gap-1">
-            <p className="font-semibold text-sm">Variant A:</p>
-            <p className="font-semibold text-sm">Variant B:</p>
+            <p className="text-sm font-semibold">Variant A:</p>
+            <p className="text-sm font-semibold">Variant B:</p>
             <div>
-              <p className="font-semibold text-xs mb-1">Headline:</p>
-              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.headlineA ?? 'No headline'}</p>
+              <p className="mb-1 text-xs font-semibold">Headline:</p>
+              <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-xs">{data.headlineA ?? 'No headline'}</p>
             </div>
             <div>
-              <p className="font-semibold text-xs mb-1">Headline:</p>
-              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.headlineB ?? 'No headline'}</p>
+              <p className="mb-1 text-xs font-semibold">Headline:</p>
+              <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-xs">{data.headlineB ?? 'No headline'}</p>
             </div>
             <div>
-              <p className="font-semibold text-xs mb-1">Text:</p>
-              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.textA ?? 'No text'}</p>
+              <p className="mb-1 text-xs font-semibold">Text:</p>
+              <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-xs">{data.textA ?? 'No text'}</p>
             </div>
             <div>
-              <p className="font-semibold text-xs mb-1">Text:</p>
-              <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-xs">{data.textB ?? 'No text'}</p>
+              <p className="mb-1 text-xs font-semibold">Text:</p>
+              <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-xs">{data.textB ?? 'No text'}</p>
             </div>
           </div>
           <div>
-            <p className="font-semibold text-sm mb-1">Image URL:</p>
-            <p className="bg-white border border-amber-700 p-2 rounded-md line-clamp-2 text-sm">{data.imageUrl ?? 'No image URL'}</p>
+            <p className="mb-1 text-sm font-semibold">Image URL:</p>
+            <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-sm">{data.imageUrl ?? 'No image URL'}</p>
           </div>
           <div>
-            <p className="font-semibold text-sm mb-1">Date:</p>
-            <p className="bg-white border border-amber-700 p-2 rounded-md text-sm">
-              {data.date ? new Date(data.date).toLocaleDateString() : 'Current date'}
+            <p className="mb-1 text-sm font-semibold">Date:</p>
+            <p className="rounded-md border border-amber-700 bg-white p-2 text-sm">
+              {data.date
+                ? new Date(data.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
+                : 'Current date'}
             </p>
           </div>
         </div>

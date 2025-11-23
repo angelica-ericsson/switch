@@ -62,3 +62,20 @@
   filter: sepia(80%) grayscale(70%) brightness(1.1) contrast(2) opacity(0.8);
   mix-blend-mode: multiply;
 }
+
+
+.order-form-bg{
+  background:
+    repeating-linear-gradient(
+      transparent,
+      transparent calc(calc(var(--spacing) * 8) - 1px),
+      rgba(0, 0, 0, 0.1) calc(calc(var(--spacing) * 8) - 1px),
+      rgba(0, 0, 0, 0.1) calc(var(--spacing) * 8)
+    ),
+    linear-gradient(137deg, #ffffffbe, #e3e3e38c) padding-box,
+    url(assets/crumpled-paper.jpg) center/cover padding-box,
+    url(assets/beige-paper.png) padding-box,
+    linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgb(186 186 186) 100%) border-box;
+  background-blend-mode: normal, normal, multiply, normal;
+  border: 2px solid transparent;
+}

@@ -18,7 +18,7 @@ export function GameRenderer() {
   // Render appropriate screen based on current node type
   if (!currentNode) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex min-h-screen items-center justify-center">
         <p>Loading...</p>
       </div>
     );
@@ -31,7 +31,7 @@ export function GameRenderer() {
     return <SceneScreen node={currentNode} />;
   }
   if (currentNode.type === 'stockUp') {
-    return <StockUpScreen />;
+    return <StockUpScreen node={currentNode} />;
   }
   if (currentNode.type === 'end') {
     return <EndScreen node={currentNode} />;
@@ -41,7 +41,7 @@ export function GameRenderer() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex min-h-screen items-center justify-center">
       <p>Unknown node type: {(currentNode as { type: string }).type}</p>
     </div>
   );
