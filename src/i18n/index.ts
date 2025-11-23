@@ -36,6 +36,8 @@ i18n
           consent: {
             welcome: 'WELCOME!',
             instruction: 'Before you start playing, you need to read and agree to the following:',
+            noConsentMessage1: "Sorry that you couldn't consent. Are you really sure that you want to leave the game?",
+            noConsentMessage2: 'Sad to see you go. Off you go to a happier place...',
             statement1: {
               prefix: "I understand that this game is part of a Master's thesis study at Stockholm University about",
               suffix: 'as communication tools.',
@@ -95,6 +97,7 @@ i18n
           demographic: {
             title: 'WHO ARE YOU?',
             instruction: 'Before we start, please tell us a little about yourself:',
+            tooYoung: 'Sorry, you need to be 18 to play this game. Now go out and play...',
             birthYear: {
               label: 'What year were you born?',
             },
@@ -190,6 +193,8 @@ i18n
           consent: {
             welcome: 'VÄLKOMMEN!',
             instruction: 'Innan du börjar spela måste du läsa och godkänna följande:',
+            noConsentMessage1: "Sorry that you couldn't consent. Are you really sure that you want to leave the game?",
+            noConsentMessage2: 'Sad to see you go. Off you go to a happier place...',
             statement1: {
               prefix: 'Jag förstår att detta spel är en del av en masteruppsatsstudie vid Stockholms universitet om',
               suffix: 'som kommunikationsverktyg.',
@@ -250,6 +255,7 @@ i18n
           demographic: {
             title: 'VEM ÄR DU?',
             instruction: 'Innan vi börjar, berätta gärna lite om dig själv:',
+            tooYoung: 'Sorry, you need to be 18 to play this game. Now go out and play...',
             birthYear: {
               label: 'Vilket år föddes du?',
             },

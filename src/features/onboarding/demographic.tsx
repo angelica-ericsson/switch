@@ -31,6 +31,14 @@ export function DemographicForm() {
 
   const handleSubmit = () => {
     if (validate()) {
+      const age = new Date().getFullYear() - parseInt(formData.birthYear);
+      if (age <= 18) {
+        alert(t('demographic.tooYoung'));
+        if (Math.random() > 0.5) window.location.href = 'https://www.youtube.com/watch?v=ipNFjfriPR8';
+        else window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+        return;
+      }
+
       // Form is valid, proceed to game
       navigate({ to: '/game' });
     }

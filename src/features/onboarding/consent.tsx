@@ -33,8 +33,8 @@ export function ConsentForm() {
   };
 
   const handleNoConsent = () => {
-    if (confirm("Sorry that you couldn't consent. Are you really sure that you want to leave the game?")) {
-      alert('Sad to see you go. Off you go to a happier place...');
+    if (confirm(t('consent.noConsentMessage1'))) {
+      alert(t('consent.noConsentMessage2'));
       if (Math.random() > 0.5) window.location.href = 'https://www.youtube.com/watch?v=ipNFjfriPR8';
       else window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     }
