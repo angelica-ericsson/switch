@@ -6,8 +6,17 @@
   background-attachment: fixed;
 }
 
-.elem-background {
-    background-color: rgba(255, 255, 255, 0.4);
-    background-image: url(/switch/src/assets/green-dust-and-scratches.png);
-    backdrop-filter: blur(32px);
+.intro-screens-bg {
+  background-color: rgba(255, 255, 255, 0.4);
+  background-image: url(assets/green-dust-and-scratches.png);
+  backdrop-filter: blur(32px);
+}
+
+.postcard-bg {
+  background:
+    linear-gradient(137deg, rgba(255, 255, 255, 0.4) 0%, rgba(186, 186, 186, 0.1) 100%) padding-box,
+    url(assets/beige-paper.png) padding-box,
+    linear-gradient(white, white) padding-box,
+    linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgb(186 186 186) 100%) border-box;
+  border: 2px solid transparent;
 }

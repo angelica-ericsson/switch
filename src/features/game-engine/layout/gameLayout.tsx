@@ -9,9 +9,7 @@ export function GameLayout(props: React.PropsWithChildren) {
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="size-30 fixed left-10" />
 
       {/* Main Content */}
-      <div className="flex-1 flex items-center justify-center p-8">
-        <div className="elem-background rounded-2xl border-3 border-eastbay-900 shadow-2xl">{props.children}</div>
-      </div>
+      <div className="flex-1 flex flex-col lg:flex-row items-center justify-center  p-8 min-h-[90vh]">{props.children}</div>
 
       {/* Debug Bar */}
       <div className="flex gap-4 text-white">
