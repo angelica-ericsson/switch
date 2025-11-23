@@ -19,8 +19,11 @@ i18n
           productB: 'Zoom Coffee',
           headerBar: { points: 'Points:', sentiment: 'Sentiment:' },
           welcome: {
-            headline: 'Headline of the start screen',
-            description: 'Text on the start screen',
+            headline: 'Welcome to Wilderton',
+            description1: `It's a small town with a main street, a river, and an old factory.
+            Here you own a little clothing shop called`,
+            description2: ` - named after your favourite colour and most used tool - where you sell traditional workwear.
+            In July, the lease of your shop space will expire, and to be able to buy it you need to sell at least 25 clothing items per month.`,
             button: 'Start the adventure',
           },
           stockUp: {
