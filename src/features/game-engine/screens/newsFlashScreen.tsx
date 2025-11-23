@@ -33,6 +33,10 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
   return (
     <GameLayout>
       <div className="max-w-4xl p-12 newspaper-bg rotate-2 font-serif cursor-pointer" onClick={handleClick}>
+        <div className="newspaper-layer -z-4 rotate-[-4deg] -translate-x-5 translate-y-2.5 "></div>
+        <div className="newspaper-layer -z-3 -rotate-2 -translate-x-1.5 translate-y-1 "></div>
+        <div className="newspaper-layer -z-2 rotate-2 -translate-x-0.5 translate-y-0.5 "></div>
+        <div className="newspaper-layer -z-1"></div>
         {/* Newspaper Header */}
         <div className="border-b-4 border-black/70 mb-6 pb-4">
           <div className="text-center mb-2">
