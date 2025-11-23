@@ -266,8 +266,13 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
       throw Error(`if node "${node.id}" must have a threshold value configured`);
     }
 
-    // Calculate current stock for product A from events
-    const currentStockA = calculateStock(state.events, 'A');
+    // Find the last "buy" event and use its productA property
+    const buyEvents = state.events.filter((event): event is BuyEvent => event.type === 'buy');
+    if (buyEvents.length === 0) {
+      throw Error(`if node "${node.id}" requires at least one "buy" event, but none were found`);
+    }
+    const lastBuyEvent = buyEvents[buyEvents.length - 1];
+    const currentStockA = lastBuyEvent.productA;
 
     // Determine which path to take based on stockA comparison
     const direction = currentStockA <= threshold ? 'lowerOrEqual' : 'higher';
