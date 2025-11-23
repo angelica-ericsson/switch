@@ -127,8 +127,8 @@ function ExportDialog() {
           {hasCopied ? <Check /> : <Save />}
           {hasCopied ? 'copied!' : 'Copy to clipboard'}
         </Button>
-        <ScrollArea className="h-72 w-fit rounded-md border">
-          <pre className="bg-muted rounded font-mono text-xs font-light p-3">{jsonExport}</pre>
+        <ScrollArea className="h-72 rounded-md border">
+          <pre className="bg-muted rounded font-mono text-xs font-light p-3 max-w-[80vw] wrap-anywhere">{jsonExport}</pre>
         </ScrollArea>
       </DialogContent>
     </Dialog>
