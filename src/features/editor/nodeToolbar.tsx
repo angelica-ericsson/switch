@@ -3,7 +3,7 @@ import { ButtonGroup } from '@/components/ui/button-group';
 import { Panel } from '@xyflow/react';
 import { useReactFlow } from '@xyflow/react';
 import { nanoid } from 'nanoid';
-import { Banknote, CirclePlay, CircleStop, Cog, ImagePlus, Shuffle, GitBranch, Newspaper, Users } from 'lucide-react';
+import { Banknote, CirclePlay, CircleStop, Cog, ImagePlus, Shuffle, GitBranch, Newspaper, Users, ClipboardList } from 'lucide-react';
 
 export function EditorToolbar() {
   const reactFlow = useReactFlow();
@@ -137,6 +137,20 @@ export function EditorToolbar() {
           }}
         >
           <Users /> Social
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => {
+            const pos = reactFlow.screenToFlowPosition({ x: 70, y: 70 });
+            reactFlow.addNodes({
+              id: nanoid(),
+              type: 'survey',
+              position: pos,
+              data: {},
+            });
+          }}
+        >
+          <ClipboardList /> Survey
         </Button>
       </ButtonGroup>
     </Panel>

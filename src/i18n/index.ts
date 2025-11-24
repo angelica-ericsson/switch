@@ -46,6 +46,11 @@ i18n
             newspaperName: 'The Daily Times',
             price: 'price: 18 cents',
           },
+          survey: {
+            question1:
+              'Your friends gather at your shop to talk about everything that has happened, and what is going to happen next.\n\nYour best friend asks you what you would have done differently, if you could do it all again?',
+            question2: "So what happens now? What other solutions could you come up with, that you haven't already tried?",
+          },
           consent: {
             welcome: 'WELCOME!',
             instruction: 'Before you start playing, you need to read and agree to the following:',
@@ -212,6 +217,11 @@ i18n
           newsFlash: {
             newspaperName: 'Dagens Tidning',
             price: 'price: 18 kr',
+          },
+          survey: {
+            question1:
+              'Dina vänner samlas i din butik för att prata om allt som har hänt och vad som kommer att hända härnäst.\n\nDin bästa vän frågar dig vad du skulle ha gjort annorlunda, om du kunde göra allt igen?',
+            question2: 'Så vad händer nu? Vilka andra lösningar kan du komma på, som du inte redan har provat?',
           },
           consent: {
             welcome: 'VÄLKOMMEN!',

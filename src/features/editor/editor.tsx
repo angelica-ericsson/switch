@@ -29,6 +29,7 @@ import { RandomNode } from './nodes/random';
 import { IfNode } from './nodes/if';
 import { NewsFlashNode } from './nodes/news-flash';
 import { SocialNode } from './nodes/social';
+import { SurveyNode } from './nodes/survey';
 import { ImportExportToolbar } from './importExportToolbar';
 
 const nodeTypes = {
@@ -41,6 +42,7 @@ const nodeTypes = {
   if: IfNode,
   newsFlash: NewsFlashNode,
   social: SocialNode,
+  survey: SurveyNode,
 };
 
 export function Editor() {

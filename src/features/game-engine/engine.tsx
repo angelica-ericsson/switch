@@ -5,6 +5,7 @@ import { EndScreen } from './screens/endScreen';
 import { StartScreen } from './screens/startScreen';
 import { NewsFlashScreen } from './screens/newsFlashScreen';
 import { SocialScreen } from './screens/socialScreen';
+import { SurveyScreen } from './screens/surveyScreen';
 import { useInitializeGame } from './useInitializeGame';
 
 export function GameEngine() {
@@ -42,6 +43,9 @@ export function GameRenderer() {
   }
   if (currentNode.type === 'social') {
     return <SocialScreen node={currentNode} />;
+  }
+  if (currentNode.type === 'survey') {
+    return <SurveyScreen node={currentNode} />;
   }
 
   return (

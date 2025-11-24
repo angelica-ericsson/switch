@@ -34,6 +34,9 @@ export interface GameState {
   moveForward: (direction: string) => void;
   pushEvent: (event: GameEvent) => void;
   getStock: (product: 'A' | 'B') => number;
+  surveyResponse1: string | null;
+  surveyResponse2: string | null;
+  setSurveyResponses: (response1: string, response2: string) => void;
 }
 
 /**
@@ -75,6 +78,8 @@ export const useGameState = create<GameState>((set, get) => ({
   currentNode: null,
   nodes: new Map(),
   edges: new Map(),
+  surveyResponse1: null,
+  surveyResponse2: null,
   setCurrentNode: (newCurrent) =>
     set(() => ({
       currentNode: newCurrent,
@@ -117,6 +122,11 @@ export const useGameState = create<GameState>((set, get) => ({
     const state = get();
     return calculateStock(state.events, product);
   },
+  setSurveyResponses: (response1, response2) =>
+    set(() => ({
+      surveyResponse1: response1,
+      surveyResponse2: response2,
+    })),
 }));
 
 export type EdgeTarget = Record<string, string>;
@@ -193,7 +203,8 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
     node.type === 'end' ||
     node.type === 'start' ||
     node.type === 'newsFlash' ||
-    node.type === 'social'
+    node.type === 'social' ||
+    node.type === 'survey'
   ) {
     const stateUpdates: Partial<GameState> = { currentNode: node };
     // Update daysSinceGameStart if the node has this property
