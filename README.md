@@ -7,6 +7,9 @@
 - `src/assets/mountains-1412683_1920.png`: https://pixabay.com/vectors/mountains-panorama-forest-mountain-1412683/
 - `public/factory.jpg`: https://unsplash.com/photos/a-large-brick-building-with-a-tall-chimney-OrXqgVC72Jg
 - `src/assets/crumpled-paper.jpg`: https://unsplash.com/photos/a-white-substance-on-a-surface-TP7YxN67ONo
+- `src/assets/avatars/union-logo.jpg`: Generated using ChatGPT
+- `src/assets/avatars/wilderton-logo.jpg`: Generated using ChatGPT
+- `public/wilderton-logo.jpg`: Generated using ChatGPT
 - Used for the Avatars in the social posts:
   - https://unsplash.com/photos/man-wearing-black-crew-neck-shirt-d2MSDujJl2g
   - https://unsplash.com/photos/man-in-black-crew-neck-shirt-BBmi4nJjKk8

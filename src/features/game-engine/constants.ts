@@ -8,26 +8,38 @@ import avatar4 from '@/assets/avatars/4.jpg';
 import avatar5 from '@/assets/avatars/5.jpg';
 import avatar6 from '@/assets/avatars/6.jpg';
 import avatar7 from '@/assets/avatars/7.jpg';
+import wildertonLogo from '@/assets/avatars/wilderton-logo.jpg';
+import unionLogo from '@/assets/avatars/union-logo.jpg';
 
 export const fakeData = [
   {
-    displayName: 'WildertonWear official',
+    displayName: 'WildertonWear Official',
     userName: 'wildertonwear_official',
-    picture: avatar1,
+    picture: wildertonLogo,
   },
   {
     displayName: 'WildertonWear Factory Union',
     userName: 'wildertonwear_factory_union',
+    picture: unionLogo,
+  },
+  {
+    displayName: 'Joseph Cassandra',
+    userName: 'joe_6000',
+    picture: avatar1,
+  },
+  {
+    displayName: 'Joakim Claesson',
+    userName: 'claesson.j',
     picture: avatar2,
   },
   {
     displayName: 'Wilhelmine Lillie',
-    userName: 'Wilhelmine.Satterfield',
+    userName: 'wilhelmine_lillie',
     picture: avatar3,
   },
   {
-    displayName: 'Joseph Cassandra',
-    userName: 'Joe_6000',
+    displayName: 'Randal Witting',
+    userName: 'randy',
     picture: avatar4,
   },
   {
@@ -36,13 +48,13 @@ export const fakeData = [
     picture: avatar5,
   },
   {
-    displayName: 'Rowland Larue',
-    userName: 'Rowland_Olson',
+    displayName: 'Liam Lindström',
+    userName: 'LLindström',
     picture: avatar6,
   },
   {
     displayName: 'Leta Merl',
-    userName: 'Leta54',
+    userName: 'leta_54',
     picture: avatar7,
   },
 ];
