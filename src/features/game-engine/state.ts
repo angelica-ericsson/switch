@@ -34,6 +34,7 @@ export interface GameState {
   moveForward: (direction: string) => void;
   pushEvent: (event: GameEvent) => void;
   getStock: (product: 'A' | 'B') => number;
+  getTotalSales: () => number;
   surveyResponse1: string | null;
   surveyResponse2: string | null;
   setSurveyResponses: (response1: string, response2: string) => void;
@@ -50,6 +51,18 @@ function calculateStock(events: GameEvent[], product: 'A' | 'B'): number {
     } else {
       return stock + event[productKey];
     }
+  }, 0);
+}
+
+/**
+ * Calculates the total sales (sum of all productA + productB from sell events)
+ */
+function calculateTotalSales(events: GameEvent[]): number {
+  return events.reduce((total, event) => {
+    if (event.type === 'sell') {
+      return total + event.productA + event.productB;
+    }
+    return total;
   }, 0);
 }
 
@@ -121,6 +134,10 @@ export const useGameState = create<GameState>((set, get) => ({
   getStock: (product) => {
     const state = get();
     return calculateStock(state.events, product);
+  },
+  getTotalSales: () => {
+    const state = get();
+    return calculateTotalSales(state.events);
   },
   setSurveyResponses: (response1, response2) =>
     set(() => ({

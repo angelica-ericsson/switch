@@ -1,5 +1,6 @@
 import { useGameState } from '../state';
 import logoUrl from '../../../assets/logo.svg';
+import { StatusBar } from './statusBar';
 
 export function GameLayout(props: React.PropsWithChildren) {
   const state = useGameState((state) => state);
@@ -27,8 +28,9 @@ export function GameLayout(props: React.PropsWithChildren) {
 export function GameBackground(props: React.PropsWithChildren) {
   return (
     <div className="game-background min-h-screen">
+      <StatusBar />
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="fixed left-10 size-30" />
-      {props.children}
+      <div className="pt-15">{props.children}</div>
     </div>
   );
 }
