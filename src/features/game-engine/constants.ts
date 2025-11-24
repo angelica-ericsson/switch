@@ -1,5 +1,5 @@
 export const GAME_MAX_DAYS = 136;
-export const GAME_START_DATE = new Date('2025-07-01');
+export const GAME_START_DATE = new Date();
 export const GAME_TARGET_SALES = 1000;
 
 import avatar1 from '@/assets/avatars/1.jpg';

@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 import { gameSchema, type UnionNodeType } from './zod-schema';
 import { GAME_START_DATE } from './constants';
 
@@ -79,72 +80,93 @@ export function getDateFromDaysSinceStart(days: number): Date {
 /**
  * the actual game state
  */
-export const useGameState = create<GameState>((set, get) => ({
-  sentimentPro: 0,
-  sentimentAgainst: 0,
-  sentimentNeutral: 0,
-  events: [],
-  points: 0,
-  gameVariant: 'A' as const,
-  isInitialized: false,
-  daysSinceGameStart: 0,
-  currentNode: null,
-  nodes: new Map(),
-  edges: new Map(),
-  surveyResponse1: null,
-  surveyResponse2: null,
-  setCurrentNode: (newCurrent) =>
-    set(() => ({
-      currentNode: newCurrent,
-    })),
-  setGameState: (newState) => set(() => ({ ...newState })),
-  setNodesAndEdges: (nodes, edges) =>
-    set(() => ({
-      nodes,
-      edges,
-    })),
-  moveForward: (direction) => set((state) => moveGameForward(state, direction)),
-  pushEvent: (event) =>
-    set((state) => {
-      // For sell events, clamp to available stock - sell as much as possible
-      if (event.type === 'sell') {
-        const currentStockA = calculateStock(state.events, 'A');
-        const currentStockB = calculateStock(state.events, 'B');
+export const useGameState = create<GameState>()(
+  persist(
+    (set, get) => ({
+      sentimentPro: 0,
+      sentimentAgainst: 0,
+      sentimentNeutral: 0,
+      events: [],
+      points: 0,
+      gameVariant: 'A' as const,
+      isInitialized: false,
+      daysSinceGameStart: 0,
+      currentNode: null,
+      nodes: new Map(),
+      edges: new Map(),
+      surveyResponse1: null,
+      surveyResponse2: null,
+      setCurrentNode: (newCurrent) =>
+        set(() => ({
+          currentNode: newCurrent,
+        })),
+      setGameState: (newState) => set(() => ({ ...newState })),
+      setNodesAndEdges: (nodes, edges) =>
+        set(() => ({
+          nodes,
+          edges,
+        })),
+      moveForward: (direction) => set((state) => moveGameForward(state, direction)),
+      pushEvent: (event) =>
+        set((state) => {
+          // For sell events, clamp to available stock - sell as much as possible
+          if (event.type === 'sell') {
+            const currentStockA = calculateStock(state.events, 'A');
+            const currentStockB = calculateStock(state.events, 'B');
 
-        console.log('currentStockA', currentStockA);
-        console.log('currentStockB', currentStockB);
+            console.log('currentStockA', currentStockA);
+            console.log('currentStockB', currentStockB);
 
-        // Clamp sell amounts to available stock, preserve date
-        const clampedEvent: SellEvent = {
-          type: 'sell',
-          productA: Math.min(event.productA, currentStockA),
-          productB: Math.min(event.productB, currentStockB),
-          date: event.date,
-        };
+            // Clamp sell amounts to available stock, preserve date
+            const clampedEvent: SellEvent = {
+              type: 'sell',
+              productA: Math.min(event.productA, currentStockA),
+              productB: Math.min(event.productB, currentStockB),
+              date: event.date,
+            };
 
-        return {
-          events: [...state.events, clampedEvent],
-        };
-      }
+            return {
+              events: [...state.events, clampedEvent],
+            };
+          }
 
-      return {
-        events: [...state.events, event],
-      };
+          return {
+            events: [...state.events, event],
+          };
+        }),
+      getStock: (product) => {
+        const state = get();
+        return calculateStock(state.events, product);
+      },
+      getTotalSales: () => {
+        const state = get();
+        return calculateTotalSales(state.events);
+      },
+      setSurveyResponses: (response1, response2) =>
+        set(() => ({
+          surveyResponse1: response1,
+          surveyResponse2: response2,
+        })),
     }),
-  getStock: (product) => {
-    const state = get();
-    return calculateStock(state.events, product);
-  },
-  getTotalSales: () => {
-    const state = get();
-    return calculateTotalSales(state.events);
-  },
-  setSurveyResponses: (response1, response2) =>
-    set(() => ({
-      surveyResponse1: response1,
-      surveyResponse2: response2,
-    })),
-}));
+    {
+      name: 'game-state',
+      // Only persist the game data, not nodes, edges, or methods
+      partialize: (state) => ({
+        sentimentPro: state.sentimentPro,
+        sentimentNeutral: state.sentimentNeutral,
+        sentimentAgainst: state.sentimentAgainst,
+        events: state.events,
+        points: state.points,
+        gameVariant: state.gameVariant,
+        isInitialized: state.isInitialized,
+        daysSinceGameStart: state.daysSinceGameStart,
+        currentNode: state.currentNode,
+        surveyResponse1: state.surveyResponse1,
+        surveyResponse2: state.surveyResponse2,
+      }),
+    },
+  ),
+);
 
 export type EdgeTarget = Record<string, string>;
 
