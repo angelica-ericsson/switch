@@ -68,6 +68,7 @@ export function Editor() {
           minZoom={0.1}
           defaultEdgeOptions={{
             markerEnd: { type: MarkerType.ArrowClosed },
+            style: { strokeWidth: 4 },
           }}
         >
           <EditorToolbar />
