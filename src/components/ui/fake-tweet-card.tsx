@@ -3,14 +3,13 @@ import { BadgeCheck, Bird } from 'lucide-react';
 
 interface FakeTweetProps {
   text: string;
-  firstName: string;
-  lastName: string;
+  displayName: string;
   userName: string;
   picture: string;
   className?: string;
 }
 
-export const FakeTweet = ({ text, firstName, lastName, userName, picture, className, ...props }: FakeTweetProps) => {
+export const FakeTweet = ({ text, displayName, userName, picture, className, ...props }: FakeTweetProps) => {
   return (
     <div
       className={cn('relative flex h-fit w-full max-w-lg flex-col gap-2 overflow-hidden rounded-lg border bg-white p-4', className)}
@@ -22,7 +21,7 @@ export const FakeTweet = ({ text, firstName, lastName, userName, picture, classN
 
           <div>
             <p className="flex items-center font-semibold whitespace-nowrap">
-              {firstName} {lastName}
+              {displayName}
               <BadgeCheck className="ml-1 inline size-4 text-blue-500" />
             </p>
             <div className="flex items-center space-x-1">

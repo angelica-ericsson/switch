@@ -105,6 +105,9 @@ export const socialNodeSchema = z.object({
     text1: z.string().nullable().optional(),
     text2: z.string().nullable().optional(),
     text3: z.string().nullable().optional(),
+    userName1: z.string().nullable().optional(),
+    userName2: z.string().nullable().optional(),
+    userName3: z.string().nullable().optional(),
   }),
 });
 
