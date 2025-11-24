@@ -5,9 +5,7 @@ export function GameLayout(props: React.PropsWithChildren) {
   const state = useGameState((state) => state);
 
   return (
-    <div className="game-background min-h-screen">
-      <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="fixed left-10 size-30" />
-
+    <>
       {/* Main Content */}
       <div className="flex min-h-[90vh] flex-1 flex-col items-center justify-center p-8 lg:flex-row">{props.children}</div>
 
@@ -22,6 +20,15 @@ export function GameLayout(props: React.PropsWithChildren) {
           );
         })}
       </div>
+    </>
+  );
+}
+
+export function GameBackground(props: React.PropsWithChildren) {
+  return (
+    <div className="game-background min-h-screen">
+      <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="fixed left-10 size-30" />
+      {props.children}
     </div>
   );
 }
