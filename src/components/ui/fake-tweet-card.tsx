@@ -12,10 +12,10 @@ interface FakeTweetProps {
 export const FakeTweet = ({ text, displayName, userName, picture, className, ...props }: FakeTweetProps) => {
   return (
     <div
-      className={cn('relative flex h-fit w-full max-w-lg flex-col gap-2 overflow-hidden rounded-lg border bg-white p-4', className)}
+      className={cn('relative flex h-fit w-full max-w-lg flex-col gap-2 overflow-hidden rounded-lg border bg-white p-4 shadow-xl font-systemsans', className)}
       {...props}
     >
-      <div className="flex flex-row justify-between tracking-tight">
+      <div className="flex flex-row justify-between">
         <div className="flex items-center space-x-2">
           <img height={48} width={48} src={picture} className="overflow-hidden rounded-full border border-transparent" />
 
@@ -32,7 +32,7 @@ export const FakeTweet = ({ text, displayName, userName, picture, className, ...
 
         <Bird className="size-5 items-start text-blue-500" />
       </div>
-      <div className="leading-normal tracking-tighter wrap-break-word">{text}</div>
+      <div className="leading-normal wrap-break-word">{text}</div>
     </div>
   );
 };

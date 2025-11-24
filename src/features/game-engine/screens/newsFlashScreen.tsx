@@ -1,8 +1,9 @@
 import { useGameState, getDateFromDaysSinceStart } from '../state';
 import type { NewsFlashNodeType } from '../zod-schema';
 import { GameLayout } from '../layout/gameLayout';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import i18n from '@/i18n';
+import { GameButton } from '@/components/ui/gameButton';
 
 interface NewsFlashScreenProps {
   node: NewsFlashNodeType;
@@ -18,7 +19,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
   const headline = gameVariant === 'A' ? node.data.headlineA : node.data.headlineB;
   const text = gameVariant === 'A' ? node.data.textA : node.data.textB;
 
-  const handleClick = () => {
+  const handleContinue = () => {
     moveForward('default');
   };
 
@@ -34,7 +35,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
 
   return (
     <GameLayout>
-      <div className="newspaper-bg max-w-4xl rotate-2 cursor-pointer p-12 font-serif" onClick={handleClick}>
+      <div className="newspaper-bg max-w-5xl rotate-2 p-12 font-serif">
         <div className="newspaper-layer -z-4 -translate-x-5 translate-y-2.5 rotate-[-4deg]"></div>
         <div className="newspaper-layer -z-3 -translate-x-1.5 translate-y-1 -rotate-2"></div>
         <div className="newspaper-layer -z-2 -translate-x-0.5 translate-y-0.5 rotate-2"></div>
@@ -54,43 +55,47 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
         <div className="space-y-6">
           {/* Headline */}
           {headline && (
-            <h2 className="border-b-4 border-black/70 pb-4 text-center font-serif text-5xl leading-tight text-black/70 italic">
-              {headline}
+            <h2 className="leading-tighter border-b-4 border-black/70 pb-4 text-center font-serif text-4xl text-black/70 italic">
+              {t(headline)}
             </h2>
           )}
 
           {/* Image and Text Layout */}
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {/* Image Column */}
             {node.data.imageUrl && (
               <div className="md:col-span-1">
-                <img
-                  src={node.data.imageUrl}
-                  alt={headline || 'News image'}
-                  className="newspaper-image h-auto w-full border-2 border-black/70 object-cover"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).style.display = 'none';
-                  }}
-                />
-                {headline && (
-                  <p className="mt-2 border-t border-gray-400 pt-2 text-xs text-gray-600 italic">Photo: {t('newsFlash.newspaperName')}</p>
-                )}
+                <div className="newspaper-img-bg">
+                  <img
+                    src={node.data.imageUrl}
+                    className="newspaper-image h-auto w-full border-2 border-black/70 object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                </div>
+                <p className="mt-2 border-t border-gray-400 pt-2 text-xs text-gray-600 italic">Photo: {t('newsFlash.newspaperName')}</p>
               </div>
             )}
 
             {/* Text Columns */}
             {text && (
-              <div className={`columns-1 gap-6 text-justify`}>
+              <div className={`gap-6 text-justify text-pretty md:col-span-2 md:columns-2`}>
                 <p className="mb-4 text-base leading-relaxed whitespace-pre-line text-black/70 first-letter:float-left first-letter:mr-2 first-letter:text-6xl first-letter:leading-none first-letter:font-bold">
-                  {text}
+                  <Trans
+                    i18nKey={text}
+                    components={{
+                      b: <span className="font-bold" />,
+                    }}
+                  />
                 </p>
               </div>
             )}
           </div>
 
           {/* Footer */}
-          <div className="mt-8 border-t-2 border-black/70 pt-4">
-            <p className="text-center text-gray-800/90 italic">Click anywhere to continue...</p>
+          <div className="mt-8 border-t-2 border-black/70 pt-4 text-center font-sans">
+            <GameButton onClick={handleContinue}>{t('continue')}</GameButton>
           </div>
         </div>
       </div>

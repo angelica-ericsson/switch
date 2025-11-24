@@ -58,8 +58,14 @@
 }
 
 .newspaper-image {
-  filter: sepia(80%) grayscale(70%) brightness(1.1) contrast(2) opacity(0.8);
+  filter: sepia(80%) grayscale(70%) brightness(110%) contrast(140%) opacity(80%) blur(0.3px);
   mix-blend-mode: multiply;
+}
+.newspaper-img-bg {
+    background:
+    linear-gradient(137deg, #fff8e4ca, #f9f7f157) padding-box,
+    url(assets/black-paper.png) padding-box;
+  background-blend-mode: normal, multiply;
 }
 
 .order-form-bg {
