@@ -45,7 +45,7 @@ export function GameRenderer() {
     return <SocialScreen node={currentNode} />;
   }
   if (currentNode.type === 'survey') {
-    return <SurveyScreen node={currentNode} />;
+    return <SurveyScreen />;
   }
 
   return (

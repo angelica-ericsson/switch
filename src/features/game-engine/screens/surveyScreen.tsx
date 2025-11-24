@@ -1,5 +1,5 @@
 import { useGameState } from '../state';
-import type { SurveyNodeType } from '../zod-schema';
+// import type { SurveyNodeType } from '../zod-schema';
 import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
@@ -7,11 +7,11 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useState } from 'react';
 
-interface SurveyScreenProps {
-  node: SurveyNodeType;
-}
+// interface SurveyScreenProps {
+//   node: SurveyNodeType;
+// }
 
-export function SurveyScreen({ node }: SurveyScreenProps) {
+export function SurveyScreen() {
   const moveForward = useGameState((state) => state.moveForward);
   const setSurveyResponses = useGameState((state) => state.setSurveyResponses);
   const [response1, setResponse1] = useState('');
