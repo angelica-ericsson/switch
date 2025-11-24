@@ -52,7 +52,7 @@ export function EditorToolbar() {
             });
           }}
         >
-          <Cog /> Set Game State
+          <Cog /> Game State
         </Button>
         <Button
           variant="outline"
@@ -66,7 +66,7 @@ export function EditorToolbar() {
             });
           }}
         >
-          <CirclePlay /> Start Game
+          <CirclePlay /> Start
         </Button>
         <Button
           variant="outline"
@@ -80,7 +80,7 @@ export function EditorToolbar() {
             });
           }}
         >
-          <CircleStop /> End Game
+          <CircleStop /> End
         </Button>
         <Button
           variant="outline"
@@ -122,7 +122,7 @@ export function EditorToolbar() {
             });
           }}
         >
-          <Newspaper /> News Flash
+          <Newspaper /> News
         </Button>
         <Button
           variant="outline"
