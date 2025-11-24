@@ -46,10 +46,10 @@ export function DemographicForm() {
 
   return (
     <GameLayout>
-      <div className="intro-screens-bg rounded-2xl border-3 border-eastbay-900 shadow-2xl max-w-3xl mx-auto p-8 space-y-6">
+      <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
         <div className="space-y-4">
-          <h1 className="text-5xl font-script">{t('demographic.title')}</h1>
-          <p className="text-xl font-script">{t('demographic.instruction')}</p>
+          <h1 className="font-script text-5xl">{t('demographic.title')}</h1>
+          <p className="font-script text-xl">{t('demographic.instruction')}</p>
         </div>
 
         <div className="space-y-6 text-base">
@@ -58,7 +58,7 @@ export function DemographicForm() {
             <label htmlFor="birthYear" className="min-w-[200px]">
               {t('demographic.birthYear.label')}
             </label>
-            <div className="flex-1 relative">
+            <div className="relative flex-1">
               <GameInput
                 id="birthYear"
                 type="text"
@@ -71,7 +71,7 @@ export function DemographicForm() {
                 className={errors.birthYear ? 'border-destructive' : ''}
                 aria-invalid={errors.birthYear}
               />
-              {errors.birthYear && <span className="text-destructive text-lg font-bold absolute right-2 top-1/2 -translate-y-1/2">*</span>}
+              {errors.birthYear && <span className="text-destructive absolute top-1/2 right-2 -translate-y-1/2 text-lg font-bold">*</span>}
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export function DemographicForm() {
                   value="male"
                   checked={formData.gender === 'male'}
                   onChange={(e) => updateField('gender', e.target.value)}
-                  className="w-4 h-4"
+                  className="h-4 w-4"
                 />
                 <label htmlFor="gender-male" className="cursor-pointer">
                   {t('demographic.gender.options.male')}
@@ -101,7 +101,7 @@ export function DemographicForm() {
                   value="female"
                   checked={formData.gender === 'female'}
                   onChange={(e) => updateField('gender', e.target.value)}
-                  className="w-4 h-4"
+                  className="h-4 w-4"
                 />
                 <label htmlFor="gender-female" className="cursor-pointer">
                   {t('demographic.gender.options.female')}
@@ -115,7 +115,7 @@ export function DemographicForm() {
                   value="other"
                   checked={formData.gender === 'other'}
                   onChange={(e) => updateField('gender', e.target.value)}
-                  className="w-4 h-4"
+                  className="h-4 w-4"
                 />
                 <label htmlFor="gender-other" className="cursor-pointer">
                   {t('demographic.gender.options.other')}
@@ -130,7 +130,7 @@ export function DemographicForm() {
             <label htmlFor="education" className="min-w-[200px]">
               {t('demographic.education.label')}
             </label>
-            <div className="flex-1 relative">
+            <div className="relative flex-1">
               <GameNativeSelect
                 id="education"
                 value={formData.education}
@@ -146,21 +146,21 @@ export function DemographicForm() {
                 <NativeSelectOption value="university">{t('demographic.education.options.university')}</NativeSelectOption>
                 <NativeSelectOption value="other">{t('demographic.education.options.other')}</NativeSelectOption>
               </GameNativeSelect>
-              {errors.education && <span className="text-destructive text-lg font-bold absolute right-2 top-1/2 -translate-y-1/2">*</span>}
+              {errors.education && <span className="text-destructive absolute top-1/2 right-2 -translate-y-1/2 text-lg font-bold">*</span>}
             </div>
           </div>
 
           {/* News Sources */}
           <div className="space-y-3">
             <div>
-              <h3 className="text-lg font-semibold mb-2">{t('demographic.newsSources.title')}</h3>
-              <p className="text-sm mb-4">{t('demographic.newsSources.description')}</p>
+              <h3 className="mb-2 text-lg font-semibold">{t('demographic.newsSources.title')}</h3>
+              <p className="mb-4 text-sm">{t('demographic.newsSources.description')}</p>
             </div>
             <Sortable value={formData.newsSources} onValueChange={updateNewsSources} orientation="vertical">
               <SortableContent className="space-y-2">
                 {formData.newsSources.map((source) => (
                   <SortableItem key={source} value={source} asHandle asChild>
-                    <div className="p-2 border border-thistle-400 rounded-md bg-thistle-50 hover:bg-accent transition-colors">
+                    <div className="border-thistle-400 bg-thistle-50 hover:bg-accent rounded-md border p-2 transition-colors">
                       {t(`demographic.newsSources.options.${source}`)}
                     </div>
                   </SortableItem>
@@ -173,14 +173,14 @@ export function DemographicForm() {
           {/* Election Issues */}
           <div className="space-y-3">
             <div>
-              <h3 className="text-lg font-semibold mb-2">{t('demographic.electionIssues.title')}</h3>
-              <p className="text-sm mb-4">{t('demographic.electionIssues.description')}</p>
+              <h3 className="mb-2 text-lg font-semibold">{t('demographic.electionIssues.title')}</h3>
+              <p className="mb-4 text-sm">{t('demographic.electionIssues.description')}</p>
             </div>
             <Sortable value={formData.electionIssues} onValueChange={updateElectionIssues} orientation="vertical">
               <SortableContent className="space-y-2">
                 {formData.electionIssues.map((issue) => (
                   <SortableItem key={issue} value={issue} asHandle asChild>
-                    <div className="p-2 border border-thistle-400 rounded-md bg-thistle-50 hover:bg-accent transition-colors">
+                    <div className="border-thistle-400 bg-thistle-50 hover:bg-accent rounded-md border p-2 transition-colors">
                       {t(`demographic.electionIssues.options.${issue}`)}
                     </div>
                   </SortableItem>
@@ -195,7 +195,7 @@ export function DemographicForm() {
             <label htmlFor="howDidYouFindGame" className="min-w-[200px]">
               {t('demographic.howDidYouFindGame.label')}
             </label>
-            <div className="flex-1 relative">
+            <div className="relative flex-1">
               <GameNativeSelect
                 id="howDidYouFindGame"
                 value={formData.howDidYouFindGame}
@@ -214,14 +214,14 @@ export function DemographicForm() {
                 <NativeSelectOption value="other">{t('demographic.howDidYouFindGame.options.other')}</NativeSelectOption>
               </GameNativeSelect>
               {errors.howDidYouFindGame && (
-                <span className="text-destructive text-lg font-bold absolute right-2 top-1/2 -translate-y-1/2">*</span>
+                <span className="text-destructive absolute top-1/2 right-2 -translate-y-1/2 text-lg font-bold">*</span>
               )}
             </div>
           </div>
         </div>
 
         {/* Submit Button */}
-        <div className="flex gap-4 justify-center pt-6">
+        <div className="flex justify-center gap-4 pt-6">
           <GameButton onClick={handleSubmit} size="lg">
             {t('demographic.button.submit')}
           </GameButton>

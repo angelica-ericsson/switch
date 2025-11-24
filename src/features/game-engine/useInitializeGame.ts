@@ -11,44 +11,43 @@ import { generateGameNodeGraph, useGameState } from './state';
  * - Which variant to use (A or B, from params or random)
  */
 export function useInitializeGame() {
-    const isInitialized = useGameState((state) => state.isInitialized);
-    const setNodesAndEdges = useGameState((state) => state.setNodesAndEdges);
-    const setCurrentNode = useGameState((state) => state.setCurrentNode);
-    const setGameState = useGameState((state) => state.setGameState);
+  const isInitialized = useGameState((state) => state.isInitialized);
+  const setNodesAndEdges = useGameState((state) => state.setNodesAndEdges);
+  const setCurrentNode = useGameState((state) => state.setCurrentNode);
+  const setGameState = useGameState((state) => state.setGameState);
 
-    const [localStorageNodes] = useLocalStorage<Node[]>('editor/nodes', []);
-    const [localStorageEdges] = useLocalStorage<Edge[]>('editor/edges', []);
+  const [localStorageNodes] = useLocalStorage<Node[]>('editor/nodes', []);
+  const [localStorageEdges] = useLocalStorage<Edge[]>('editor/edges', []);
 
-    useEffect(() => {
-        // Only initialize if the game hasn't been initialized yet
-        if (isInitialized) {
-            return;
-        }
+  useEffect(() => {
+    // Only initialize if the game hasn't been initialized yet
+    if (isInitialized) {
+      return;
+    }
 
-        let gameData: unknown = null;
-        const params = new URLSearchParams(location.hash.slice(1));
+    let gameData: unknown = null;
+    const params = new URLSearchParams(location.hash.slice(1));
 
-        if (params.get('load') === 'localstorage') {
-            console.info('Loading game from Localstorage');
-            gameData = { nodes: localStorageNodes, edges: localStorageEdges };
-        }
+    if (params.get('load') === 'localstorage') {
+      console.info('Loading game from Localstorage');
+      gameData = { nodes: localStorageNodes, edges: localStorageEdges };
+    }
 
-        // if there hasn't been any direct command which game data to load, we chose randomly:
-        if (gameData === null) {
-            // since we only have one game right now, it's always game1:
-            gameData = game;
-        }
+    // if there hasn't been any direct command which game data to load, we chose randomly:
+    if (gameData === null) {
+      // since we only have one game right now, it's always game1:
+      gameData = game;
+    }
 
-        let variant = Math.random() > 0.5 ? ('A' as const) : ('B' as const);
-        if (params.has('variant')) {
-            variant = params.get('variant') === 'A' ? ('A' as const) : ('B' as const);
-        }
+    let variant = Math.random() > 0.5 ? ('A' as const) : ('B' as const);
+    if (params.has('variant')) {
+      variant = params.get('variant') === 'A' ? ('A' as const) : ('B' as const);
+    }
 
-        const { nodes, edges, startNode } = generateGameNodeGraph(gameData);
-        setNodesAndEdges(nodes, edges);
-        setCurrentNode(startNode);
-        setGameState({ gameVariant: variant, isInitialized: true });
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [isInitialized]);
+    const { nodes, edges, startNode } = generateGameNodeGraph(gameData);
+    setNodesAndEdges(nodes, edges);
+    setCurrentNode(startNode);
+    setGameState({ gameVariant: variant, isInitialized: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isInitialized]);
 }
-

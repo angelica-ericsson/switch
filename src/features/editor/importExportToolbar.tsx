@@ -63,7 +63,7 @@ function ImportDialog() {
               setErrorText((e as Error).message);
             }
           }}
-          className="gap-4 grid"
+          className="grid gap-4"
         >
           <DialogHeader>
             <DialogTitle>Import Game Data</DialogTitle>
@@ -128,7 +128,7 @@ function ExportDialog() {
           {hasCopied ? 'copied!' : 'Copy to clipboard'}
         </Button>
         <ScrollArea className="h-72 rounded-md border">
-          <pre className="bg-muted rounded font-mono text-xs font-light p-3 max-w-[80vw] wrap-anywhere">{jsonExport}</pre>
+          <pre className="bg-muted max-w-[80vw] rounded p-3 font-mono text-xs font-light wrap-anywhere">{jsonExport}</pre>
         </ScrollArea>
       </DialogContent>
     </Dialog>

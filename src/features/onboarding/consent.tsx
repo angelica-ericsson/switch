@@ -42,17 +42,17 @@ export function ConsentForm() {
 
   return (
     <GameLayout>
-      <div className="intro-screens-bg rounded-2xl border-3 border-eastbay-900 shadow-2xl max-w-3xl mx-auto p-8 space-y-6">
+      <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
         <div className="space-y-4">
-          <h1 className="text-5xl font-script">{t('consent.welcome')}</h1>
-          <p className="text-xl font-script">{t('consent.instruction')}</p>
+          <h1 className="font-script text-5xl">{t('consent.welcome')}</h1>
+          <p className="font-script text-xl">{t('consent.instruction')}</p>
         </div>
 
         <div className="space-y-6 text-base">
           {/* Statement 1 */}
           <p>
             {t('consent.statement1.prefix')}{' '}
-            <span className="inline-flex items-center gap-1 relative">
+            <span className="relative inline-flex items-center gap-1">
               <GameNativeSelect
                 value={formData.studyAbout}
                 onChange={(e) => updateField('studyAbout', e.target.value)}
@@ -72,7 +72,7 @@ export function ConsentForm() {
           {/* Statement 2 */}
           <p>
             {t('consent.statement2.prefix')}{' '}
-            <span className="inline-flex items-center gap-1 relative">
+            <span className="relative inline-flex items-center gap-1">
               <GameNativeSelect
                 value={formData.informationStorage}
                 onChange={(e) => updateField('informationStorage', e.target.value)}
@@ -92,7 +92,7 @@ export function ConsentForm() {
           {/* Statement 3 */}
           <p>
             {t('consent.statement3.prefix')}{' '}
-            <span className="inline-flex items-center gap-1 relative">
+            <span className="relative inline-flex items-center gap-1">
               <GameNativeSelect
                 value={formData.personalDetails}
                 onChange={(e) => updateField('personalDetails', e.target.value)}
@@ -112,7 +112,7 @@ export function ConsentForm() {
           {/* Statement 4 */}
           <p>
             {t('consent.statement4.prefix')}{' '}
-            <span className="inline-flex items-center gap-1 relative">
+            <span className="relative inline-flex items-center gap-1">
               <GameNativeSelect
                 value={formData.participation}
                 onChange={(e) => updateField('participation', e.target.value)}
@@ -132,7 +132,7 @@ export function ConsentForm() {
           {/* Statement 5 */}
           <p>
             {t('consent.statement5.prefix')}{' '}
-            <span className="inline-flex items-center gap-1 relative">
+            <span className="relative inline-flex items-center gap-1">
               <GameNativeSelect
                 value={formData.contactResearcher}
                 onChange={(e) => updateField('contactResearcher', e.target.value)}
@@ -152,7 +152,7 @@ export function ConsentForm() {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex gap-4 justify-center pt-6">
+        <div className="flex justify-center gap-4 pt-6">
           <GameButton onClick={handleNoConsent} size="lg">
             <X className="size-6" />
             {t('consent.buttons.noConsent')}
@@ -163,7 +163,7 @@ export function ConsentForm() {
         </div>
 
         {/* Contact Information */}
-        <div className="pt-6 space-y-2 text-center">
+        <div className="space-y-2 pt-6 text-center">
           <p>
             <strong>{t('consent.contact.label')}</strong>
           </p>
@@ -173,7 +173,7 @@ export function ConsentForm() {
         </div>
 
         {/* Screenshot Instruction */}
-        <p className="text-center text-sm pt-4">{t('consent.screenshot')}</p>
+        <p className="pt-4 text-center text-sm">{t('consent.screenshot')}</p>
       </div>
     </GameLayout>
   );

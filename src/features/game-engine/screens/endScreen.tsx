@@ -11,9 +11,9 @@ export function EndScreen({ node }: EndScreenProps) {
 
   return (
     <GameLayout>
-      <div className="max-w-2xl mx-auto p-8 space-y-6 text-center">
+      <div className="mx-auto max-w-2xl space-y-6 p-8 text-center">
         {node.data?.headline && <h1 className="text-4xl font-bold">{t(node.data.headline)}</h1>}
-        {node.data?.text && <p className="text-lg text-muted-foreground whitespace-pre-wrap">{t(node.data.text)}</p>}
+        {node.data?.text && <p className="text-muted-foreground text-lg whitespace-pre-wrap">{t(node.data.text)}</p>}
       </div>
     </GameLayout>
   );

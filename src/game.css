@@ -57,14 +57,12 @@
     0 16px 32px rgba(0, 0, 0, 0.04);
 }
 
-
 .newspaper-image {
   filter: sepia(80%) grayscale(70%) brightness(1.1) contrast(2) opacity(0.8);
   mix-blend-mode: multiply;
 }
 
-
-.order-form-bg{
+.order-form-bg {
   background:
     repeating-linear-gradient(
       transparent,

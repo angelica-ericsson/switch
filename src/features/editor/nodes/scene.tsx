@@ -26,7 +26,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="bg-indigo-50 border-indigo-700 max-w-[500px]">
+    <BaseNode className="max-w-[500px] border-indigo-700 bg-indigo-50">
       <BaseNodeHeader>
         <Image className="text-indigo-800" />
         <BaseNodeHeaderTitle className="text-indigo-800">Scene</BaseNodeHeaderTitle>
@@ -48,7 +48,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
                 });
                 setOpen(false);
               }}
-              className="gap-4 grid"
+              className="grid gap-4"
             >
               <DialogHeader>
                 <DialogTitle>Configure Scene</DialogTitle>
@@ -83,10 +83,10 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
         <div className="grid grid-cols-2 gap-1">
           <p>Variant A:</p>
           <p>Variant B:</p>
-          <p className="bg-white border border-indigo-700 p-2 rounded-md line-clamp-6">{data.textA ?? 'No text'}</p>
-          <p className="bg-white border border-indigo-700 p-2 rounded-md line-clamp-6">{data.textB ?? 'No text'}</p>
+          <p className="line-clamp-6 rounded-md border border-indigo-700 bg-white p-2">{data.textA ?? 'No text'}</p>
+          <p className="line-clamp-6 rounded-md border border-indigo-700 bg-white p-2">{data.textB ?? 'No text'}</p>
         </div>
-        <ol className="list-decimal list-inside space-y-2">
+        <ol className="list-inside list-decimal space-y-2">
           <li>{data.option1 ?? <NotUsed />}</li>
           <li>{data.option2 ?? <NotUsed />}</li>
           <li>{data.option3 ?? <NotUsed />}</li>

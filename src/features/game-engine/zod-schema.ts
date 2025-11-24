@@ -111,7 +111,16 @@ export const socialNodeSchema = z.object({
 export type SocialNodeType = z.infer<typeof socialNodeSchema>;
 
 // Union type for all node types
-export type UnionNodeType = SceneNodeType | StartNodeType | RandomNodeType | StockUpNodeType | EndNodeType | SetStateNodeType | IfNodeType | NewsFlashNodeType | SocialNodeType;
+export type UnionNodeType =
+  | SceneNodeType
+  | StartNodeType
+  | RandomNodeType
+  | StockUpNodeType
+  | EndNodeType
+  | SetStateNodeType
+  | IfNodeType
+  | NewsFlashNodeType
+  | SocialNodeType;
 
 // Game schema using discriminated union
 export const gameSchema = z.object({

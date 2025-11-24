@@ -33,9 +33,9 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8 game-background">
+    <div className="game-background flex min-h-screen flex-col items-center justify-center p-8">
       {/* Language buttons - smaller, below headline */}
-      <div className="flex gap-3 mb-16">
+      <div className="mb-16 flex gap-3">
         <GameButton size="sm" onClick={() => handleLanguageChange('en')}>
           {i18n.resolvedLanguage === 'en' ? <Check /> : null}
           English
@@ -49,12 +49,12 @@ function Index() {
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} />
 
       {/* Large headline in center */}
-      <h1 className="text-5xl font-bold text-center m-12 font-script text-white text-shadow-lg text-shadow-eastbay-900">
+      <h1 className="font-script text-shadow-eastbay-900 m-12 text-center text-5xl font-bold text-white text-shadow-lg">
         {t('welcome.headline')}
       </h1>
 
       {/* Start game button - bigger, further down */}
-      <GameButton size="lg" onClick={handleStartGame} className="text-lg px-8 py-6 animate-bounce">
+      <GameButton size="lg" onClick={handleStartGame} className="animate-bounce px-8 py-6 text-lg">
         {t('welcome.button')}
       </GameButton>
     </div>

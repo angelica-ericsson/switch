@@ -187,7 +187,14 @@ function moveGameForward(state: GameState, direction: string): Partial<GameState
  */
 function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
   // UI-rendering nodes: update currentNode and stop
-  if (node.type === 'scene' || node.type === 'stockUp' || node.type === 'end' || node.type === 'start' || node.type === 'newsFlash' || node.type === 'social') {
+  if (
+    node.type === 'scene' ||
+    node.type === 'stockUp' ||
+    node.type === 'end' ||
+    node.type === 'start' ||
+    node.type === 'newsFlash' ||
+    node.type === 'social'
+  ) {
     const stateUpdates: Partial<GameState> = { currentNode: node };
     // Update daysSinceGameStart if the node has this property
     if ('data' in node && 'daysSinceGameStart' in node.data && node.data.daysSinceGameStart != null) {

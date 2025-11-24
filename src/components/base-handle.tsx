@@ -15,7 +15,7 @@ export const BaseHandle = forwardRef<HTMLDivElement, BaseHandleProps>(({ classNa
     <Handle
       ref={ref}
       className={cn(
-        'min-h-5! min-w-5! rounded-md border border-gray-600! bg-white! transition dark:border-secondary dark:bg-secondary',
+        'dark:border-secondary dark:bg-secondary min-h-5! min-w-5! rounded-md border border-gray-600! bg-white! transition',
         className,
       )}
       // limit the connection to only 1 outgoing connection

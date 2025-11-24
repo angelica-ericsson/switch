@@ -17,7 +17,7 @@ export const NumberedHandle = forwardRef<HTMLDivElement, NumberedHandleProps>(({
     <Handle
       ref={ref}
       className={cn(
-        'inline-flex items-center justify-center rounded-md px-2.5 py-0.5 text-md font-medium w-fit whitespace-nowrap shrink-0 border border-gray-600! bg-white! transition dark:border-secondary dark:bg-secondary',
+        'text-md dark:border-secondary dark:bg-secondary inline-flex w-fit shrink-0 items-center justify-center rounded-md border border-gray-600! bg-white! px-2.5 py-0.5 font-medium whitespace-nowrap transition',
         className,
       )}
       // limit the connection to only 1 outgoing connection
