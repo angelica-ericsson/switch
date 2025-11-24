@@ -16,7 +16,7 @@ type NewsFlashNodeType = Node<
     textA: string;
     textB: string;
     imageUrl: string;
-    date: string;
+    daysSinceGameStart: number;
   },
   'newsFlash'
 >;
@@ -45,7 +45,7 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
                   textA: fdOrNull(formData.get('textA')),
                   textB: fdOrNull(formData.get('textB')),
                   imageUrl: fdOrNull(formData.get('imageUrl')),
-                  date: fdOrNull(formData.get('date')),
+                  daysSinceGameStart: Number(formData.get('daysSinceGameStart')) || 0,
                 });
                 setOpen(false);
               }}
@@ -77,8 +77,8 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
                 <Input placeholder="Image URL" name="imageUrl" defaultValue={data.imageUrl} />
               </div>
               <div className="flex flex-col gap-2">
-                <Label>Date (leave empty for current date):</Label>
-                <Input type="date" name="date" defaultValue={data.date || ''} />
+                <Label>Days since game start:</Label>
+                <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data.daysSinceGameStart ?? 0} />
               </div>
               <DialogFooter>
                 <DialogClose asChild>
@@ -117,12 +117,8 @@ export function NewsFlashNode({ data, id }: NodeProps<NewsFlashNodeType>) {
             <p className="line-clamp-2 rounded-md border border-amber-700 bg-white p-2 text-sm">{data.imageUrl ?? 'No image URL'}</p>
           </div>
           <div>
-            <p className="mb-1 text-sm font-semibold">Date:</p>
-            <p className="rounded-md border border-amber-700 bg-white p-2 text-sm">
-              {data.date
-                ? new Date(data.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
-                : 'Current date'}
-            </p>
+            <p className="mb-1 text-sm font-semibold">Days since game start:</p>
+            <p className="rounded-md border border-amber-700 bg-white p-2 text-sm">{data.daysSinceGameStart ?? 0} days</p>
           </div>
         </div>
         <BaseHandle type="target" position={Position.Top} />

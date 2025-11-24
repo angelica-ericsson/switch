@@ -1,4 +1,4 @@
-import { useGameState } from '../state';
+import { useGameState, getDateFromDaysSinceStart } from '../state';
 import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
@@ -14,10 +14,15 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
   const moveForward = useGameState((state) => state.moveForward);
   const pushEvent = useGameState((state) => state.pushEvent);
   const events = useGameState((state) => state.events);
+  const daysSinceGameStart = useGameState((state) => state.daysSinceGameStart);
   const alias = useDemographicStore((state) => state.alias);
   const stockA = useGameState((state) => state.getStock('A'));
   const stockB = useGameState((state) => state.getStock('A'));
-  const formattedDate = new Date(node.data?.date ?? '').toLocaleDateString(i18n.resolvedLanguage, {
+
+  // Calculate date from daysSinceGameStart (use node's value if present, otherwise use state's value)
+  const daysForDisplay = node.data?.daysSinceGameStart ?? daysSinceGameStart;
+  const displayDate = getDateFromDaysSinceStart(daysForDisplay);
+  const formattedDate = displayDate.toLocaleDateString(i18n.resolvedLanguage, {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
@@ -28,8 +33,9 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
 
-    // Use date prop or fallback to current date
-    const eventDate = node.data?.date || new Date().toISOString();
+    // Calculate date from daysSinceGameStart (use node's value if present, otherwise use state's value)
+    const daysForEvent = node.data?.daysSinceGameStart ?? daysSinceGameStart;
+    const eventDate = getDateFromDaysSinceStart(daysForEvent).toISOString();
 
     // Get values from form data
     const productA = Number(formData.get('productA')) || 0;

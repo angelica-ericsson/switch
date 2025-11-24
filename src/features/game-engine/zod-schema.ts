@@ -36,7 +36,7 @@ export const stockUpNodeSchema = z.object({
   id: z.string(),
   type: z.literal('stockUp'),
   data: z.object({
-    date: z.string().nullable().optional(),
+    daysSinceGameStart: z.coerce.number().nullable().optional(),
   }),
 });
 
@@ -64,7 +64,7 @@ export const setStateNodeSchema = z.object({
     sentimentPro: z.coerce.number().nullable().optional(),
     sentimentNeutral: z.coerce.number().nullable().optional(),
     sentimentAgainst: z.coerce.number().nullable().optional(),
-    date: z.string().nullable().optional(),
+    daysSinceGameStart: z.coerce.number().nullable().optional(),
   }),
 });
 
@@ -91,7 +91,7 @@ export const newsFlashNodeSchema = z.object({
     textA: z.string().nullable().optional(),
     textB: z.string().nullable().optional(),
     imageUrl: z.string().nullable().optional(),
-    date: z.string().nullable().optional(),
+    daysSinceGameStart: z.coerce.number().nullable().optional(),
   }),
 });
 

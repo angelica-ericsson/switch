@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { gameSchema, type UnionNodeType } from './zod-schema';
+import { GAME_START_DATE } from './constants';
 
 /**
  * Event types for buy/sell operations
@@ -22,6 +23,7 @@ export interface GameState {
 
   gameVariant: 'A' | 'B';
   isInitialized: boolean;
+  daysSinceGameStart: number;
 
   currentNode: UnionNodeType | null;
   nodes: Map<string, UnionNodeType>;
@@ -49,6 +51,16 @@ function calculateStock(events: GameEvent[], product: 'A' | 'B'): number {
 }
 
 /**
+ * Calculates a date from days since game start
+ * Returns a Date object that can be used for formatting or converted to ISO string
+ */
+export function getDateFromDaysSinceStart(days: number): Date {
+  const date = new Date(GAME_START_DATE);
+  date.setDate(date.getDate() + days);
+  return date;
+}
+
+/**
  * the actual game state
  */
 export const useGameState = create<GameState>((set, get) => ({
@@ -59,6 +71,7 @@ export const useGameState = create<GameState>((set, get) => ({
   points: 0,
   gameVariant: 'A' as const,
   isInitialized: false,
+  daysSinceGameStart: 0,
   currentNode: null,
   nodes: new Map(),
   edges: new Map(),
@@ -175,7 +188,12 @@ function moveGameForward(state: GameState, direction: string): Partial<GameState
 function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
   // UI-rendering nodes: update currentNode and stop
   if (node.type === 'scene' || node.type === 'stockUp' || node.type === 'end' || node.type === 'start' || node.type === 'newsFlash' || node.type === 'social') {
-    return { currentNode: node };
+    const stateUpdates: Partial<GameState> = { currentNode: node };
+    // Update daysSinceGameStart if the node has this property
+    if ('data' in node && 'daysSinceGameStart' in node.data && node.data.daysSinceGameStart != null) {
+      stateUpdates.daysSinceGameStart = node.data.daysSinceGameStart as number;
+    }
+    return stateUpdates;
   }
 
   // State-updating nodes: process and continue automatically
@@ -187,15 +205,24 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
       if (node.data.sentimentNeutral != null) stateUpdates.sentimentNeutral = node.data.sentimentNeutral;
       if (node.data.sentimentAgainst != null) stateUpdates.sentimentAgainst = node.data.sentimentAgainst;
 
+      // Update daysSinceGameStart if present
+      if (node.data.daysSinceGameStart != null) {
+        stateUpdates.daysSinceGameStart = node.data.daysSinceGameStart;
+      }
+
       // Push a sell event with demand properties
       const demandA = node.data.demandA ?? 0;
       const demandB = node.data.demandB ?? 0;
       if (demandA > 0 || demandB > 0) {
+        // Calculate date from daysSinceGameStart or use current state's daysSinceGameStart
+        const daysForEvent = node.data.daysSinceGameStart ?? state.daysSinceGameStart;
+        const eventDate = getDateFromDaysSinceStart(daysForEvent).toISOString();
+
         // push an inital state of the inventory
         if (state.events.length === 0) {
           state.events = [
             {
-              date: node.data.date ?? new Date().toISOString(),
+              date: eventDate,
               type: 'inital',
               productA: demandA + 10,
               productB: demandB + 10,
@@ -203,7 +230,7 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
           ];
         }
         state.events.push({
-          date: node.data.date ?? new Date().toISOString(),
+          date: eventDate,
           type: 'sell',
           productA: demandA,
           productB: demandB,

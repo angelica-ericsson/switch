@@ -18,7 +18,7 @@ type SetStateNodeType = Node<
     sentimentPro: number;
     sentimentNeutral: number;
     sentimentAgainst: number;
-    date: string;
+    daysSinceGameStart: number;
   },
   'setState'
 >;
@@ -48,7 +48,7 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
                   sentimentPro: fdOrNull(formData.get('sentimentPro')),
                   sentimentNeutral: fdOrNull(formData.get('sentimentNeutral')),
                   sentimentAgainst: fdOrNull(formData.get('sentimentAgainst')),
-                  date: fdOrNull(formData.get('date')),
+                  daysSinceGameStart: Number(formData.get('daysSinceGameStart')) || 0,
                 });
                 setOpen(false);
               }}
@@ -78,8 +78,8 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
                 </div>
               </Field>
               <Field>
-                <FieldLabel>Date when the sales of products happens in game time:</FieldLabel>
-                <Input type="date" name="date" defaultValue={data.date || ''} />
+                <FieldLabel>Days since game start when the sales of products happens:</FieldLabel>
+                <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data.daysSinceGameStart ?? 0} />
               </Field>
               <DialogFooter>
                 <DialogClose asChild>
@@ -110,12 +110,8 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
           <Variable text="Agst" value={data.sentimentAgainst} />
         </div>
         <div>
-          <p className="mb-1 text-sm font-semibold">Date:</p>
-          <p className="rounded-md border border-pink-700 bg-white p-2 text-sm">
-            {data.date
-              ? new Date(data.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
-              : 'Current date'}
-          </p>
+          <p className="mb-1 text-sm font-semibold">Days since game start:</p>
+          <p className="rounded-md border border-pink-700 bg-white p-2 text-sm">{data.daysSinceGameStart ?? 0} days</p>
         </div>
       </BaseNodeContent>
     </BaseNode>

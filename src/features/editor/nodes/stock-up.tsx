@@ -4,14 +4,13 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Field, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
-import { fdOrNull } from '@/lib/editorNodeHelpers';
 import { Position, useReactFlow, type Node, type NodeProps } from '@xyflow/react';
 import { Banknote, Pencil } from 'lucide-react';
 import { useState } from 'react';
 
 type StockUpNodeType = Node<
   {
-    date: string;
+    daysSinceGameStart: number;
   },
   'stockUp'
 >;
@@ -35,7 +34,7 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
             <form
               action={(formData) => {
                 reactFlow.updateNodeData(id, {
-                  date: fdOrNull(formData.get('date')),
+                  daysSinceGameStart: Number(formData.get('daysSinceGameStart')) || 0,
                 });
                 setOpen(false);
               }}
@@ -45,8 +44,8 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
                 <DialogTitle>Configure Stock Up</DialogTitle>
               </DialogHeader>
               <Field>
-                <FieldLabel>Date when the purchase of products happens in game time:</FieldLabel>
-                <Input type="date" name="date" defaultValue={data?.date || ''} />
+                <FieldLabel>Days since game start when the purchase of products happens:</FieldLabel>
+                <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data?.daysSinceGameStart ?? 0} />
               </Field>
               <DialogFooter>
                 <DialogClose asChild>
@@ -62,12 +61,8 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
         <BaseHandle type="target" position={Position.Top} />
         <BaseHandle type="source" position={Position.Bottom} />
         <div>
-          <p className="mb-1 text-sm font-semibold">Date:</p>
-          <p className="rounded-md border border-sky-700 bg-white p-2 text-sm">
-            {data.date
-              ? new Date(data.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
-              : 'Current date'}
-          </p>
+          <p className="mb-1 text-sm font-semibold">Days since game start:</p>
+          <p className="rounded-md border border-sky-700 bg-white p-2 text-sm">{data?.daysSinceGameStart ?? 0} days</p>
         </div>
       </BaseNodeContent>
     </BaseNode>
