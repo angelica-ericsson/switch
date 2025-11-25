@@ -22,7 +22,7 @@ export function EndNode({ data, id }: NodeProps<EndGameNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="border-orange-700 bg-orange-50">
+    <BaseNode className="max-w-[500px] border-orange-700 bg-orange-50">
       <BaseNodeHeader>
         <CircleStop className="text-orange-800" />
         <BaseNodeHeaderTitle className="text-orange-800">

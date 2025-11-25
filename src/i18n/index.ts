@@ -190,6 +190,9 @@ i18n
               submit: 'Continue',
             },
           },
+          end: {
+            playAgain: 'Play again!',
+          },
         },
       },
     },
