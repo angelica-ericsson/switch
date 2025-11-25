@@ -156,7 +156,6 @@ export const gameSchema = z.object({
   edges: z.array(
     z.union([
       z.object({
-        markerEnd: z.object({ type: z.string() }),
         source: z.string(),
         sourceHandle: z.string().optional(),
         target: z.string(),
