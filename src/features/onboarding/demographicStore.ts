@@ -28,16 +28,16 @@ const DEFAULT_NEWS_SOURCES = ['blogs', 'magazines', 'newspapers', 'publicService
 
 // Default election issues in initial order
 const DEFAULT_ELECTION_ISSUES = [
-  'criminality',
-  'defense',
-  'economy',
-  'education',
-  'employment',
-  'environment',
-  'equality',
   'healthcare',
+  'crime',
+  'education',
   'immigration',
-  'preparedness',
+  'environment',
+  'defense',
+  'elderlycare',
+  'economy',
+  'employment',
+  'pensions',
 ];
 
 const defaultState: DemographicFormData = {
@@ -139,7 +139,7 @@ export const useDemographicStore = create<DemographicStore>()(
       },
     }),
     {
-      name: 'demographic-form',
+      name: 'demographic-form-v2',
       // Only persist the form data, not errors or methods
       partialize: (state) => ({
         birthYear: state.birthYear,
