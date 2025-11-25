@@ -63,9 +63,11 @@ export function GameRenderer() {
     );
   };
 
+  const showStatusBar = currentNode.type !== 'start';
+
   return (
     <GameBackground>
-      <StatusBar />
+      <AnimatePresence>{showStatusBar && <StatusBar />}</AnimatePresence>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentNode.id}

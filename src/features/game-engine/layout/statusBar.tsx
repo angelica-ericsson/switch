@@ -3,16 +3,23 @@ import { GAME_MAX_DAYS, GAME_TARGET_SALES } from '../constants';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { cn } from '@/lib/utils';
 import { Progress } from '@/components/ui/progress';
+import { motion } from 'motion/react';
 
 export function StatusBar() {
   return (
     <div className="fixed top-0 right-0 bottom-0 z-50 flex items-center pt-24">
       <div>
-        <div className="postcard-bg flex flex-col items-center justify-center gap-6 rounded-tl-2xl rounded-bl-2xl p-3 shadow-2xl">
+        <motion.div
+          initial={{ opacity: 0, x: 200 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 200 }}
+          transition={{ duration: 0.6, ease: 'easeInOut' }}
+          className="postcard-bg flex flex-col items-center justify-center gap-6 rounded-tl-2xl rounded-bl-2xl p-3 shadow-2xl"
+        >
           <SentimentCircle />
           <SalesProgress />
           <TimelineProgress />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
