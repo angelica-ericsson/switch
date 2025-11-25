@@ -10,6 +10,9 @@
 - `src/assets/avatars/union-logo.jpg`: Generated using ChatGPT
 - `src/assets/avatars/wilderton-logo.jpg`: Generated using ChatGPT
 - `public/wilderton-logo.jpg`: Generated using ChatGPT
+- `public/health.jpg`: https://www.pexels.com/photo/man-wearing-a-protective-suit-17166070/
+- `public/audtit.jpg`: https://www.pexels.com/photo/photo-of-person-holding-paper-and-pen-7088483/
+- `public/closing.jpg`: https://unsplash.com/photos/a-close-up-of-a-sign-on-a-building-5OfPf3_u_2c
 - Used for the Avatars in the social posts:
   - https://unsplash.com/photos/man-wearing-black-crew-neck-shirt-d2MSDujJl2g
   - https://unsplash.com/photos/man-in-black-crew-neck-shirt-BBmi4nJjKk8
