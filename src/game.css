@@ -58,7 +58,7 @@
 }
 
 .newspaper-image {
-  filter: sepia(80%) grayscale(70%) brightness(110%) contrast(140%) opacity(80%) blur(0.3px);
+  filter: sepia(80%) grayscale(70%) contrast(140%) opacity(80%) blur(0.3px);
   mix-blend-mode: multiply;
 }
 .newspaper-img-bg {
