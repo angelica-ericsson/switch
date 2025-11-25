@@ -1,4 +1,4 @@
-import { useGameState, getDateFromDaysSinceStart } from '../state';
+import { useGameState, getDateFromDaysSinceStart, type BuyEvent, type SellEvent, type InitialStock } from '../state';
 import { useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
@@ -13,11 +13,13 @@ interface StockUpScreenProps {
 export function StockUpScreen({ node }: StockUpScreenProps) {
   const moveForward = useGameState((state) => state.moveForward);
   const pushEvent = useGameState((state) => state.pushEvent);
-  const events = useGameState((state) => state.events);
+  const events = useGameState((state) => state.events).filter(
+    (event): event is BuyEvent | SellEvent | InitialStock => event.type === 'buy' || event.type === 'sell' || event.type === 'initial',
+  );
   const daysSinceGameStart = useGameState((state) => state.daysSinceGameStart);
   const alias = useDemographicStore((state) => state.alias);
   const stockA = useGameState((state) => state.getStock('A'));
-  const stockB = useGameState((state) => state.getStock('A'));
+  const stockB = useGameState((state) => state.getStock('B'));
 
   // Calculate date from daysSinceGameStart (use node's value if present, otherwise use state's value)
   const daysForDisplay = node.data?.daysSinceGameStart ?? daysSinceGameStart;
@@ -43,8 +45,8 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
     // Push buy event
     pushEvent({
-      date: eventDate,
       type: 'buy',
+      date: eventDate,
       productA,
       productB,
     });

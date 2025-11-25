@@ -13,11 +13,15 @@ export function SceneScreen({ node }: SceneScreenProps) {
   const gameVariant = useGameState((state) => state.gameVariant);
   const moveForward = useGameState((state) => state.moveForward);
   const edges = useGameState((state) => state.edges);
+  const pushChoice = useGameState((state) => state.pushChoice);
 
   const edge = edges.get(node.id);
   const availableOptions = edge ? Object.keys(edge).filter((key) => key !== 'default') : [];
 
   const handleOptionClick = (option: string) => {
+    if (availableOptions.length > 1) {
+      pushChoice(gameVariant === 'A' ? node.data.textA! : node.data.textB!, option);
+    }
     moveForward(option);
   };
 
