@@ -31,6 +31,7 @@ import { NewsFlashNode } from './nodes/news-flash';
 import { SocialNode } from './nodes/social';
 import { SurveyNode } from './nodes/survey';
 import { ImportExportToolbar } from './importExportToolbar';
+import { SearchToolbar } from './searchToolbar';
 
 const nodeTypes = {
   scene: SceneNode,
@@ -76,6 +77,7 @@ export function Editor() {
         >
           <EditorToolbar />
           <ImportExportToolbar />
+          <SearchToolbar />
           <Background color="var(--secondary-foreground)" bgColor="var(--primary-foreground)" variant={BackgroundVariant.Dots} />
           <Controls />
           <MiniMap />
