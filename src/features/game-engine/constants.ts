@@ -1,5 +1,5 @@
-export const GAME_MAX_DAYS = 136;
-export const GAME_TARGET_SALES = 1000;
+export const GAME_MAX_DAYS = 140;
+export const GAME_TARGET_SALES = 520;
 
 import avatar1 from '@/assets/avatars/1.jpg';
 import avatar2 from '@/assets/avatars/2.jpg';

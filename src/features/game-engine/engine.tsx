@@ -10,6 +10,7 @@ import { useInitializeGame } from './useInitializeGame';
 import { AnimatePresence, motion } from 'motion/react';
 import { GameBackground, GameLayout } from './layout/gameLayout';
 import { preloadImages } from './preload';
+import { StatusBar } from './layout/statusBar';
 
 export function GameEngine() {
   useInitializeGame();
@@ -64,6 +65,7 @@ export function GameRenderer() {
 
   return (
     <GameBackground>
+      <StatusBar />
       <AnimatePresence mode="wait">
         <motion.div
           key={currentNode.id}
