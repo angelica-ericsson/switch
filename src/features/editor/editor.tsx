@@ -70,6 +70,9 @@ export function Editor() {
             markerEnd: { type: MarkerType.ArrowClosed },
             style: { strokeWidth: 4 },
           }}
+          panOnScroll
+          selectionOnDrag
+          panOnDrag={[1, 2]}
         >
           <EditorToolbar />
           <ImportExportToolbar />
