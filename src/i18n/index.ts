@@ -7,7 +7,7 @@ i18n
   .use(initReactI18next)
   .init({
     debug: false,
-    supportedLngs: ['sv', 'en'],
+    supportedLngs: [/* 'sv', */ 'en'],
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
@@ -18,7 +18,6 @@ i18n
           productA: 'WildertonWear',
           productB: 'BlueSkin',
           continue: 'Continue',
-          headerBar: { points: 'Points:', sentiment: 'Sentiment:' },
           welcome: {
             headline: 'Welcome to Wilderton',
             description1: `It's a small town with a main street, a river, and an old factory.
@@ -189,179 +188,6 @@ i18n
             },
             button: {
               submit: 'Continue',
-            },
-          },
-        },
-      },
-      sv: {
-        translation: {
-          productA: 'WildertonWear',
-          productB: 'BlueSkin',
-          continue: 'Fortsätt',
-          headerBar: { points: 'Poäng:', sentiment: 'Sentiment:' },
-          welcome: {
-            headline: 'Swedish: Headline of the start screen',
-            description: 'SWEText on the start screen',
-            button: 'SWEStart the adventure',
-          },
-          stockUp: {
-            headline: 'Order form',
-            buyHeadline: 'Enter the stock quantities for Product A and Product B',
-            button: 'Gör detta',
-            inventoryHeadline: 'Inventariet',
-            inventoryEmpty: 'Tom',
-            eventTypeBuy: 'Köpt',
-            eventTypeSell: 'Såld',
-            eventTypeInitial: 'Initial',
-            noDate: 'Inget datum',
-          },
-          newsFlash: {
-            newspaperName: 'Dagens Tidning',
-            price: 'price: 18 kr',
-          },
-          survey: {
-            question1:
-              'Dina vänner samlas i din butik för att prata om allt som har hänt och vad som kommer att hända härnäst.\n\nDin bästa vän frågar dig vad du skulle ha gjort annorlunda, om du kunde göra allt igen?',
-            question2: 'Så vad händer nu? Vilka andra lösningar kan du komma på, som du inte redan har provat?',
-          },
-          consent: {
-            welcome: 'VÄLKOMMEN!',
-            instruction: 'Innan du börjar spela måste du läsa och godkänna följande:',
-            noConsentMessage1: "Sorry that you couldn't consent. Are you really sure that you want to leave the game?",
-            noConsentMessage2: 'Sad to see you go. Off you go to a happier place...',
-            statement1: {
-              prefix: 'Jag förstår att detta spel är en del av en masteruppsatsstudie vid Stockholms universitet om',
-              suffix: 'som kommunikationsverktyg.',
-              options: {
-                games: 'spel',
-                kites: 'drakar',
-                lamas: 'lamor',
-              },
-            },
-            statement2: {
-              prefix:
-                'Jag är medveten om och samtycker till att mina spelresultat och all information jag anger på denna webbplats kommer att',
-              suffix: '. Informationen kommer att sparas i minst 10 år och kan användas för framtida forskning.',
-              options: {
-                storedDigitally: 'lagras digitalt',
-                runestone: 'ristas på en runsten',
-                beach: 'skrivas i sanden på en strand',
-              },
-            },
-            statement3: {
-              prefix: 'Jag samtycker till att',
-              suffix: 'ange personuppgifter såsom mitt riktiga namn, kontaktuppgifter eller andra identifierare eller känsliga uppgifter.',
-              options: {
-                not: 'inte',
-                absolutelyNot: 'absolut inte',
-                underNoCircumstances: 'under inga omständigheter',
-              },
-            },
-            statement4: {
-              prefix: 'Jag förstår att mitt deltagande i studien är helt',
-              suffix:
-                '. Jag kan när som helst dra tillbaka mitt samtycke utan konsekvenser och utan att behöva ange en anledning. Om jag vill dra tillbaka mitt samtycke efter att ha spelat spelet måste jag kontakta den ansvarige forskaren (se kontaktuppgifter nedan).',
-              options: {
-                voluntary: 'frivilligt',
-                optional: 'valfritt',
-                upToMe: 'upp till mig',
-              },
-            },
-            statement5: {
-              prefix: 'Jag förstår att om jag har frågor, oro eller vill veta mer om studieresultaten kan jag kontakta',
-              suffix: '(se kontaktuppgifter nedan).',
-              options: {
-                responsibleResearcher: 'ansvarig forskare',
-                personListedBelow: 'person som listas nedan',
-              },
-            },
-            buttons: {
-              consent: 'Jag samtycker',
-              noConsent: 'Jag samtycker inte',
-            },
-            contact: {
-              label: 'Ansvarig forskare:',
-              name: 'Angelica Ericsson:',
-              email: 'aner5235@student.su.se',
-            },
-            screenshot: 'Vänligen ta en skärmbild av denna sida om du behöver kontakta forskaren senare.',
-          },
-          demographic: {
-            title: 'VEM ÄR DU?',
-            instruction: 'Innan vi börjar, berätta gärna lite om dig själv:',
-            tooYoung: 'Sorry, you need to be 18 to play this game. Now go out and play...',
-            birthYear: {
-              label: 'Vilket år föddes du?',
-            },
-            gender: {
-              label: 'Kön',
-              options: {
-                male: 'Man',
-                female: 'Kvinna',
-                other: 'Annat',
-              },
-            },
-            education: {
-              label: 'Vad är din högsta utbildningsnivå?',
-              placeholder: 'Välj ett',
-              options: {
-                primary: 'Grundskola',
-                secondary: 'Gymnasium',
-                folkHighSchool: 'Folkhögskola',
-                adultEducation: 'Vuxenutbildning (Komvux)',
-                university: 'Universitet eller högskola',
-                other: 'Annat',
-              },
-            },
-            newsSources: {
-              title: 'Vilka är dina favoritnyhetskällor?',
-              description: 'Vänligen dra och släpp för att rangordna dem, med din favorit längst upp.',
-              options: {
-                blogs: 'Bloggar',
-                magazines: 'Tidskrifter',
-                newspapers: 'Tidningar',
-                publicService: 'Public service',
-                socialMedia: 'Sociala medier',
-                websites: 'Webbplatser',
-                youtube: 'Youtube',
-                other: 'Annat',
-              },
-            },
-            electionIssues: {
-              title: 'Vilka av dessa frågor är viktigast för dig i nästa val?',
-              description: 'Vänligen dra och släpp för att rangordna dem, med de viktigaste längst upp.',
-              options: {
-                criminality: 'Brottslighet',
-                defense: 'Försvar',
-                economy: 'Ekonomi',
-                education: 'Utbildning',
-                employment: 'Sysselsättning',
-                environment: 'Miljö',
-                equality: 'Jämställdhet',
-                healthcare: 'Hälsovård',
-                immigration: 'Invandring',
-                preparedness: 'Beredskap',
-              },
-            },
-            howDidYouFindGame: {
-              label: 'Hur hittade du detta spel?',
-              placeholder: 'Välj ett',
-              options: {
-                internetLink: 'Klickade på en länk på internet',
-                socialMediaLink: 'Klickade på en länk på sociala medier',
-                friend: 'Hörde om det från en vän',
-                poster: 'Såg en affisch',
-                gameSession: 'Anmälde mig till en spelsession',
-                other: 'Annat',
-              },
-            },
-            alias: {
-              title: 'Och, viktigast av allt, vilket alias har du valt?',
-              description: 'Ditt alias behövs för att hålla dina svar anonyma, använd inte ditt riktiga namn.',
-              placeholder: 'Ange ditt alias',
-            },
-            button: {
-              submit: 'Fortsätt',
             },
           },
         },

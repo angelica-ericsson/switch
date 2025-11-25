@@ -40,10 +40,10 @@ function Index() {
           {i18n.resolvedLanguage === 'en' ? <Check /> : null}
           English
         </GameButton>
-        <GameButton size="sm" onClick={() => handleLanguageChange('sv')}>
+        {/* <GameButton size="sm" onClick={() => handleLanguageChange('sv')}>
           {i18n.resolvedLanguage === 'sv' ? <Check /> : null}
           Svenska
-        </GameButton>
+        </GameButton> */}
       </div>
 
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} />
