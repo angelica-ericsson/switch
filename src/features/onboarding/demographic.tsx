@@ -55,8 +55,8 @@ export function DemographicForm() {
 
           <div className="space-y-6 text-base">
             {/* Birth Year */}
-            <div className="flex items-center gap-4">
-              <label htmlFor="birthYear" className="min-w-[200px]">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center">
+              <label htmlFor="birthYear" className="md:min-w-[200px]">
                 {t('demographic.birthYear.label')}
               </label>
               <div className="relative flex-1">
@@ -79,7 +79,7 @@ export function DemographicForm() {
             </div>
 
             {/* Gender */}
-            <div className="flex items-start gap-4">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center">
               <label className="min-w-[200px] pt-2">{t('demographic.gender.label')}</label>
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-2">
@@ -129,7 +129,7 @@ export function DemographicForm() {
             </div>
 
             {/* Education */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center">
               <label htmlFor="education" className="min-w-[200px]">
                 {t('demographic.education.label')}
               </label>
@@ -196,7 +196,7 @@ export function DemographicForm() {
             </div>
 
             {/* How did you find this game */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center">
               <label htmlFor="howDidYouFindGame" className="min-w-[200px]">
                 {t('demographic.howDidYouFindGame.label')}
               </label>
