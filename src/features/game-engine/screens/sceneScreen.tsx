@@ -1,6 +1,6 @@
 import { useGameState } from '../state';
 import type { SceneNodeType } from '../zod-schema';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
 
@@ -25,7 +25,14 @@ export function SceneScreen({ node }: SceneScreenProps) {
   return (
     <GameLayout>
       <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
-        <p className="text-xl text-pretty whitespace-pre-line">{gameVariant === 'A' ? t(node.data.textA!) : t(node.data.textB!)}</p>
+        <p className="text-xl text-pretty whitespace-pre-line">
+          <Trans
+            i18nKey={gameVariant === 'A' ? node.data.textA! : node.data.textB!}
+            components={{
+              b: <span className="font-bold" />,
+            }}
+          />
+        </p>
         <div className="mt-8 flex flex-col gap-7">
           {node.data?.option1 && availableOptions.includes('option1') && (
             <GameButton onClick={() => handleOptionClick('option1')}>{t(node.data.option1)}</GameButton>
