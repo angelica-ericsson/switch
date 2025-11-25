@@ -37,6 +37,7 @@ i18n
             eventTypeSell: 'Sold',
             eventTypeInitial: 'Inital',
             noDate: 'No date',
+            inStock: 'In stock',
           },
           intro: {
             text: 'Something something about the game...',

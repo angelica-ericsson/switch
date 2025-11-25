@@ -43,10 +43,10 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
     // Push buy event
     pushEvent({
+      date: eventDate,
       type: 'buy',
       productA,
       productB,
-      date: eventDate,
     });
 
     e.currentTarget.reset();
@@ -102,9 +102,9 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                   </div>
                 ))}
                 <div className="grid grid-cols-3 border-t border-black leading-8">
-                  <p>Total:</p>
-                  <p> {stockA}</p>
-                  <p> {stockB}</p>
+                  <p>{t('stockUp.inStock')}</p>
+                  <p>{stockA}</p>
+                  <p>{stockB}</p>
                 </div>
               </div>
             )}

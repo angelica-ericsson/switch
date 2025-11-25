@@ -19,8 +19,6 @@ export interface GameState {
   sentimentAgainst: number;
   events: GameEvent[];
 
-  points: number;
-
   gameVariant: 'A' | 'B';
   isInitialized: boolean;
   daysSinceGameStart: number;
@@ -85,7 +83,6 @@ export const useGameState = create<GameState>()((set, get) => ({
   sentimentAgainst: 0,
   sentimentNeutral: 0,
   events: [],
-  points: 0,
   gameVariant: 'A' as const,
   isInitialized: false,
   daysSinceGameStart: 0,
@@ -107,27 +104,7 @@ export const useGameState = create<GameState>()((set, get) => ({
   moveForward: (direction) => set((state) => moveGameForward(state, direction)),
   pushEvent: (event) =>
     set((state) => {
-      // For sell events, clamp to available stock - sell as much as possible
-      if (event.type === 'sell') {
-        const currentStockA = calculateStock(state.events, 'A');
-        const currentStockB = calculateStock(state.events, 'B');
-
-        console.log('currentStockA', currentStockA);
-        console.log('currentStockB', currentStockB);
-
-        // Clamp sell amounts to available stock, preserve date
-        const clampedEvent: SellEvent = {
-          type: 'sell',
-          productA: Math.min(event.productA, currentStockA),
-          productB: Math.min(event.productB, currentStockB),
-          date: event.date,
-        };
-
-        return {
-          events: [...state.events, clampedEvent],
-        };
-      }
-
+      console.table([...state.events, event]);
       return {
         events: [...state.events, event],
       };
@@ -241,6 +218,8 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
   if (node.type === 'setState') {
     // Update game state with values from node.data (only non-null/undefined values)
     const stateUpdates: Partial<GameState> = {};
+    let updatedEvents = [...state.events];
+
     if (node.data) {
       if (node.data.sentimentPro != null) stateUpdates.sentimentPro = node.data.sentimentPro;
       if (node.data.sentimentNeutral != null) stateUpdates.sentimentNeutral = node.data.sentimentNeutral;
@@ -260,8 +239,8 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
         const eventDate = getDateFromDaysSinceStart(daysForEvent).toISOString();
 
         // push an inital state of the inventory
-        if (state.events.length === 0) {
-          state.events = [
+        if (updatedEvents.length === 0) {
+          updatedEvents = [
             {
               date: eventDate,
               type: 'inital',
@@ -270,14 +249,24 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
             },
           ];
         }
-        state.events.push({
+
+        // For sell events, clamp to available stock - sell as much as possible
+        const currentStockA = calculateStock(updatedEvents, 'A');
+        const currentStockB = calculateStock(updatedEvents, 'B');
+        const clampedSellEvent: SellEvent = {
           date: eventDate,
           type: 'sell',
-          productA: demandA,
-          productB: demandB,
-        });
+          productA: Math.min(demandA, currentStockA),
+          productB: Math.min(demandB, currentStockB),
+        };
+
+        updatedEvents.push(clampedSellEvent);
+        console.table(updatedEvents);
       }
     }
+
+    // Include updated events in stateUpdates
+    stateUpdates.events = updatedEvents;
 
     // Move to next node using 'default' direction
     const edge = state.edges.get(node.id);
@@ -291,8 +280,15 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
       throw Error(`Next node "${nextNodeId}" not found in node list`);
     }
 
+    // Create updated state for recursive call so next nodes see the new events
+    const updatedState = { ...state, ...stateUpdates };
     // Recursively process the next node
-    const nextStateUpdates = processNode(state, nextNode);
+    const nextStateUpdates = processNode(updatedState, nextNode);
+
+    // Merge events arrays if both have events
+    if (stateUpdates.events && nextStateUpdates.events) {
+      return { ...stateUpdates, ...nextStateUpdates, events: nextStateUpdates.events };
+    }
     return { ...stateUpdates, ...nextStateUpdates };
   }
 
