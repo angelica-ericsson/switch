@@ -9,6 +9,7 @@ import { SurveyScreen } from './screens/surveyScreen';
 import { useInitializeGame } from './useInitializeGame';
 import { AnimatePresence, motion } from 'motion/react';
 import { GameBackground, GameLayout } from './layout/gameLayout';
+import { preloadImages } from './preload';
 
 export function GameEngine() {
   useInitializeGame();
@@ -29,6 +30,7 @@ export function GameRenderer() {
       </GameLayout>
     );
   }
+  preloadImages(currentNode);
 
   const renderScreen = () => {
     if (currentNode.type === 'start') {

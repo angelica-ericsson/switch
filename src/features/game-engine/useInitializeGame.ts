@@ -3,7 +3,6 @@ import { useLocalStorage } from 'usehooks-ts';
 import type { Edge, Node } from '@xyflow/react';
 import game from '../../game-files/game.json';
 import { generateGameNodeGraph, useGameState } from './state';
-import { preloadImages } from './preload';
 
 /**
  * Custom hook to initialize the game from URL parameters or defaults.
@@ -50,7 +49,6 @@ export function useInitializeGame() {
     setCurrentNode(startNode);
     setGameState({ gameVariant: variant, isInitialized: true });
 
-    preloadImages(nodes);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInitialized]);
 }

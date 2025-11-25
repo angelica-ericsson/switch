@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { gameSchema, type UnionNodeType } from './zod-schema';
+import { preloadImages } from './preload';
 
 /**
  * Event types for buy/sell operations
@@ -216,6 +217,8 @@ function moveGameForward(state: GameState, direction: string): Partial<GameState
  */
 function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
   console.log('processNode', node);
+  preloadImages(node);
+
   // UI-rendering nodes: update currentNode and stop
   if (
     node.type === 'scene' ||
