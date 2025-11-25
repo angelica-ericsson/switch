@@ -61,8 +61,8 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
   return (
     <GameLayout>
-      <div className="order-form-bg mx-auto max-w-2xl rotate-1 font-mono shadow-2xl">
-        <div className="ml-8 border-l-2 border-red-300/50 p-8 text-black/70">
+      <div className="order-form-bg max-w-3xl rotate-1 font-mono shadow-2xl">
+        <div className="ml-2 border-l-2 border-red-300/50 p-4 pt-8 text-black/70 md:ml-8 md:p-8">
           <h1 className="text-3xl leading-8">
             {alias} {t('stockUp.headline')}
           </h1>
@@ -73,42 +73,48 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
             {events.length === 0 ? (
               <p className="leading-8 text-gray-500">{t('stockUp.inventoryEmpty')}</p>
             ) : (
-              <div>
-                <div className="grid grid-cols-3 leading-8">
-                  <p></p>
-                  <p>{t('productA')}:</p>
-                  <p>{t('productB')}:</p>
-                </div>
-                {events.map((event, index) => (
-                  <div key={index} className="grid grid-cols-3 leading-8">
-                    <p>
-                      <span className="mr-3">
-                        {new Date(event.date).toLocaleDateString(i18n.resolvedLanguage, {
-                          year: 'numeric',
-                          month: 'short',
-                        })}
-                      </span>
-                      <span
-                        className={`${event.type === 'buy' ? 'text-red-700' : event.type === 'sell' ? 'text-green-700' : 'text-black'}`}
-                      >
-                        {event.type === 'buy'
-                          ? t('stockUp.eventTypeBuy')
-                          : event.type === 'sell'
-                            ? t('stockUp.eventTypeSell')
-                            : t('stockUp.eventTypeInitial')}
-                        :
-                      </span>
-                    </p>
-                    <p>{event.productA}</p>
-                    <p>{event.productB}</p>
-                  </div>
-                ))}
-                <div className="grid grid-cols-3 border-t border-black leading-8">
-                  <p>{t('stockUp.inStock')}</p>
-                  <p>{stockA}</p>
-                  <p>{stockB}</p>
-                </div>
-              </div>
+              <table className="w-full leading-8">
+                <thead>
+                  <tr className="md:text-md text-sm leading-8">
+                    <th></th>
+                    <th>{t('productA')}:</th>
+                    <th>{t('productB')}:</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {events.map((event, index) => (
+                    <tr key={index}>
+                      <td className="text-nowrap">
+                        <span className="mr-2">
+                          {new Date(event.date).toLocaleDateString(i18n.resolvedLanguage, {
+                            year: 'numeric',
+                            month: 'short',
+                          })}
+                        </span>
+                        <span
+                          className={`${event.type === 'buy' ? 'text-red-700' : event.type === 'sell' ? 'text-green-700' : 'text-black'}`}
+                        >
+                          {event.type === 'buy'
+                            ? t('stockUp.eventTypeBuy')
+                            : event.type === 'sell'
+                              ? t('stockUp.eventTypeSell')
+                              : t('stockUp.eventTypeInitial')}
+                          :
+                        </span>
+                      </td>
+                      <td className="text-center">{event.productA}</td>
+                      <td className="text-center">{event.productB}</td>
+                    </tr>
+                  ))}
+                </tbody>
+                <tfoot>
+                  <tr className="border-t border-black">
+                    <td>{t('stockUp.inStock')}</td>
+                    <td className="text-center">{stockA}</td>
+                    <td className="text-center">{stockB}</td>
+                  </tr>
+                </tfoot>
+              </table>
             )}
           </div>
 

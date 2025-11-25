@@ -28,7 +28,7 @@ i18n
           },
           stockUp: {
             headline: 'Stock up!',
-            buyHeadline: 'Enter the stock quantities for Product A and Product B',
+            buyHeadline: 'How much do you want to buy?',
             button: 'Do it',
             inventoryHeadline: 'Inventory',
             inventoryEmpty: 'Empty',
