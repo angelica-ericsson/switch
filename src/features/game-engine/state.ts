@@ -1,7 +1,5 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 import { gameSchema, type UnionNodeType } from './zod-schema';
-import { GAME_START_DATE } from './constants';
 
 /**
  * Event types for buy/sell operations
@@ -72,7 +70,8 @@ function calculateTotalSales(events: GameEvent[]): number {
  * Returns a Date object that can be used for formatting or converted to ISO string
  */
 export function getDateFromDaysSinceStart(days: number): Date {
-  const date = new Date(GAME_START_DATE);
+  console.log('getDateFromDaysSinceStart', days);
+  const date = new Date();
   date.setDate(date.getDate() + days);
   return date;
 }
@@ -188,6 +187,8 @@ export function generateGameNodeGraph(input: unknown) {
  * the game continues until it reaches a UI-rendering node (start, scene, stockUp, end).
  */
 function moveGameForward(state: GameState, direction: string): Partial<GameState> {
+  console.log('MoveGameForward');
+
   if (!state.currentNode) throw Error('current node cannot be null');
 
   // Get the edge from the current node
@@ -214,6 +215,7 @@ function moveGameForward(state: GameState, direction: string): Partial<GameState
  * UI-rendering nodes update currentNode and stop.
  */
 function processNode(state: GameState, node: UnionNodeType): Partial<GameState> {
+  console.log('processNode', node);
   // UI-rendering nodes: update currentNode and stop
   if (
     node.type === 'scene' ||

@@ -48,6 +48,7 @@ const buttonVariants = {
 };
 
 export function SocialScreen({ node }: SocialScreenProps) {
+  const gameVariant = useGameState((state) => state.gameVariant);
   const moveForward = useGameState((state) => state.moveForward);
   const { t } = useTranslation();
 
@@ -64,10 +65,20 @@ export function SocialScreen({ node }: SocialScreenProps) {
     return map;
   }, []);
 
+  // Select variant-specific content
   const tweets = [
-    { text: node.data?.text1, userName: node.data?.userName1 },
-    { text: node.data?.text2, userName: node.data?.userName2 },
-    { text: node.data?.text3, userName: node.data?.userName3 },
+    {
+      text: gameVariant === 'A' ? node.data?.text1A : node.data?.text1B,
+      userName: node.data?.userName1,
+    },
+    {
+      text: gameVariant === 'A' ? node.data?.text2A : node.data?.text2B,
+      userName: node.data?.userName2,
+    },
+    {
+      text: gameVariant === 'A' ? node.data?.text3A : node.data?.text3B,
+      userName: node.data?.userName3,
+    },
   ]
     .filter((config): config is { text: string; userName: string } => {
       return !!config.text && !!config.userName && fakeDataMap.has(config.userName);

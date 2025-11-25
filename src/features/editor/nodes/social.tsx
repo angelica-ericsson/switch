@@ -13,9 +13,12 @@ import { fakeData } from '@/features/game-engine/constants';
 
 type SocialNodeType = Node<
   {
-    text1: string;
-    text2: string;
-    text3: string;
+    text1A: string;
+    text1B: string;
+    text2A: string;
+    text2B: string;
+    text3A: string;
+    text3B: string;
     userName1: string;
     userName2: string;
     userName3: string;
@@ -42,9 +45,12 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
             <form
               action={(formData) => {
                 reactFlow.updateNodeData(id, {
-                  text1: fdOrNull(formData.get('text1')),
-                  text2: fdOrNull(formData.get('text2')),
-                  text3: fdOrNull(formData.get('text3')),
+                  text1A: fdOrNull(formData.get('text1A')),
+                  text1B: fdOrNull(formData.get('text1B')),
+                  text2A: fdOrNull(formData.get('text2A')),
+                  text2B: fdOrNull(formData.get('text2B')),
+                  text3A: fdOrNull(formData.get('text3A')),
+                  text3B: fdOrNull(formData.get('text3B')),
                   userName1: fdOrNull(formData.get('userName1')),
                   userName2: fdOrNull(formData.get('userName2')),
                   userName3: fdOrNull(formData.get('userName3')),
@@ -58,8 +64,6 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
               </DialogHeader>
 
               <div className="flex flex-col gap-2">
-                <Label>Text 1:</Label>
-                <Input placeholder="Text 1" name="text1" defaultValue={data.text1} />
                 <Label>Account 1:</Label>
                 <NativeSelect name="userName1" defaultValue={data.userName1 || ''}>
                   <option value="">Select an account...</option>
@@ -69,10 +73,12 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
                     </option>
                   ))}
                 </NativeSelect>
+                <Label>Translation Key for Text 1 - Variant A:</Label>
+                <Input placeholder="Text 1 Variant A" name="text1A" defaultValue={data.text1A} />
+                <Label>Translation Key for Text 1 - Variant B:</Label>
+                <Input placeholder="Text 1 Variant B" name="text1B" defaultValue={data.text1B} />
               </div>
               <div className="flex flex-col gap-2">
-                <Label>Text 2:</Label>
-                <Input placeholder="Text 2" name="text2" defaultValue={data.text2} />
                 <Label>Account 2:</Label>
                 <NativeSelect name="userName2" defaultValue={data.userName2 || ''}>
                   <option value="">Select an account...</option>
@@ -82,10 +88,12 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
                     </option>
                   ))}
                 </NativeSelect>
+                <Label>Translation Key for Text 2 - Variant A:</Label>
+                <Input placeholder="Text 2 Variant A" name="text2A" defaultValue={data.text2A} />
+                <Label>Translation Key for Text 2 - Variant B:</Label>
+                <Input placeholder="Text 2 Variant B" name="text2B" defaultValue={data.text2B} />
               </div>
               <div className="flex flex-col gap-2">
-                <Label>Text 3:</Label>
-                <Input placeholder="Text 3" name="text3" defaultValue={data.text3} />
                 <Label>Account 3:</Label>
                 <NativeSelect name="userName3" defaultValue={data.userName3 || ''}>
                   <option value="">Select an account...</option>
@@ -95,6 +103,10 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
                     </option>
                   ))}
                 </NativeSelect>
+                <Label>Translation Key for Text 3 - Variant A:</Label>
+                <Input placeholder="Text 3 Variant A" name="text3A" defaultValue={data.text3A} />
+                <Label>Translation Key for Text 3 - Variant B:</Label>
+                <Input placeholder="Text 3 Variant B" name="text3B" defaultValue={data.text3B} />
               </div>
               <DialogFooter>
                 <DialogClose asChild>
@@ -109,19 +121,46 @@ export function SocialNode({ data, id }: NodeProps<SocialNodeType>) {
       <BaseNodeContent>
         <div className="flex flex-col gap-2">
           <div>
-            <p className="mb-1 text-sm font-semibold">Text 1:</p>
-            <p className="line-clamp-3 rounded-md border border-green-700 bg-white p-2">{data.text1 ?? 'No text'}</p>
-            {data.userName1 && <p className="mt-1 text-xs text-gray-600">Account: @{data.userName1}</p>}
+            <p className="mb-1 text-sm font-semibold">Tweet 1:</p>
+            {data.userName1 && <p className="mb-1 text-xs text-gray-600">Account: @{data.userName1}</p>}
+            <div className="grid grid-cols-2 gap-1">
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant A:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text1A ?? 'No text'}</p>
+              </div>
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant B:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text1B ?? 'No text'}</p>
+              </div>
+            </div>
           </div>
           <div>
-            <p className="mb-1 text-sm font-semibold">Text 2:</p>
-            <p className="line-clamp-3 rounded-md border border-green-700 bg-white p-2">{data.text2 ?? 'No text'}</p>
-            {data.userName2 && <p className="mt-1 text-xs text-gray-600">Account: @{data.userName2}</p>}
+            <p className="mb-1 text-sm font-semibold">Tweet 2:</p>
+            {data.userName2 && <p className="mb-1 text-xs text-gray-600">Account: @{data.userName2}</p>}
+            <div className="grid grid-cols-2 gap-1">
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant A:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text2A ?? 'No text'}</p>
+              </div>
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant B:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text2B ?? 'No text'}</p>
+              </div>
+            </div>
           </div>
           <div>
-            <p className="mb-1 text-sm font-semibold">Text 3:</p>
-            <p className="line-clamp-3 rounded-md border border-green-700 bg-white p-2">{data.text3 ?? 'No text'}</p>
-            {data.userName3 && <p className="mt-1 text-xs text-gray-600">Account: @{data.userName3}</p>}
+            <p className="mb-1 text-sm font-semibold">Tweet 3:</p>
+            {data.userName3 && <p className="mb-1 text-xs text-gray-600">Account: @{data.userName3}</p>}
+            <div className="grid grid-cols-2 gap-1">
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant A:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text3A ?? 'No text'}</p>
+              </div>
+              <div>
+                <p className="mb-1 text-xs font-semibold">Variant B:</p>
+                <p className="line-clamp-2 rounded-md border border-green-700 bg-white p-2 text-xs">{data.text3B ?? 'No text'}</p>
+              </div>
+            </div>
           </div>
         </div>
         <BaseHandle type="target" position={Position.Top} />
