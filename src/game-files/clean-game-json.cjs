@@ -7,4 +7,9 @@ for (const node of gameData.nodes) {
   node.dragging = undefined;
 }
 
+for (const edge of gameData.edges) {
+  edge.markerEnd = undefined;
+  edge.style = undefined;
+}
+
 fs.writeFileSync(__dirname + '/game.json', JSON.stringify(gameData));
