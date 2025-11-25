@@ -23,3 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 .tanstack
+# Sentry Config File
+.env.sentry-build-plugin
