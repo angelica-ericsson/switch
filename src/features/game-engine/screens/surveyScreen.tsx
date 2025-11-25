@@ -42,8 +42,8 @@ export function SurveyScreen() {
               name="response1"
               value={response1}
               onChange={(e) => setResponse1(e.target.value)}
-              className="min-h-32"
-              placeholder={t('survey.question1')}
+              className="ring-thistle-800 bg-thistle-50 inset-shadow-gray-250 min-h-20 ring-2 inset-shadow-sm"
+              placeholder=""
               required
             />
           </div>
@@ -57,8 +57,7 @@ export function SurveyScreen() {
               name="response2"
               value={response2}
               onChange={(e) => setResponse2(e.target.value)}
-              className="min-h-32"
-              placeholder={t('survey.question2')}
+              className="ring-thistle-800 bg-thistle-50 inset-shadow-gray-250 min-h-20 ring-2 inset-shadow-sm"
               required
             />
           </div>
