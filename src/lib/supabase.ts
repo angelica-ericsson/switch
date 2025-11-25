@@ -1,3 +1,5 @@
+import type { ConsentFormData } from '@/features/onboarding/consentStore';
+import type { DemographicFormData } from '@/features/onboarding/demographicStore';
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
@@ -5,8 +7,6 @@ const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const supabaseClient = createClient(supabaseUrl, supabaseKey);
 
-// async function supa() {
-//   const client = supabaseClient;
-//   const result = await client.from('results').insert({ state: { foo: 'bar' } });
-//   console.log(result);
-// }
+export async function submitData(demographic: DemographicFormData, consent: ConsentFormData, gameState: object) {
+  await supabaseClient.from('results').insert({ demographic: demographic, consent: consent, state: gameState });
+}
