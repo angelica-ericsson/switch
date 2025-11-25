@@ -123,6 +123,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 id="productA"
                 name="productA"
                 min="0"
+                max="100"
                 step="1"
                 required
                 className="border-b-3 border-dotted border-black/50"
@@ -136,6 +137,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 id="productB"
                 name="productB"
                 min="0"
+                max="100"
                 step="1"
                 required
                 className="border-b-3 border-dotted border-black/50"
