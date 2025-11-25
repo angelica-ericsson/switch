@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Panel } from '@xyflow/react';
 import { useReactFlow } from '@xyflow/react';
 import { Search } from 'lucide-react';
-import { useState, KeyboardEvent } from 'react';
+import { useState, type KeyboardEvent } from 'react';
 
 export function SearchToolbar() {
   const reactFlow = useReactFlow();
