@@ -60,7 +60,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
               </div>
               <div className="flex flex-col gap-2">
                 <Label>Translation Key for Variant B:</Label>
-                <Input placeholder="Text Variant B" name="textB" defaultValue={data.textA} />
+                <Input placeholder="Text Variant B" name="textB" defaultValue={data.textB} />
               </div>
 
               <div className="flex flex-col gap-2">
