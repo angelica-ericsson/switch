@@ -5,14 +5,16 @@
 - `src/assets/green-dust-and-scratches.png`: https://www.transparenttextures.com/
 - `src/assets/cardboard.png`: https://www.transparenttextures.com/
 - `src/assets/mountains-1412683_1920.png`: https://pixabay.com/vectors/mountains-panorama-forest-mountain-1412683/
-- `public/factory.jpg`: https://unsplash.com/photos/a-large-brick-building-with-a-tall-chimney-OrXqgVC72Jg
 - `src/assets/crumpled-paper.jpg`: https://unsplash.com/photos/a-white-substance-on-a-surface-TP7YxN67ONo
 - `src/assets/avatars/union-logo.jpg`: Generated using ChatGPT
 - `src/assets/avatars/wilderton-logo.jpg`: Generated using ChatGPT
+- `public/factory.jpg`: https://unsplash.com/photos/a-large-brick-building-with-a-tall-chimney-OrXqgVC72Jg
 - `public/wilderton-logo.jpg`: Generated using ChatGPT
 - `public/health.jpg`: https://www.pexels.com/photo/man-wearing-a-protective-suit-17166070/
 - `public/audtit.jpg`: https://www.pexels.com/photo/photo-of-person-holding-paper-and-pen-7088483/
 - `public/closing.jpg`: https://unsplash.com/photos/a-close-up-of-a-sign-on-a-building-5OfPf3_u_2c
+- `public/coworking.jpg`: https://unsplash.com/photos/a-group-of-people-sitting-at-tables-in-a-room-9svaKgB7ouc
+- `public/development.jpg`: https://unsplash.com/photos/gray-concrete-building-close-up-photography-QgJPg11tF-o
 - Used for the Avatars in the social posts:
   - https://unsplash.com/photos/man-wearing-black-crew-neck-shirt-d2MSDujJl2g
   - https://unsplash.com/photos/man-in-black-crew-neck-shirt-BBmi4nJjKk8
