@@ -81,7 +81,7 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
               </Field>
               <Field>
                 <FieldLabel>Days since game start when the sales of products happens:</FieldLabel>
-                <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data.daysSinceGameStart ?? 0} />
+                <Input type="number" name="daysSinceGameStart" defaultValue={data.daysSinceGameStart ?? 0} />
               </Field>
               <Field>
                 <FieldLabel>Event ID:</FieldLabel>
