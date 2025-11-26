@@ -36,10 +36,11 @@
       },
       "data": {
         "textA": "Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.",
-        "textB": null,
+        "textB": "Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.",
         "option1": "Continue",
         "option2": null,
-        "option3": null
+        "option3": null,
+        "eventId": null
       }
     },
     {
@@ -84,8 +85,8 @@
         "y": 2236.775818165949
       },
       "data": {
-        "textA": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your usual 100 items between your most popular brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
-        "textB": null,
+        "textA": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
+        "textB": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
         "option1": "Let’s stock up!",
         "option2": null,
         "option3": null,
@@ -134,10 +135,11 @@
       },
       "data": {
         "textA": "You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.",
-        "textB": null,
+        "textB": "You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.",
         "option1": "Continue",
         "option2": null,
-        "option3": null
+        "option3": null,
+        "eventId": null
       }
     },
     {
@@ -149,10 +151,11 @@
       },
       "data": {
         "textA": "The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.",
-        "textB": null,
+        "textB": "The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.",
         "option1": "Continue",
         "option2": null,
-        "option3": null
+        "option3": null,
+        "eventId": null
       }
     },
     {
@@ -3083,7 +3086,7 @@
         "headlineB": null,
         "textA": "<b>Only two years after its opening, the new WearHouse community centre won the prestigious “Best community centre” award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b> It’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter. The big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. Most of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre, in the past months, the number of visitors has been growing steadily.",
         "textB": null,
-        "imageUrl": null,
+        "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
     },
