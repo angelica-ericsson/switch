@@ -29,7 +29,7 @@ i18n
           stockUp: {
             headline: 'Stock up!',
             buyHeadline: 'How much do you want to buy?',
-            button: 'Do it',
+            button: 'Place order',
             inventoryHeadline: 'Inventory',
             inventoryEmpty: 'Empty',
             eventTypeBuy: 'Bought',
@@ -140,7 +140,7 @@ i18n
               },
             },
             newsSources: {
-              title: 'Which are your favourite news sources?',
+              title: 'Which are your most used news sources?',
               description: 'Please drag and drop to rank them, with your favourite at the top.',
               options: {
                 blogs: 'Blogs',

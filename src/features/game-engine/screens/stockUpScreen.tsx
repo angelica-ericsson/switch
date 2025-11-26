@@ -134,6 +134,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 max="100"
                 step="1"
                 required
+                placeholder="0 - 100"
                 className="border-b-3 border-dotted border-black/50"
               />
 
@@ -148,6 +149,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 max="100"
                 step="1"
                 required
+                placeholder="0 - 100"
                 className="border-b-3 border-dotted border-black/50"
               />
             </div>
