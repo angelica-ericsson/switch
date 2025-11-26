@@ -14,9 +14,12 @@ type SceneNodeType = Node<
   {
     textA: string;
     textB: string;
-    option1: string;
-    option2: string;
-    option3: string;
+    option1A: string;
+    option1B: string;
+    option2A: string;
+    option2B: string;
+    option3A: string;
+    option3B: string;
     eventId: string | null;
   },
   'scene'
@@ -43,9 +46,12 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
                 reactFlow.updateNodeData(id, {
                   textA: fdOrNull(formData.get('textA')),
                   textB: fdOrNull(formData.get('textB')),
-                  option1: fdOrNull(formData.get('option1')),
-                  option2: fdOrNull(formData.get('option2')),
-                  option3: fdOrNull(formData.get('option3')),
+                  option1A: fdOrNull(formData.get('option1A')),
+                  option1B: fdOrNull(formData.get('option1B')),
+                  option2A: fdOrNull(formData.get('option2A')),
+                  option2B: fdOrNull(formData.get('option2B')),
+                  option3A: fdOrNull(formData.get('option3A')),
+                  option3B: fdOrNull(formData.get('option3B')),
                   eventId: fdOrNull(formData.get('eventId')),
                 });
                 setOpen(false);
@@ -66,10 +72,19 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
               </div>
 
               <div className="flex flex-col gap-2">
-                <Label>Options:</Label>
-                <Input placeholder="Option 1" name="option1" defaultValue={data.option1} />
-                <Input placeholder="Option 2" name="option2" defaultValue={data.option2} />
-                <Input placeholder="Option 3" name="option3" defaultValue={data.option3} />
+                <Label>Option 1:</Label>
+                <Input placeholder="Translation Key for Variant A" name="option1A" defaultValue={data.option1A} />
+                <Input placeholder="Translation Key for Variant B" name="option1B" defaultValue={data.option1B} />
+              </div>
+              <div className="flex flex-col gap-2">
+                <Label>Option 2:</Label>
+                <Input placeholder="Translation Key for Variant A" name="option2A" defaultValue={data.option2A} />
+                <Input placeholder="Translation Key for Variant B" name="option2B" defaultValue={data.option2B} />
+              </div>
+              <div className="flex flex-col gap-2">
+                <Label>Option 3:</Label>
+                <Input placeholder="Translation Key for Variant A" name="option3A" defaultValue={data.option3A} />
+                <Input placeholder="Translation Key for Variant B" name="option3B" defaultValue={data.option3B} />
               </div>
               <div className="flex flex-col gap-2">
                 <Label>Event ID:</Label>
@@ -92,11 +107,20 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
           <p className="line-clamp-6 rounded-md border border-indigo-700 bg-white p-2">{data.textA ?? 'No text'}</p>
           <p className="line-clamp-6 rounded-md border border-indigo-700 bg-white p-2">{data.textB ?? 'No text'}</p>
         </div>
-        <ol className="list-inside list-decimal space-y-2">
-          <li>{data.option1 ?? <NotUsed />}</li>
-          <li>{data.option2 ?? <NotUsed />}</li>
-          <li>{data.option3 ?? <NotUsed />}</li>
-        </ol>
+        <div className="grid grid-cols-2 gap-1">
+          <p className="font-semibold">Options Variant A:</p>
+          <p className="font-semibold">Options Variant B:</p>
+          <ol className="list-inside list-decimal space-y-2">
+            <li>{data.option1A ?? <NotUsed />}</li>
+            <li>{data.option2A ?? <NotUsed />}</li>
+            <li>{data.option3A ?? <NotUsed />}</li>
+          </ol>
+          <ol className="list-inside list-decimal space-y-2">
+            <li>{data.option1B ?? <NotUsed />}</li>
+            <li>{data.option2B ?? <NotUsed />}</li>
+            <li>{data.option3B ?? <NotUsed />}</li>
+          </ol>
+        </div>
         <div>
           <p className="mb-1 text-sm font-semibold">Event ID:</p>
           <p className="rounded-md border border-indigo-700 bg-white p-2 text-sm">{data.eventId}</p>

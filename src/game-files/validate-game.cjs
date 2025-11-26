@@ -176,11 +176,14 @@ gameData.nodes.forEach((node) => {
   if (node.type === 'scene') {
     const edgeMap = outgoingEdges.get(node.id);
     if (edgeMap) {
-      const hasOption1 = node.data?.option1 != null && node.data.option1.trim() !== '';
-      const hasOption2 = node.data?.option2 != null && node.data.option2.trim() !== '';
-      const hasOption3 = node.data?.option3 != null && node.data.option3.trim() !== '';
+      const hasOption1A = node.data?.option1A != null && node.data.option1A.trim() !== '';
+      const hasOption1B = node.data?.option1B != null && node.data.option1B.trim() !== '';
+      const hasOption2A = node.data?.option2A != null && node.data.option2A.trim() !== '';
+      const hasOption2B = node.data?.option2B != null && node.data.option2B.trim() !== '';
+      const hasOption3A = node.data?.option3A != null && node.data.option3A.trim() !== '';
+      const hasOption3B = node.data?.option3B != null && node.data.option3B.trim() !== '';
 
-      if (hasOption1 && !edgeMap.has('option1')) {
+      if ((hasOption1A || hasOption1B) && !edgeMap.has('option1')) {
         errors.push({
           type: 'missing_edge',
           nodeId: node.id,
@@ -188,7 +191,7 @@ gameData.nodes.forEach((node) => {
           message: `Scene node "${node.id}" has option1 text but no "option1" edge`,
         });
       }
-      if (hasOption2 && !edgeMap.has('option2')) {
+      if ((hasOption2A || hasOption2B) && !edgeMap.has('option2')) {
         errors.push({
           type: 'missing_edge',
           nodeId: node.id,
@@ -196,7 +199,7 @@ gameData.nodes.forEach((node) => {
           message: `Scene node "${node.id}" has option2 text but no "option2" edge`,
         });
       }
-      if (hasOption3 && !edgeMap.has('option3')) {
+      if ((hasOption3A || hasOption3B) && !edgeMap.has('option3')) {
         errors.push({
           type: 'missing_edge',
           nodeId: node.id,
@@ -244,6 +247,66 @@ gameData.nodes.forEach((node) => {
         nodeId: node.id,
         nodeType: node.type,
         message: `Scene node "${node.id}" has textB but missing textA`,
+      });
+    }
+
+    // Check option1A/option1B pair
+    const hasOption1A = node.data?.option1A != null && node.data.option1A.trim() !== '';
+    const hasOption1B = node.data?.option1B != null && node.data.option1B.trim() !== '';
+    if (hasOption1A && !hasOption1B) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option1A but missing option1B`,
+      });
+    }
+    if (hasOption1B && !hasOption1A) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option1B but missing option1A`,
+      });
+    }
+
+    // Check option2A/option2B pair
+    const hasOption2A = node.data?.option2A != null && node.data.option2A.trim() !== '';
+    const hasOption2B = node.data?.option2B != null && node.data.option2B.trim() !== '';
+    if (hasOption2A && !hasOption2B) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option2A but missing option2B`,
+      });
+    }
+    if (hasOption2B && !hasOption2A) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option2B but missing option2A`,
+      });
+    }
+
+    // Check option3A/option3B pair
+    const hasOption3A = node.data?.option3A != null && node.data.option3A.trim() !== '';
+    const hasOption3B = node.data?.option3B != null && node.data.option3B.trim() !== '';
+    if (hasOption3A && !hasOption3B) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option3A but missing option3B`,
+      });
+    }
+    if (hasOption3B && !hasOption3A) {
+      errors.push({
+        type: 'missing_variant',
+        nodeId: node.id,
+        nodeType: node.type,
+        message: `Scene node "${node.id}" has option3B but missing option3A`,
       });
     }
   }
@@ -354,9 +417,16 @@ gameData.nodes.forEach((node) => {
 // Check 9: Scene nodes without at least one button text
 gameData.nodes.forEach((node) => {
   if (node.type === 'scene') {
-    const hasOption1 = node.data?.option1 != null && node.data.option1.trim() !== '';
-    const hasOption2 = node.data?.option2 != null && node.data.option2.trim() !== '';
-    const hasOption3 = node.data?.option3 != null && node.data.option3.trim() !== '';
+    const hasOption1A = node.data?.option1A != null && node.data.option1A.trim() !== '';
+    const hasOption1B = node.data?.option1B != null && node.data.option1B.trim() !== '';
+    const hasOption2A = node.data?.option2A != null && node.data.option2A.trim() !== '';
+    const hasOption2B = node.data?.option2B != null && node.data.option2B.trim() !== '';
+    const hasOption3A = node.data?.option3A != null && node.data.option3A.trim() !== '';
+    const hasOption3B = node.data?.option3B != null && node.data.option3B.trim() !== '';
+
+    const hasOption1 = hasOption1A || hasOption1B;
+    const hasOption2 = hasOption2A || hasOption2B;
+    const hasOption3 = hasOption3A || hasOption3B;
 
     if (!hasOption1 && !hasOption2 && !hasOption3) {
       errors.push({

@@ -49,21 +49,24 @@ export function SceneScreen({ node }: SceneScreenProps) {
           />
         </p>
         <div className="mt-8 flex flex-col gap-7">
-          {node.data?.option1 && availableOptions.includes('option1') && (
-            <GameButton onClick={() => handleOptionClick('option1')} style={{ order: buttonOrder.option1 }}>
-              {t(node.data.option1)}
-            </GameButton>
-          )}
-          {node.data?.option2 && availableOptions.includes('option2') && (
-            <GameButton onClick={() => handleOptionClick('option2')} style={{ order: buttonOrder.option2 }}>
-              {t(node.data.option2)}
-            </GameButton>
-          )}
-          {node.data?.option3 && availableOptions.includes('option3') && (
-            <GameButton onClick={() => handleOptionClick('option3')} style={{ order: buttonOrder.option3 }}>
-              {t(node.data.option3)}
-            </GameButton>
-          )}
+          {((gameVariant === 'A' && node.data?.option1A) || (gameVariant === 'B' && node.data?.option1B)) &&
+            availableOptions.includes('option1') && (
+              <GameButton onClick={() => handleOptionClick('option1')} style={{ order: buttonOrder.option1 }}>
+                {t(gameVariant === 'A' ? node.data.option1A! : node.data.option1B!)}
+              </GameButton>
+            )}
+          {((gameVariant === 'A' && node.data?.option2A) || (gameVariant === 'B' && node.data?.option2B)) &&
+            availableOptions.includes('option2') && (
+              <GameButton onClick={() => handleOptionClick('option2')} style={{ order: buttonOrder.option2 }}>
+                {t(gameVariant === 'A' ? node.data.option2A! : node.data.option2B!)}
+              </GameButton>
+            )}
+          {((gameVariant === 'A' && node.data?.option3A) || (gameVariant === 'B' && node.data?.option3B)) &&
+            availableOptions.includes('option3') && (
+              <GameButton onClick={() => handleOptionClick('option3')} style={{ order: buttonOrder.option3 }}>
+                {t(gameVariant === 'A' ? node.data.option3A! : node.data.option3B!)}
+              </GameButton>
+            )}
         </div>
       </div>
     </GameLayout>

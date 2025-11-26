@@ -7,9 +7,12 @@ export const sceneNodeSchema = z.object({
   data: z.object({
     textA: z.string().nullable().optional(),
     textB: z.string().nullable().optional(),
-    option1: z.string().nullable().optional(),
-    option2: z.string().nullable().optional(),
-    option3: z.string().nullable().optional(),
+    option1A: z.string().nullable().optional(),
+    option1B: z.string().nullable().optional(),
+    option2A: z.string().nullable().optional(),
+    option2B: z.string().nullable().optional(),
+    option3A: z.string().nullable().optional(),
+    option3B: z.string().nullable().optional(),
     eventId: z.string().nullable().optional(),
   }),
 });
