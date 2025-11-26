@@ -17,6 +17,7 @@ type SceneNodeType = Node<
     option1: string;
     option2: string;
     option3: string;
+    eventId: string | null;
   },
   'scene'
 >;
@@ -45,6 +46,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
                   option1: fdOrNull(formData.get('option1')),
                   option2: fdOrNull(formData.get('option2')),
                   option3: fdOrNull(formData.get('option3')),
+                  eventId: fdOrNull(formData.get('eventId')),
                 });
                 setOpen(false);
               }}
@@ -69,6 +71,10 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
                 <Input placeholder="Option 2" name="option2" defaultValue={data.option2} />
                 <Input placeholder="Option 3" name="option3" defaultValue={data.option3} />
               </div>
+              <div className="flex flex-col gap-2">
+                <Label>Event ID:</Label>
+                <Input placeholder="Optional event identifier" name="eventId" defaultValue={data.eventId ?? ''} />
+              </div>
               <DialogFooter>
                 <DialogClose asChild>
                   <Button variant="outline">Cancel</Button>
@@ -91,6 +97,10 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
           <li>{data.option2 ?? <NotUsed />}</li>
           <li>{data.option3 ?? <NotUsed />}</li>
         </ol>
+        <div>
+          <p className="mb-1 text-sm font-semibold">Event ID:</p>
+          <p className="rounded-md border border-indigo-700 bg-white p-2 text-sm">{data.eventId}</p>
+        </div>
         <BaseHandle type="target" position={Position.Top} />
         <NumberedHandle type="source" position={Position.Bottom} id="option1" style={{ left: '25%' }} number="1" />
         <NumberedHandle type="source" position={Position.Bottom} id="option2" number="2" />

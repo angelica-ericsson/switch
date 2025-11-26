@@ -10,6 +10,7 @@ export const sceneNodeSchema = z.object({
     option1: z.string().nullable().optional(),
     option2: z.string().nullable().optional(),
     option3: z.string().nullable().optional(),
+    eventId: z.string().nullable().optional(),
   }),
 });
 
@@ -37,6 +38,7 @@ export const stockUpNodeSchema = z.object({
   type: z.literal('stockUp'),
   data: z.object({
     daysSinceGameStart: z.coerce.number().nullable().optional(),
+    eventId: z.string().nullable().optional(),
   }),
 });
 
@@ -65,6 +67,7 @@ export const setStateNodeSchema = z.object({
     sentimentNeutral: z.coerce.number().nullable().optional(),
     sentimentAgainst: z.coerce.number().nullable().optional(),
     daysSinceGameStart: z.coerce.number().nullable().optional(),
+    eventId: z.string().nullable().optional(),
   }),
 });
 

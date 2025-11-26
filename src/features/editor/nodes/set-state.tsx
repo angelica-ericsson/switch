@@ -19,6 +19,7 @@ type SetStateNodeType = Node<
     sentimentNeutral: number;
     sentimentAgainst: number;
     daysSinceGameStart: number;
+    eventId: string | null;
   },
   'setState'
 >;
@@ -49,6 +50,7 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
                   sentimentNeutral: fdOrNull(formData.get('sentimentNeutral')),
                   sentimentAgainst: fdOrNull(formData.get('sentimentAgainst')),
                   daysSinceGameStart: Number(formData.get('daysSinceGameStart')) || 0,
+                  eventId: fdOrNull(formData.get('eventId')),
                 });
                 setOpen(false);
               }}
@@ -81,6 +83,10 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
                 <FieldLabel>Days since game start when the sales of products happens:</FieldLabel>
                 <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data.daysSinceGameStart ?? 0} />
               </Field>
+              <Field>
+                <FieldLabel>Event ID:</FieldLabel>
+                <Input type="text" name="eventId" defaultValue={data?.eventId ?? ''} placeholder="Optional event identifier" />
+              </Field>
               <DialogFooter>
                 <DialogClose asChild>
                   <Button variant="outline">Cancel</Button>
@@ -112,6 +118,10 @@ export function SetStateNode({ data, id }: NodeProps<SetStateNodeType>) {
         <div>
           <p className="mb-1 text-sm font-semibold">Days since game start:</p>
           <p className="rounded-md border border-pink-700 bg-white p-2 text-sm">{data.daysSinceGameStart ?? 0} days</p>
+        </div>
+        <div>
+          <p className="mb-1 text-sm font-semibold">Event ID:</p>
+          <p className="rounded-md border border-pink-700 bg-white p-2 text-sm">{data.eventId}</p>
         </div>
       </BaseNodeContent>
     </BaseNode>

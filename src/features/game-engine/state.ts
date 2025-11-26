@@ -5,10 +5,10 @@ import { preloadImages } from './preload';
 /**
  * Event types for buy/sell operations
  */
-export type BuyEvent = { type: 'buy'; productA: number; productB: number; date: string };
-export type SellEvent = { type: 'sell'; productA: number; productB: number; date: string };
-export type InitialStock = { type: 'initial'; productA: number; productB: number; date: string };
-export type ChoiceEvent = { type: 'choice'; nodeId: string; choice: string };
+export type BuyEvent = { type: 'buy'; nodeId: string; productA: number; productB: number; date: string; eventId?: string | null };
+export type SellEvent = { type: 'sell'; nodeId: string; productA: number; productB: number; date: string; eventId?: string | null };
+export type InitialStock = { type: 'initial'; nodeId: string; productA: number; productB: number; date: string; eventId?: string | null };
+export type ChoiceEvent = { type: 'choice'; nodeId: string; choice: string; eventId?: string | null };
 export type GameEvent = BuyEvent | SellEvent | InitialStock | ChoiceEvent;
 
 /**
@@ -37,7 +37,7 @@ export interface GameState {
   surveyResponse1: string | null;
   surveyResponse2: string | null;
   setSurveyResponses: (response1: string, response2: string) => void;
-  pushChoice: (nodeId: string, choice: string) => void;
+  pushChoice: (nodeId: string, choice: string, eventId: string) => void;
 }
 
 /**
@@ -126,12 +126,13 @@ export const useGameState = create<GameState>()((set, get) => ({
       surveyResponse1: response1,
       surveyResponse2: response2,
     })),
-  pushChoice: (nodeId, choice) =>
+  pushChoice: (nodeId, choice, eventId) =>
     set((state) => {
       const choiceEvent: ChoiceEvent = {
         type: 'choice',
         nodeId,
         choice,
+        eventId,
       };
       console.table([...state.events, choiceEvent]);
       return {
@@ -254,15 +255,20 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
         const daysForEvent = node.data.daysSinceGameStart ?? state.daysSinceGameStart;
         const eventDate = getDateFromDaysSinceStart(daysForEvent).toISOString();
 
+        // Get eventId from node data if available
+        const eventId = node.data?.eventId ?? null;
+
         // push an initial state of the inventory
         if (updatedEvents.length === 0) {
           updatedEvents = [
             {
               type: 'initial',
+              nodeId: node.id,
               date: eventDate,
               productA: demandA + 10,
               productB: demandB + 10,
-            },
+              eventId,
+            } satisfies InitialStock,
           ];
         }
 
@@ -271,9 +277,11 @@ function processNode(state: GameState, node: UnionNodeType): Partial<GameState> 
         const currentStockB = calculateStock(updatedEvents, 'B');
         const clampedSellEvent: SellEvent = {
           type: 'sell',
+          nodeId: node.id,
           date: eventDate,
           productA: Math.min(demandA, currentStockA),
           productB: Math.min(demandB, currentStockB),
+          eventId,
         };
 
         updatedEvents.push(clampedSellEvent);

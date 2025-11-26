@@ -46,9 +46,11 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     // Push buy event
     pushEvent({
       type: 'buy',
+      nodeId: node.id,
       date: eventDate,
       productA,
       productB,
+      eventId: node.data?.eventId ?? null,
     });
 
     e.currentTarget.reset();

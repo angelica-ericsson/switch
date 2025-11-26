@@ -20,7 +20,7 @@ export function SceneScreen({ node }: SceneScreenProps) {
 
   const handleOptionClick = (option: string) => {
     if (availableOptions.length > 1) {
-      pushChoice(gameVariant === 'A' ? node.data.textA! : node.data.textB!, option);
+      pushChoice(node.id, option, node.data?.eventId ?? node.id);
     }
     moveForward(option);
   };

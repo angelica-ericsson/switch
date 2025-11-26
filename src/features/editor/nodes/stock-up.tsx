@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Field, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
+import { fdOrNull } from '@/lib/editorNodeHelpers';
 import { Position, useReactFlow, type Node, type NodeProps } from '@xyflow/react';
 import { Banknote, Pencil } from 'lucide-react';
 import { useState } from 'react';
@@ -11,6 +12,7 @@ import { useState } from 'react';
 type StockUpNodeType = Node<
   {
     daysSinceGameStart: number;
+    eventId: string | null;
   },
   'stockUp'
 >;
@@ -35,6 +37,7 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
               action={(formData) => {
                 reactFlow.updateNodeData(id, {
                   daysSinceGameStart: Number(formData.get('daysSinceGameStart')) || 0,
+                  eventId: fdOrNull(formData.get('eventId')),
                 });
                 setOpen(false);
               }}
@@ -46,6 +49,10 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
               <Field>
                 <FieldLabel>Days since game start when the purchase of products happens:</FieldLabel>
                 <Input type="number" name="daysSinceGameStart" min="0" defaultValue={data?.daysSinceGameStart ?? 0} />
+              </Field>
+              <Field>
+                <FieldLabel>Event ID:</FieldLabel>
+                <Input type="text" name="eventId" defaultValue={data?.eventId ?? ''} placeholder="Optional event identifier" />
               </Field>
               <DialogFooter>
                 <DialogClose asChild>
@@ -63,6 +70,10 @@ export function StockUpNode({ data, id }: NodeProps<StockUpNodeType>) {
         <div>
           <p className="mb-1 text-sm font-semibold">Days since game start:</p>
           <p className="rounded-md border border-sky-700 bg-white p-2 text-sm">{data?.daysSinceGameStart ?? 0} days</p>
+        </div>
+        <div>
+          <p className="mb-1 text-sm font-semibold">Event ID:</p>
+          <p className="rounded-md border border-sky-700 bg-white p-2 text-sm">{data.eventId}</p>
         </div>
       </BaseNodeContent>
     </BaseNode>
