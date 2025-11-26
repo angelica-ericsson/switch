@@ -30,7 +30,7 @@ export function SceneNode({ data, id }: NodeProps<SceneNodeType>) {
   const [open, setOpen] = useState(false);
 
   return (
-    <BaseNode className="max-w-[500px] border-indigo-700 bg-indigo-50">
+    <BaseNode className="max-w-[600px] border-indigo-700 bg-indigo-50">
       <BaseNodeHeader>
         <Image className="text-indigo-800" />
         <BaseNodeHeaderTitle className="text-indigo-800">Scene</BaseNodeHeaderTitle>
