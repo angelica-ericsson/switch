@@ -11,6 +11,7 @@ interface StockUpScreenProps {
 }
 
 export function StockUpScreen({ node }: StockUpScreenProps) {
+  const { t } = useTranslation();
   const moveForward = useGameState((state) => state.moveForward);
   const pushEvent = useGameState((state) => state.pushEvent);
   const events = useGameState((state) => state.events).filter(
@@ -31,6 +32,19 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     day: 'numeric',
   });
 
+  const validateTotal = () => {
+    const inputA = document.getElementById('productA') as HTMLInputElement;
+    const inputB = document.getElementById('productB') as HTMLInputElement;
+
+    if (Number(inputA.value) + Number(inputB.value) > 100) {
+      inputA.setCustomValidity(t('stockUp.maxError'));
+      inputB.setCustomValidity(t('stockUp.maxError'));
+    } else {
+      inputA.setCustomValidity('');
+      inputB.setCustomValidity('');
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -42,6 +56,11 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     // Get values from form data
     const productA = Number(formData.get('productA')) || 0;
     const productB = Number(formData.get('productB')) || 0;
+
+    if (productA + productB > 100) {
+      alert(t('stockUp.maxError'));
+      return;
+    }
 
     // Push buy event
     pushEvent({
@@ -58,8 +77,6 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     // Move forward with 'default' direction
     moveForward('default');
   };
-
-  const { t } = useTranslation();
 
   return (
     <GameLayout>
@@ -120,7 +137,9 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
             )}
           </div>
 
-          <p className="text-xl leading-8">{t('stockUp.buyHeadline')}</p>
+          <p className="text-xl leading-8">
+            {t('stockUp.buyHeadline')} <span className="text-sm">{t('stockUp.maxMessage')}</span>
+          </p>
           <form onSubmit={handleSubmit}>
             <div className="mb-8 grid grid-cols-2">
               <label htmlFor="productA" className="text-sm leading-8">
@@ -136,6 +155,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 required
                 placeholder="0 - 100"
                 className="border-b-3 border-dotted border-black/50"
+                onChange={validateTotal}
               />
 
               <label htmlFor="productB" className="text-sm leading-8">
@@ -151,6 +171,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
                 required
                 placeholder="0 - 100"
                 className="border-b-3 border-dotted border-black/50"
+                onChange={validateTotal}
               />
             </div>
             <GameButton type="submit" size="lg" className="w-full">

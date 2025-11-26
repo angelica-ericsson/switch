@@ -29,6 +29,8 @@ i18n
           stockUp: {
             headline: 'Stock up!',
             buyHeadline: 'How much do you want to buy?',
+            maxMessage: '(100 total)',
+            maxError: 'You can only buy 100 items in total',
             button: 'Place order',
             inventoryHeadline: 'Inventory',
             inventoryEmpty: 'Empty',
