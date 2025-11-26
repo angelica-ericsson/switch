@@ -12,4 +12,4 @@ for (const edge of gameData.edges) {
   edge.style = undefined;
 }
 
-fs.writeFileSync(__dirname + '/game.json', JSON.stringify(gameData));
+fs.writeFileSync(__dirname + '/game.json', JSON.stringify(gameData, null, 2));
