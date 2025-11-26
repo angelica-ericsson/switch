@@ -7,7 +7,7 @@ import { motion } from 'motion/react';
 
 export function StatusBar() {
   return (
-    <div className="fixed top-0 right-0 bottom-0 z-50 flex items-center pt-24">
+    <div className="fixed top-0 right-0 bottom-0 flex items-center pt-24">
       <div>
         <motion.div
           initial={{ opacity: 0, x: 200 }}
