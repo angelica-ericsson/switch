@@ -11,6 +11,7 @@ import Confetti from 'react-confetti';
 import { useNavigate } from '@tanstack/react-router';
 import game from '../../../game-files/game.json';
 import { generateGameNodeGraph } from '../state';
+import { GAME_TARGET_SALES } from '../constants';
 
 interface EndScreenProps {
   node: EndNodeType;
@@ -20,7 +21,7 @@ export function EndScreen({ node }: EndScreenProps) {
   const { t } = useTranslation();
   const hasSubmittedRef = useRef(false);
   const navigate = useNavigate();
-  const getTotalSales = useGameState((state) => state.getTotalSales);
+  const totalSales = useGameState((state) => state.getTotalSales)();
   const gameVariant = useGameState((state) => state.gameVariant);
   const setGameState = useGameState((state) => state.setGameState);
 
@@ -60,7 +61,7 @@ export function EndScreen({ node }: EndScreenProps) {
         sentimentNeutral: gameState.sentimentNeutral,
         sentimentAgainst: gameState.sentimentAgainst,
         events: gameState.events,
-        totalSales: gameState.getTotalSales(),
+        totalSales: totalSales,
         gameVariant: gameState.gameVariant,
         surveyResponse1: gameState.surveyResponse1,
         surveyResponse2: gameState.surveyResponse2,
@@ -80,7 +81,16 @@ export function EndScreen({ node }: EndScreenProps) {
         <p className="text-xl text-pretty whitespace-pre-line">
           <Trans
             i18nKey={node.data?.text ?? ''}
-            values={{ totalSales: getTotalSales() }}
+            values={{ totalSales }}
+            components={{
+              b: <span className="font-bold" />,
+            }}
+          />
+        </p>
+        <p className="text-xl text-pretty whitespace-pre-line">
+          <Trans
+            i18nKey={totalSales >= GAME_TARGET_SALES ? 'end.overTarget' : 'end.underTarget'}
+            values={{ totalSales }}
             components={{
               b: <span className="font-bold" />,
             }}

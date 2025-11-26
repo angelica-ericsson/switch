@@ -193,6 +193,10 @@ i18n
             },
           },
           end: {
+            overTarget:
+              'And, last but not least: in the process, you sold {{totalSales}} items, enough to extend the lease of your shop space!',
+            underTarget:
+              'Unfortunately, you only sold {{totalSales}} items which was not enough to extend the lease of your shop space 🙁.',
             playAgain: 'Play again!',
           },
         },
