@@ -6,6 +6,7 @@
  * 1. Nodes without outgoing connections (except start/end nodes)
  * 2. Nodes with A/B variants where one is missing
  * 3. Scene nodes without at least one button text
+ * 4. Nodes with dayssincestart property have ascending numbers in the game flow
  */
 
 const fs = require('fs');
@@ -468,6 +469,61 @@ if (startNodes.length === 1) {
       });
     }
   });
+}
+
+// Check 11: dayssincestart ascending validation
+if (startNodes.length === 1) {
+  const startNodeId = startNodes[0].id;
+
+  // DFS function to traverse paths and check dayssincestart values
+  const checkDaysSinceStart = (nodeId, maxDaysSinceStart, path) => {
+    // Check for cycles - if we've seen this node on this path before, skip
+    if (path.has(nodeId)) {
+      return;
+    }
+
+    const node = nodeMap.get(nodeId);
+    if (!node) return;
+
+    const currentDaysSinceStart = node.data?.dayssincestart;
+
+    // If this node has dayssincestart, check it's >= the max seen so far
+    if (currentDaysSinceStart != null) {
+      if (typeof currentDaysSinceStart !== 'number') {
+        errors.push({
+          type: 'invalid_dayssincestart',
+          nodeId: node.id,
+          nodeType: node.type,
+          message: `Node "${node.id}" has invalid dayssincestart value (must be a number): ${currentDaysSinceStart}`,
+        });
+      } else if (currentDaysSinceStart < maxDaysSinceStart) {
+        errors.push({
+          type: 'non_ascending_dayssincestart',
+          nodeId: node.id,
+          nodeType: node.type,
+          message: `Node "${node.id}" has dayssincestart ${currentDaysSinceStart}, which is less than the previous value ${maxDaysSinceStart} in the flow`,
+        });
+      } else {
+        // Update max for this path
+        maxDaysSinceStart = currentDaysSinceStart;
+      }
+    }
+
+    // Continue traversing to child nodes
+    const edgeMap = outgoingEdges.get(nodeId);
+    if (edgeMap) {
+      // Create a new path set for each child to allow different paths to merge
+      const newPath = new Set(path);
+      newPath.add(nodeId);
+
+      edgeMap.forEach((targetId) => {
+        checkDaysSinceStart(targetId, maxDaysSinceStart, newPath);
+      });
+    }
+  };
+
+  // Start traversal from start node with initial max of -Infinity (to allow negative numbers)
+  checkDaysSinceStart(startNodeId, -Infinity, new Set());
 }
 
 // Print results
