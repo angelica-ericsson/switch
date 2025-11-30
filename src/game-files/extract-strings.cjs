@@ -94,14 +94,104 @@ gameData.nodes.forEach((node) => {
 });
 
 // Convert map to array format
-const result = Array.from(textMap.entries()).map(([text, usedIn]) => ({
-  translationKey: '',
-  text,
-  usedIn,
-}));
+const result = Array.from(textMap.entries()).map(([text, usedIn]) => {
+  // Get Y coordinates from all nodes where this text is used
+  const yCoordinates = usedIn
+    .map((usage) => {
+      const node = gameData.nodes.find((n) => n.id === usage.nodeId);
+      return node?.position?.y;
+    })
+    .filter((y) => y != null);
 
-// Sort by text for easier review
-result.sort((a, b) => a.text.localeCompare(b.text));
+  // Use minimum Y coordinate (earliest in game flow, assuming Y increases downward)
+  const minY = yCoordinates.length > 0 ? Math.min(...yCoordinates) : Infinity;
+
+  // Generate translation key based on node types and A/B usage
+  const nodeTypeMap = new Map(); // nodeType -> Set of 'A' or 'B'
+  const nodeTypes = new Set(); // Track all node types (including those without A/B variants)
+
+  usedIn.forEach((usage) => {
+    const node = gameData.nodes.find((n) => n.id === usage.nodeId);
+    if (!node) return;
+
+    const nodeType = node.type;
+    const property = usage.dataProperty;
+    nodeTypes.add(nodeType);
+
+    // Determine if this property is A, B, or neither
+    let variant = null;
+    if (property.endsWith('A')) {
+      variant = 'A';
+    } else if (property.endsWith('B')) {
+      variant = 'B';
+    }
+    // For 'end' nodes with 'headline' or 'text', we don't have A/B variants
+
+    if (variant) {
+      if (!nodeTypeMap.has(nodeType)) {
+        nodeTypeMap.set(nodeType, new Set());
+      }
+      nodeTypeMap.get(nodeType).add(variant);
+    }
+  });
+
+  // Generate translation key
+  // If text is used in multiple node types, use the first one (by Y coordinate)
+  // Otherwise, use the single node type
+  let translationKey = '';
+  if (nodeTypes.size > 0) {
+    // Get the node type with the lowest Y coordinate
+    const nodeTypesWithY = Array.from(nodeTypes).map((type) => {
+      const nodesOfType = usedIn
+        .map((usage) => {
+          const node = gameData.nodes.find((n) => n.id === usage.nodeId);
+          return node;
+        })
+        .filter((node) => node && node.type === type);
+
+      const minYForType = nodesOfType
+        .map((node) => node.position?.y)
+        .filter((y) => y != null)
+        .reduce((min, y) => (min == null || y < min ? y : min), null);
+
+      return { type, minY: minYForType };
+    });
+
+    nodeTypesWithY.sort((a, b) => {
+      if (a.minY == null && b.minY == null) return 0;
+      if (a.minY == null) return 1;
+      if (b.minY == null) return -1;
+      return a.minY - b.minY;
+    });
+
+    const primaryType = nodeTypesWithY[0].type;
+    const variants = nodeTypeMap.get(primaryType);
+
+    if (variants && variants.size === 2) {
+      translationKey = `${primaryType}-AB`;
+    } else if (variants && variants.size === 1) {
+      translationKey = `${primaryType}-${Array.from(variants)[0]}`;
+    } else {
+      // No A/B variants (e.g., 'end' nodes)
+      translationKey = primaryType;
+    }
+  }
+
+  return {
+    translationKey: translationKey + '-TODO-🟥🟥🟥',
+    text,
+    usedIn,
+    _y: minY, // Store Y for sorting (not included in final output)
+  };
+});
+
+// Sort by Y coordinate (ascending - lower Y values first)
+result.sort((a, b) => a._y - b._y);
+
+// Remove the temporary _y property before output
+result.forEach((item) => {
+  delete item._y;
+});
 
 // Write output file
 const outputPath = path.join(__dirname, 'extracted-strings.json');
