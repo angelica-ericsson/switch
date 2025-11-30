@@ -1566,7 +1566,7 @@
     ]
   },
   {
-    "translationKey": "A-social-🟥🟥🟥",
+    "translationKey": "A-2_6-social-Independent_audit",
     "text": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
     "usedIn": [
       {
@@ -1592,7 +1592,7 @@
     ]
   },
   {
-    "translationKey": "B-social-🟥🟥🟥",
+    "translationKey": "B-2_6-social-Independent_audit",
     "text": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
     "usedIn": [
       {
@@ -1618,7 +1618,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-2_7-social-Feeling_weird",
     "text": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
     "usedIn": [
       {
@@ -1664,7 +1664,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
     "text": "Is it just me, or is the boycott finally slowing down? #SupportWW",
     "usedIn": [
       {
@@ -1694,7 +1694,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-2_7-social-DELAY-People_making_sense",
     "text": "Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions.",
     "usedIn": [
       {
@@ -1716,7 +1716,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-2_7-social-ACT/WAIT-Paying_for_audit",
     "text": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?",
     "usedIn": [
       {
@@ -1746,7 +1746,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-2_7-social-ACT-What-happened-to_boycott",
     "text": "Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW",
     "usedIn": [
       {
@@ -1768,7 +1768,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-option-Collection_box",
     "text": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
     "usedIn": [
       {
@@ -1814,7 +1814,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-scene-DELAY-Business_owner",
     "text": "Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?",
     "usedIn": [
       {
@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-option-DELAY-Discount-WildertonWear",
     "text": "Launch a discount campaign on WildertonWear to increase sales.",
     "usedIn": [
       {
@@ -1854,11 +1854,19 @@
       {
         "nodeId": "d5LBBeu-PkfaJ7WYZUTVl",
         "dataProperty": "option2B"
+      },
+      {
+        "nodeId": "08xCWS47pgIhcwi0PtJhw",
+        "dataProperty": "option3A"
+      },
+      {
+        "nodeId": "08xCWS47pgIhcwi0PtJhw",
+        "dataProperty": "option3B"
       }
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-option-DELAY-Call_resellers-to-support",
     "text": "Call other resellers of WildertonWear’s products and convince them to support the company.",
     "usedIn": [
       {
@@ -1880,7 +1888,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-scene-ACT-Business_owner",
     "text": "Together with friends, you discuss what you, as a business owner, can do to help the cause?",
     "usedIn": [
       {
@@ -1902,7 +1910,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-option-ACT-Call_resellers_join_boycott",
     "text": "Call other resellers of WildertonWear’s products and convince them to join the boycott.",
     "usedIn": [
       {
@@ -1924,7 +1932,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
     "text": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
     "usedIn": [
       {
@@ -1954,7 +1962,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_8-scene-WAIT-Business_owner",
     "text": "Meanwhile, you and your friends are discussing what you, as a business owner, can do to help the cause?",
     "usedIn": [
       {
@@ -1968,21 +1976,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
-    "text": "Launch a discount campaign on WildertonWear items to increase sales.",
-    "usedIn": [
-      {
-        "nodeId": "08xCWS47pgIhcwi0PtJhw",
-        "dataProperty": "option3A"
-      },
-      {
-        "nodeId": "08xCWS47pgIhcwi0PtJhw",
-        "dataProperty": "option3B"
-      }
-    ]
-  },
-  {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_9-scene-DELAY-ModMod-Stockup_3",
     "text": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
     "usedIn": [
       {
@@ -1996,7 +1990,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_9-scene-DELAY-Rad-Stockup_3",
     "text": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to support WildertonWear, but you convinced enough of them to increase the sales. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
     "usedIn": [
       {
@@ -2010,7 +2004,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_9-scene-WAIT-Stockup_3",
     "text": "Wow, the support was even stronger than you thought! A majority of your customers generously donated to the collection box. You now have a substantial fund to support the cause. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
     "usedIn": [
       {
@@ -2024,7 +2018,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_9-scene-ACT-Rad-Stockup_3",
     "text": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to join the boycott, but you convinced enough of them to add pressure on WildertonWear. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
     "usedIn": [
       {
@@ -2038,7 +2032,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_9-scene-ACT-Mod-Stockup_3",
     "text": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! But this is clearly better for the cause than for your business; your revenues are lagging quite a bit. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
     "usedIn": [
       {
@@ -2052,7 +2046,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_1-scene-DELAY-Rad/Mod-Reaction_waiting_for_audit",
     "text": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
     "usedIn": [
       {
@@ -2074,7 +2068,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_1-scene-WAIT-Reaction_waiting_for_audit",
     "text": "Phew, that was a tough decision. You took the safe bet, which was a good idea this time. The boycott has slowed down since the customers are waiting for the result of the audit.",
     "usedIn": [
       {
@@ -2088,7 +2082,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_1-scene-ACT-Reaction_waiting_for_audit",
     "text": "This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.",
     "usedIn": [
       {
@@ -2110,7 +2104,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-WAIT-BlueSkin_bag",
     "text": "Just had a discussion with a neighbour because of my BlueSkin bag. Hate how the whole town is so divided over the whole WildertonWear issue. :(",
     "usedIn": [
       {
@@ -2124,7 +2118,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-WAIT-Stick_to_boycott!",
     "text": "Come on guys, stick to the boycott! We need to show Wildertonwear that they can’t get away with exploiting workers!",
     "usedIn": [
       {
@@ -2138,7 +2132,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-WAIT-What_if_close",
     "text": "About the boycott: what if the factory has to close? Won’t that mean a lot of unemployment, and maybe a lot of people moving out to find jobs?",
     "usedIn": [
       {
@@ -2152,7 +2146,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-ACT-Rad/Mod-What_if_too_far",
     "text": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
     "usedIn": [
       {
@@ -2174,7 +2168,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-ACT-Rad/Mod-Think_this_through",
     "text": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
     "usedIn": [
       {
@@ -2196,7 +2190,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-ACT-Rad/Mod-What_alternatives",
     "text": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?",
     "usedIn": [
       {
@@ -2218,7 +2212,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-DELAY-Mod/Rad-Brute_consumer_force",
     "text": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
     "usedIn": [
       {
@@ -2240,7 +2234,7 @@
     ]
   },
   {
-    "translationKey": "A-social-🟥🟥🟥",
+    "translationKey": "A-3_2-social-DELAY-Mod-Can't_let_them_get_away",
     "text": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with exploiting the workers!",
     "usedIn": [
       {
@@ -2254,7 +2248,7 @@
     ]
   },
   {
-    "translationKey": "B-social-🟥🟥🟥",
+    "translationKey": "B-3_2-social-DELAY-Mod-Can't_let_them_get_away",
     "text": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!",
     "usedIn": [
       {
@@ -2268,7 +2262,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-3_2-social-DELAY-Mod/Rad-Loyal_customers",
     "text": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?",
     "usedIn": [
       {
@@ -2290,7 +2284,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-scene-DELAY-Mod-Long_term",
     "text": "A lot of people are worried, and you realise that rather than making rash decisions, you need to come up with long-term solutions.  How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
     "usedIn": [
       {
@@ -2304,7 +2298,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-option-WAIT/DELAY-Mod/Rad-WW_day",
     "text": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
     "usedIn": [
       {
@@ -2334,7 +2328,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-option-DELAY-Mod/Rad-Invite_interest_groups",
     "text": "Invite local interest groups to submit suggestions on how to protect the jobs.",
     "usedIn": [
       {
@@ -2356,7 +2350,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-3_3-option-DELAY-Mod-Local_producer",
     "text": "Convince a local producer of filters and safety gear to donate equipment to the factory.",
     "usedIn": [
       {
@@ -2370,7 +2364,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-3_3-option-DELAY-Mod-Local_producer",
     "text": "Convince a local producer of pollution filters to donate equipment to the factory.",
     "usedIn": [
       {
@@ -2384,7 +2378,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-scene-DELAY-Rad-Long_term",
     "text": "A lot of people are worried. You realise that rather than making rash decisions, you need to come up with long-term solutions. How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
     "usedIn": [
       {
@@ -2398,7 +2392,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-scene-ACT-Rad/Mod-How_to_thrive",
     "text": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
     "usedIn": [
       {
@@ -2420,7 +2414,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-option-ACT-Rad/Mod-Community_day",
     "text": "Organise a community day for residents to brainstorm what the town could look like in the future.",
     "usedIn": [
       {
@@ -2442,7 +2436,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-option-WAIT/ACT-Rad/Mod-Invite_interest_groups",
     "text": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
     "usedIn": [
       {
@@ -2472,7 +2466,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-option-WAIT/ACT-Rad/Mod-Fund_to_support",
     "text": "Start a fund to support the workers if the factory closes.",
     "usedIn": [
       {
@@ -2502,7 +2496,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_3-scene-WAIT-Long_term",
     "text": "People are worried, and you realise that you are finally forced to choose sides. Should you try to find a way to force WildertonWear to make the necessary changes without risking the workers’ jobs, or is it time to start talking about how the town could thrive even if the factory closes? What is your next step?",
     "usedIn": [
       {
@@ -2516,7 +2510,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_4-scene-ACT-Rad-Community_day",
     "text": "The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.",
     "usedIn": [
       {
@@ -2530,7 +2524,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_4-scene-ACT-Mod-Suggestions",
     "text": "Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
     "usedIn": [
       {
@@ -2544,7 +2538,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-3_4-scene-DELAY-Rad-Safety_gear_producer",
     "text": "You contact a few safety gear producers and find one that is willing to donate safety gear. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.",
     "usedIn": [
       {
@@ -2554,7 +2548,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-3_4-scene-DELAY-Rad-Filtering_system_producer",
     "text": "You contact a few wastewater filtering system producers and find one that is willing to donate filters. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.",
     "usedIn": [
       {
