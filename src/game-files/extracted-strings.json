@@ -1,6 +1,6 @@
 [
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Most_popular_brands",
     "text": "Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.",
     "usedIn": [
       {
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Continue",
     "text": "Continue",
     "usedIn": [
       {
@@ -300,7 +300,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Things_about_to_change",
     "text": "However, things are about to change...",
     "usedIn": [
       {
@@ -314,7 +314,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Uh_oh",
     "text": "Uh oh...",
     "usedIn": [
       {
@@ -328,7 +328,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-newsFlash-HL-Tax_evasion",
     "text": "WILDERTONWEAR EVADING TAXES",
     "usedIn": [
       {
@@ -338,7 +338,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-newsFlash-HL-Super_emitter",
     "text": "WILDERTONWEAR FACTORY SUPER EMITTER",
     "usedIn": [
       {
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-newsFlash-body-Tax_evasion",
     "text": "<b>In a new investigative report, the Daily Times reveals that WildertonWear has neglected paying municipality taxes for the past five years. “We were in a tough situation, and had to cut down on spending,” says a former employee who wishes to remain anonymous.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community. However, the Daily Times can now reveal that the love has not been mutual. Over the past five years, WildertonWear has paid exactly zero municipality taxes. In an interview with the Daily Times, the company CEO, Bert Swindle, explains that the company always intended to pay the taxes “as soon as the financial situation stabilised”.",
     "usedIn": [
       {
@@ -358,7 +358,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-newsFlash-body-Super_emitter",
     "text": "<b>WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”",
     "usedIn": [
       {
@@ -368,7 +368,7 @@
     ]
   },
   {
-    "translationKey": "A-social-🟥🟥🟥",
+    "translationKey": "A-social-Tax_evasion-WTF",
     "text": "Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and you give nothing back?",
     "usedIn": [
       {
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "translationKey": "B-social-🟥🟥🟥",
+    "translationKey": "B-social-Super_emitter-WTF",
     "text": "Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?",
     "usedIn": [
       {
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-social-Let's_boycott",
     "text": "That’s it, I’m boycotting WildertonWear. Who’s with me? #BoycottWW",
     "usedIn": [
       {
@@ -402,7 +402,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Stockup_1",
     "text": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
     "usedIn": [
       {
@@ -416,7 +416,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-scene-Let's_stock_up!",
     "text": "Let’s stock up!",
     "usedIn": [
       {
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_1-scene-ACT-Reaction_boycott",
     "text": "You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.",
     "usedIn": [
       {
@@ -604,7 +604,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_1-scene-DELAY-Reaction_boycott",
     "text": "Hmm. It looks like you underestimated the Wilderton residents’ dissatisfaction with WildertonWear. The demand dropped quickly. Your revenue also dropped, but not so much that it affects the business.",
     "usedIn": [
       {
@@ -618,7 +618,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_1-scene-WAIT-Reaction_boycott",
     "text": "The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.",
     "usedIn": [
       {
@@ -632,7 +632,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-scene-ACT-Questions_from_customers",
     "text": "Some of your customers are happy that you’re reducing your WildertonWear supply. Others are wondering if you’re really willing to risk that such a traditional old company - and one of the town’s largest employers for generations - has to close? What do you tell them?",
     "usedIn": [
       {
@@ -646,7 +646,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_2-option-ACT-No_right_to_exploit",
     "text": "A long history doesn’t give them the right to exploit the community.",
     "usedIn": [
       {
@@ -656,7 +656,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_2-option-ACT-No_right_to_pollute",
     "text": "A long history doesn’t give them the right to pollute our atmosphere.",
     "usedIn": [
       {
@@ -666,7 +666,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-ACT-Can't_afford_to_support",
     "text": "I can’t afford to support WildertonWear if my customers won’t buy their products.",
     "usedIn": [
       {
@@ -680,7 +680,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-ACT-Temporary_boycott",
     "text": "I think a boycott could teach Wildertonwear a lesson, but it should be temporary.",
     "usedIn": [
       {
@@ -694,7 +694,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-scene-WAIT-Questions_from_customers",
     "text": "Your customers are wondering where you stand; are you going to support WildertonWear because of its long traditions, or are you joining the boycott even if there’s a risk that the company could be forced to close? What do you tell them?",
     "usedIn": [
       {
@@ -708,7 +708,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-WAIT-BlueSkin_safer_bet",
     "text": "It looks like BlueSkin is the safer choice right now, so I’ll go with that.",
     "usedIn": [
       {
@@ -722,7 +722,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-WAIT-Can't_afford_financial_risk",
     "text": "I can’t afford to take any financial risks, so I’ll wait and see what my competitors do.",
     "usedIn": [
       {
@@ -736,7 +736,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-WAIT-Business_is_business",
     "text": "Business is business, not politics. Despite the boycott, Wildertonwear is still the most popular brand.",
     "usedIn": [
       {
@@ -750,7 +750,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_2-scene-DELAY-Questions_from_customers",
     "text": "Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly exploiting the community. What do you tell them?",
     "usedIn": [
       {
@@ -760,7 +760,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_2-scene-DELAY-Questions_from_customers",
     "text": "Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly a big contributor to climate change. What do you tell them?",
     "usedIn": [
       {
@@ -770,7 +770,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-DELAY-Better_through_dialogue",
     "text": "WildertonWear clearly has problems, but it’s better to influence them through dialogue.",
     "usedIn": [
       {
@@ -784,7 +784,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-DELAY-Business_is_business",
     "text": "Business is business, not politics. Despite the boycott, WildertonWear is still the most popular brand.",
     "usedIn": [
       {
@@ -798,7 +798,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_2-option-DELAY-Have_to_support",
     "text": "I have to support them; if they have to close, it will affect the entire community.",
     "usedIn": [
       {
@@ -812,7 +812,7 @@
     ]
   },
   {
-    "translationKey": "A-social-🟥🟥🟥",
+    "translationKey": "A-1_3-social-Unfortunate_misunderstanding",
     "text": "There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications, we need a little more time. In the meantime, check out our new Lumberjack collection!",
     "usedIn": [
       {
@@ -830,7 +830,7 @@
     ]
   },
   {
-    "translationKey": "B-social-🟥🟥🟥",
+    "translationKey": "B-1_3-social-Unfortunate_misunderstanding",
     "text": "There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!",
     "usedIn": [
       {
@@ -848,7 +848,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_4-scene-DELAY-Council_vote_extension",
     "text": "There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
     "usedIn": [
       {
@@ -858,7 +858,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_4-scene-DELAY-Council_vote_extension",
     "text": "There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?",
     "usedIn": [
       {
@@ -868,7 +868,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-DELAY-Vote_against",
     "text": "Against. Although I do want to support them, I think they need to learn their lesson.",
     "usedIn": [
       {
@@ -882,7 +882,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-DELAY-Abstain_vote",
     "text": "I’ll abstain. If I openly choose sides, I might lose customers.",
     "usedIn": [
       {
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-DELAY-Vote_for",
     "text": "For, of course! We need to keep the factory running, for the workers as well as the community.",
     "usedIn": [
       {
@@ -910,7 +910,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-ACT-Abstain_vote",
     "text": "I’ll abstain. If I openly choose sides I might lose customers.",
     "usedIn": [
       {
@@ -932,7 +932,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_4-scene-WAIT-Council_vote_extension",
     "text": "There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
     "usedIn": [
       {
@@ -942,7 +942,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_4-scene-WAIT-Council_vote_extension",
     "text": "There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?",
     "usedIn": [
       {
@@ -952,7 +952,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_4-option-WAIT-Vote_against",
     "text": "Against. We’ve been supporting them long enough.",
     "usedIn": [
       {
@@ -962,7 +962,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_4-option-WAIT-Vote_against",
     "text": "Against. They should have fixed the system long ago.",
     "usedIn": [
       {
@@ -972,7 +972,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-WAIT-Vote_for",
     "text": "For. We need to keep the factory running, for the workers as well as the community.",
     "usedIn": [
       {
@@ -986,7 +986,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_4-scene-ACT-Council_vote_extension",
     "text": "There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
     "usedIn": [
       {
@@ -996,7 +996,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_4-scene-ACT-Council_vote_extension",
     "text": "There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months to ease the financial pressure on the company. How do you vote?",
     "usedIn": [
       {
@@ -1006,7 +1006,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_4-option-ACT-Vote_against",
     "text": "Against, of course! We’ve been supporting them long enough.",
     "usedIn": [
       {
@@ -1016,7 +1016,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_4-option-ACT-Vote_against",
     "text": "Against, of course! They should have fixed the system long ago.",
     "usedIn": [
       {
@@ -1026,7 +1026,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_4-option-ACT-Vote_for",
     "text": "For. We need to keep the factory running, for the sake of the workers and the community.",
     "usedIn": [
       {
@@ -1040,7 +1040,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-ACT-Extension_rejected",
     "text": "That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to pay its taxes immediately.",
     "usedIn": [
       {
@@ -1050,7 +1050,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-ACT-Extension_rejected",
     "text": "That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to fix its systems immediately.",
     "usedIn": [
       {
@@ -1060,7 +1060,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-ACT-Extension_approved",
     "text": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to pay their taxes.",
     "usedIn": [
       {
@@ -1070,7 +1070,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-ACT-Extension_approved",
     "text": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to fix its systems.",
     "usedIn": [
       {
@@ -1080,7 +1080,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-DELAY-Extension_approved",
     "text": "Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to pay their taxes.",
     "usedIn": [
       {
@@ -1090,7 +1090,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-DELAY-Extension_approved",
     "text": "Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to fix its systems.",
     "usedIn": [
       {
@@ -1100,7 +1100,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-DELAY-Extension_rejected",
     "text": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to pay their taxes immediately.",
     "usedIn": [
       {
@@ -1110,7 +1110,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-DELAY-Extension_rejected",
     "text": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to fix its systems immediately.",
     "usedIn": [
       {
@@ -1120,7 +1120,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-WAIT-Extension_approved",
     "text": "With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to pay its taxes.",
     "usedIn": [
       {
@@ -1130,7 +1130,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-WAIT-Extension_approved",
     "text": "With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to fix its systems.",
     "usedIn": [
       {
@@ -1140,7 +1140,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-1_5-scene-WAIT-Extension_rejected",
     "text": "With a narrow majority, the council voted against an extension. WildertonWear needs to pay its taxes immediately.",
     "usedIn": [
       {
@@ -1150,7 +1150,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-1_5-scene-WAIT-Extension_rejected",
     "text": "With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.",
     "usedIn": [
       {
@@ -1160,7 +1160,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-1_6-scene-Stockup_2",
     "text": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
     "usedIn": [
       {
@@ -1190,7 +1190,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_1-scene-DELAY-Reaction_2nd_newsflash",
     "text": "Ouch, supporting the company comes at a cost this time...",
     "usedIn": [
       {
@@ -1204,7 +1204,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_1-scene-WAIT-Reaction_2nd_newsflash",
     "text": "Hm, this time it would have been better to keep the WildertonWear stock down...",
     "usedIn": [
       {
@@ -1218,7 +1218,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_1-scene-ACT-Reaction-2nd_newsflash",
     "text": "You made the right choice in keeping the WildertonWear stock down. Many people were looking for an alternative brand, and so you completely sold out all your BlueSkin items!",
     "usedIn": [
       {
@@ -1232,7 +1232,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-2_2-newsFlash-HL-Ignoring_health_regulations",
     "text": "WILDERTONWEAR IGNORES HEALTH REGULATIONS",
     "usedIn": [
       {
@@ -1250,7 +1250,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-2_2-newsFlash-HL-Ignoring_environmental_regulations",
     "text": "WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS",
     "usedIn": [
       {
@@ -1268,7 +1268,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-2_2-newsFlash-body-Ignoring_health_regulations",
     "text": "<b>Local textile manufacturer WildertonWear has routinely disregarded health regulations, says work environment health inspector. Years of neglected safety equipment upgrades have left factory workers exposed to dangerous levels of dust and chemicals.</b> None of our readers is likely to have missed the tax evasion scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of health and safety regulations. According to a work environment health inspector, who wishes to remain anonymous, WildertonWear has routinely ignored safety regulations about permissible levels of dust and chemicals. Safety equipment, such as air filters and industrial fans, has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put its workers at risk of being affected by respiratory diseases, and as a result, there has been an increase in cancer diagnoses and respiratory diseases among employees at its factory.",
     "usedIn": [
       {
@@ -1286,8 +1286,8 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
-    "text": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b>  None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
+    "translationKey": "B-2_2-newsFlash-body-Ignoring_environmental_regulations",
+    "text": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
     "usedIn": [
       {
         "nodeId": "adIai_9EK61SiQWeQbqSi",
@@ -1296,13 +1296,7 @@
       {
         "nodeId": "OxCh5D18VGg0umnIdJyRQ",
         "dataProperty": "textB"
-      }
-    ]
-  },
-  {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
-    "text": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
-    "usedIn": [
+      },
       {
         "nodeId": "sagZLNdJrfZcPVfUtwYpu",
         "dataProperty": "textB"
@@ -1310,7 +1304,7 @@
     ]
   },
   {
-    "translationKey": "A-social-🟥🟥🟥",
+    "translationKey": "A-2_3-social-Going_on_strike",
     "text": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s work environment health regulation breaches, we demand improved safety protection for the workers!",
     "usedIn": [
       {
@@ -1328,7 +1322,7 @@
     ]
   },
   {
-    "translationKey": "B-social-🟥🟥🟥",
+    "translationKey": "B-2_3-social-Going_on_strike",
     "text": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!",
     "usedIn": [
       {
@@ -1346,7 +1340,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-scene-ACT-Local_meeting_point",
     "text": "To some residents, this is it. They really can’t support WildertonWear anymore. Supporters of the boycott come by to talk. Gradually, your shop becomes a local meeting point for those who want change, and together you discuss what to do next. What do you think should be your next step?",
     "usedIn": [
       {
@@ -1360,7 +1354,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-2_4-option-ACT-Organise_demonstration",
     "text": "Organise a demonstration to demand better working conditions at the factory.",
     "usedIn": [
       {
@@ -1370,7 +1364,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-2_4-option-ACT-Organise_demonstration",
     "text": "Organise a demonstration to demand better filtering systems at the factory.",
     "usedIn": [
       {
@@ -1380,7 +1374,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-option-ACT/WAIT-Put_up_posters",
     "text": "Put up posters and hand out leaflets to make more people join the boycott.",
     "usedIn": [
       {
@@ -1402,7 +1396,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-option-ACT-Have_a_dialogue",
     "text": "Have a dialogue with the company; consumer pressure alone probably won’t work.",
     "usedIn": [
       {
@@ -1416,7 +1410,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-scene-WAIT-Local_meeting_point",
     "text": "This is not good. You’ll have to consider whether or not you can still support WildertonWear. Gradually, your shop becomes a local meeting point for those who want to discuss the issue, and together you discuss what to do next.  What do you suggest?",
     "usedIn": [
       {
@@ -1430,7 +1424,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
     "text": "Have a dialogue with the company to convince them to change.",
     "usedIn": [
       {
@@ -1452,7 +1446,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-option-WAIT/DELAY-Astroturf",
     "text": "Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory.",
     "usedIn": [
       {
@@ -1474,7 +1468,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4--scene-DELAY-Local_meeting_point",
     "text": "This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs. Gradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next. What do you think should be your next step?",
     "usedIn": [
       {
@@ -1488,7 +1482,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_4-option-DELAY-Interview_is_fishy",
     "text": "The interview seems fishy; we should write an opinion piece in the paper to question it.",
     "usedIn": [
       {
@@ -1502,7 +1496,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_5-scene-ACT-Demonstration_successful",
     "text": "The demonstration was very successful; hundreds of townspeople joined in!",
     "usedIn": [
       {
@@ -1516,7 +1510,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_5-scene-ACT-Posters_have_effect",
     "text": "The posters seem to have an effect; more people join the boycott every week!",
     "usedIn": [
       {
@@ -1530,7 +1524,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_5-scene-WAIT-Declined_invitation",
     "text": "You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy.",
     "usedIn": [
       {
@@ -1544,7 +1538,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_5-scene-DELAY-Small_but_loud",
     "text": "The demonstration was small but loud, and thanks to a friend at the local paper, you got a lot of press coverage. Your message is spreading!",
     "usedIn": [
       {
@@ -1558,7 +1552,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-2_5-scene-DELAY-Confront_rumours",
     "text": "That was a good choice!  Your efforts to confront these harmful rumours seem to be working! In fact, WildertonWear itself seems to have been inspired by it.",
     "usedIn": [
       {
