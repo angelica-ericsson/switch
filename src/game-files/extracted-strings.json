@@ -1976,7 +1976,7 @@
     ]
   },
   {
-    "translationKey": "AB-2_9-scene-DELAY-ModMod-Stockup_3",
+    "translationKey": "AB-2_9-scene-DELAY-Mod-Stockup_3",
     "text": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
     "usedIn": [
       {
@@ -2046,7 +2046,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_1-scene-DELAY-Rad/Mod-Reaction_waiting_for_audit",
+    "translationKey": "AB-3_1-scene-DELAY-Reaction_waiting_for_audit",
     "text": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
     "usedIn": [
       {
@@ -2146,7 +2146,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_2-social-ACT-Rad/Mod-What_if_too_far",
+    "translationKey": "AB-3_2-social-ACT-What_if_too_far",
     "text": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
     "usedIn": [
       {
@@ -2168,7 +2168,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_2-social-ACT-Rad/Mod-Think_this_through",
+    "translationKey": "AB-3_2-social-ACT-Think_this_through",
     "text": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
     "usedIn": [
       {
@@ -2190,7 +2190,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_2-social-ACT-Rad/Mod-What_alternatives",
+    "translationKey": "AB-3_2-social-ACT-What_alternatives",
     "text": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?",
     "usedIn": [
       {
@@ -2212,7 +2212,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_2-social-DELAY-Mod/Rad-Brute_consumer_force",
+    "translationKey": "AB-3_2-social-DELAY-Brute_consumer_force",
     "text": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
     "usedIn": [
       {
@@ -2234,7 +2234,7 @@
     ]
   },
   {
-    "translationKey": "A-3_2-social-DELAY-Mod-Can't_let_them_get_away",
+    "translationKey": "A-3_2-social-DELAY-Can't_let_them_get_away",
     "text": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with exploiting the workers!",
     "usedIn": [
       {
@@ -2248,7 +2248,7 @@
     ]
   },
   {
-    "translationKey": "B-3_2-social-DELAY-Mod-Can't_let_them_get_away",
+    "translationKey": "B-3_2-social-DELAY-Can't_let_them_get_away",
     "text": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!",
     "usedIn": [
       {
@@ -2262,7 +2262,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_2-social-DELAY-Mod/Rad-Loyal_customers",
+    "translationKey": "AB-3_2-social-DELAY-Loyal_customers",
     "text": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?",
     "usedIn": [
       {
@@ -2298,7 +2298,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-option-WAIT/DELAY-Mod/Rad-WW_day",
+    "translationKey": "AB-3_3-option-WAIT/DELAY-WW_day",
     "text": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
     "usedIn": [
       {
@@ -2328,7 +2328,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-option-DELAY-Mod/Rad-Invite_interest_groups",
+    "translationKey": "AB-3_3-option-DELAY-Invite_interest_groups",
     "text": "Invite local interest groups to submit suggestions on how to protect the jobs.",
     "usedIn": [
       {
@@ -2350,7 +2350,7 @@
     ]
   },
   {
-    "translationKey": "A-3_3-option-DELAY-Mod-Local_producer",
+    "translationKey": "A-3_3-option-DELAY-Local_producer",
     "text": "Convince a local producer of filters and safety gear to donate equipment to the factory.",
     "usedIn": [
       {
@@ -2364,7 +2364,7 @@
     ]
   },
   {
-    "translationKey": "B-3_3-option-DELAY-Mod-Local_producer",
+    "translationKey": "B-3_3-option-DELAY-Local_producer",
     "text": "Convince a local producer of pollution filters to donate equipment to the factory.",
     "usedIn": [
       {
@@ -2392,7 +2392,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-scene-ACT-Rad/Mod-How_to_thrive",
+    "translationKey": "AB-3_3-scene-ACT-How_to_thrive",
     "text": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
     "usedIn": [
       {
@@ -2414,7 +2414,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-option-ACT-Rad/Mod-Community_day",
+    "translationKey": "AB-3_3-option-ACT-Community_day",
     "text": "Organise a community day for residents to brainstorm what the town could look like in the future.",
     "usedIn": [
       {
@@ -2436,7 +2436,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-option-WAIT/ACT-Rad/Mod-Invite_interest_groups",
+    "translationKey": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
     "text": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
     "usedIn": [
       {
@@ -2466,7 +2466,7 @@
     ]
   },
   {
-    "translationKey": "AB-3_3-option-WAIT/ACT-Rad/Mod-Fund_to_support",
+    "translationKey": "AB-3_3-option-ACT/WAIT-Fund_to_support",
     "text": "Start a fund to support the workers if the factory closes.",
     "usedIn": [
       {
@@ -2558,7 +2558,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_4_scene-DELAY-Mod-Suggestions",
     "text": "Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
     "usedIn": [
       {
@@ -2572,7 +2572,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_4-scene-DELAY-ModMod-WW_day",
     "text": "The WildertonWear day is a success, and gathers a lot of townspeople; families with children, elderly citizens, enthusiastic teenagers, and local couples. As a result, you raise a lot of money for the factory!",
     "usedIn": [
       {
@@ -2586,8 +2586,8 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
-    "text": "The collection takes off immediately, as many townspeople want to help the workers even if they don’t like their employer.",
+    "translationKey": "AB-3_4-scene-ACT-ModMod-Collection",
+    "text": "The collection takes off immediately, as many residents want to help the workers even if they don’t like their employer.",
     "usedIn": [
       {
         "nodeId": "7M23GJF8c4Zdot-OwC8Rj",
@@ -2600,7 +2600,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-3_5-scene-Stockup_4",
     "text": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
     "usedIn": [
       {
@@ -2654,7 +2654,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
     "text": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
     "usedIn": [
       {
@@ -2708,7 +2708,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-4_1-newsFlash-body-ACT-WW_ignored_warnings",
     "text": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.",
     "usedIn": [
       {
@@ -2726,7 +2726,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-4_1-newsFlash-body-ACT-WW-ignored_warnings",
     "text": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.",
     "usedIn": [
       {
@@ -2744,7 +2744,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
     "text": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
     "usedIn": [
       {
@@ -2774,7 +2774,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-ACT-Still_on_a_strike",
     "text": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
     "usedIn": [
       {
@@ -2804,7 +2804,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-ACT-Another_push",
     "text": "Just as we suspected... Come on guys, it’s time for another push! #BoycottWW",
     "usedIn": [
       {
@@ -2834,7 +2834,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-ACT-Out_of_this_mess",
     "text": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate",
     "usedIn": [
       {
@@ -2864,7 +2864,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-DELAY-2_months_banner",
     "text": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
     "usedIn": [
       {
@@ -2894,7 +2894,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-DELAY-148_yrs_of_history",
     "text": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
     "usedIn": [
       {
@@ -2924,7 +2924,7 @@
     ]
   },
   {
-    "translationKey": "AB-social-🟥🟥🟥",
+    "translationKey": "AB-4_2-social-DELAY-Another_push",
     "text": "Come on guys, it’s time for another push! #SupportWW",
     "usedIn": [
       {
@@ -2954,7 +2954,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-scene-Council_vote_suggestions",
     "text": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
     "usedIn": [
       {
@@ -3008,7 +3008,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
     "text": "Attract new companies to create jobs and lessen the dependence on the factory.",
     "usedIn": [
       {
@@ -3046,7 +3046,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-option-DELAY-Local_investor",
     "text": "Persuade a local investor to step in and offer WildertonWear a loan.",
     "usedIn": [
       {
@@ -3076,7 +3076,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-4_3-option-DELAY-Rad-Relax_environmental_regulations",
     "text": "Lobby national authorities to relax environmental regulations to help WildertonWear recover.",
     "usedIn": [
       {
@@ -3090,17 +3090,21 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
-    "text": "Lobby the national authorities to relax safety regulations to give WildertonWear a chance to recover.",
+    "translationKey": "A-4_3-option-DELAY-Rad/Mod-Relax_safety_regulations",
+    "text": "Lobby national authorities to relax safety regulations to help WildertonWear recover.",
     "usedIn": [
       {
         "nodeId": "3J2gMxy42GskSF8Wzf3FL",
+        "dataProperty": "option3A"
+      },
+      {
+        "nodeId": "n_SUzWHKzDvZ0uJsNF9pB",
         "dataProperty": "option3A"
       }
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
     "text": "Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.",
     "usedIn": [
       {
@@ -3122,7 +3126,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-option-ACT-Evening_classes",
     "text": "Sponsor evening classes for factory workers to train for other professions.",
     "usedIn": [
       {
@@ -3152,7 +3156,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
     "text": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
     "usedIn": [
       {
@@ -3190,17 +3194,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
-    "text": "Lobby national authorities to relax safety regulations to give WildertonWear a chance to recover.",
-    "usedIn": [
-      {
-        "nodeId": "n_SUzWHKzDvZ0uJsNF9pB",
-        "dataProperty": "option3A"
-      }
-    ]
-  },
-  {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_4-scene-DELAY-Mod-Local_sponsor",
     "text": "It has taken quite some time, but you finally manage to find a local sponsor who is willing to step in and offer WildertonWear a loan to get back on their feet. The sponsor prefers to stay anonymous and mentions that you can negotiate the repayment conditions later. You are so relieved to finally have found a solution that you happily agree to the conditions.",
     "usedIn": [
       {
@@ -3214,7 +3208,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_4-scene-ACT-ModMod-Clothing_repair_shop",
     "text": "That went well! Your group decided to start collecting money to fund a little shop to repair and mend clothes. Not only would it create more jobs, but it would also extend the lifetime of WildertonWear clothing.",
     "usedIn": [
       {
@@ -3228,7 +3222,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_4-scene-ACT-Mod-Evening_classes",
     "text": "Yay, the proposal was approved! Now you need to find a suitable place to be, recruit teachers, set up the administration and enrol students.",
     "usedIn": [
       {
@@ -3242,7 +3236,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_4-scene-DELAY-ModMod-Attract_companies",
     "text": "Yes, you did it! A group is put together to draft a proposal with favourable conditions, cheap land deals and potentially tax reductions, and to book meetings with companies that are considering moving to Wilderton.",
     "usedIn": [
       {
@@ -3256,7 +3250,7 @@
     ]
   },
   {
-    "translationKey": "A-scene-🟥🟥🟥",
+    "translationKey": "A-4_4-scene-DELAY-Rad-Relax_safety_regulations",
     "text": "Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the safety regulations for WildertonWear, just to save its crucial business.",
     "usedIn": [
       {
@@ -3266,7 +3260,7 @@
     ]
   },
   {
-    "translationKey": "B-scene-🟥🟥🟥",
+    "translationKey": "B-4_4-scene-DELAY-Rad-Relax_environmental_regulations",
     "text": "Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.",
     "usedIn": [
       {
@@ -3276,7 +3270,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_4-scene-ACT-Rad-Universal_basic_income",
     "text": "No luck this time. The council promised to consider it, but they didn’t think it was a good solution now since it would probably take too long to implement.",
     "usedIn": [
       {
@@ -3290,7 +3284,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_5-scene-ACT-Stockup_5",
     "text": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
     "usedIn": [
       {
@@ -3320,7 +3314,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-4_5-scene-DELAY-Stockup_5",
     "text": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
     "usedIn": [
       {
@@ -3350,7 +3344,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_1-newsFlash-HL-Factory_closing",
     "text": "WILDERTONWEAR FACTORY CLOSING",
     "usedIn": [
       {
@@ -3404,7 +3398,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-5_1-newsFlash-body-ACT-Mod-Factory_closing",
     "text": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”",
     "usedIn": [
       {
@@ -3414,7 +3408,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-ACT-Mod-Factory_closing",
     "text": "<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”",
     "usedIn": [
       {
@@ -3424,7 +3418,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-5_1-newsFlash-body-DELAY-ModMod-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job, but hopefully the campaign to bring in new companies will lead to more jobs.”",
     "usedIn": [
       {
@@ -3434,7 +3428,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-DELAY-ModMod-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job, but hopefully the campaign to bring in new companies will lead to more jobs.”",
     "usedIn": [
       {
@@ -3444,7 +3438,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-5_1-newsFlash-body-DELAY-Rad-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. The relaxed safety regulations came too late, and with the tough financial situation, decreased production due to the strikes, and high tax payments, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
     "usedIn": [
       {
@@ -3454,7 +3448,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-DELAY-Rad-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The relaxed environmental regulations came too late, and with the tough financial situation, decreased production due to the strikes, and high costs for system upgrades, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
     "usedIn": [
       {
@@ -3464,7 +3458,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-5_1-newsFlash-body-DELAY-Mod-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. After the company was forced to back out of a sponsor deal, which turned out to be a money laundering scheme, the tough financial situation, decreased production due to the strikes, and high tax payments simply became too much.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
     "usedIn": [
       {
@@ -3474,7 +3468,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-DELAY-Mod-Factory_closing",
     "text": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. After the company was forced to back out of a sponsor deal, which turned out to be a money laundering scheme, the tough financial situation, decreased production due to the strikes, and high costs for system upgrades simply became too much.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
     "usedIn": [
       {
@@ -3484,7 +3478,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-newsFlash-body-ACT-Rad-Factory_closing",
     "text": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The potential investor withdrew last minute, and with the tough financial situation, decreased production due to the strikes, and high tax payments, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
     "usedIn": [
       {
@@ -3494,7 +3488,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-ACT-Rad-Factory_closing",
     "text": "<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The potential investor withdrew last minute, and with the tough financial situation, decreased production due to the strikes, and high costs for system upgrades, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
     "usedIn": [
       {
@@ -3504,7 +3498,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-newsFlash-body-ACT-ModMod-Factory_closing",
     "text": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
     "usedIn": [
       {
@@ -3514,7 +3508,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_1-newsFlash-body-ACT-ModMod-Factory_closing",
     "text": "After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company. It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
     "usedIn": [
       {
@@ -3524,7 +3518,7 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-5_2-scene-option-What_has_happened",
     "text": "What has happened?",
     "usedIn": [
       {
@@ -3578,56 +3572,50 @@
     ]
   },
   {
-    "translationKey": "AB-scene-🟥🟥🟥",
-    "text": "2 years later...",
-    "usedIn": [
-      {
-        "nodeId": "fjkCa3yBQIwmxM9DTkFcQ",
-        "dataProperty": "textA"
-      },
-      {
-        "nodeId": "fjkCa3yBQIwmxM9DTkFcQ",
-        "dataProperty": "textB"
-      },
-      {
-        "nodeId": "u5OF1ZTtgOuKxo-Uxww0T",
-        "dataProperty": "textA"
-      },
-      {
-        "nodeId": "u5OF1ZTtgOuKxo-Uxww0T",
-        "dataProperty": "textB"
-      },
-      {
-        "nodeId": "In-A8Pyn5jkcekLI9LDhn",
-        "dataProperty": "textA"
-      },
-      {
-        "nodeId": "In-A8Pyn5jkcekLI9LDhn",
-        "dataProperty": "textB"
-      },
-      {
-        "nodeId": "HUNMvnHYnTf_hwgdeaKoD",
-        "dataProperty": "textA"
-      },
-      {
-        "nodeId": "HUNMvnHYnTf_hwgdeaKoD",
-        "dataProperty": "textB"
-      },
-      {
-        "nodeId": "q3Pixx-ttRejqZjE22Hhm",
-        "dataProperty": "textA"
-      },
-      {
-        "nodeId": "q3Pixx-ttRejqZjE22Hhm",
-        "dataProperty": "textB"
-      }
-    ]
-  },
-  {
-    "translationKey": "AB-scene-🟥🟥🟥",
+    "translationKey": "AB-5_2-scene-2_yrs_later",
     "text": "Two years later...",
     "usedIn": [
       {
+        "nodeId": "fjkCa3yBQIwmxM9DTkFcQ",
+        "dataProperty": "textA"
+      },
+      {
+        "nodeId": "fjkCa3yBQIwmxM9DTkFcQ",
+        "dataProperty": "textB"
+      },
+      {
+        "nodeId": "u5OF1ZTtgOuKxo-Uxww0T",
+        "dataProperty": "textA"
+      },
+      {
+        "nodeId": "u5OF1ZTtgOuKxo-Uxww0T",
+        "dataProperty": "textB"
+      },
+      {
+        "nodeId": "In-A8Pyn5jkcekLI9LDhn",
+        "dataProperty": "textA"
+      },
+      {
+        "nodeId": "In-A8Pyn5jkcekLI9LDhn",
+        "dataProperty": "textB"
+      },
+      {
+        "nodeId": "HUNMvnHYnTf_hwgdeaKoD",
+        "dataProperty": "textA"
+      },
+      {
+        "nodeId": "HUNMvnHYnTf_hwgdeaKoD",
+        "dataProperty": "textB"
+      },
+      {
+        "nodeId": "q3Pixx-ttRejqZjE22Hhm",
+        "dataProperty": "textA"
+      },
+      {
+        "nodeId": "q3Pixx-ttRejqZjE22Hhm",
+        "dataProperty": "textB"
+      },
+      {
         "nodeId": "Zz_PV5XCzBiVvZNAAaKB-",
         "dataProperty": "textA"
       },
@@ -3638,7 +3626,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-ACT-Mod-Centre_2_yrs",
     "text": "WEARHOUSE CENTRE CELEBRATES 2 YEARS",
     "usedIn": [
       {
@@ -3652,7 +3640,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-body-ACT-Mod-Centre_2_yrs",
     "text": "<b>When the machines at WildertonWear stopped, a few enthusiasts stepped in. Today, the old factory building celebrates 2 years as a thriving community centre, and invites all residents to join in the celebrations.</b> Thanks to a group of enthusiasts, the history of the WildertonWear factory took a completely new turn. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and the clicking of computer keyboards. The large halls have been turned into a co-working space, with a popular café, a clothing repair and mending shop, and a gym. Most of the former factory workers have found new occupations, working for the tailor, in the BlueSkin workshop in the next town, or pursuing new dreams as café owners or students. And the community members love their new centre - in the past months, the number of visitors has been growing steadily.",
     "usedIn": [
       {
@@ -3666,7 +3654,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-ACT-ModMod-Community_centre_2_yrs",
     "text": "COMMUNITY CENTRE TURNS 2 YEARS",
     "usedIn": [
       {
@@ -3680,7 +3668,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-body-ACT-ModMod-Community_centre_2_yrs",
     "text": "<b>The history of the old Wilderton factory could have ended when WildertonWear folded. Instead, it now celebrates 2 years as a community centre, with a co-working space, café and gym.</b> Thanks to a group of enthusiasts, the historical Wilderton factory now celebrates its 150th anniversary with a complete revival. The old factory buildings are still there, but instead of thundering machines, you now hear soft conversations and the clicking of computer keyboards. The large halls have been turned into a co-working space, a popular café, and a gym. Most of the former factory workers have found new occupations. Some have opened their own tailor shops in town, others have been hired by BlueSkin, and some have taken temporary jobs while looking for new opportunities.",
     "usedIn": [
       {
@@ -3694,7 +3682,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-DELAY-Mod-Coworking_space",
     "text": "WILDERTON FACTORY TURNS CO-WORKING SPACE",
     "usedIn": [
       {
@@ -3708,7 +3696,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-body-DELAY-Mod-Coworking_space",
     "text": "<b>When the machines at WildertonWear stopped, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory is experiencing a revival.</b> The old factory buildings are still there, but instead of thundering machines, you now hear the sound of drills and saws. After some time of deliberations, the municipality has decided to turn the building into office space, with a café and small museum dedicated to the factory’s history. Most of the former factory workers have found work with BlueSkin or opened their own little tailoring shops, while some are still working odd jobs while looking for new opportunities. And maybe they will one day end up in an office in the old factory building? Beth Callistor, responsible for the project, is hopeful. “We have already had a lot of requests from companies that are considering moving their offices here.”",
     "usedIn": [
       {
@@ -3722,7 +3710,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-DELAY-ModMod-Coworking_space_opened",
     "text": "WILDERTON CO-WORKING SPACE OPENED",
     "usedIn": [
       {
@@ -3736,7 +3724,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-body-DELAY-ModMod-Coworking_space_opened",
     "text": "<b>Thanks to a group of enthusiasts, the buildings of the historical WildertonWear factory are no longer empty. Today, the old factory building celebrates 1 year as a modern co-working space for local entrepreneurs.</b> When the machines at WildertonWear stopped, many declared it the end of a proud history of manufacturing. But just in time for it’s 150th anniversary, the factory is once again thriving. The factory buildings are still there, but instead of the thundering machines, you know hear soft conversations and the clicking from keyboards. Thanks to a group of enthusiasts and a generous donation by the municipality, the large halls have been turned into fresh new offices and a café.",
     "usedIn": [
       {
@@ -3750,7 +3738,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-ACT-Rad-Centre_wins_award",
     "text": "WEARHOUSE CENTRE WINS AWARD",
     "usedIn": [
       {
@@ -3764,7 +3752,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-body-ACT-Rad_Centre_wins_award",
     "text": "<b>Only two years after its opening, the new WearHouse community centre won the prestigious “Best community centre” award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b> It’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter. The big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. Most of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre, in the past months, the number of visitors has been growing steadily.",
     "usedIn": [
       {
@@ -3778,7 +3766,7 @@
     ]
   },
   {
-    "translationKey": "AB-newsFlash-🟥🟥🟥",
+    "translationKey": "AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived",
     "text": "WILDERTON FACTORY TO BE REVIVED",
     "usedIn": [
       {
@@ -3792,7 +3780,7 @@
     ]
   },
   {
-    "translationKey": "A-newsFlash-🟥🟥🟥",
+    "translationKey": "A-5_3-newsFlash-body-DELAY-Rad-Factory_revived",
     "text": "<b>When strikes and tax problems forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.",
     "usedIn": [
       {
@@ -3802,7 +3790,7 @@
     ]
   },
   {
-    "translationKey": "B-newsFlash-🟥🟥🟥",
+    "translationKey": "B-5_3-newsFlash-body-DELAY-Rad_Factory_revived",
     "text": "<b>When strikes forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.",
     "usedIn": [
       {
@@ -3812,7 +3800,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-headline",
     "text": "THE END",
     "usedIn": [
       {
@@ -3842,7 +3830,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-ACT-Rad",
     "text": "Excellent work! Thank you for playing!\n\nThanks to your visions and wild ideas, you and your friends turned a potential disaster into a new start for the entire community!",
     "usedIn": [
       {
@@ -3852,7 +3840,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-ACT-Mod",
     "text": "Excellent work! Thank you for playing!\n\nThanks to your foresight and good planning, you and your friends turned a potential disaster into a development that has boosted the entire community!",
     "usedIn": [
       {
@@ -3862,7 +3850,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-ACT-ModMod/DELAY-ModMod",
     "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work, you and your friends turned a potential disaster into a positive development!",
     "usedIn": [
       {
@@ -3876,7 +3864,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-DELAY-Rad",
     "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work, you and your friends managed to keep the community and its traditions alive. You kept the WildertonWear factory running as long as possible, and have good hopes for the future.",
     "usedIn": [
       {
@@ -3886,7 +3874,7 @@
     ]
   },
   {
-    "translationKey": "end-🟥🟥🟥",
+    "translationKey": "end-DELAY-Mod",
     "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work to preserve the community’s history, you and your friends turned a potential disaster into a new opportunity.",
     "usedIn": [
       {
