@@ -36,13 +36,13 @@
         "y": -1232.4849343806907
       },
       "data": {
-        "textA": "Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.",
-        "textB": "Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.",
-        "option1A": "Continue",
+        "textA": "AB-scene-Most_popular_brands",
+        "textB": "AB-scene-Most_popular_brands",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": "0 . 2 - Most popular brands",
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -55,12 +55,12 @@
         "y": -673.1033444303264
       },
       "data": {
-        "textA": "However, things are about to change…",
-        "textB": "However, things are about to change…",
-        "option1A": "Uh oh…",
+        "textA": "AB-scene-Things_about_to_change",
+        "textB": "AB-scene-Things_about_to_change",
+        "option1A": "AB-scene-Uh_oh",
         "option2A": null,
         "option3A": null,
-        "option1B": "Uh oh…",
+        "option1B": "AB-scene-Uh_oh",
         "option2B": null,
         "option3B": null,
         "eventId": "0 . 3 - About to change"
@@ -77,10 +77,10 @@
         "headline": "WildertonWear evading taxes",
         "text": "On Tuesday, the local radio news broadcast revealed that WildertonWear has holding off paying taxes for the past three years. - I’m furious. During all these years that people in town have been buying their items to support a struggling company, WildertonWear gave nothing back, says local resident…",
         "imageUrl": "factory.jpg",
-        "headlineA": "WILDERTONWEAR EVADING TAXES",
-        "headlineB": "WILDERTONWEAR FACTORY SUPER EMITTER",
-        "textA": "<b>In a new investigative report, the Daily Times reveals that WildertonWear has neglected paying municipality taxes for the past five years. “We were in a tough situation, and had to cut down on spending,” says a former employee who wishes to remain anonymous.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community. However, the Daily Times can now reveal that the love has not been mutual. Over the past five years, WildertonWear has paid exactly zero municipality taxes. In an interview with the Daily Times, the company CEO, Bert Swindle, explains that the company always intended to pay the taxes “as soon as the financial situation stabilised”.",
-        "textB": "<b>WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”",
+        "headlineA": "A-newsFlash-HL-Tax_evasion",
+        "headlineB": "B-newsFlash-HL-Super_emitter",
+        "textA": "A-newsFlash-body-Tax_evasion",
+        "textB": "B-newsFlash-body-Super_emitter",
         "date": null,
         "daysSinceGameStart": 0
       }
@@ -93,13 +93,13 @@
         "y": 1151.7758181659492
       },
       "data": {
-        "textA": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
-        "textB": "It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-scene-Stockup_1",
+        "textB": "AB-scene-Stockup_1",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": "0 . 7 - Time to stock up",
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -146,13 +146,13 @@
         "y": 2873.76776062457
       },
       "data": {
-        "textA": "You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.",
-        "textB": "You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.",
-        "option1A": "Continue",
+        "textA": "AB-1_1-scene-ACT-Reaction_boycott",
+        "textB": "AB-1_1-scene-ACT-Reaction_boycott",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 2 - ACT - Reaction stock-up",
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -165,13 +165,13 @@
         "y": 2874.992734997935
       },
       "data": {
-        "textA": "The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.",
-        "textB": "The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.",
-        "option1A": "Continue",
+        "textA": "AB-1_1-scene-WAIT-Reaction_boycott",
+        "textB": "AB-1_1-scene-WAIT-Reaction_boycott",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 2 - WAIT - Reaction stock-up",
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -184,13 +184,13 @@
         "y": 2873.9036403609252
       },
       "data": {
-        "textA": "Hmm. It looks like you underestimated the Wilderton residents’ dissatisfaction with WildertonWear. The demand dropped quickly. Your revenue also dropped, but not so much that it affects the business.",
-        "textB": "Hmm. It looks like you underestimated the Wilderton residents’ dissatisfaction with WildertonWear. The demand dropped quickly. Your revenue also dropped, but not so much that it affects the business.",
-        "option1A": "Continue",
+        "textA": "AB-1_1-scene-DELAY-Reaction_boycott",
+        "textB": "AB-1_1-scene-DELAY-Reaction_boycott",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 2 - DELAY - Reaction stock-up",
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -203,14 +203,14 @@
         "y": 3423.8517419313257
       },
       "data": {
-        "textA": "Some of your customers are happy that you’re reducing your WildertonWear supply. Others are wondering if you’re really willing to risk that such a traditional old company - and one of the town’s largest employers for generations - has to close? What do you tell them?",
-        "textB": "Some of your customers are happy that you’re reducing your WildertonWear supply. Others are wondering if you’re really willing to risk that such a traditional old company - and one of the town’s largest employers for generations - has to close? What do you tell them?",
-        "option1A": "A long history doesn’t give them the right to exploit the community.",
-        "option2A": "I can’t afford to support WildertonWear if my customers won’t buy their products.",
-        "option3A": "I think a boycott could teach Wildertonwear a lesson, but it should be temporary.",
-        "option1B": "A long history doesn’t give them the right to pollute our atmosphere.",
-        "option2B": "I can’t afford to support WildertonWear if my customers won’t buy their products.",
-        "option3B": "I think a boycott could teach Wildertonwear a lesson, but it should be temporary.",
+        "textA": "AB-1_2-scene-ACT-Questions_from_customers",
+        "textB": "AB-1_2-scene-ACT-Questions_from_customers",
+        "option1A": "A-1_2-option-ACT-No_right_to_exploit",
+        "option2A": "AB-1_2-option-ACT-Can't_afford_to_support",
+        "option3A": "AB-1_2-option-ACT-Temporary_boycott",
+        "option1B": "B-1_2-option-ACT-No_right_to_pollute",
+        "option2B": "AB-1_2-option-ACT-Can't_afford_to_support",
+        "option3B": "AB-1_2-option-ACT-Temporary_boycott",
         "eventId": "1 . 3 - ACT - How do you answer customers"
       }
     },
@@ -222,15 +222,15 @@
         "y": 3425.8620840298336
       },
       "data": {
-        "textA": "Your customers are wondering where you stand; are you going to support WildertonWear because of its long traditions, or are you joining the boycott even if there’s a risk that the company could be forced to close? What do you tell them?",
-        "textB": "Your customers are wondering where you stand; are you going to support WildertonWear because of its long traditions, or are you joining the boycott even if there’s a risk that the company could be forced to close? What do you tell them?",
-        "option1A": "It looks like BlueSkin is the safer choice right now, so I’ll go with that.",
-        "option2A": "I can’t afford to take any financial risks, so I’ll wait and see what my competitors do.",
-        "option3A": "Business is business, not politics. Despite the boycott, Wildertonwear is still the most popular brand.",
+        "textA": "AB-1_2-scene-WAIT-Questions_from_customers",
+        "textB": "AB-1_2-scene-WAIT-Questions_from_customers",
+        "option1A": "AB-1_2-option-WAIT-BlueSkin_safer_bet",
+        "option2A": "AB-1_2-option-WAIT-Can't_afford_financial_risk",
+        "option3A": "AB-1_2-option-WAIT-Business_is_business",
         "eventId": "1 . 3 - WAIT - How do you answer customers",
-        "option1B": "It looks like BlueSkin is the safer choice right now, so I’ll go with that.",
-        "option2B": "I can’t afford to take any financial risks, so I’ll wait and see what my competitors do.",
-        "option3B": "Business is business, not politics. Despite the boycott, Wildertonwear is still the most popular brand."
+        "option1B": "AB-1_2-option-WAIT-BlueSkin_safer_bet",
+        "option2B": "AB-1_2-option-WAIT-Can't_afford_financial_risk",
+        "option3B": "AB-1_2-option-WAIT-Business_is_business"
       }
     },
     {
@@ -241,14 +241,14 @@
         "y": 3427.0621591604686
       },
       "data": {
-        "textA": "Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly exploiting the community. What do you tell them?",
-        "textB": "Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly a big contributor to climate change. What do you tell them?",
-        "option1A": "WildertonWear clearly has problems, but it’s better to influence them through dialogue.",
-        "option2A": "Business is business, not politics. Despite the boycott, WildertonWear is still the most popular brand.",
-        "option3A": "I have to support them; if they have to close, it will affect the entire community.",
-        "option1B": "WildertonWear clearly has problems, but it’s better to influence them through dialogue.",
-        "option2B": "Business is business, not politics. Despite the boycott, WildertonWear is still the most popular brand.",
-        "option3B": "I have to support them; if they have to close, it will affect the entire community.",
+        "textA": "A-1_2-scene-DELAY-Questions_from_customers",
+        "textB": "B-1_2-scene-DELAY-Questions_from_customers",
+        "option1A": "AB-1_2-option-DELAY-Better_through_dialogue",
+        "option2A": "AB-1_2-option-DELAY-Business_is_business",
+        "option3A": "AB-1_2-option-DELAY-Have_to_support",
+        "option1B": "AB-1_2-option-DELAY-Better_through_dialogue",
+        "option2B": "AB-1_2-option-DELAY-Business_is_business",
+        "option3B": "AB-1_2-option-DELAY-Have_to_support",
         "eventId": "1 . 3 - DELAY - How do you answer customers"
       }
     },
@@ -260,14 +260,14 @@
         "y": 5282.238821469151
       },
       "data": {
-        "textA": "There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
-        "textB": "There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months to ease the financial pressure on the company. How do you vote?",
-        "option1A": "Against, of course! We’ve been supporting them long enough.",
-        "option2A": "I’ll abstain. If I openly choose sides I might lose customers.",
-        "option3A": "For. We need to keep the factory running, for the sake of the workers and the community.",
-        "option1B": "Against, of course! They should have fixed the system long ago.",
-        "option2B": "I’ll abstain. If I openly choose sides I might lose customers.",
-        "option3B": "For. We need to keep the factory running, for the sake of the workers and the community.",
+        "textA": "A-1_4-scene-ACT-Council_vote_extension",
+        "textB": "B-1_4-scene-ACT-Council_vote_extension",
+        "option1A": "A-1_4-option-ACT-Vote_against",
+        "option2A": "AB-1_4-option-ACT-Abstain_vote",
+        "option3A": "AB-1_4-option-ACT-Vote_for",
+        "option1B": "B-1_4-option-ACT-Vote_against",
+        "option2B": "AB-1_4-option-ACT-Abstain_vote",
+        "option3B": "AB-1_4-option-ACT-Vote_for",
         "eventId": "1 . 6 - ACT - Council extension vote"
       }
     },
@@ -279,14 +279,14 @@
         "y": 5281.621295178341
       },
       "data": {
-        "textA": "There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
-        "textB": "There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?",
-        "option1A": "Against. We’ve been supporting them long enough.",
-        "option2A": "I’ll abstain. If I openly choose sides I might lose customers.",
-        "option3A": "For. We need to keep the factory running, for the workers as well as the community.",
-        "option1B": "Against. They should have fixed the system long ago.",
-        "option2B": "I’ll abstain. If I openly choose sides I might lose customers.",
-        "option3B": "For. We need to keep the factory running, for the workers as well as the community.",
+        "textA": "A-1_4-scene-WAIT-Council_vote_extension",
+        "textB": "B-1_4-scene-WAIT-Council_vote_extension",
+        "option1A": "A-1_4-option-WAIT-Vote_against",
+        "option2A": "AB-1_4-option-ACT-Abstain_vote",
+        "option3A": "AB-1_4-option-WAIT-Vote_for",
+        "option1B": "B-1_4-option-WAIT-Vote_against",
+        "option2B": "AB-1_4-option-ACT-Abstain_vote",
+        "option3B": "AB-1_4-option-WAIT-Vote_for",
         "eventId": "1 . 6 - WAIT - Council extension vote"
       }
     },
@@ -298,14 +298,14 @@
         "y": 5255.992209895327
       },
       "data": {
-        "textA": "There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?",
-        "textB": "There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?",
-        "option1A": "Against. Although I do want to support them, I think they need to learn their lesson.",
-        "option2A": "I’ll abstain. If I openly choose sides, I might lose customers.",
-        "option3A": "For, of course! We need to keep the factory running, for the workers as well as the community.",
-        "option1B": "Against. Although I do want to support them, I think they need to learn their lesson.",
-        "option2B": "I’ll abstain. If I openly choose sides, I might lose customers.",
-        "option3B": "For, of course! We need to keep the factory running, for the workers as well as the community.",
+        "textA": "A-1_4-scene-DELAY-Council_vote_extension",
+        "textB": "B-1_4-scene-DELAY-Council_vote_extension",
+        "option1A": "AB-1_4-option-DELAY-Vote_against",
+        "option2A": "AB-1_4-option-DELAY-Abstain_vote",
+        "option3A": "AB-1_4-option-DELAY-Vote_for",
+        "option1B": "AB-1_4-option-DELAY-Vote_against",
+        "option2B": "AB-1_4-option-DELAY-Abstain_vote",
+        "option3B": "AB-1_4-option-DELAY-Vote_for",
         "eventId": "1 . 6 - DELAY - Council extension vote"
       }
     },
@@ -326,12 +326,12 @@
         "y": 6457.750229752118
       },
       "data": {
-        "textA": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to pay their taxes.",
-        "textB": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to fix its systems.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-ACT-Extension_approved",
+        "textB": "B-1_5-scene-ACT-Extension_approved",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . a - ACT - Extension accepted"
@@ -345,12 +345,12 @@
         "y": 6456.388920812951
       },
       "data": {
-        "textA": "That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to pay its taxes immediately.",
-        "textB": "That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to fix its systems immediately.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-ACT-Extension_rejected",
+        "textB": "B-1_5-scene-ACT-Extension_rejected",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . b - ACT - Extension rejected"
@@ -364,12 +364,12 @@
         "y": 6480.968150660931
       },
       "data": {
-        "textA": "With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to pay its taxes.",
-        "textB": "With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to fix its systems.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-WAIT-Extension_approved",
+        "textB": "B-1_5-scene-WAIT-Extension_approved",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . a - WAIT - Extension accepted"
@@ -383,12 +383,12 @@
         "y": 6481.115637510625
       },
       "data": {
-        "textA": "With a narrow majority, the council voted against an extension. WildertonWear needs to pay its taxes immediately.",
-        "textB": "With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-WAIT-Extension_rejected",
+        "textB": "B-1_5-scene-WAIT-Extension_rejected",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . b - WAIT - Extension rejected"
@@ -411,12 +411,12 @@
         "y": 6459.015266718261
       },
       "data": {
-        "textA": "Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to pay their taxes.",
-        "textB": "Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to fix its systems.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-DELAY-Extension_approved",
+        "textB": "B-1_5-scene-DELAY-Extension_approved",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . a - DELAY - Extension accepted"
@@ -430,12 +430,12 @@
         "y": 6460.084896999589
       },
       "data": {
-        "textA": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to pay their taxes immediately.",
-        "textB": "Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to fix its systems immediately.",
-        "option1A": "Continue",
+        "textA": "A-1_5-scene-DELAY-Extension_rejected",
+        "textB": "B-1_5-scene-DELAY-Extension_rejected",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": "1 . 7 . b - DELAY - Extension rejected"
@@ -458,13 +458,13 @@
         "y": 7046.019844024915
       },
       "data": {
-        "textA": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "textB": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-1_6-scene-Stockup_2",
+        "textB": "AB-1_6-scene-Stockup_2",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 8 - ACT - Time to stock up",
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -477,13 +477,13 @@
         "y": 7043.562536456746
       },
       "data": {
-        "textA": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "textB": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-1_6-scene-Stockup_2",
+        "textB": "AB-1_6-scene-Stockup_2",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 8 - WAIT - Time to stock up",
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -496,13 +496,13 @@
         "y": 7043.798558200978
       },
       "data": {
-        "textA": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "textB": "It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-1_6-scene-Stockup_2",
+        "textB": "AB-1_6-scene-Stockup_2",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": "1 . 8 - DELAY - Time to stock up",
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -650,13 +650,13 @@
         "y": 8799.751279675711
       },
       "data": {
-        "textA": "You made the right choice in keeping the WildertonWear stock down. Many people were looking for an alternative brand, and so you completely sold out all your BlueSkin items!",
-        "textB": "You made the right choice in keeping the WildertonWear stock down. Many people were looking for an alternative brand, and so you completely sold out all your BlueSkin items!",
-        "option1A": "Continue",
+        "textA": "AB-2_1-scene-ACT-Reaction-2nd_newsflash",
+        "textB": "AB-2_1-scene-ACT-Reaction-2nd_newsflash",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -669,13 +669,13 @@
         "y": 8798.447901117854
       },
       "data": {
-        "textA": "Hm, this time it would have been better to keep the WildertonWear stock down…",
-        "textB": "Hm, this time it would have been better to keep the WildertonWear stock down…",
-        "option1A": "Continue",
+        "textA": "AB-2_1-scene-WAIT-Reaction_2nd_newsflash",
+        "textB": "AB-2_1-scene-WAIT-Reaction_2nd_newsflash",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -688,13 +688,13 @@
         "y": 8797.834120134561
       },
       "data": {
-        "textA": "Ouch, supporting the company comes at a cost this time…",
-        "textB": "Ouch, supporting the company comes at a cost this time…",
-        "option1A": "Continue",
+        "textA": "AB-2_1-scene-DELAY-Reaction_2nd_newsflash",
+        "textB": "AB-2_1-scene-DELAY-Reaction_2nd_newsflash",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -707,14 +707,14 @@
         "y": 10202.221616604846
       },
       "data": {
-        "textA": "To some residents, this is it. They really can’t support WildertonWear anymore. Supporters of the boycott come by to talk. Gradually, your shop becomes a local meeting point for those who want change, and together you discuss what to do next. What do you think should be your next step?",
-        "textB": "To some residents, this is it. They really can’t support WildertonWear anymore. Supporters of the boycott come by to talk. Gradually, your shop becomes a local meeting point for those who want change, and together you discuss what to do next. What do you think should be your next step?",
-        "option1A": "Organise a demonstration to demand better working conditions at the factory.",
-        "option2A": "Put up posters and hand out leaflets to make more people join the boycott.",
-        "option3A": "Have a dialogue with the company; consumer pressure alone probably won’t work.",
-        "option1B": "Organise a demonstration to demand better filtering systems at the factory.",
-        "option2B": "Put up posters and hand out leaflets to make more people join the boycott.",
-        "option3B": "Have a dialogue with the company; consumer pressure alone probably won’t work.",
+        "textA": "AB-2_4-scene-ACT-Local_meeting_point",
+        "textB": "AB-2_4-scene-ACT-Local_meeting_point",
+        "option1A": "A-2_4-option-ACT-Organise_demonstration",
+        "option2A": "AB-2_4-option-ACT/WAIT-Put_up_posters",
+        "option3A": "AB-2_4-option-ACT-Have_a_dialogue",
+        "option1B": "B-2_4-option-ACT-Organise_demonstration",
+        "option2B": "AB-2_4-option-ACT/WAIT-Put_up_posters",
+        "option3B": "AB-2_4-option-ACT-Have_a_dialogue",
         "eventId": null
       }
     },
@@ -726,15 +726,15 @@
         "y": 10213.045187249729
       },
       "data": {
-        "textA": "This is not good. You’ll have to consider whether or not you can still support WildertonWear. Gradually, your shop becomes a local meeting point for those who want to discuss the issue, and together you discuss what to do next.  What do you suggest?",
-        "textB": "This is not good. You’ll have to consider whether or not you can still support WildertonWear. Gradually, your shop becomes a local meeting point for those who want to discuss the issue, and together you discuss what to do next.  What do you suggest?",
-        "option1A": "Put up posters and hand out leaflets to make more people join the boycott.",
-        "option2A": "Have a dialogue with the company to convince them to change.",
-        "option3A": "Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory.",
+        "textA": "AB-2_4-scene-WAIT-Local_meeting_point",
+        "textB": "AB-2_4-scene-WAIT-Local_meeting_point",
+        "option1A": "AB-2_4-option-ACT/WAIT-Put_up_posters",
+        "option2A": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
+        "option3A": "AB-2_4-option-WAIT/DELAY-Astroturf",
         "eventId": null,
-        "option1B": "Put up posters and hand out leaflets to make more people join the boycott.",
-        "option2B": "Have a dialogue with the company to convince them to change.",
-        "option3B": "Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory."
+        "option1B": "AB-2_4-option-ACT/WAIT-Put_up_posters",
+        "option2B": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
+        "option3B": "AB-2_4-option-WAIT/DELAY-Astroturf"
       }
     },
     {
@@ -745,15 +745,15 @@
         "y": 10225.362136468557
       },
       "data": {
-        "textA": "This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs. Gradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next. What do you think should be your next step?",
-        "textB": "This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs. Gradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next. What do you think should be your next step?",
-        "option1A": "Have a dialogue with the company to convince them to change.",
-        "option2A": "Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory.",
-        "option3A": "The interview seems fishy; we should write an opinion piece in the paper to question it.",
+        "textA": "AB-2_4--scene-DELAY-Local_meeting_point",
+        "textB": "AB-2_4--scene-DELAY-Local_meeting_point",
+        "option1A": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
+        "option2A": "AB-2_4-option-WAIT/DELAY-Astroturf",
+        "option3A": "AB-2_4-option-DELAY-Interview_is_fishy",
         "eventId": null,
-        "option1B": "Have a dialogue with the company to convince them to change.",
-        "option2B": "Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory.",
-        "option3B": "The interview seems fishy; we should write an opinion piece in the paper to question it."
+        "option1B": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
+        "option2B": "AB-2_4-option-WAIT/DELAY-Astroturf",
+        "option3B": "AB-2_4-option-DELAY-Interview_is_fishy"
       }
     },
     {
@@ -764,13 +764,13 @@
         "y": 11358.737163954656
       },
       "data": {
-        "textA": "The demonstration was very successful; hundreds of townspeople joined in!",
-        "textB": "The demonstration was very successful; hundreds of townspeople joined in!",
-        "option1A": "Continue",
+        "textA": "AB-2_5-scene-ACT-Demonstration_successful",
+        "textB": "AB-2_5-scene-ACT-Demonstration_successful",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -783,10 +783,10 @@
         "y": 9296.061333101467
       },
       "data": {
-        "headlineA": "WILDERTONWEAR IGNORES HEALTH REGULATIONS",
-        "headlineB": "WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS",
-        "textA": "<b>Local textile manufacturer WildertonWear has routinely disregarded health regulations, says work environment health inspector. Years of neglected safety equipment upgrades have left factory workers exposed to dangerous levels of dust and chemicals.</b> None of our readers is likely to have missed the tax evasion scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of health and safety regulations. According to a work environment health inspector, who wishes to remain anonymous, WildertonWear has routinely ignored safety regulations about permissible levels of dust and chemicals. Safety equipment, such as air filters and industrial fans, has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put its workers at risk of being affected by respiratory diseases, and as a result, there has been an increase in cancer diagnoses and respiratory diseases among employees at its factory.",
-        "textB": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b>  None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
+        "headlineA": "A-2_2-newsFlash-HL-Ignoring_health_regulations",
+        "headlineB": "B-2_2-newsFlash-HL-Ignoring_environmental_regulations",
+        "textA": "A-2_2-newsFlash-body-Ignoring_health_regulations",
+        "textB": "B-2_2-newsFlash-body-Ignoring_environmental_regulations",
         "imageUrl": "health.jpg",
         "daysSinceGameStart": 32
       }
@@ -799,10 +799,10 @@
         "y": 9295.736685901811
       },
       "data": {
-        "headlineA": "WILDERTONWEAR IGNORES HEALTH REGULATIONS",
-        "headlineB": "WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS",
-        "textA": "<b>Local textile manufacturer WildertonWear has routinely disregarded health regulations, says work environment health inspector. Years of neglected safety equipment upgrades have left factory workers exposed to dangerous levels of dust and chemicals.</b> None of our readers is likely to have missed the tax evasion scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of health and safety regulations. According to a work environment health inspector, who wishes to remain anonymous, WildertonWear has routinely ignored safety regulations about permissible levels of dust and chemicals. Safety equipment, such as air filters and industrial fans, has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put its workers at risk of being affected by respiratory diseases, and as a result, there has been an increase in cancer diagnoses and respiratory diseases among employees at its factory.",
-        "textB": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b>  None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
+        "headlineA": "A-2_2-newsFlash-HL-Ignoring_health_regulations",
+        "headlineB": "B-2_2-newsFlash-HL-Ignoring_environmental_regulations",
+        "textA": "A-2_2-newsFlash-body-Ignoring_health_regulations",
+        "textB": "B-2_2-newsFlash-body-Ignoring_environmental_regulations",
         "imageUrl": "health.jpg",
         "daysSinceGameStart": 32
       }
@@ -815,10 +815,10 @@
         "y": 9297.09693713285
       },
       "data": {
-        "headlineA": "WILDERTONWEAR IGNORES HEALTH REGULATIONS",
-        "headlineB": "WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS",
-        "textA": "<b>Local textile manufacturer WildertonWear has routinely disregarded health regulations, says work environment health inspector. Years of neglected safety equipment upgrades have left factory workers exposed to dangerous levels of dust and chemicals.</b> None of our readers is likely to have missed the tax evasion scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of health and safety regulations. According to a work environment health inspector, who wishes to remain anonymous, WildertonWear has routinely ignored safety regulations about permissible levels of dust and chemicals. Safety equipment, such as air filters and industrial fans, has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put its workers at risk of being affected by respiratory diseases, and as a result, there has been an increase in cancer diagnoses and respiratory diseases among employees at its factory.",
-        "textB": "<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.",
+        "headlineA": "A-2_2-newsFlash-HL-Ignoring_health_regulations",
+        "headlineB": "B-2_2-newsFlash-HL-Ignoring_environmental_regulations",
+        "textA": "A-2_2-newsFlash-body-Ignoring_health_regulations",
+        "textB": "B-2_2-newsFlash-body-Ignoring_environmental_regulations",
         "imageUrl": "health.jpg",
         "daysSinceGameStart": 32
       }
@@ -831,13 +831,13 @@
         "y": 11359.867314823196
       },
       "data": {
-        "textA": "The posters seem to have an effect; more people join the boycott every week!",
-        "textB": "The posters seem to have an effect; more people join the boycott every week!",
-        "option1A": "Continue",
+        "textA": "AB-2_5-scene-ACT-Posters_have_effect",
+        "textB": "AB-2_5-scene-ACT-Posters_have_effect",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -850,13 +850,13 @@
         "y": 11360.23581013324
       },
       "data": {
-        "textA": "You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy.",
-        "textB": "You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy.",
-        "option1A": "Continue",
+        "textA": "AB-2_5-scene-WAIT-Declined_invitation",
+        "textB": "AB-2_5-scene-WAIT-Declined_invitation",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -869,13 +869,13 @@
         "y": 11360.752778152208
       },
       "data": {
-        "textA": "The demonstration was small but loud, and thanks to a friend at the local paper, you got a lot of press coverage. Your message is spreading!",
-        "textB": "The demonstration was small but loud, and thanks to a friend at the local paper, you got a lot of press coverage. Your message is spreading!",
-        "option1A": "Continue",
+        "textA": "AB-2_5-scene-DELAY-Small_but_loud",
+        "textB": "AB-2_5-scene-DELAY-Small_but_loud",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -888,13 +888,13 @@
         "y": 11374.996957815787
       },
       "data": {
-        "textA": "That was a good choice!  Your efforts to confront these harmful rumours seem to be working! In fact, WildertonWear itself seems to have been inspired by it.",
-        "textB": "That was a good choice!  Your efforts to confront these harmful rumours seem to be working! In fact, WildertonWear itself seems to have been inspired by it.",
-        "option1A": "Continue",
+        "textA": "AB-2_5-scene-DELAY-Confront_rumours",
+        "textB": "AB-2_5-scene-DELAY-Confront_rumours",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -907,15 +907,15 @@
         "y": 12630.911872683591
       },
       "data": {
-        "textA": "Together with friends, you discuss what you, as a business owner, can do to help the cause?",
-        "textB": "Together with friends, you discuss what you, as a business owner, can do to help the cause?",
-        "option1A": "Call other resellers of WildertonWear’s products and convince them to join the boycott.",
-        "option2A": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option3A": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
+        "textA": "AB-2_8-scene-ACT-Business_owner",
+        "textB": "AB-2_8-scene-ACT-Business_owner",
+        "option1A": "AB-2_8-option-ACT-Call_resellers_join_boycott",
+        "option2A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option3A": "AB-2_8-option-Collection_box",
         "eventId": null,
-        "option1B": "Call other resellers of WildertonWear’s products and convince them to join the boycott.",
-        "option2B": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option3B": "Put a collection box on the shop counter and encourage customers to give to support the cause."
+        "option1B": "AB-2_8-option-ACT-Call_resellers_join_boycott",
+        "option2B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option3B": "AB-2_8-option-Collection_box"
       }
     },
     {
@@ -926,15 +926,15 @@
         "y": 12629.265933405713
       },
       "data": {
-        "textA": "Together with friends, you discuss what you, as a business owner, can do to help the cause?",
-        "textB": "Together with friends, you discuss what you, as a business owner, can do to help the cause?",
-        "option1A": "Call other resellers of WildertonWear’s products and convince them to join the boycott.",
-        "option2A": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option3A": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
+        "textA": "AB-2_8-scene-ACT-Business_owner",
+        "textB": "AB-2_8-scene-ACT-Business_owner",
+        "option1A": "AB-2_8-option-ACT-Call_resellers_join_boycott",
+        "option2A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option3A": "AB-2_8-option-Collection_box",
         "eventId": null,
-        "option1B": "Call other resellers of WildertonWear’s products and convince them to join the boycott.",
-        "option2B": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option3B": "Put a collection box on the shop counter and encourage customers to give to support the cause."
+        "option1B": "AB-2_8-option-ACT-Call_resellers_join_boycott",
+        "option2B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option3B": "AB-2_8-option-Collection_box"
       }
     },
     {
@@ -945,15 +945,15 @@
         "y": 12629.85947667115
       },
       "data": {
-        "textA": "Meanwhile, you and your friends are discussing what you, as a business owner, can do to help the cause?",
-        "textB": "Meanwhile, you and your friends are discussing what you, as a business owner, can do to help the cause?",
-        "option1A": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option2A": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option3A": "Launch a discount campaign on WildertonWear items to increase sales.",
+        "textA": "AB-2_8-scene-WAIT-Business_owner",
+        "textB": "AB-2_8-scene-WAIT-Business_owner",
+        "option1A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option2A": "AB-2_8-option-Collection_box",
+        "option3A": "AB-2_8-option-DELAY-Discount-WildertonWear",
         "eventId": null,
-        "option1B": "Launch a discount campaign on BlueSkin to encourage more customers to switch brands.",
-        "option2B": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option3B": "Launch a discount campaign on WildertonWear items to increase sales."
+        "option1B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
+        "option2B": "AB-2_8-option-Collection_box",
+        "option3B": "AB-2_8-option-DELAY-Discount-WildertonWear"
       }
     },
     {
@@ -964,15 +964,15 @@
         "y": 12623.955022573904
       },
       "data": {
-        "textA": "Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?",
-        "textB": "Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?",
-        "option1A": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option2A": "Launch a discount campaign on WildertonWear to increase sales.",
-        "option3A": "Call other resellers of WildertonWear’s products and convince them to support the company.",
+        "textA": "AB-2_8-scene-DELAY-Business_owner",
+        "textB": "AB-2_8-scene-DELAY-Business_owner",
+        "option1A": "AB-2_8-option-Collection_box",
+        "option2A": "AB-2_8-option-DELAY-Discount-WildertonWear",
+        "option3A": "AB-2_8-option-DELAY-Call_resellers-to-support",
         "eventId": null,
-        "option1B": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option2B": "Launch a discount campaign on WildertonWear to increase sales.",
-        "option3B": "Call other resellers of WildertonWear’s products and convince them to support the company."
+        "option1B": "AB-2_8-option-Collection_box",
+        "option2B": "AB-2_8-option-DELAY-Discount-WildertonWear",
+        "option3B": "AB-2_8-option-DELAY-Call_resellers-to-support"
       }
     },
     {
@@ -983,14 +983,14 @@
         "y": 12605.538779685421
       },
       "data": {
-        "textA": "Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?",
-        "textB": "Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?",
-        "option1A": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option2A": "Launch a discount campaign on WildertonWear to increase sales.",
-        "option3A": "Call other resellers of WildertonWear’s products and convince them to support the company.",
-        "option1B": "Put a collection box on the shop counter and encourage customers to give to support the cause.",
-        "option2B": "Launch a discount campaign on WildertonWear to increase sales.",
-        "option3B": "Call other resellers of WildertonWear’s products and convince them to support the company.",
+        "textA": "AB-2_8-scene-DELAY-Business_owner",
+        "textB": "AB-2_8-scene-DELAY-Business_owner",
+        "option1A": "AB-2_8-option-Collection_box",
+        "option2A": "AB-2_8-option-DELAY-Discount-WildertonWear",
+        "option3A": "AB-2_8-option-DELAY-Call_resellers-to-support",
+        "option1B": "AB-2_8-option-Collection_box",
+        "option2B": "AB-2_8-option-DELAY-Discount-WildertonWear",
+        "option3B": "AB-2_8-option-DELAY-Call_resellers-to-support",
         "eventId": null
       }
     },
@@ -1002,13 +1002,13 @@
         "y": 13953.414351993215
       },
       "data": {
-        "textA": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to join the boycott, but you convinced enough of them to add pressure on WildertonWear. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
-        "textB": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to join the boycott, but you convinced enough of them to add pressure on WildertonWear. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-2_9-scene-ACT-Rad-Stockup_3",
+        "textB": "AB-2_9-scene-ACT-Rad-Stockup_3",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1021,13 +1021,13 @@
         "y": 13953.455105750558
       },
       "data": {
-        "textA": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! But this is clearly better for the cause than for your business; your revenues are lagging quite a bit. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
-        "textB": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! But this is clearly better for the cause than for your business; your revenues are lagging quite a bit. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-2_9-scene-ACT-Mod-Stockup_3",
+        "textB": "AB-2_9-scene-ACT-Mod-Stockup_3",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1040,13 +1040,13 @@
         "y": 13951.063935367678
       },
       "data": {
-        "textA": "Wow, the support was even stronger than you thought! A majority of your customers generously donated to the collection box. You now have a substantial fund to support the cause. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "textB": "Wow, the support was even stronger than you thought! A majority of your customers generously donated to the collection box. You now have a substantial fund to support the cause. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-2_9-scene-WAIT-Stockup_3",
+        "textB": "AB-2_9-scene-WAIT-Stockup_3",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1059,13 +1059,13 @@
         "y": 13949.820714611575
       },
       "data": {
-        "textA": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "textB": "Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-2_9-scene-DELAY-Mod-Stockup_3",
+        "textB": "AB-2_9-scene-DELAY-Mod-Stockup_3",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1078,13 +1078,13 @@
         "y": 13949.86704991451
       },
       "data": {
-        "textA": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to support WildertonWear, but you convinced enough of them to increase the sales. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "textB": "Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to support WildertonWear, but you convinced enough of them to increase the sales. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-2_9-scene-DELAY-Rad-Stockup_3",
+        "textB": "AB-2_9-scene-DELAY-Rad-Stockup_3",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1232,13 +1232,13 @@
         "y": 15866.463697641228
       },
       "data": {
-        "textA": "This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.",
-        "textB": "This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.",
-        "option1A": "Continue",
+        "textA": "AB-3_1-scene-ACT-Reaction_waiting_for_audit",
+        "textB": "AB-3_1-scene-ACT-Reaction_waiting_for_audit",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1251,13 +1251,13 @@
         "y": 15866.99602770788
       },
       "data": {
-        "textA": "This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.",
-        "textB": "This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.",
-        "option1A": "Continue",
+        "textA": "AB-3_1-scene-ACT-Reaction_waiting_for_audit",
+        "textB": "AB-3_1-scene-ACT-Reaction_waiting_for_audit",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1270,13 +1270,13 @@
         "y": 15864.544839783315
       },
       "data": {
-        "textA": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
-        "textB": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
-        "option1A": "Continue",
+        "textA": "AB-3_1-scene-DELAY-Reaction_waiting_for_audit",
+        "textB": "AB-3_1-scene-DELAY-Reaction_waiting_for_audit",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1289,13 +1289,13 @@
         "y": 15865.815999217664
       },
       "data": {
-        "textA": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
-        "textB": "You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.",
-        "option1A": "Continue",
+        "textA": "AB-3_1-scene-DELAY-Reaction_waiting_for_audit",
+        "textB": "AB-3_1-scene-DELAY-Reaction_waiting_for_audit",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1308,13 +1308,13 @@
         "y": 15864.817391783305
       },
       "data": {
-        "textA": "Phew, that was a tough decision. You took the safe bet, which was a good idea this time. The boycott has slowed down since the customers are waiting for the result of the audit.",
-        "textB": "Phew, that was a tough decision. You took the safe bet, which was a good idea this time. The boycott has slowed down since the customers are waiting for the result of the audit.",
-        "option1A": "Continue",
+        "textA": "AB-3_1-scene-WAIT-Reaction_waiting_for_audit",
+        "textB": "AB-3_1-scene-WAIT-Reaction_waiting_for_audit",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1327,15 +1327,15 @@
         "y": 16900.13468687323
       },
       "data": {
-        "textA": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
-        "textB": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
-        "option1A": "Organise a community day for residents to brainstorm what the town could look like in the future.",
-        "option2A": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option3A": "Start a fund to support the workers if the factory closes.",
+        "textA": "AB-3_3-scene-ACT-How_to_thrive",
+        "textB": "AB-3_3-scene-ACT-How_to_thrive",
+        "option1A": "AB-3_3-option-ACT-Community_day",
+        "option2A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option3A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
         "eventId": null,
-        "option1B": "Organise a community day for residents to brainstorm what the town could look like in the future.",
-        "option2B": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option3B": "Start a fund to support the workers if the factory closes."
+        "option1B": "AB-3_3-option-ACT-Community_day",
+        "option2B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option3B": "AB-3_3-option-ACT/WAIT-Fund_to_support"
       }
     },
     {
@@ -1346,15 +1346,15 @@
         "y": 16902.487406123866
       },
       "data": {
-        "textA": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
-        "textB": "People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?",
-        "option1A": "Organise a community day for residents to brainstorm what the town could look like in the future.",
-        "option2A": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option3A": "Start a fund to support the workers if the factory closes.",
+        "textA": "AB-3_3-scene-ACT-How_to_thrive",
+        "textB": "AB-3_3-scene-ACT-How_to_thrive",
+        "option1A": "AB-3_3-option-ACT-Community_day",
+        "option2A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option3A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
         "eventId": null,
-        "option1B": "Organise a community day for residents to brainstorm what the town could look like in the future.",
-        "option2B": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option3B": "Start a fund to support the workers if the factory closes."
+        "option1B": "AB-3_3-option-ACT-Community_day",
+        "option2B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option3B": "AB-3_3-option-ACT/WAIT-Fund_to_support"
       }
     },
     {
@@ -1365,14 +1365,14 @@
         "y": 16876.03604028053
       },
       "data": {
-        "textA": "A lot of people are worried, and you realise that rather than making rash decisions, you need to come up with long-term solutions.  How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
-        "textB": "A lot of people are worried, and you realise that rather than making rash decisions, you need to come up with long-term solutions.  How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
-        "option1A": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
-        "option2A": "Invite local interest groups to submit suggestions on how to protect the jobs.",
-        "option3A": "Convince a local producer of filters and safety gear to donate equipment to the factory.",
-        "option1B": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
-        "option2B": "Invite local interest groups to submit suggestions on how to protect the jobs.",
-        "option3B": "Convince a local producer of pollution filters to donate equipment to the factory.",
+        "textA": "AB-3_3-scene-DELAY-Mod-Long_term",
+        "textB": "AB-3_3-scene-DELAY-Mod-Long_term",
+        "option1A": "AB-3_3-option-WAIT/DELAY-WW_day",
+        "option2A": "AB-3_3-option-DELAY-Invite_interest_groups",
+        "option3A": "A-3_3-option-DELAY-Local_producer",
+        "option1B": "AB-3_3-option-WAIT/DELAY-WW_day",
+        "option2B": "AB-3_3-option-DELAY-Invite_interest_groups",
+        "option3B": "B-3_3-option-DELAY-Local_producer",
         "eventId": null
       }
     },
@@ -1384,15 +1384,15 @@
         "y": 16902.58714363722
       },
       "data": {
-        "textA": "People are worried, and you realise that you are finally forced to choose sides. Should you try to find a way to force WildertonWear to make the necessary changes without risking the workers’ jobs, or is it time to start talking about how the town could thrive even if the factory closes? What is your next step?",
-        "textB": "People are worried, and you realise that you are finally forced to choose sides. Should you try to find a way to force WildertonWear to make the necessary changes without risking the workers’ jobs, or is it time to start talking about how the town could thrive even if the factory closes? What is your next step?",
-        "option1A": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option2A": "Start a fund to support the workers if the factory closes.",
-        "option3A": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
+        "textA": "AB-3_3-scene-WAIT-Long_term",
+        "textB": "AB-3_3-scene-WAIT-Long_term",
+        "option1A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option2A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
+        "option3A": "AB-3_3-option-WAIT/DELAY-WW_day",
         "eventId": null,
-        "option1B": "Invite local interest groups to submit suggestions on how to create alternative sources of income.",
-        "option2B": "Start a fund to support the workers if the factory closes.",
-        "option3B": "Organise a WildertonWear day with concerts and family activities to raise money for the factory."
+        "option1B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
+        "option2B": "AB-3_3-option-ACT/WAIT-Fund_to_support",
+        "option3B": "AB-3_3-option-WAIT/DELAY-WW_day"
       }
     },
     {
@@ -1403,14 +1403,14 @@
         "y": 16879.755281815094
       },
       "data": {
-        "textA": "A lot of people are worried. You realise that rather than making rash decisions, you need to come up with long-term solutions. How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
-        "textB": "A lot of people are worried. You realise that rather than making rash decisions, you need to come up with long-term solutions. How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?",
-        "option1A": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
-        "option2A": "Invite local interest groups to submit suggestions on how to protect the jobs.",
-        "option3A": "Convince a local producer of filters and safety gear to donate equipment to the factory.",
-        "option1B": "Organise a WildertonWear day with concerts and family activities to raise money for the factory.",
-        "option2B": "Invite local interest groups to submit suggestions on how to protect the jobs.",
-        "option3B": "Convince a local producer of pollution filters to donate equipment to the factory.",
+        "textA": "AB-3_3-scene-DELAY-Rad-Long_term",
+        "textB": "AB-3_3-scene-DELAY-Rad-Long_term",
+        "option1A": "AB-3_3-option-WAIT/DELAY-WW_day",
+        "option2A": "AB-3_3-option-DELAY-Invite_interest_groups",
+        "option3A": "A-3_3-option-DELAY-Local_producer",
+        "option1B": "AB-3_3-option-WAIT/DELAY-WW_day",
+        "option2B": "AB-3_3-option-DELAY-Invite_interest_groups",
+        "option3B": "B-3_3-option-DELAY-Local_producer",
         "eventId": null
       }
     },
@@ -1422,13 +1422,13 @@
         "y": 18357.23621666105
       },
       "data": {
-        "textA": "The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.",
-        "textB": "The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.",
-        "option1A": "Continue",
+        "textA": "AB-3_4-scene-ACT-Rad-Community_day",
+        "textB": "AB-3_4-scene-ACT-Rad-Community_day",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1441,13 +1441,13 @@
         "y": 18365.834482651713
       },
       "data": {
-        "textA": "Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
-        "textB": "Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
-        "option1A": "Continue",
+        "textA": "AB-3_4-scene-ACT-Mod-Suggestions",
+        "textB": "AB-3_4-scene-ACT-Mod-Suggestions",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1460,13 +1460,13 @@
         "y": 18393.219415956733
       },
       "data": {
-        "textA": "The collection takes off immediately, as many townspeople want to help the workers even if they don’t like their employer.",
-        "textB": "The collection takes off immediately, as many townspeople want to help the workers even if they don’t like their employer.",
-        "option1A": "Continue",
+        "textA": "AB-3_4-scene-ACT-ModMod-Collection",
+        "textB": "AB-3_4-scene-ACT-ModMod-Collection",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1479,13 +1479,13 @@
         "y": 18369.861954394226
       },
       "data": {
-        "textA": "The WildertonWear day is a success, and gathers a lot of townspeople; families with children, elderly citizens, enthusiastic teenagers, and local couples. As a result, you raise a lot of money for the factory!",
-        "textB": "The WildertonWear day is a success, and gathers a lot of townspeople; families with children, elderly citizens, enthusiastic teenagers, and local couples. As a result, you raise a lot of money for the factory!",
-        "option1A": "Continue",
+        "textA": "AB-3_4-scene-DELAY-ModMod-WW_day",
+        "textB": "AB-3_4-scene-DELAY-ModMod-WW_day",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1498,13 +1498,13 @@
         "y": 18368.863337539693
       },
       "data": {
-        "textA": "Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
-        "textB": "Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.",
-        "option1A": "Continue",
+        "textA": "AB-3_4_scene-DELAY-Mod-Suggestions",
+        "textB": "AB-3_4_scene-DELAY-Mod-Suggestions",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -1824,12 +1824,12 @@
         "y": 18367.672661333945
       },
       "data": {
-        "textA": "You contact a few safety gear producers and find one that is willing to donate safety gear. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.",
-        "textB": "You contact a few wastewater filtering system producers and find one that is willing to donate filters. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.",
-        "option1A": "Continue",
+        "textA": "A-3_4-scene-DELAY-Rad-Safety_gear_producer",
+        "textB": "B-3_4-scene-DELAY-Rad-Filtering_system_producer",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": null
@@ -1843,13 +1843,13 @@
         "y": 18915.431663614963
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1862,13 +1862,13 @@
         "y": 18916.214773569114
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1881,13 +1881,13 @@
         "y": 18915.432065228393
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1900,13 +1900,13 @@
         "y": 18916.861484938538
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1919,13 +1919,13 @@
         "y": 18916.17138972611
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -1938,13 +1938,13 @@
         "y": 18917.810013481117
       },
       "data": {
-        "textA": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "textB": "This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-3_5-scene-Stockup_4",
+        "textB": "AB-3_5-scene-Stockup_4",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2119,15 +2119,15 @@
         "y": 22194.836801354202
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.",
-        "option2A": "Sponsor evening classes for factory workers to train for other professions.",
-        "option3A": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
+        "option2A": "AB-4_3-option-ACT-Evening_classes",
+        "option3A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "eventId": null,
-        "option1B": "Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.",
-        "option2B": "Sponsor evening classes for factory workers to train for other professions.",
-        "option3B": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close."
+        "option1B": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
+        "option2B": "AB-4_3-option-ACT-Evening_classes",
+        "option3B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop"
       }
     },
     {
@@ -2138,15 +2138,15 @@
         "y": 22194.831803296656
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.",
-        "option2A": "Sponsor evening classes for factory workers to train for other professions.",
-        "option3A": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
+        "option2A": "AB-4_3-option-ACT-Evening_classes",
+        "option3A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "eventId": null,
-        "option1B": "Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.",
-        "option2B": "Sponsor evening classes for factory workers to train for other professions.",
-        "option3B": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close."
+        "option1B": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
+        "option2B": "AB-4_3-option-ACT-Evening_classes",
+        "option3B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop"
       }
     },
     {
@@ -2157,15 +2157,15 @@
         "y": 22197.32385813873
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Sponsor evening classes for factory workers to train for other professions.",
-        "option2A": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
-        "option3A": "Attract new companies to create jobs and lessen the dependence on the factory.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT-Evening_classes",
+        "option2A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
+        "option3A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
         "eventId": null,
-        "option1B": "Sponsor evening classes for factory workers to train for other professions.",
-        "option2B": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
-        "option3B": "Attract new companies to create jobs and lessen the dependence on the factory."
+        "option1B": "AB-4_3-option-ACT-Evening_classes",
+        "option2B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
+        "option3B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies"
       }
     },
     {
@@ -2176,15 +2176,15 @@
         "y": 22198.689444112475
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
-        "option2A": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option3A": "Persuade a local investor to step in and offer WildertonWear a loan.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
+        "option2A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option3A": "AB-4_3-option-DELAY-Local_investor",
         "eventId": null,
-        "option1B": "Fund a clothing repair shop, where the workers could find jobs if the factory were to close.",
-        "option2B": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option3B": "Persuade a local investor to step in and offer WildertonWear a loan."
+        "option1B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
+        "option2B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option3B": "AB-4_3-option-DELAY-Local_investor"
       }
     },
     {
@@ -2195,14 +2195,14 @@
         "y": 22195.32961603028
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option2A": "Persuade a local investor to step in and offer WildertonWear a loan.",
-        "option3A": "Lobby national authorities to relax safety regulations to give WildertonWear a chance to recover.",
-        "option1B": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option2B": "Persuade a local investor to step in and offer WildertonWear a loan.",
-        "option3B": "Lobby national authorities to relax environmental regulations to help WildertonWear recover.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option2A": "AB-4_3-option-DELAY-Local_investor",
+        "option3A": "A-4_3-option-DELAY-Rad/Mod-Relax_safety_regulations",
+        "option1B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option2B": "AB-4_3-option-DELAY-Local_investor",
+        "option3B": "B-4_3-option-DELAY-Rad-Relax_environmental_regulations",
         "eventId": null
       }
     },
@@ -2214,14 +2214,14 @@
         "y": 22194.05439673912
       },
       "data": {
-        "textA": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "textB": "It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?",
-        "option1A": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option2A": "Persuade a local investor to step in and offer WildertonWear a loan.",
-        "option3A": "Lobby the national authorities to relax safety regulations to give WildertonWear a chance to recover.",
-        "option1B": "Attract new companies to create jobs and lessen the dependence on the factory.",
-        "option2B": "Persuade a local investor to step in and offer WildertonWear a loan.",
-        "option3B": "Lobby national authorities to relax environmental regulations to help WildertonWear recover.",
+        "textA": "AB-4_3-scene-Council_vote_suggestions",
+        "textB": "AB-4_3-scene-Council_vote_suggestions",
+        "option1A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option2A": "AB-4_3-option-DELAY-Local_investor",
+        "option3A": "A-4_3-option-DELAY-Rad/Mod-Relax_safety_regulations",
+        "option1B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
+        "option2B": "AB-4_3-option-DELAY-Local_investor",
+        "option3B": "B-4_3-option-DELAY-Rad-Relax_environmental_regulations",
         "eventId": null
       }
     },
@@ -2330,13 +2330,13 @@
         "y": 23842.354421575965
       },
       "data": {
-        "textA": "No luck this time. The council promised to consider it, but they didn’t think it was a good solution now since it would probably take too long to implement.",
-        "textB": "No luck this time. The council promised to consider it, but they didn’t think it was a good solution now since it would probably take too long to implement.",
-        "option1A": "Continue",
+        "textA": "AB-4_4-scene-ACT-Rad-Universal_basic_income",
+        "textB": "AB-4_4-scene-ACT-Rad-Universal_basic_income",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -2657,13 +2657,13 @@
         "y": 23823.31729079121
       },
       "data": {
-        "textA": "Yay, the proposal was approved! Now you need to find a suitable place to be, recruit teachers, set up the administration and enrol students.",
-        "textB": "Yay, the proposal was approved! Now you need to find a suitable place to be, recruit teachers, set up the administration and enrol students.",
-        "option1A": "Continue",
+        "textA": "AB-4_4-scene-ACT-Mod-Evening_classes",
+        "textB": "AB-4_4-scene-ACT-Mod-Evening_classes",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -2676,13 +2676,13 @@
         "y": 23821.48939846421
       },
       "data": {
-        "textA": "That went well! Your group decided to start collecting money to fund a little shop to repair and mend clothes. Not only would it create more jobs, but it would also extend the lifetime of WildertonWear clothing.",
-        "textB": "That went well! Your group decided to start collecting money to fund a little shop to repair and mend clothes. Not only would it create more jobs, but it would also extend the lifetime of WildertonWear clothing.",
-        "option1A": "Continue",
+        "textA": "AB-4_4-scene-ACT-ModMod-Clothing_repair_shop",
+        "textB": "AB-4_4-scene-ACT-ModMod-Clothing_repair_shop",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -2695,12 +2695,12 @@
         "y": 23838.998832798723
       },
       "data": {
-        "textA": "Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the safety regulations for WildertonWear, just to save its crucial business.",
-        "textB": "Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.",
-        "option1A": "Continue",
+        "textA": "A-4_4-scene-DELAY-Rad-Relax_safety_regulations",
+        "textB": "B-4_4-scene-DELAY-Rad-Relax_environmental_regulations",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": null
@@ -2714,13 +2714,13 @@
         "y": 23820.934681907846
       },
       "data": {
-        "textA": "It has taken quite some time, but you finally manage to find a local sponsor who is willing to step in and offer WildertonWear a loan to get back on their feet. The sponsor prefers to stay anonymous and mentions that you can negotiate the repayment conditions later. You are so relieved to finally have found a solution that you happily agree to the conditions.",
-        "textB": "It has taken quite some time, but you finally manage to find a local sponsor who is willing to step in and offer WildertonWear a loan to get back on their feet. The sponsor prefers to stay anonymous and mentions that you can negotiate the repayment conditions later. You are so relieved to finally have found a solution that you happily agree to the conditions.",
-        "option1A": "Continue",
+        "textA": "AB-4_4-scene-DELAY-Mod-Local_sponsor",
+        "textB": "AB-4_4-scene-DELAY-Mod-Local_sponsor",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
       }
@@ -2733,12 +2733,12 @@
         "y": 23833.689305897686
       },
       "data": {
-        "textA": "Yes, you did it! A group is put together to draft a proposal with favourable conditions, cheap land deals and potentially tax reductions, and to book meetings with companies that are considering moving to Wilderton.",
-        "textB": "Yes, you did it! A group is put together to draft a proposal with favourable conditions, cheap land deals and potentially tax reductions, and to book meetings with companies that are considering moving to Wilderton.",
-        "option1A": "Continue",
+        "textA": "AB-4_4-scene-DELAY-ModMod-Attract_companies",
+        "textB": "AB-4_4-scene-DELAY-ModMod-Attract_companies",
+        "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "option1B": "Continue",
+        "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
         "eventId": null
@@ -2752,13 +2752,13 @@
         "y": 24412.99757532136
       },
       "data": {
-        "textA": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "textB": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-ACT-Stockup_5",
+        "textB": "AB-4_5-scene-ACT-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2771,13 +2771,13 @@
         "y": 24413.403306318134
       },
       "data": {
-        "textA": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "textB": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-ACT-Stockup_5",
+        "textB": "AB-4_5-scene-ACT-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2790,13 +2790,13 @@
         "y": 24411.52818840162
       },
       "data": {
-        "textA": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "textB": "Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-ACT-Stockup_5",
+        "textB": "AB-4_5-scene-ACT-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2809,13 +2809,13 @@
         "y": 24436.7518895626
       },
       "data": {
-        "textA": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "textB": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-DELAY-Stockup_5",
+        "textB": "AB-4_5-scene-DELAY-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2828,13 +2828,13 @@
         "y": 24436.751889562598
       },
       "data": {
-        "textA": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "textB": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-DELAY-Stockup_5",
+        "textB": "AB-4_5-scene-DELAY-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -2847,13 +2847,13 @@
         "y": 24437.432959236223
       },
       "data": {
-        "textA": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "textB": "But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?",
-        "option1A": "Let’s stock up!",
+        "textA": "AB-4_5-scene-DELAY-Stockup_5",
+        "textB": "AB-4_5-scene-DELAY-Stockup_5",
+        "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "Let’s stock up!",
+        "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
       }
@@ -3064,8 +3064,8 @@
         "y": 28529.84114537333
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your visions and wild ideas, you and your friends turned a potential disaster into a new start for the entire community!"
+        "headline": "end-headline",
+        "text": "end-ACT-Rad"
       }
     },
     {
@@ -3076,8 +3076,8 @@
         "y": 28550.909133429126
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your foresight and good planning, you and your friends turned a potential disaster into a development that has boosted the entire community!"
+        "headline": "end-headline",
+        "text": "end-ACT-Mod"
       }
     },
     {
@@ -3088,8 +3088,8 @@
         "y": 28589.837851329637
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work, you and your friends turned a potential disaster into a positive development!"
+        "headline": "end-headline",
+        "text": "end-ACT-ModMod/DELAY-ModMod"
       }
     },
     {
@@ -3100,8 +3100,8 @@
         "y": 28610.286476764068
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work, you and your friends turned a potential disaster into a positive development!"
+        "headline": "end-headline",
+        "text": "end-ACT-ModMod/DELAY-ModMod"
       }
     },
     {
@@ -3112,8 +3112,8 @@
         "y": 28609.828849841255
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work to preserve the community’s history, you and your friends turned a potential disaster into a new opportunity."
+        "headline": "end-headline",
+        "text": "end-DELAY-Mod"
       }
     },
     {
@@ -3124,8 +3124,8 @@
         "y": 28606.17661249613
       },
       "data": {
-        "headline": "THE END",
-        "text": "Excellent work! Thank you for playing!\n\nThanks to your hard work, you and your friends managed to keep the community and its traditions alive. You kept the WildertonWear factory running as long as possible, and have good hopes for the future."
+        "headline": "end-headline",
+        "text": "end-DELAY-Rad"
       }
     },
     {
@@ -3136,14 +3136,14 @@
         "y": 667.4775537264902
       },
       "data": {
-        "text1A": "Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and you give nothing back?",
-        "text2A": "That’s it, I’m boycotting WildertonWear. Who’s with me? #BoycottWW",
+        "text1A": "A-social-Tax_evasion-WTF",
+        "text2A": "AB-social-Let's_boycott",
         "text3A": null,
         "userName1": "joe_6000",
         "userName2": "randy",
         "userName3": null,
-        "text1B": "Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?",
-        "text2B": "That’s it, I’m boycotting WildertonWear. Who’s with me? #BoycottWW",
+        "text1B": "B-social-Super_emitter-WTF",
+        "text2B": "AB-social-Let's_boycott",
         "text3B": null
       }
     },
@@ -3251,10 +3251,10 @@
         "y": 26721.006291660244
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job, but hopefully the campaign to bring in new companies will lead to more jobs.”",
-        "textB": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job, but hopefully the campaign to bring in new companies will lead to more jobs.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-5_1-newsFlash-body-DELAY-ModMod-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-DELAY-ModMod-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3267,10 +3267,10 @@
         "y": 26724.93219518164
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
-        "textB": "After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company. It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-newsFlash-body-ACT-ModMod-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-ACT-ModMod-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3283,10 +3283,10 @@
         "y": 26719.727363296875
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”",
-        "textB": "<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-5_1-newsFlash-body-ACT-Mod-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-ACT-Mod-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3299,10 +3299,10 @@
         "y": 26722.188507758037
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. After the company was forced to back out of a sponsor deal, which turned out to be a money laundering scheme, the tough financial situation, decreased production due to the strikes, and high tax payments simply became too much.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
-        "textB": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. After the company was forced to back out of a sponsor deal, which turned out to be a money laundering scheme, the tough financial situation, decreased production due to the strikes, and high costs for system upgrades simply became too much.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-5_1-newsFlash-body-DELAY-Mod-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-DELAY-Mod-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3315,10 +3315,10 @@
         "y": 26721.728846922953
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of strikes and boycotts, the management of WildertonWear announced yesterday that the company will be closing. The relaxed safety regulations came too late, and with the tough financial situation, decreased production due to the strikes, and high tax payments, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the safety breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
-        "textB": "<b>After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The relaxed environmental regulations came too late, and with the tough financial situation, decreased production due to the strikes, and high costs for system upgrades, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-5_1-newsFlash-body-DELAY-Rad-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-DELAY-Rad-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3331,10 +3331,10 @@
         "y": 26722.93770178911
       },
       "data": {
-        "headlineA": "WILDERTONWEAR FACTORY CLOSING",
-        "headlineB": "WILDERTONWEAR FACTORY CLOSING",
-        "textA": "<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The potential investor withdrew last minute, and with the tough financial situation, decreased production due to the strikes, and high tax payments, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
-        "textB": "<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The potential investor withdrew last minute, and with the tough financial situation, decreased production due to the strikes, and high costs for system upgrades, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”",
+        "headlineA": "AB-5_1-newsFlash-HL-Factory_closing",
+        "headlineB": "AB-5_1-newsFlash-HL-Factory_closing",
+        "textA": "A-newsFlash-body-ACT-Rad-Factory_closing",
+        "textB": "B-5_1-newsFlash-body-ACT-Rad-Factory_closing",
         "imageUrl": "closing.jpg",
         "daysSinceGameStart": 136
       }
@@ -3401,13 +3401,13 @@
         "y": 27550.2253477797
       },
       "data": {
-        "textA": "Two years later…",
-        "textB": "Two years later…",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3420,10 +3420,10 @@
         "y": 28017.87313997435
       },
       "data": {
-        "headlineA": "WEARHOUSE CENTRE WINS AWARD",
-        "headlineB": "WEARHOUSE CENTRE WINS AWARD",
-        "textA": "<b>Only two years after its opening, the new WearHouse community centre won the prestigious “Best community centre” award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b> It’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter. The big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. Most of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre, in the past months, the number of visitors has been growing steadily.",
-        "textB": "<b>Only two years after its opening, the new WearHouse community centre won the prestigious “Best community centre” award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b> It’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter. The big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. Most of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre, in the past months, the number of visitors has been growing steadily.",
+        "headlineA": "AB-5_3-newsFlash-HL-ACT-Rad-Centre_wins_award",
+        "headlineB": "AB-5_3-newsFlash-HL-ACT-Rad-Centre_wins_award",
+        "textA": "AB-5_3-newsFlash-body-ACT-Rad_Centre_wins_award",
+        "textB": "AB-5_3-newsFlash-body-ACT-Rad_Centre_wins_award",
         "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
@@ -3436,13 +3436,13 @@
         "y": 27553.792322081714
       },
       "data": {
-        "textA": "2 years later...",
-        "textB": "2 years later...",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3455,10 +3455,10 @@
         "y": 28015.723601427373
       },
       "data": {
-        "headlineA": "WEARHOUSE CENTRE CELEBRATES 2 YEARS",
-        "headlineB": "WEARHOUSE CENTRE CELEBRATES 2 YEARS",
-        "textA": "<b>When the machines at WildertonWear stopped, a few enthusiasts stepped in. Today, the old factory building celebrates 2 years as a thriving community centre, and invites all residents to join in the celebrations.</b> Thanks to a group of enthusiasts, the history of the WildertonWear factory took a completely new turn. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and the clicking of computer keyboards. The large halls have been turned into a co-working space, with a popular café, a clothing repair and mending shop, and a gym. Most of the former factory workers have found new occupations, working for the tailor, in the BlueSkin workshop in the next town, or pursuing new dreams as café owners or students. And the community members love their new centre - in the past months, the number of visitors has been growing steadily.",
-        "textB": "<b>When the machines at WildertonWear stopped, a few enthusiasts stepped in. Today, the old factory building celebrates 2 years as a thriving community centre, and invites all residents to join in the celebrations.</b> Thanks to a group of enthusiasts, the history of the WildertonWear factory took a completely new turn. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and the clicking of computer keyboards. The large halls have been turned into a co-working space, with a popular café, a clothing repair and mending shop, and a gym. Most of the former factory workers have found new occupations, working for the tailor, in the BlueSkin workshop in the next town, or pursuing new dreams as café owners or students. And the community members love their new centre - in the past months, the number of visitors has been growing steadily.",
+        "headlineA": "AB-5_3-newsFlash-HL-ACT-Mod-Centre_2_yrs",
+        "headlineB": "AB-5_3-newsFlash-HL-ACT-Mod-Centre_2_yrs",
+        "textA": "AB-5_3-newsFlash-body-ACT-Mod-Centre_2_yrs",
+        "textB": "AB-5_3-newsFlash-body-ACT-Mod-Centre_2_yrs",
         "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
@@ -3471,13 +3471,13 @@
         "y": 27550.209757836747
       },
       "data": {
-        "textA": "2 years later...",
-        "textB": "2 years later...",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3490,10 +3490,10 @@
         "y": 28016.440114276364
       },
       "data": {
-        "headlineA": "COMMUNITY CENTRE TURNS 2 YEARS",
-        "headlineB": "COMMUNITY CENTRE TURNS 2 YEARS",
-        "textA": "<b>The history of the old Wilderton factory could have ended when WildertonWear folded. Instead, it now celebrates 2 years as a community centre, with a co-working space, café and gym.</b> Thanks to a group of enthusiasts, the historical Wilderton factory now celebrates its 150th anniversary with a complete revival. The old factory buildings are still there, but instead of thundering machines, you now hear soft conversations and the clicking of computer keyboards. The large halls have been turned into a co-working space, a popular café, and a gym. Most of the former factory workers have found new occupations. Some have opened their own tailor shops in town, others have been hired by BlueSkin, and some have taken temporary jobs while looking for new opportunities.",
-        "textB": "<b>The history of the old Wilderton factory could have ended when WildertonWear folded. Instead, it now celebrates 2 years as a community centre, with a co-working space, café and gym.</b> Thanks to a group of enthusiasts, the historical Wilderton factory now celebrates its 150th anniversary with a complete revival. The old factory buildings are still there, but instead of thundering machines, you now hear soft conversations and the clicking of computer keyboards. The large halls have been turned into a co-working space, a popular café, and a gym. Most of the former factory workers have found new occupations. Some have opened their own tailor shops in town, others have been hired by BlueSkin, and some have taken temporary jobs while looking for new opportunities.",
+        "headlineA": "AB-5_3-newsFlash-HL-ACT-ModMod-Community_centre_2_yrs",
+        "headlineB": "AB-5_3-newsFlash-HL-ACT-ModMod-Community_centre_2_yrs",
+        "textA": "AB-5_3-newsFlash-body-ACT-ModMod-Community_centre_2_yrs",
+        "textB": "AB-5_3-newsFlash-body-ACT-ModMod-Community_centre_2_yrs",
         "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
@@ -3506,13 +3506,13 @@
         "y": 27550.92627068574
       },
       "data": {
-        "textA": "2 years later...",
-        "textB": "2 years later...",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3525,10 +3525,10 @@
         "y": 28017.141037182406
       },
       "data": {
-        "headlineA": "WILDERTON CO-WORKING SPACE OPENED",
-        "headlineB": "WILDERTON CO-WORKING SPACE OPENED",
-        "textA": "<b>Thanks to a group of enthusiasts, the buildings of the historical WildertonWear factory are no longer empty. Today, the old factory building celebrates 1 year as a modern co-working space for local entrepreneurs.</b> When the machines at WildertonWear stopped, many declared it the end of a proud history of manufacturing. But just in time for it’s 150th anniversary, the factory is once again thriving. The factory buildings are still there, but instead of the thundering machines, you know hear soft conversations and the clicking from keyboards. Thanks to a group of enthusiasts and a generous donation by the municipality, the large halls have been turned into fresh new offices and a café.",
-        "textB": "<b>Thanks to a group of enthusiasts, the buildings of the historical WildertonWear factory are no longer empty. Today, the old factory building celebrates 1 year as a modern co-working space for local entrepreneurs.</b> When the machines at WildertonWear stopped, many declared it the end of a proud history of manufacturing. But just in time for it’s 150th anniversary, the factory is once again thriving. The factory buildings are still there, but instead of the thundering machines, you know hear soft conversations and the clicking from keyboards. Thanks to a group of enthusiasts and a generous donation by the municipality, the large halls have been turned into fresh new offices and a café.",
+        "headlineA": "AB-5_3-newsFlash-HL-DELAY-ModMod-Coworking_space_opened",
+        "headlineB": "AB-5_3-newsFlash-HL-DELAY-ModMod-Coworking_space_opened",
+        "textA": "AB-5_3-newsFlash-body-DELAY-ModMod-Coworking_space_opened",
+        "textB": "AB-5_3-newsFlash-body-DELAY-ModMod-Coworking_space_opened",
         "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
@@ -3541,13 +3541,13 @@
         "y": 27551.642783534735
       },
       "data": {
-        "textA": "2 years later...",
-        "textB": "2 years later...",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3560,10 +3560,10 @@
         "y": 28017.125447239454
       },
       "data": {
-        "headlineA": "WILDERTON FACTORY TURNS CO-WORKING SPACE",
-        "headlineB": "WILDERTON FACTORY TURNS CO-WORKING SPACE",
-        "textA": "<b>When the machines at WildertonWear stopped, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory is experiencing a revival.</b> The old factory buildings are still there, but instead of thundering machines, you now hear the sound of drills and saws. After some time of deliberations, the municipality has decided to turn the building into office space, with a café and small museum dedicated to the factory’s history. Most of the former factory workers have found work with BlueSkin or opened their own little tailoring shops, while some are still working odd jobs while looking for new opportunities. And maybe they will one day end up in an office in the old factory building? Beth Callistor, responsible for the project, is hopeful. “We have already had a lot of requests from companies that are considering moving their offices here.”",
-        "textB": "<b>When the machines at WildertonWear stopped, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory is experiencing a revival.</b> The old factory buildings are still there, but instead of thundering machines, you now hear the sound of drills and saws. After some time of deliberations, the municipality has decided to turn the building into office space, with a café and small museum dedicated to the factory’s history. Most of the former factory workers have found work with BlueSkin or opened their own little tailoring shops, while some are still working odd jobs while looking for new opportunities. And maybe they will one day end up in an office in the old factory building? Beth Callistor, responsible for the project, is hopeful. “We have already had a lot of requests from companies that are considering moving their offices here.”",
+        "headlineA": "AB-5_3-newsFlash-HL-DELAY-Mod-Coworking_space",
+        "headlineB": "AB-5_3-newsFlash-HL-DELAY-Mod-Coworking_space",
+        "textA": "AB-5_3-newsFlash-body-DELAY-Mod-Coworking_space",
+        "textB": "AB-5_3-newsFlash-body-DELAY-Mod-Coworking_space",
         "imageUrl": "coworking.jpg",
         "daysSinceGameStart": 866
       }
@@ -3576,13 +3576,13 @@
         "y": 27548.792322081714
       },
       "data": {
-        "textA": "2 years later...",
-        "textB": "2 years later...",
-        "option1A": "What has happened?",
+        "textA": "AB-5_2-scene-2_yrs_later",
+        "textB": "AB-5_2-scene-2_yrs_later",
+        "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
         "eventId": null,
-        "option1B": "What has happened?",
+        "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
       }
@@ -3595,10 +3595,10 @@
         "y": 28034.274985786433
       },
       "data": {
-        "headlineA": "WILDERTON FACTORY TO BE REVIVED",
-        "headlineB": "WILDERTON FACTORY TO BE REVIVED",
-        "textA": "<b>When strikes and tax problems forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.",
-        "textB": "<b>When strikes forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.",
+        "headlineA": "AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived",
+        "headlineB": "AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived",
+        "textA": "A-5_3-newsFlash-body-DELAY-Rad-Factory_revived",
+        "textB": "B-5_3-newsFlash-body-DELAY-Rad_Factory_revived",
         "imageUrl": "development.jpg",
         "daysSinceGameStart": 866
       }
@@ -3611,13 +3611,13 @@
         "y": 4850.137045137213
       },
       "data": {
-        "text1A": "There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications, we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1A": "A-1_3-social-Unfortunate_misunderstanding",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1B": "B-1_3-social-Unfortunate_misunderstanding",
         "text2B": null,
         "text3B": null
       }
@@ -3630,13 +3630,13 @@
         "y": 4822.918081090783
       },
       "data": {
-        "text1A": "There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications, we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1A": "A-1_3-social-Unfortunate_misunderstanding",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1B": "B-1_3-social-Unfortunate_misunderstanding",
         "text2B": null,
         "text3B": null
       }
@@ -3649,13 +3649,13 @@
         "y": 4831.542179198208
       },
       "data": {
-        "text1A": "There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications, we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1A": "A-1_3-social-Unfortunate_misunderstanding",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!",
+        "text1B": "B-1_3-social-Unfortunate_misunderstanding",
         "text2B": null,
         "text3B": null
       }
@@ -3668,13 +3668,13 @@
         "y": 9761.020818104244
       },
       "data": {
-        "text1A": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s work environment health regulation breaches, we demand improved safety protection for the workers!",
+        "text1A": "A-2_3-social-Going_on_strike",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_factory_union",
         "userName2": null,
         "userName3": null,
-        "text1B": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!",
+        "text1B": "B-2_3-social-Going_on_strike",
         "text2B": null,
         "text3B": null
       }
@@ -3687,13 +3687,13 @@
         "y": 9760.281042814457
       },
       "data": {
-        "text1A": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s work environment health regulation breaches, we demand improved safety protection for the workers!",
+        "text1A": "A-2_3-social-Going_on_strike",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_factory_union",
         "userName2": null,
         "userName3": null,
-        "text1B": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!",
+        "text1B": "B-2_3-social-Going_on_strike",
         "text2B": null,
         "text3B": null
       }
@@ -3706,13 +3706,13 @@
         "y": 9762.219791745325
       },
       "data": {
-        "text1A": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s work environment health regulation breaches, we demand improved safety protection for the workers!",
+        "text1A": "A-2_3-social-Going_on_strike",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_factory_union",
         "userName2": null,
         "userName3": null,
-        "text1B": "From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!",
+        "text1B": "B-2_3-social-Going_on_strike",
         "text2B": null,
         "text3B": null
       }
@@ -3725,13 +3725,13 @@
         "y": 11782.89849775046
       },
       "data": {
-        "text1A": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
+        "text1A": "A-2_6-social-Independent_audit",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
+        "text1B": "B-2_6-social-Independent_audit",
         "text2B": null,
         "text3B": null
       }
@@ -3744,13 +3744,13 @@
         "y": 11772.032550102615
       },
       "data": {
-        "text1A": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
+        "text1A": "A-2_6-social-Independent_audit",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
+        "text1B": "B-2_6-social-Independent_audit",
         "text2B": null,
         "text3B": null
       }
@@ -3763,13 +3763,13 @@
         "y": 11763.589107817692
       },
       "data": {
-        "text1A": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
+        "text1A": "A-2_6-social-Independent_audit",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
+        "text1B": "B-2_6-social-Independent_audit",
         "text2B": null,
         "text3B": null
       }
@@ -3782,13 +3782,13 @@
         "y": 11761.900419360705
       },
       "data": {
-        "text1A": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
+        "text1A": "A-2_6-social-Independent_audit",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
+        "text1B": "B-2_6-social-Independent_audit",
         "text2B": null,
         "text3B": null
       }
@@ -3801,13 +3801,13 @@
         "y": 11758.465529605655
       },
       "data": {
-        "text1A": "At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.",
+        "text1A": "A-2_6-social-Independent_audit",
         "text2A": null,
         "text3A": null,
         "userName1": "wildertonwear_official",
         "userName2": null,
         "userName3": null,
-        "text1B": "At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.",
+        "text1B": "B-2_6-social-Independent_audit",
         "text2B": null,
         "text3B": null
       }
@@ -3820,15 +3820,15 @@
         "y": 12165.214338685491
       },
       "data": {
-        "text1A": "Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW",
-        "text2A": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3A": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?",
+        "text1A": "AB-2_7-social-ACT-What-happened-to_boycott",
+        "text2A": "AB-2_7-social-Feeling_weird",
+        "text3A": "AB-2_7-social-ACT/WAIT-Paying_for_audit",
         "userName1": "joe_6000",
         "userName2": "randy",
         "userName3": "wilhelmine_lillie",
-        "text1B": "Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW",
-        "text2B": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3B": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?"
+        "text1B": "AB-2_7-social-ACT-What-happened-to_boycott",
+        "text2B": "AB-2_7-social-Feeling_weird",
+        "text3B": "AB-2_7-social-ACT/WAIT-Paying_for_audit"
       }
     },
     {
@@ -3839,15 +3839,15 @@
         "y": 12153.83694167812
       },
       "data": {
-        "text1A": "Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW",
-        "text2A": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3A": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?",
+        "text1A": "AB-2_7-social-ACT-What-happened-to_boycott",
+        "text2A": "AB-2_7-social-Feeling_weird",
+        "text3A": "AB-2_7-social-ACT/WAIT-Paying_for_audit",
         "userName1": "joe_6000",
         "userName2": "randy",
         "userName3": "wilhelmine_lillie",
-        "text1B": "Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW",
-        "text2B": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3B": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?"
+        "text1B": "AB-2_7-social-ACT-What-happened-to_boycott",
+        "text2B": "AB-2_7-social-Feeling_weird",
+        "text3B": "AB-2_7-social-ACT/WAIT-Paying_for_audit"
       }
     },
     {
@@ -3858,15 +3858,15 @@
         "y": 12153.836941678119
       },
       "data": {
-        "text1A": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2A": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3A": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?",
+        "text1A": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2A": "AB-2_7-social-Feeling_weird",
+        "text3A": "AB-2_7-social-ACT/WAIT-Paying_for_audit",
         "userName1": "Domenic71",
         "userName2": "randy",
         "userName3": "wilhelmine_lillie",
-        "text1B": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2B": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3B": "Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?"
+        "text1B": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2B": "AB-2_7-social-Feeling_weird",
+        "text3B": "AB-2_7-social-ACT/WAIT-Paying_for_audit"
       }
     },
     {
@@ -3877,15 +3877,15 @@
         "y": 12151.561462276648
       },
       "data": {
-        "text1A": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2A": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3A": "Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions.",
+        "text1A": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2A": "AB-2_7-social-Feeling_weird",
+        "text3A": "AB-2_7-social-DELAY-People_making_sense",
         "userName1": "Domenic71",
         "userName2": "randy",
         "userName3": "leta_54",
-        "text1B": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2B": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3B": "Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions."
+        "text1B": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2B": "AB-2_7-social-Feeling_weird",
+        "text3B": "AB-2_7-social-DELAY-People_making_sense"
       }
     },
     {
@@ -3896,15 +3896,15 @@
         "y": 12133.357627064852
       },
       "data": {
-        "text1A": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2A": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3A": "Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions.",
+        "text1A": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2A": "AB-2_7-social-Feeling_weird",
+        "text3A": "AB-2_7-social-DELAY-People_making_sense",
         "userName1": "Domenic71",
         "userName2": "randy",
         "userName3": "leta_54",
-        "text1B": "Is it just me, or is the boycott finally slowing down? #SupportWW",
-        "text2B": "Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?",
-        "text3B": "Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions."
+        "text1B": "AB-2_7-social-WAIT/DELAY-Is_it_just_me",
+        "text2B": "AB-2_7-social-Feeling_weird",
+        "text3B": "AB-2_7-social-DELAY-People_making_sense"
       }
     },
     {
@@ -3915,15 +3915,15 @@
         "y": 16333.524261145894
       },
       "data": {
-        "text1A": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
-        "text2A": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
-        "text3A": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?",
+        "text1A": "AB-3_2-social-ACT-What_if_too_far",
+        "text2A": "AB-3_2-social-ACT-Think_this_through",
+        "text3A": "AB-3_2-social-ACT-What_alternatives",
         "userName1": "randy",
         "userName2": "Domenic71",
         "userName3": "LLindström",
-        "text1B": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
-        "text2B": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
-        "text3B": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?"
+        "text1B": "AB-3_2-social-ACT-What_if_too_far",
+        "text2B": "AB-3_2-social-ACT-Think_this_through",
+        "text3B": "AB-3_2-social-ACT-What_alternatives"
       }
     },
     {
@@ -3934,15 +3934,15 @@
         "y": 16330.75438495147
       },
       "data": {
-        "text1A": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
-        "text2A": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
-        "text3A": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?",
+        "text1A": "AB-3_2-social-ACT-What_if_too_far",
+        "text2A": "AB-3_2-social-ACT-Think_this_through",
+        "text3A": "AB-3_2-social-ACT-What_alternatives",
         "userName1": "randy",
         "userName2": "Domenic71",
         "userName3": "LLindström",
-        "text1B": "Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?",
-        "text2B": "Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?",
-        "text3B": "I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?"
+        "text1B": "AB-3_2-social-ACT-What_if_too_far",
+        "text2B": "AB-3_2-social-ACT-Think_this_through",
+        "text3B": "AB-3_2-social-ACT-What_alternatives"
       }
     },
     {
@@ -3953,15 +3953,15 @@
         "y": 16320.14960298021
       },
       "data": {
-        "text1A": "Just had a discussion with a neighbour because of my BlueSkin bag. Hate how the whole town is so divided over the whole WildertonWear issue. :(",
-        "text2A": "Come on guys, stick to the boycott! We need to show Wildertonwear that they can’t get away with exploiting workers!",
-        "text3A": "About the boycott: what if the factory has to close? Won’t that mean a lot of unemployment, and maybe a lot of people moving out to find jobs?",
+        "text1A": "AB-3_2-social-WAIT-BlueSkin_bag",
+        "text2A": "AB-3_2-social-WAIT-Stick_to_boycott!",
+        "text3A": "AB-3_2-social-WAIT-What_if_close",
         "userName1": "leta_54",
         "userName2": "wilhelmine_lillie",
         "userName3": "randy",
-        "text1B": "Just had a discussion with a neighbour because of my BlueSkin bag. Hate how the whole town is so divided over the whole WildertonWear issue. :(",
-        "text2B": "Come on guys, stick to the boycott! We need to show Wildertonwear that they can’t get away with exploiting workers!",
-        "text3B": "About the boycott: what if the factory has to close? Won’t that mean a lot of unemployment, and maybe a lot of people moving out to find jobs?"
+        "text1B": "AB-3_2-social-WAIT-BlueSkin_bag",
+        "text2B": "AB-3_2-social-WAIT-Stick_to_boycott!",
+        "text3B": "AB-3_2-social-WAIT-What_if_close"
       }
     },
     {
@@ -3972,15 +3972,15 @@
         "y": 16337.11725413422
       },
       "data": {
-        "text1A": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
-        "text2A": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with exploiting the workers!",
-        "text3A": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?",
+        "text1A": "AB-3_2-social-DELAY-Brute_consumer_force",
+        "text2A": "A-3_2-social-DELAY-Can't_let_them_get_away",
+        "text3A": "AB-3_2-social-DELAY-Loyal_customers",
         "userName1": "Domenic71",
         "userName2": "LLindström",
         "userName3": "leta_54",
-        "text1B": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
-        "text2B": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!",
-        "text3B": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?"
+        "text1B": "AB-3_2-social-DELAY-Brute_consumer_force",
+        "text2B": "B-3_2-social-DELAY-Can't_let_them_get_away",
+        "text3B": "AB-3_2-social-DELAY-Loyal_customers"
       }
     },
     {
@@ -3991,15 +3991,15 @@
         "y": 16333.935819542843
       },
       "data": {
-        "text1A": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
-        "text2A": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with exploiting the workers!",
-        "text3A": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?",
+        "text1A": "AB-3_2-social-DELAY-Brute_consumer_force",
+        "text2A": "A-3_2-social-DELAY-Can't_let_them_get_away",
+        "text3A": "AB-3_2-social-DELAY-Loyal_customers",
         "userName1": "Domenic71",
         "userName2": "LLindström",
         "userName3": "leta_54",
-        "text1B": "I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?",
-        "text2B": "I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!",
-        "text3B": "Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?"
+        "text1B": "AB-3_2-social-DELAY-Brute_consumer_force",
+        "text2B": "B-3_2-social-DELAY-Can't_let_them_get_away",
+        "text3B": "AB-3_2-social-DELAY-Loyal_customers"
       }
     },
     {
@@ -4010,10 +4010,10 @@
         "y": 21125.889492967453
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "A-4_1-newsFlash-body-ACT-WW_ignored_warnings",
+        "textB": "B-4_1-newsFlash-body-ACT-WW-ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4026,10 +4026,10 @@
         "y": 21131.55089506745
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "A-4_1-newsFlash-body-ACT-WW_ignored_warnings",
+        "textB": "B-4_1-newsFlash-body-ACT-WW-ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4042,10 +4042,10 @@
         "y": 21134.381596117448
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "A-4_1-newsFlash-body-ACT-WW_ignored_warnings",
+        "textB": "B-4_1-newsFlash-body-ACT-WW-ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4058,10 +4058,10 @@
         "y": 21140.98656523411
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
+        "textB": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4074,10 +4074,10 @@
         "y": 21139.63609098849
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
+        "textB": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4090,10 +4090,10 @@
         "y": 21139.636090988493
       },
       "data": {
-        "headlineA": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "headlineB": "AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS",
-        "textA": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
-        "textB": "<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.",
+        "headlineA": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "headlineB": "AB-4_1-newsFlash-HL-WW_ignored_warnings",
+        "textA": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
+        "textB": "AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings",
         "imageUrl": "audit.jpg",
         "daysSinceGameStart": 94
       }
@@ -4106,15 +4106,15 @@
         "y": 21579.606359809804
       },
       "data": {
-        "text1A": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2A": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3A": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate",
+        "text1A": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2A": "AB-4_2-social-ACT-Another_push",
+        "text3A": "AB-4_2-social-ACT-Out_of_this_mess",
         "userName1": "wildertonwear_factory_union",
         "userName2": "wilhelmine_lillie",
         "userName3": "joe_6000",
-        "text1B": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2B": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3B": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate"
+        "text1B": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2B": "AB-4_2-social-ACT-Another_push",
+        "text3B": "AB-4_2-social-ACT-Out_of_this_mess"
       }
     },
     {
@@ -4125,15 +4125,15 @@
         "y": 21573.969015110757
       },
       "data": {
-        "text1A": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2A": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3A": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate",
+        "text1A": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2A": "AB-4_2-social-ACT-Another_push",
+        "text3A": "AB-4_2-social-ACT-Out_of_this_mess",
         "userName1": "wildertonwear_factory_union",
         "userName2": "wilhelmine_lillie",
         "userName3": "joe_6000",
-        "text1B": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2B": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3B": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate"
+        "text1B": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2B": "AB-4_2-social-ACT-Another_push",
+        "text3B": "AB-4_2-social-ACT-Out_of_this_mess"
       }
     },
     {
@@ -4144,15 +4144,15 @@
         "y": 21585.249112179306
       },
       "data": {
-        "text1A": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2A": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3A": "Come on guys, it’s time for another push! #SupportWW",
+        "text1A": "AB-4_2-social-DELAY-2_months_banner",
+        "text2A": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3A": "AB-4_2-social-DELAY-Another_push",
         "userName1": "wildertonwear_official",
         "userName2": "Domenic71",
         "userName3": "leta_54",
-        "text1B": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2B": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3B": "Come on guys, it’s time for another push! #SupportWW"
+        "text1B": "AB-4_2-social-DELAY-2_months_banner",
+        "text2B": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3B": "AB-4_2-social-DELAY-Another_push"
       }
     },
     {
@@ -4163,15 +4163,15 @@
         "y": 21594.11204559031
       },
       "data": {
-        "text1A": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2A": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3A": "Come on guys, it’s time for another push! #SupportWW",
+        "text1A": "AB-4_2-social-DELAY-2_months_banner",
+        "text2A": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3A": "AB-4_2-social-DELAY-Another_push",
         "userName1": "wildertonwear_official",
         "userName2": "Domenic71",
         "userName3": "leta_54",
-        "text1B": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2B": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3B": "Come on guys, it’s time for another push! #SupportWW"
+        "text1B": "AB-4_2-social-DELAY-2_months_banner",
+        "text2B": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3B": "AB-4_2-social-DELAY-Another_push"
       }
     },
     {
@@ -4182,15 +4182,15 @@
         "y": 21600.806220580533
       },
       "data": {
-        "text1A": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2A": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3A": "Come on guys, it’s time for another push! #SupportWW",
+        "text1A": "AB-4_2-social-DELAY-2_months_banner",
+        "text2A": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3A": "AB-4_2-social-DELAY-Another_push",
         "userName1": "wildertonwear_official",
         "userName2": "Domenic71",
         "userName3": "leta_54",
-        "text1B": "If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!",
-        "text2B": "Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?",
-        "text3B": "Come on guys, it’s time for another push! #SupportWW"
+        "text1B": "AB-4_2-social-DELAY-2_months_banner",
+        "text2B": "AB-4_2-social-DELAY-148_yrs_of_history",
+        "text3B": "AB-4_2-social-DELAY-Another_push"
       }
     },
     {
@@ -4201,15 +4201,15 @@
         "y": 21577.923019870137
       },
       "data": {
-        "text1A": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2A": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3A": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate",
+        "text1A": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2A": "AB-4_2-social-ACT-Another_push",
+        "text3A": "AB-4_2-social-ACT-Out_of_this_mess",
         "userName1": "wildertonwear_factory_union",
         "userName2": "wilhelmine_lillie",
         "userName3": "joe_6000",
-        "text1B": "Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.",
-        "text2B": "Just as we suspected… Come on guys, it’s time for another push! #BoycottWW",
-        "text3B": "How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate"
+        "text1B": "AB-4_2-social-ACT-Still_on_a_strike",
+        "text2B": "AB-4_2-social-ACT-Another_push",
+        "text3B": "AB-4_2-social-ACT-Out_of_this_mess"
       }
     },
     {
