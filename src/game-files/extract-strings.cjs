@@ -168,9 +168,9 @@ const result = Array.from(textMap.entries()).map(([text, usedIn]) => {
     const variants = nodeTypeMap.get(primaryType);
 
     if (variants && variants.size === 2) {
-      translationKey = `${primaryType}-AB`;
+      translationKey = `AB-${primaryType}`;
     } else if (variants && variants.size === 1) {
-      translationKey = `${primaryType}-${Array.from(variants)[0]}`;
+      translationKey = `${Array.from(variants)[0]}-${primaryType}`;
     } else {
       // No A/B variants (e.g., 'end' nodes)
       translationKey = primaryType;
@@ -178,7 +178,7 @@ const result = Array.from(textMap.entries()).map(([text, usedIn]) => {
   }
 
   return {
-    translationKey: translationKey + '-TODO-🟥🟥🟥',
+    translationKey: translationKey + '-🟥🟥🟥',
     text,
     usedIn,
     _y: minY, // Store Y for sorting (not included in final output)
