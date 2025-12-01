@@ -25,6 +25,7 @@ i18n
             description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear. You sell around 100 items per month.
             In four months, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
             button: 'Start the adventure',
+            startScreenSubtitle: 'TODO!',
           },
           stockUp: {
             headline: 'Stock up!',
@@ -551,6 +552,7 @@ i18n
             description2: ` (efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
             Om fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
             button: 'Starta äventyret',
+            startScreenSubtitle: 'TODO!',
           },
           stockUp: {
             headline: 'Lagerbeställning',

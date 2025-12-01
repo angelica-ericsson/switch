@@ -50,7 +50,7 @@ function Index() {
 
       {/* Large headline in center */}
       <h1 className="font-script text-shadow-eastbay-900 m-12 text-center text-5xl font-bold text-white text-shadow-lg">
-        {t('welcome.headline')}
+        {t('welcome.startScreenSubtitle')}
       </h1>
 
       {/* Start game button - bigger, further down */}
