@@ -41,13 +41,19 @@ i18n
             noDate: 'No date',
             inStock: 'In stock',
           },
-          intro: {
-            text: 'Something something about the game...',
-            button: 'OK got it, move on...',
-          },
           newsFlash: {
             newspaperName: 'The Daily Times',
             price: 'price: 18 cents',
+          },
+          socialUsers: {
+            wildertonwear_official: { name: 'WildertonWear Official', user: 'wildertonwear_official' },
+            wildertonwear_factory_union: { name: 'WildertonWear Factory Union', user: 'wildertonwear_factory_union' },
+            joe_6000: { name: 'Joseph Cassandra', user: 'joe_6000' },
+            wilhelmine_lillie: { name: 'Wilhelmine Lillie', user: 'wilhelmine_lillie' },
+            randy: { name: 'Randal Witting', user: 'randy' },
+            Domenic71: { name: 'Domenic Laury', user: 'Domenic71' },
+            LLindström: { name: 'Liam Lindström', user: 'LLindström' },
+            leta_54: { name: 'Leta Merl', user: 'leta_54' },
           },
           survey: {
             question1:
@@ -183,11 +189,6 @@ i18n
                 gameSession: 'Signed up for a game session',
                 other: 'Other',
               },
-            },
-            alias: {
-              title: 'And, most importantly, which alias have you chosen?',
-              description: "Your alias is needed to keep your answers anonymous, please don't use your real name.",
-              placeholder: 'Enter your alias',
             },
             button: {
               submit: 'Continue',
@@ -568,13 +569,19 @@ i18n
             noDate: 'Inget datum',
             inStock: 'I lager',
           },
-          intro: {
-            text: 'Something something about the game...',
-            button: 'OK got it, move on...',
-          },
           newsFlash: {
             newspaperName: 'Kvällskuriren',
             price: 'pris: 18 kronor',
+          },
+          socialUsers: {
+            wildertonwear_official: { name: 'WildertonWear Official', user: 'wildertonwear_official' },
+            wildertonwear_factory_union: { name: 'WildertonWear Factory Union', user: 'wildertonwear_factory_union' },
+            joe_6000: { name: 'Joseph Cassandra', user: 'joe_6000' },
+            wilhelmine_lillie: { name: 'Wilhelmine Lillie', user: 'wilhelmine_lillie' },
+            randy: { name: 'Randal Witting', user: 'randy' },
+            Domenic71: { name: 'Domenic Laury', user: 'Domenic71' },
+            LLindström: { name: 'Liam Lindström', user: 'LLindström' },
+            leta_54: { name: 'Leta Merl', user: 'leta_54' },
           },
           survey: {
             question1:
@@ -710,11 +717,6 @@ i18n
                 gameSession: 'Anmälde mig till ett speltillfälle',
                 other: 'Annat',
               },
-            },
-            alias: {
-              title: 'And, most importantly, which alias have you chosen?',
-              description: "Your alias is needed to keep your answers anonymous, please don't use your real name.",
-              placeholder: 'Enter your alias',
             },
             button: {
               submit: 'Continue',

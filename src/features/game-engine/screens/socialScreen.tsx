@@ -95,8 +95,8 @@ export function SocialScreen({ node }: SocialScreenProps) {
           <motion.div key={index} variants={tweetVariants}>
             <FakeTweet
               text={t(tweet.text)}
-              displayName={tweet.fake.displayName}
-              userName={tweet.fake.userName}
+              displayName={t(`socialUsers.${tweet.fake.userName}.name`, tweet.fake.displayName)}
+              userName={t(`socialUsers.${tweet.fake.userName}.user`)}
               picture={tweet.fake.picture}
             />
           </motion.div>
