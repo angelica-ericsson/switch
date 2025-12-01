@@ -731,99 +731,99 @@ i18n
           'AB-scene-Things_about_to_change': 'Men det kommer snart att förändras...',
           'AB-scene-Uh_oh': 'Uh oh...',
           'A-newsFlash-HL-Tax_evasion': 'MISSTÄNKT SKATTEFUSK HOS STENMARKS',
-          'B-newsFlash-HL-Super_emitter': 'WILDERTONWEAR FACTORY SUPER EMITTER ',
+          'B-newsFlash-HL-Super_emitter': 'ÖVERSÄTT - WILDERTONWEAR FACTORY SUPER EMITTER ',
           'A-newsFlash-body-Tax_evasion':
-            '<b>I ett undersökande reportageIn a new investigative report, the Daily Times reveals that WildertonWear has neglected paying municipality taxes for the past five years. “We were in a tough situation, and had to cut down on spending,” says a former employee who wishes to remain anonymous.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community. However, the Daily Times can now reveal that the love has not been mutual. Over the past five years, WildertonWear has paid exactly zero municipality taxes. In an interview with the Daily Times, the company CEO, Bert Swindle, explains that the company always intended to pay the taxes “as soon as the financial situation stabilised”.',
+            '<b>I ett undersökande reportage kan Kvällskuriren avslöja att Stenmarks låtit bli att betala kommunalskatt under de senaste fem åren. In a new investigative report, the Daily Times reveals that WildertonWear has neglected paying municipality taxes for the past five years. - Vi var i en svår ekonomisk situation och var tvungna att dra ner på utgifterna, säger en tidigare anställd som vill förbli anonym.</b>\n\nI över hundra år har de gamla fabriksmurarna och skorstenarna i tegel rest upp sig över Stenmarken. Många ortsbor har sett generationer av familjemedlemmar gå till arbetet på fabriken - eller arbetat där själva - och vi har alla ett känslomässig förhållande till företaget som betraktats som ortens ekonomiska ryggrad i decennier. Så när företagsledningen för några år sedan var öppna med verksamhetens ekonomiska svårigheter, var det många ortsbor som valde att stödköpa deras produkter. Och även om många klagat över den försämrade kvaliteten på plaggen, har namnet Stenmarks oavsett förblivit en källa till stolthet hos ortsbefolkningen.\n Men nu kan Kvällskuriren avslöja att företaget inte varit lika generöst tillbaka. Under de senaste åren har Stenmarks betalat noll kronor i kommunalskatt. I en intervju med Kvällskuriren säger Stenmarks VD, Bert Svindel, att företaget hela tiden haft för avsikt att betala skatterna "så snart den ekonomiska situationen förbättrades.',
           'B-newsFlash-body-Super_emitter':
-            '<b>WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”',
+            '<b>ÖVERSÄTT - WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”',
           'A-social-Tax_evasion-WTF':
-            'Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and you give nothing back?',
+            'Vad i h-vete Stenmarks?! Vi fortsätter köpa era skräpkvalitetsprodukter år efter år för att stötta, och vad fan får vi tillbaka?',
           'B-social-Super_emitter-WTF':
-            'Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?',
-          "AB-social-Let's_boycott": 'That’s it, I’m boycotting WildertonWear. Who’s with me? #BoycottWW',
+            'ÖVERSÄTT - Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?',
+          "AB-social-Let's_boycott": 'Nu räcker det, jag tänker bojkotta Stenmarks. Vem är på? #BojkottaStenis',
           'AB-scene-Stockup_1':
-            'It is time to stock up on items for the coming month, and you’ll need to choose how to divide your order between the brands. Given the likelihood of a boycott, should you buy your usual amount of WildertonWear items, or swap some for your second most popular brand, BlueSkin?',
-          "AB-scene-Let's_stock_up!": 'Let’s stock up!',
+            'Det är dags att fylla på lagret inför nästa månad, och du måste välja hur du ska fördela ina order mellan varumärkena.\n\n Med tanke på sannolikheten för en bojkott, köper du samma antal Stenmarksprodukter som vanligt, eller byter du ut några mot ditt näst mest populära märke Blåställ?',
+          "AB-scene-Let's_stock_up!": 'Lägg en lagerorder!',
           'AB-1_1-scene-ACT-Reaction_boycott':
-            'You were right in anticipating a boycott. The Wilderton residents are very upset with WildertonWear, and the demand quickly drops. And so does your revenue.',
+            'Du gjorde rätt i att förutse en bojkott. Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nOch det gör också dina försäljningsinkomster.',
           'AB-1_1-scene-DELAY-Reaction_boycott':
-            'Hmm. It looks like you underestimated the Wilderton residents’ dissatisfaction with WildertonWear. The demand dropped quickly. Your revenue also dropped, but not so much that it affects the business.',
+            'Hm. Det ser ut som att du underskattade ortsbornas missnöje med Stenmarks. Efterfrågan sjunker snabbt.\n\nDina försäljningsinkomster sjunker också, men inte så mycket att affärerna blir lidande.',
           'AB-1_1-scene-WAIT-Reaction_boycott':
-            'The residents are very upset with WildertonWear, and the demand quickly drops. Luckily, you didn’t make any drastic changes. Your revenue has only dropped a little.',
+            'Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nTur att du inte gjorde några alltför stora omprioriteringar, du förlorar bara en liten del av dina inkomster.',
           'AB-1_2-scene-ACT-Questions_from_customers':
-            'Some of your customers are happy that you’re reducing your WildertonWear supply. Others are wondering if you’re really willing to risk that such a traditional old company - and one of the town’s largest employers for generations - has to close? What do you tell them?',
-          'A-1_2-option-ACT-No_right_to_exploit': 'A long history doesn’t give them the right to exploit the community.',
-          'B-1_2-option-ACT-No_right_to_pollute': 'A long history doesn’t give them the right to pollute our atmosphere.',
-          "AB-1_2-option-ACT-Can't_afford_to_support": 'I can’t afford to support WildertonWear if my customers won’t buy their products.',
-          'AB-1_2-option-ACT-Temporary_boycott': 'I think a boycott could teach Wildertonwear a lesson, but it should be temporary.',
+            'Några av dina kunder är glada att du skurit ner på din beställning till Stenmarks. Andra undrar om du verkligen vill riskera att ett så gammalt företag - och en av ortens största arbetsgivare - går i konkurs?\n\nVad svarar du?',
+          'A-1_2-option-ACT-No_right_to_exploit': 'En lång historia ger dem inte rätten att utnyttja ortsbefolkningen.',
+          'B-1_2-option-ACT-No_right_to_pollute': 'ÖVERSÄTT - A long history doesn’t give them the right to pollute our atmosphere.',
+          "AB-1_2-option-ACT-Can't_afford_to_support": 'Jag har inte råd att stötta Stenmarks om mina kunder inte köper deras produkter.',
+          'AB-1_2-option-ACT-Temporary_boycott': 'Jag tror att en bojkott kan lära Stenmarks en läxa, men den får inte pågå för länge.',
           'AB-1_2-scene-WAIT-Questions_from_customers':
-            'Your customers are wondering where you stand; are you going to support WildertonWear because of its long traditions, or are you joining the boycott even if there’s a risk that the company could be forced to close? What do you tell them?',
-          'AB-1_2-option-WAIT-BlueSkin_safer_bet': 'It looks like BlueSkin is the safer choice right now, so I’ll go with that.',
+            'Dina kunder undrar var du står: kommer du att stödja Stenmarks och deras långa historia, eller bojkottar du trots att det finns en risk att företaget kan gå i konkurs?\n\nVad svarar du?',
+          'AB-1_2-option-WAIT-BlueSkin_safer_bet': 'Det ser ut som att Blåställ är ett säkrare val just nu, så jag satsar på deras produkter.',
           "AB-1_2-option-WAIT-Can't_afford_financial_risk":
-            'I can’t afford to take any financial risks, so I’ll wait and see what my competitors do.',
+            'Jag har inte råd att ta några ekonomiska risker, så jag väntar och ser vad mina konkurrenter gör.',
           'AB-1_2-option-WAIT-Business_is_business':
-            'Business is business, not politics. Despite the boycott, Wildertonwear is still the most popular brand.',
+            'Affärer är affärer, inte politik. Trots bojkotten är Stenmarks fortfarande mitt mest sålda varumärke.',
           'A-1_2-scene-DELAY-Questions_from_customers':
-            'Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly exploiting the community. What do you tell them?',
+            'Vissa av dina kunder är glada att du fortsätter stödja Stenmarks, eftersom de är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen utnyttjar ortsbefolkningen.\n\nVad svarar du?',
           'B-1_2-scene-DELAY-Questions_from_customers':
-            'Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly a big contributor to climate change. What do you tell them?',
+            'ÖVERSÄTT - Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly a big contributor to climate change. What do you tell them?',
           'AB-1_2-option-DELAY-Better_through_dialogue':
-            'WildertonWear clearly has problems, but it’s better to influence them through dialogue.',
+            'Stenmarks har uppenbarligen problem, men det är bättre att försöka påverka dem genom dialog.',
           'AB-1_2-option-DELAY-Business_is_business':
-            'Business is business, not politics. Despite the boycott, WildertonWear is still the most popular brand.',
-          'AB-1_2-option-DELAY-Have_to_support': 'I have to support them; if they have to close, it will affect the entire community.',
+            'Affärer är affärer, inte politik. Trots bojkotten är Stenmark fortfarande mitt mest sålda varumärke.',
+          'AB-1_2-option-DELAY-Have_to_support': 'Jag måste stödja dem - om de går i konkurs kommer det att påverka hela orten.',
           'A-1_3-social-Unfortunate_misunderstanding':
-            'There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications, we need a little more time. In the meantime, check out our new Lumberjack collection!',
+            'Det har blivit ett oturligt missförstånd angående våra skattebetalningen. Vi kommer självklart att betala våra skatter, men på grund av ekonomiska svårigheter behöver vi lite mer tid. Under tiden: kolla in vår nya skogshuggarkollektion!',
           'B-1_3-social-Unfortunate_misunderstanding':
-            'There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
+            'ÖVERSÄTT - There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
           'A-1_4-scene-DELAY-Council_vote_extension':
-            'There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?',
+            'Det finns fler sätt du kan stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att förlänga Stenmarks skatteinbetalningsperiod med fyra månader. Hur röstar du?',
           'B-1_4-scene-DELAY-Council_vote_extension':
-            'There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?',
-          'AB-1_4-option-DELAY-Vote_against': 'Against. Although I do want to support them, I think they need to learn their lesson.',
-          'AB-1_4-option-DELAY-Abstain_vote': 'I’ll abstain. If I openly choose sides, I might lose customers.',
-          'AB-1_4-option-DELAY-Vote_for': 'For, of course! We need to keep the factory running, for the workers as well as the community.',
-          'AB-1_4-option-ACT-Abstain_vote': 'I’ll abstain. If I openly choose sides I might lose customers.',
+            'ÖVERSÄTT - There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?',
+          'AB-1_4-option-DELAY-Vote_against': 'Mot. Vi har stöttat dem länge nog.',
+          'AB-1_4-option-DELAY-Abstain_vote': 'Jag avstår. Om jag väljer sida kan jag förslora kunder.',
+          'AB-1_4-option-DELAY-Vote_for': 'För, förstås! Vi måste hålla fabriken igång, för arbetarnas och ortens skull.',
+          'AB-1_4-option-ACT-Abstain_vote': 'Jag avstår. Om jag väljer sida kan jag förlora kunder.',
           'A-1_4-scene-WAIT-Council_vote_extension':
-            'There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?',
+            'Det finns fler sätt du kan påverka eller stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att förlänga Stenmarks skatteinbetalningsperiod med fyra månader. Hur röstar du?',
           'B-1_4-scene-WAIT-Council_vote_extension':
-            'There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?',
-          'A-1_4-option-WAIT-Vote_against': 'Against. We’ve been supporting them long enough.',
-          'B-1_4-option-WAIT-Vote_against': 'Against. They should have fixed the system long ago.',
-          'AB-1_4-option-WAIT-Vote_for': 'For. We need to keep the factory running, for the workers as well as the community.',
+            'ÖVERSÄTT - There are more ways you can influence or support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months, to ease the financial pressure on the company. How do you vote?',
+          'A-1_4-option-WAIT-Vote_against': 'Mot. Vi har stöttat dem länge nog.',
+          'B-1_4-option-WAIT-Vote_against': 'ÖVERSÄTT - Against. They should have fixed the system long ago.',
+          'AB-1_4-option-WAIT-Vote_for': 'För. Vi måste hålla fabriken igång, för arbetarnas och ortens skull.',
           'A-1_4-scene-ACT-Council_vote_extension':
-            'There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the tax repayment period for WildertonWear for 4 months. How do you vote?',
+            'Det finns fler sätt du kan påverka Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att förlänga Stenmarks skatteinbetalningsperiod med fyra månader. Hur röstar du?',
           'B-1_4-scene-ACT-Council_vote_extension':
-            'There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months to ease the financial pressure on the company. How do you vote?',
-          'A-1_4-option-ACT-Vote_against': 'Against, of course! We’ve been supporting them long enough.',
-          'B-1_4-option-ACT-Vote_against': 'Against, of course! They should have fixed the system long ago.',
-          'AB-1_4-option-ACT-Vote_for': 'For. We need to keep the factory running, for the sake of the workers and the community.',
+            'ÖVERÄTT - There are more ways you can try to influence WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings. This week, you will vote on a proposal to extend the deadline for WildertonWear’s filtering system upgrade for 4 months to ease the financial pressure on the company. How do you vote?',
+          'A-1_4-option-ACT-Vote_against': 'Mot, förstås! Vi har stöttat dem länge nog.',
+          'B-1_4-option-ACT-Vote_against': 'ÖVERSÄTT - Against, of course! They should have fixed the system long ago.',
+          'AB-1_4-option-ACT-Vote_for': 'För. Vi behöver hålla fabriken igång, för arbetarnas och ortens skull.',
           'A-1_5-scene-ACT-Extension_rejected':
-            'That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to pay its taxes immediately.',
+            'Det funkade! Dina argument övertygade fullmäktige, och en majoritet röstade mot förslaget. Stenmarks måste betala sina skatter utan dröjsmål.',
           'B-1_5-scene-ACT-Extension_rejected':
-            'That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to fix its systems immediately.',
+            'ÖVERSÄTT - That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to fix its systems immediately.',
           'A-1_5-scene-ACT-Extension_approved':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to pay their taxes.',
+            'Åh nej. så nära! Dina argument övertygade flera av de andra ledamöterna, men inte tillräckligt många för att få en majoritet. Förlängningen klubbades igenom, och Stenmarks får fyra månader extra på sig att betala sina skatter.',
           'B-1_5-scene-ACT-Extension_approved':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to fix its systems.',
+            'ÖVERSÄTT - Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-DELAY-Extension_approved':
-            'Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to pay their taxes.',
+            'Bra jobbat! Dina argument övertygade fullmäktige, och majoriteten röstade för en förlängning. Stenmarks får fyra månader extra på sig att betala sina skatter.',
           'B-1_5-scene-DELAY-Extension_approved':
-            'Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
+            'ÖVERSÄTT - Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-DELAY-Extension_rejected':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to pay their taxes immediately.',
+            'Åh nej, så nära! Dina argument övertygade några av de andra ledamöterna, men inte tillräckligt många för att få en majoritet. Förlängningen avslogs, och Stenmarks måste betala sina skatter utan dröjsmål.',
           'B-1_5-scene-DELAY-Extension_rejected':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to fix its systems immediately.',
+            'ÖVERSÄTT - Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to fix its systems immediately.',
           'A-1_5-scene-WAIT-Extension_approved':
-            'With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to pay its taxes.',
+            'Med en knapp majoritet röstade fullmäktige för en förlängning. Stenmarks får fyra månader extra på sig att betala sina skatter.',
           'B-1_5-scene-WAIT-Extension_approved':
-            'With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
+            'ÖVERSÄTT - With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-WAIT-Extension_rejected':
-            'With a narrow majority, the council voted against an extension. WildertonWear needs to pay its taxes immediately.',
+            'Med en knapp majoritet röstade fullmäktige mot en förlängning. Stenmarks måste betala sina skatter utan dröjsmål.',
           'B-1_5-scene-WAIT-Extension_rejected':
-            'With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.',
+            'ÖVERSÄTT - With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.',
           'AB-1_6-scene-Stockup_2':
-            'It’s been another 2 weeks, and most of your customers seem to have forgiven WildertonWear. It’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?',
+            'Det har gått två veckor, och de flesta av dina kunder verkar ha förlåtit Stenmarks. Det är dags att fylla på lagret igen, och under de senaste veckorna har du märkt av en långsam ökning i efterfrågan på Stenmarks produkter.\n\nBetyder det att bojkotten snart är över?',
           'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ouch, supporting the company comes at a cost this time...',
           'AB-2_1-scene-WAIT-Reaction_2nd_newsflash': 'Hm, this time it would have been better to keep the WildertonWear stock down...',
           'AB-2_1-scene-ACT-Reaction-2nd_newsflash':
