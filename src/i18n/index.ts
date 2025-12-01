@@ -25,7 +25,7 @@ i18n
             description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear. You sell around 100 items per month.
             In four months, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
             button: 'Start the adventure',
-            startScreenSubtitle: 'TODO!',
+            startScreenSubtitle: 'Can you balance your budget on a social tipping point?',
           },
           stockUp: {
             headline: 'Stock up!',
@@ -553,7 +553,7 @@ i18n
             description2: ` (efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
             Om fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
             button: 'Starta äventyret',
-            startScreenSubtitle: 'TODO!',
+            startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
           },
           stockUp: {
             headline: 'Lagerbeställning',
@@ -574,14 +574,14 @@ i18n
             price: 'pris: 18 kronor',
           },
           socialUsers: {
-            wildertonwear_official: { name: 'WildertonWear Official', user: 'wildertonwear_official' },
-            wildertonwear_factory_union: { name: 'WildertonWear Factory Union', user: 'wildertonwear_factory_union' },
-            joe_6000: { name: 'Joseph Cassandra', user: 'joe_6000' },
-            wilhelmine_lillie: { name: 'Wilhelmine Lillie', user: 'wilhelmine_lillie' },
-            randy: { name: 'Randal Witting', user: 'randy' },
-            Domenic71: { name: 'Domenic Laury', user: 'Domenic71' },
+            wildertonwear_official: { name: 'Stenmarks Official', user: 'Stenmarks_official' },
+            wildertonwear_factory_union: { name: 'Facket Stenmarkens fabrik', user: 'Stenmarken_factory_union' },
+            joe_6000: { name: 'Josef Cassel', user: 'joe_6000' },
+            wilhelmine_lillie: { name: 'Wilhelmina Lilja', user: 'wilhelmina_lilja' },
+            randy: { name: 'Robert Witting', user: 'robbie' },
+            Domenic71: { name: 'Dennis Lundin', user: 'Dennis71' },
             LLindström: { name: 'Liam Lindström', user: 'LLindström' },
-            leta_54: { name: 'Leta Merl', user: 'leta_54' },
+            leta_54: { name: 'Meta Molin', user: 'meta_54' },
           },
           survey: {
             question1:
