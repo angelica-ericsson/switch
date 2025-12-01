@@ -824,79 +824,79 @@ i18n
             'ÖVERSÄTT - With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.',
           'AB-1_6-scene-Stockup_2':
             'Det har gått två veckor, och de flesta av dina kunder verkar ha förlåtit Stenmarks. Det är dags att fylla på lagret igen, och under de senaste veckorna har du märkt av en långsam ökning i efterfrågan på Stenmarks produkter.\n\nBetyder det att bojkotten snart är över?',
-          'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ouch, supporting the company comes at a cost this time...',
-          'AB-2_1-scene-WAIT-Reaction_2nd_newsflash': 'Hm, this time it would have been better to keep the WildertonWear stock down...',
+          'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ajdå, det kostar att stötta Stenmarks den här gången...',
+          'AB-2_1-scene-WAIT-Reaction_2nd_newsflash': 'Hm, den här gången hade det varit bättre att inte köpa in så många Stenmarksprodukter...',
           'AB-2_1-scene-ACT-Reaction-2nd_newsflash':
-            'You made the right choice in keeping the WildertonWear stock down. Many people were looking for an alternative brand, and so you completely sold out all your BlueSkin items!',
-          'A-2_2-newsFlash-HL-Ignoring_health_regulations': 'WILDERTONWEAR IGNORES HEALTH REGULATIONS',
-          'B-2_2-newsFlash-HL-Ignoring_environmental_regulations': 'WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS',
+            'Du gjorde rätt i att inte beställa så många Stenmarksprodukter. Många kunder var på jakt efter ett alternativ, och du sålde helt slut på Blåställsprodukter!',
+          'A-2_2-newsFlash-HL-Ignoring_health_regulations': 'STENMARKS BRYTER MOT ARBETSMILJÖREGLER',
+          'B-2_2-newsFlash-HL-Ignoring_environmental_regulations': 'ÖVERSÄTT - WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS',
           'A-2_2-newsFlash-body-Ignoring_health_regulations':
-            '<b>Local textile manufacturer WildertonWear has routinely disregarded health regulations, says work environment health inspector. Years of neglected safety equipment upgrades have left factory workers exposed to dangerous levels of dust and chemicals.</b> None of our readers is likely to have missed the tax evasion scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of health and safety regulations. According to a work environment health inspector, who wishes to remain anonymous, WildertonWear has routinely ignored safety regulations about permissible levels of dust and chemicals. Safety equipment, such as air filters and industrial fans, has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put its workers at risk of being affected by respiratory diseases, and as a result, there has been an increase in cancer diagnoses and respiratory diseases among employees at its factory.',
+            '<b>Den lokala klädtillverkaren Stenmarks har under lång tid brutit mot arbetsmiljöregler, enligt arbetsmiljöinspektör. År av försummat underhåll av säkerhetsutrustning har gjort att fabriksarbetarna har exponerats för farliga nivåer av industridamm och kemikaler.</b>\n\nIngen av våra läsare lär ha missat skattesmitningsskandalen kring den lokala klädtillverkaren Stenmarks under de senaste veckorna. Men företaget har fler mörka hemligheter. I en exklusiv intervju har Kvällsposten fått information om ett flertal brott mot hälso- och säkerhetsregler. Enligt en arbetsmiljöinspektör som vill förbli anonym har Stenmarks regelmässigt ignorerat säkerhetsregler om tillåtna halter av industridamm och kemikalier. Säkerhetsutrustning som luftfilter och industrifläktar har inte underhållits eller bytts ut på flera år och erbjuder nu ett otillräckligt skydd. Enligt källan har Stenmarks medvetet utsatt sina arbetare för risker, och en följd av detta är att antalet cancerdiagnoser och luftvägssjukdomar bland arbetare på fabriken ökat kraftigt.',
           'B-2_2-newsFlash-body-Ignoring_environmental_regulations':
-            '<b>Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.',
+            '<b>ÖVERSÄTT - Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.',
           'A-2_3-social-Going_on_strike':
-            'From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s work environment health regulation breaches, we demand improved safety protection for the workers!',
+            'Klockan 12 idag inleder 34 av våra medlemmar en strejk. Efter gårdagens avslöjande att Stenmarks bryter mot arbetsmiljöregelverket kräver vi förbättrat skydd för våra arbetare!',
           'B-2_3-social-Going_on_strike':
-            'From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!',
+            'ÖVERSÄTT - From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!',
           'AB-2_4-scene-ACT-Local_meeting_point':
-            'To some residents, this is it. They really can’t support WildertonWear anymore. Supporters of the boycott come by to talk. Gradually, your shop becomes a local meeting point for those who want change, and together you discuss what to do next. What do you think should be your next step?',
-          'A-2_4-option-ACT-Organise_demonstration': 'Organise a demonstration to demand better working conditions at the factory.',
-          'B-2_4-option-ACT-Organise_demonstration': 'Organise a demonstration to demand better filtering systems at the factory.',
-          'AB-2_4-option-ACT/WAIT-Put_up_posters': 'Put up posters and hand out leaflets to make more people join the boycott.',
-          'AB-2_4-option-ACT-Have_a_dialogue': 'Have a dialogue with the company; consumer pressure alone probably won’t work.',
+            'För vissa ortsbor är det här droppen. Nu kan de inte stödja Stenmarks längre.\n\nDe som stödjer bojkotten kommer förbi för att prata. Gradvis blir din lilla butik en mötespunkt för dom som kräver förändring, och tillsammans diskuterar ni nästa steg. Vad tycker du att ni borde göra?',
+          'A-2_4-option-ACT-Organise_demonstration': 'Organisera en demonstration för att kräva bättre arbetsförhållanden på fabriken.',
+          'B-2_4-option-ACT-Organise_demonstration': 'ÖVERSÄTT - Organise a demonstration to demand better filtering systems at the factory.',
+          'AB-2_4-option-ACT/WAIT-Put_up_posters': 'Sätta upp affischer och dela ut flygblad för att få fler att gå med i bojkotten.',
+          'AB-2_4-option-ACT-Have_a_dialogue': 'Ha en dialog med företaget - konsumentkraft kommer förmodligen inte räcka hela vägen.',
           'AB-2_4-scene-WAIT-Local_meeting_point':
-            'This is not good. You’ll have to consider whether or not you can still support WildertonWear. Gradually, your shop becomes a local meeting point for those who want to discuss the issue, and together you discuss what to do next.  What do you suggest?',
-          'AB-2_4-option-WAIT/DELAY-Have a dialogue': 'Have a dialogue with the company to convince them to change.',
+            'Det här var inte bra. Nu måste du fundera på om du kan fortsätta stödja Stenmarks eller inte.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för dom som vill diskutera frågan, och tillsammans diskuterar ni vad som bör göras. Vad föreslår du?',
+          'AB-2_4-option-WAIT/DELAY-Have a dialogue': 'Ha en dialog med företaget för att övertala dem att åtgärda bristerna.',
           'AB-2_4-option-WAIT/DELAY-Astroturf':
-            'Gather friends and fellow retailers to demonstrate in favour of keeping the historical factory.',
+            'Samla vänenr och andra återförsäljare för att demonstrera till stöd för den gamla fabriken.',
           'AB-2_4--scene-DELAY-Local_meeting_point':
-            'This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs. Gradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next. What do you think should be your next step?',
+            'Det här var inte bra. Nu blir det mycket svårare att övertyga ortsborna om att stötta Stenmarks för att rädda fabriken och arbetarnas jobb.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för dom som stödjer fabriken, och tillsammans diskuterar ni vad som bör hända nu. Vad föreslår du?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
-            'The interview seems fishy; we should write an opinion piece in the paper to question it.',
-          'AB-2_5-scene-ACT-Demonstration_successful': 'The demonstration was very successful; hundreds of townspeople joined in!',
-          'AB-2_5-scene-ACT-Posters_have_effect': 'The posters seem to have an effect; more people join the boycott every week!',
+            'Den där intervjun är skum, vi borde skriva en insändare i tidningen för att ifrågasätta de här påståendena.',
+          'AB-2_5-scene-ACT-Demonstration_successful': 'Demonstrationen blev en framgång, hundratals ortsbor dök upp!',
+          'AB-2_5-scene-ACT-Posters_have_effect': 'Affischerna verkar ha effekt, antalet som bojkottar växer varje vecka!',
           'AB-2_5-scene-WAIT-Declined_invitation':
-            'You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy.',
+            'Du kontaktar Stenmarks, men företaget tackar artigt nej till ett möte eftersom dom är för upptagna.',
           'AB-2_5-scene-DELAY-Small_but_loud':
-            'The demonstration was small but loud, and thanks to a friend at the local paper, you got a lot of press coverage. Your message is spreading!',
+            'Demonstrationen är liten med högljudd, och tack vare en vän på lokaltidningen får ni mycket uppmärksamhet. Nu händer det!',
           'AB-2_5-scene-DELAY-Confront_rumours':
-            'That was a good choice!  Your efforts to confront these harmful rumours seem to be working! In fact, WildertonWear itself seems to have been inspired by it.',
+            'Ett mycket bra val! Dina ansträngningar med att konfrontera de där skadliga rykterna verkar fungera!\n\nDet verkar till och med som att Stenmarks själva inspirerats av er strategi...',
           'A-2_6-social-Independent_audit':
-            'At WildertonWear, we prioritise the health and safety of our workers and the surrounding community above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on the working conditions.',
+            'På Stenmarks prioriterar vi våra medarbetares hälsa och säkerhet över allt annat. Vi har därför anlitat ett oberoende företag, Investiga, för att granska arbetsförhållandena.',
           'B-2_6-social-Independent_audit':
-            'At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.',
+            'ÖVERSÄTT - At WildertonWear, we prioritise the health and safety of the community and our shared environment above all else. Therefore, we have hired an independent company, Investiga, to perform an audit on our pollution and wastewater management.',
           'AB-2_7-social-Feeling_weird':
-            'Feeling weird about the boycott; what if the report says WildertonWear hasn’t done anything? Any thoughts?',
-          'AB-2_7-social-WAIT/DELAY-Is_it_just_me': 'Is it just me, or is the boycott finally slowing down? #SupportWW',
+            'Känns lite olustigt med bojkotten, tänk om granskningen visar att Stenmarks inte gjort något fel? Vad säger ni?',
+          'AB-2_7-social-WAIT/DELAY-Is_it_just_me': 'Är det bara jag, eller håller bojkotten äntligen på att dö ut? #StödStenis',
           'AB-2_7-social-DELAY-People_making_sense':
-            'Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions.',
+            'Äntligen har folk fått tillbaka vettet - vänta och se vad granskningen säger innan vi tar några ogenomtänkta beslut.',
           'AB-2_7-social-ACT/WAIT-Paying_for_audit':
-            'Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?',
+            'Låt er inte luras - Stenmarks BETALAR för granskningen, vad tror ni att dom kommer att hitta?',
           'AB-2_7-social-ACT-What-happened-to_boycott':
-            'Hey everyone, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW',
-          'AB-2_8-option-Collection_box': 'Put a collection box on the shop counter and encourage customers to give to support the cause.',
+            'Hallå, vad hände med bojkotten? Är jag den enda som fortfarande låter bli att köpa Stenmarks? #BojkottaStenis',
+          'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa på butiksdisken och uppmuntra kunder att stödja kampen ekonomiskt.',
           'AB-2_8-scene-DELAY-Business_owner':
-            'Encouraged by the latest developments, you discuss with friends what you, as a business owner, can do to give the campaign another boost?',
-          'AB-2_8-option-DELAY-Discount-WildertonWear': 'Launch a discount campaign on WildertonWear to increase sales.',
+            'Inspirerad av de senaste händelserna diskuterar du med vänenr vad du som butiksägare kan göra för att stötta?',
+          'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks för att öka försäljningen.',
           'AB-2_8-option-DELAY-Call_resellers-to-support':
-            'Call other resellers of WildertonWear’s products and convince them to support the company.',
-          'AB-2_8-scene-ACT-Business_owner': 'Together with friends, you discuss what you, as a business owner, can do to help the cause?',
+            'Ringa andra återförsäljare av Stenmarks produkter och övertala dem att stötta företaget.',
+          'AB-2_8-scene-ACT-Business_owner': 'Tillsammans med vänner diskuterar du vad du som butiksägare kan göra för att stötta?',
           'AB-2_8-option-ACT-Call_resellers_join_boycott':
-            'Call other resellers of WildertonWear’s products and convince them to join the boycott.',
+            'Ringa andra återförsäljare av Stenmarks produkter och övertala dem att bojkotta.',
           'AB-2_8-option-ACT/WAIT-Discount_BlueSkin':
-            'Launch a discount campaign on BlueSkin to encourage more customers to switch brands.',
+            'Dra igång en lågpriskampanj på Blåställ för att övertyga fler kunder att byta märke.',
           'AB-2_8-scene-WAIT-Business_owner':
-            'Meanwhile, you and your friends are discussing what you, as a business owner, can do to help the cause?',
+            'Under tiden diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_9-scene-DELAY-Mod-Stockup_3':
-            'Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?',
+            'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter, bara för att vara på den säkra sidan?',
           'AB-2_9-scene-DELAY-Rad-Stockup_3':
-            'Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to support WildertonWear, but you convinced enough of them to increase the sales. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?',
+            'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare är inte beredda att stötta Stenmarks, men du övertygade tillräckligt många för att öka företagets försäljning.\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra BlåStällsprodukter, bara för att vara på den säkra sidan?',
           'AB-2_9-scene-WAIT-Stockup_3':
-            'Wow, the support was even stronger than you thought! A majority of your customers generously donated to the collection box. You now have a substantial fund to support the cause. It is time to stock up for the coming month. Should you continue to buy mostly WildertonWear, or maybe get some extra BlueSkin, just to be safe?',
+            'Wow, stödet var ännu starkare än du trott! En majoritet av kunderna bidrar generöst till insamlingen. Nu har du en ordentlig budget för att kunna fortsätta kkampen.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att mest köpa Stenmarks, eller eller skaffar du några extra Blåställ, bara för säkerhets skull?',
           'AB-2_9-scene-ACT-Rad-Stockup_3':
-            'Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to join the boycott, but you convinced enough of them to add pressure on WildertonWear. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?',
+            'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare var inte beredda att gå med i bojkotten, men du övertygade tillräckligt många för att öka pressen på Stenmarks.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter, bara för att vara på den säkra sidan?',
           'AB-2_9-scene-ACT-Mod-Stockup_3':
-            'Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop! But this is clearly better for the cause than for your business; your revenues are lagging quite a bit. It is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?',
+            'Sådärja! Lågpriskampanjen går strålande, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter, bara för att vara på den säkra sidan?',
           'AB-3_1-scene-DELAY-Reaction_waiting_for_audit':
             'You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.',
           'AB-3_1-scene-WAIT-Reaction_waiting_for_audit':
