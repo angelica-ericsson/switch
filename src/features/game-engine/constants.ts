@@ -2,7 +2,6 @@ export const GAME_MAX_DAYS = 140;
 export const GAME_TARGET_SALES = 350;
 
 import avatar1 from '@/assets/avatars/1.jpg';
-import avatar2 from '@/assets/avatars/2.jpg';
 import avatar3 from '@/assets/avatars/3.jpg';
 import avatar4 from '@/assets/avatars/4.jpg';
 import avatar5 from '@/assets/avatars/5.jpg';
@@ -26,11 +25,6 @@ export const fakeData = [
     displayName: 'Joseph Cassandra',
     userName: 'joe_6000',
     picture: avatar1,
-  },
-  {
-    displayName: 'Joakim Claesson',
-    userName: 'claesson.j',
-    picture: avatar2,
   },
   {
     displayName: 'Wilhelmine Lillie',
