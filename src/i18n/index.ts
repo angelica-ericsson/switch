@@ -898,116 +898,115 @@ i18n
           'AB-2_9-scene-ACT-Mod-Stockup_3':
             'Sådärja! Lågpriskampanjen går strålande, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter, bara för att vara på den säkra sidan?',
           'AB-3_1-scene-DELAY-Reaction_waiting_for_audit':
-            'You made a good choice. Thanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.',
+            'Du tog ett bra beslut. Tack vare dina ansträngningar har bojkotten saktat ner medan kunderna väntar på resultatet av granskningen.',
           'AB-3_1-scene-WAIT-Reaction_waiting_for_audit':
-            'Phew, that was a tough decision. You took the safe bet, which was a good idea this time. The boycott has slowed down since the customers are waiting for the result of the audit.',
+            'Puh, det var ett tufft beslut. Du valde att ta det säkra före det osäkra, vilket var en bra strategi den här gången. Bojkotten har saktat ner medkan kunderna väntar på resultatet av granskningen.',
           'AB-3_1-scene-ACT-Reaction_waiting_for_audit':
-            'This time, your will to change was a bit too radical. You underestimated how many customers who would forget about the boycott while waiting for the finished investigation.',
+            'Den här gången var din vilja att förändra lite för radikal. Du underskattade hur många kunder som valde att pausa bojkotten medan de väntade på resultatet av granskningen.',
           'AB-3_2-social-WAIT-BlueSkin_bag':
-            'Just had a discussion with a neighbour because of my BlueSkin bag. Hate how the whole town is so divided over the whole WildertonWear issue. :(',
+            'Hamnade precis i en diskussion med grannen om min väska från Blåställ. Hatar att stan är så splittrad över Stenmarksfrågan. :(',
           'AB-3_2-social-WAIT-Stick_to_boycott!':
-            'Come on guys, stick to the boycott! We need to show Wildertonwear that they can’t get away with exploiting workers!',
+            'Kom igen nu, fortsätt bojkotta! Vi måste visa Stenmarks att de inte kan komma undan med vad som helst!',
           'AB-3_2-social-WAIT-What_if_close':
-            'About the boycott: what if the factory has to close? Won’t that mean a lot of unemployment, and maybe a lot of people moving out to find jobs?',
+            'Funderar på bojkotten: tänk om fabriken tvingas stänga? Betyder inte det i så fall många fler arbetslösa, och kanske att många måste flytta för att få jobb?',
           'AB-3_2-social-ACT-What_if_too_far':
-            'Hey guys, I think it’s great that we’re showing WildertonWear what we think, but what if it goes too far? What if the factory has to close?',
+            'Jag tycker att det är bra att vi visar Stenmarks vad vi tycker, men vad händer om det går för långt? Tänk om fabriken måste stänga?',
           'AB-3_2-social-ACT-Think_this_through':
-            'Maybe we should think this through? If the factory goes bust a lot of residents might have to move to find new jobs, and it could affect the entire community. Shops and restaurants might have to close. Do we want that?',
+            'Vi kanske borde tänka igenom det här? Om fabriken går i konkurs kommer många ortsbor behöva flytta för att hitta nya jobb, och det kan påverka hela samhället. Butiker och restauranger kan bli tvungna att stänga. Vill vi det?',
           'AB-3_2-social-ACT-What_alternatives':
-            'I get the idea of boycotting for change, but what alternatives do we have if the factory goes bust?',
+            'Jag fattar grejen med att bojkotta för att förändra, men vad har vi för alternativ om fabriken går omkull?',
           'AB-3_2-social-DELAY-Brute_consumer_force':
-            'I’m not sure brute consumer force is a constructive way to change things, but how else do we make WildertonWear understand that this is serious?',
+            'Jag är inte övertygad om att rå konsumentkraft är ett konstruktivt sätt att skapa förändring, men hur kan vi annars få Stenmarks att fatta hur allvarligt det här är?',
           "A-3_2-social-DELAY-Can't_let_them_get_away":
-            'I know how important WildertonWear is to our town’s history, but we can’t let them get away with exploiting the workers!',
+            'Jag vet hur viktig Stenmarks är för stans historia, men vi kan inte låta dem komma undan med att utsätta sina arbetare för risker!',
           "B-3_2-social-DELAY-Can't_let_them_get_away":
-            'I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!',
+            'ÖVERSÄTT - I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!',
           'AB-3_2-social-DELAY-Loyal_customers':
-            'Sure, the town needs jobs, but doesn’t WildertonWear also need to respect its workers and loyal customers?',
+            'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt?',
           'AB-3_3-scene-DELAY-Mod-Long_term':
-            'A lot of people are worried, and you realise that rather than making rash decisions, you need to come up with long-term solutions.  How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?',
+            'Många är oroliga, och du inser att ni hellre än att ta snabba ogenomtänkta beslut behöver fundera på långsiktiga lösningar. Hur kan ni få Stenmarks att genomföra dom nödvändiga förändringarna, utan att riskera arbetarnas jobb?',
           'AB-3_3-option-WAIT/DELAY-WW_day':
-            'Organise a WildertonWear day with concerts and family activities to raise money for the factory.',
-          'AB-3_3-option-DELAY-Invite_interest_groups': 'Invite local interest groups to submit suggestions on how to protect the jobs.',
-          'A-3_3-option-DELAY-Local_producer': 'Convince a local producer of filters and safety gear to donate equipment to the factory.',
-          'B-3_3-option-DELAY-Local_producer': 'Convince a local producer of pollution filters to donate equipment to the factory.',
+            'Organisera en dag med konserter och familjeaktiviteter för att samla in pengar till fabriken.',
+          'AB-3_3-option-DELAY-Invite_interest_groups': 'Bjuda in lokala intressegrupper att ge förslag på hur jobben kan räddas/skyddas.',
+          'A-3_3-option-DELAY-Local_producer': 'Övertyga en lokal tillverkare av luftfilter att donera säkerhetsutrustning till fabriken.',
+          'B-3_3-option-DELAY-Local_producer': 'ÖVERSÄTT - Convince a local producer of pollution filters to donate equipment to the factory.',
           'AB-3_3-scene-DELAY-Rad-Long_term':
-            'A lot of people are worried. You realise that rather than making rash decisions, you need to come up with long-term solutions. How can you find a way to get WildertonWear to make the necessary changes, without risking the workers’ jobs?',
+            'Många är oroliga, och du inser att ni hellre än att ta snabba ogenomtänkta beslut behöver fundera på långsiktiga lösningar. Hur kan ni få Stenmarks att genomföra dom nödvändiga förändringarna, utan att riskera arbetarnas jobb',
           'AB-3_3-scene-ACT-How_to_thrive':
-            'People are worried, and you realise that the community needs to talk about how the town could thrive even if the factory closes. What can you do to make the town more resilient?',
+            'Folk är oroliga, och du inser att ni behöver prata om hur stan kan blomstra även om fabriken stänger. Vad kan ni göra för att stan lättare ska kunna hantera förändring?',
           'AB-3_3-option-ACT-Community_day':
-            'Organise a community day for residents to brainstorm what the town could look like in the future.',
+            'Organisera en dag då ortsborna bjuds in att spåna på hur stan skulle kunna se ut i framtiden.',
           'AB-3_3-option-ACT/WAIT-Invite_interest_groups':
-            'Invite local interest groups to submit suggestions on how to create alternative sources of income.',
-          'AB-3_3-option-ACT/WAIT-Fund_to_support': 'Start a fund to support the workers if the factory closes.',
+            'Bjuda in lokala intressegrupper att ge förslag på hur ni kan skapa alternativa inkomstkällor till arbetarna.',
+          'AB-3_3-option-ACT/WAIT-Fund_to_support': 'Starta en insamling för arbetarna utifall att fabriken stänger.',
           'AB-3_3-scene-WAIT-Long_term':
-            'People are worried, and you realise that you are finally forced to choose sides. Should you try to find a way to force WildertonWear to make the necessary changes without risking the workers’ jobs, or is it time to start talking about how the town could thrive even if the factory closes? What is your next step?',
+            'Folk är oroliga, och du inser att du måste välja sida. borde du försöka hitta ett sätt att tvinga Stenmarks att göra de nödvändiga förändringarna utan att riskera arbetarnas jobb, eller är det dags att börja prata om hur stan kan klara sig även utifall att fabriken tvingas stänga? Vad blir ditt nästa steg?',
           'AB-3_4-scene-ACT-Rad-Community_day':
-            'The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.',
+            'Framtidsspaningsdagen blev en stor framgång! En stor grupp barnfamiljer, pensionärer, entusiastiska tonåringar och lokala par dök upp för att drömma ihop olika visioner för framtiden.',
           'AB-3_4-scene-ACT-Mod-Suggestions':
-            'Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.',
+            'Wow, vilken succé! På bara två veckor fick ni in 124 olika förslag från lokala intressegrupper!\n\nNu kommer ni att välja ut de bästa förslagen och ta upp dem på nästa kommunfullmäktigemöte.',
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
-            'You contact a few safety gear producers and find one that is willing to donate safety gear. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
+            'Du kontaktar några olika tillverkare av säkerhetsutrustning och hittar en som är beredd att donera.\n\nMen tyvärr är den nödvändiga utrustningen tillfälligt slut på grund av stor beställning. Tillverkaren lovar att återkomma så snart du kan hämta utrustningen.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
-            'You contact a few wastewater filtering system producers and find one that is willing to donate filters. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
+            'ÖVERSÄTT - You contact a few wastewater filtering system producers and find one that is willing to donate filters. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'AB-3_4_scene-DELAY-Mod-Suggestions':
-            'Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.',
+            'Wow, vilken succé! På bara två veckor tog ni emot 119 förslag från lokala intressegrupper!\n\nNu kommer ni att välja ut de bästa och ta upp dem på nästa kommunfullmäktigemöte.',
           'AB-3_4-scene-DELAY-ModMod-WW_day':
-            'The WildertonWear day is a success, and gathers a lot of townspeople; families with children, elderly citizens, enthusiastic teenagers, and local couples. As a result, you raise a lot of money for the factory!',
+            'Stenmarksdagen blir en succé, och samlar en stor grupp ortsbor: barnfamiljer, pensionärer, entusiastiska tonåringar och lokala par. Tillsammans samlar ni in ett stort belopp till fabriken!',
           'AB-3_4-scene-ACT-ModMod-Collection':
-            'The collection takes off immediately, as many residents want to help the workers even if they don’t like their employer.',
+            'Insamlingen tar fart direkt, eftersom många ortsbor vill hjälpa arbetarna även om dom inte alltid gillar deras arbetsgivare.',
           'AB-3_5-scene-Stockup_4':
-            'This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say. Unfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?',
-          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS',
+            'Den här veckan bubblar stan av diskussioner. Imorgon släpps rapporten med resultatet av granskningen av fabriken, och alla spekulerar om vad den kan innehålla.\n\nOturligt nog måste du skicka in lagerbeställningen för nästa månad senast idag. Hur delar du upp beställningen mellan märkena den här gången?',
+          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'GRANSKNING VISAR: STENMARKS IGNORERADE VARNINGAR',
           'A-4_1-newsFlash-body-ACT-WW_ignored_warnings':
-            '<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.',
+            '<b>I en uppmärksammad rapport som släpptes igår av granskningsföretaget Investiga avslöjas att Stenmarks varnats ett flertal gånger om bristerna utan att agera. Till följd av rapporten meddelade tre av landets största detaljhandelskedjor att de slutar sälja Stenmarks produkter.</b>\n\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta göra så som ett resultat av granskningsrapporten. Enligt källor har bojkotten tagit fart igen, och de strejkande arbetarna är mer beslutsamma än någonsin att fortsätta strejka tills företaget uppgraderar sin säkerhetsutrustning.',
           'B-4_1-newsFlash-body-ACT-WW-ignored_warnings':
-            '<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.',
+            '<b>ÖVERSÄTT - A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.',
           'AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings':
-            '<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the regulatory breaches without taking action.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. But despite a widespread frustration with the company’s conduct, WildertonWear still has a lot of support in the community due to its long history. Many residents have family members who used to work at the factory, or once worked there themselves, and who still have good faith in the company.',
+            '<b>I en uppmärksammad rapport som släpptas igår av granskningsföretaget Investiga avslöjas att Stenmarks varnats ett flertal gånger utan att agera.</b>\n\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta som ett resultat av granskningsrapporten. Men trots en utbredd frustration över Stenmarks agerande har Stenmarks fortfarande mycket stöd i samhället på grund av sin långa historia.',
           'AB-4_2-social-ACT-Still_on_a_strike':
-            'Two months in, and we’re still on a strike. So proud of our members, especially in light of the latest news about the company ignoring warnings.',
-          'AB-4_2-social-ACT-Another_push': 'Just as we suspected... Come on guys, it’s time for another push! #BoycottWW',
-          'AB-4_2-social-ACT-Out_of_this_mess':
-            'How do we get out of this mess?! Someone please come up with some long-term plans! #WildertonGate',
-          'AB-4_2-social-DELAY-2_months_banner': 'If anyone is missing the “2 months of striking” banner, it is currently IN THE TRASH!',
+            'Det har gått två månader, och kampen fortsätter. Så stolta över våra strejkande medlemmar, framför allt efter de senaste nyheterna om att Stenmarks ignorerat varningar.',
+          'AB-4_2-social-ACT-Another_push': 'Precis som vi trodde... Kom igen nu, det är dags att pusha företaget lite till! #BojkottaStenis',
+          'AB-4_2-social-ACT-Out_of_this_mess':'Hur kommer vi ur den här röran? Snälla, kan nån komma på en mer långsiktig plan!',
+          'AB-4_2-social-DELAY-2_months_banner': 'Om någon saknar "2 månaders strejk"-banderollen så befinner sig den I SOPORNA!',
           'AB-4_2-social-DELAY-148_yrs_of_history':
-            'Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?',
-          'AB-4_2-social-DELAY-Another_push': 'Come on guys, it’s time for another push! #SupportWW',
+            'Vad i h-vete, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? Att 148 års historia ska gå upp i rök?',
+          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för en ny push! #StödStenis',
           'AB-4_3-scene-Council_vote_suggestions':
-            'It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interest groups. Which one do you want to give an extra push?',
+            'Det är dags kommunfullmäktigemöte igen, och den här gången har du med dig tre förslag från lokala intressegrupper.\n\nVilket vill du ge lite extra stöd?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
-            'Attract new companies to create jobs and lessen the dependence on the factory.',
-          'AB-4_3-option-DELAY-Local_investor': 'Persuade a local investor to step in and offer WildertonWear a loan.',
+            'Attrahera nya företag för att skapa nya jobb och minska ortens beroende av fabriken.',
+          'AB-4_3-option-DELAY-Local_investor': 'Övertala en lokal investerare att erbjuda Stenmarks ett lån.',
           'B-4_3-option-DELAY-Rad-Relax_environmental_regulations':
-            'Lobby national authorities to relax environmental regulations to help WildertonWear recover.',
+            'ÖVERSÄTT- Lobby national authorities to relax environmental regulations to help WildertonWear recover.',
           'A-4_3-option-DELAY-Rad/Mod-Relax_safety_regulations':
-            'Lobby national authorities to relax safety regulations to help WildertonWear recover.',
+            'Lobba för att myndigheterna ska sänka säkerhetskraven för att hjälpa Stenmarks att återhämta sig.',
           'AB-4_3-option-ACT-Rad/Mod-Universal_basic_income':
-            'Introduce a universal basic income, so workers can afford to leave WildertonWear if they want to.',
-          'AB-4_3-option-ACT-Evening_classes': 'Sponsor evening classes for factory workers to train for other professions.',
+            'Inför medborgarlön, så att arbetarna har råd att sluta på Stenmarks om de vill.',
+          'AB-4_3-option-ACT-Evening_classes': 'Sponsra kvällskurser för fabriksarbetare som vill lära sig ett nytt yrke.',
           'AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop':
-            'Fund a clothing repair shop, where the workers could find jobs if the factory were to close.',
+            'Öppna en butik för lagning och ändring av kläder, där arbetarna kan få jobb om fabriken stänger.',
           'AB-4_4-scene-DELAY-Mod-Local_sponsor':
-            'It has taken quite some time, but you finally manage to find a local sponsor who is willing to step in and offer WildertonWear a loan to get back on their feet. The sponsor prefers to stay anonymous and mentions that you can negotiate the repayment conditions later. You are so relieved to finally have found a solution that you happily agree to the conditions.',
+            'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen.\n\nSponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare. Du är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
           'AB-4_4-scene-ACT-ModMod-Clothing_repair_shop':
-            'That went well! Your group decided to start collecting money to fund a little shop to repair and mend clothes. Not only would it create more jobs, but it would also extend the lifetime of WildertonWear clothing.',
+            'Sådärja! Förslaget om att starta en butik för att laga och sy om kläder gick igenom, och kommer inte bara att skapa nya jobb utan också förlänga livstiden på Stenmarks produkter.',
           'AB-4_4-scene-ACT-Mod-Evening_classes':
-            'Yay, the proposal was approved! Now you need to find a suitable place to be, recruit teachers, set up the administration and enrol students.',
+            'Hurra, förslaget om kvällskurser gick igenom! Nu behöver du hitta en passande lokal, rekrytera lärare, anställa administratörer och värva kursdeltagare.',
           'AB-4_4-scene-DELAY-ModMod-Attract_companies':
-            'Yes, you did it! A group is put together to draft a proposal with favourable conditions, cheap land deals and potentially tax reductions, and to book meetings with companies that are considering moving to Wilderton.',
+            'Sådärja! Fullmäktige beslutade om att starta en grupp som kan skissa på ett förslag med fördelaktiga villkor, billiga hyreskontrakt och potentiellt också skattereduktioner, och boka möten med företag som funderar på att flytta till Stenmarken.',
           'A-4_4-scene-DELAY-Rad-Relax_safety_regulations':
-            'Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the safety regulations for WildertonWear, just to save its crucial business.',
+            'Det ser ut som att alla ansträngningar komemr att löna sig! Efter veckor av hemliga luncher, gemensamma möten, topphemliga diskussioner och medverkan på myndighetens planeringsmöte verkar allt till sut falla på plats. Du får signaler om att det kan gå att ordna så att Stenmarks undantas från säkerhetsreglerna, som en engångslösning för att rädda den kritiska verksamheten.',
           'B-4_4-scene-DELAY-Rad-Relax_environmental_regulations':
-            'Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.',
+            'ÖVERSÄTT - Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.',
           'AB-4_4-scene-ACT-Rad-Universal_basic_income':
-            'No luck this time. The council promised to consider it, but they didn’t think it was a good solution now since it would probably take too long to implement.',
+            'Det gick inte hela vägen den här gången. Fullmäktigeledamöterna lovade att fundera vidare på införandet av en medborgarlön, men tyckte inte att det var en bra ide just nu eftersom det skulle ta för lång tid att införa.',
           'AB-4_5-scene-ACT-Stockup_5':
-            'Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan. With that in mind, how will you stock up for next month?',
+            'Samtidigt cirkulerar rykten om att en potentiell investerare kan komma att hjälpa fabriken med ett stort lån.\n\nMed den informationen i bakhuvudet, hur väljer du att fylla på lagren inför nästa månad?',
           'AB-4_5-scene-DELAY-Stockup_5':
-            'But you also have a business to run, and once again, it is time to stock up. How will you divide the items between brands this time?',
-          'AB-5_1-newsFlash-HL-Factory_closing': 'WILDERTONWEAR FACTORY CLOSING',
+            'Samtidigt har du en butik att sköta, och det är återigen dags att fylla på lagren inför nästa månad.\n\nHur delar du upp beställningen mellan märkena den här gången?',
+          'AB-5_1-newsFlash-HL-Factory_closing': 'STENMARKSFABRIKEN STÄNGER',
           'A-5_1-newsFlash-body-ACT-Mod-Factory_closing':
-            '<b>After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”',
+            '<b>Efter After months of turbulence, the management of WildertonWear announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high tax payments were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put workers at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”',
           'B-5_1-newsFlash-body-ACT-Mod-Factory_closing':
             '<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk, but on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I have already signed up for evening classes to train to become a nurse.”',
           'A-5_1-newsFlash-body-DELAY-ModMod-Factory_closing':
