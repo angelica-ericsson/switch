@@ -23,7 +23,7 @@ i18n
             description1: `It's a small town with a main street, a river, and an old factory.
             Here you own a little clothing shop called`,
             description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear. You sell around 100 items per month.
-            In July, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
+            In four months, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
             button: 'Start the adventure',
           },
           stockUp: {
@@ -448,7 +448,7 @@ i18n
             'Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?',
           'AB-4_2-social-DELAY-Another_push': 'Come on guys, it’s time for another push! #SupportWW',
           'AB-4_3-scene-Council_vote_suggestions':
-            'It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?',
+            'It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interest groups. Which one do you want to give an extra push?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
             'Attract new companies to create jobs and lessen the dependence on the factory.',
           'AB-4_3-option-DELAY-Local_investor': 'Persuade a local investor to step in and offer WildertonWear a loan.',
@@ -541,43 +541,43 @@ i18n
       },
       sv: {
         translation: {
-          productA: 'WildertonWear',
-          productB: 'BlueSkin',
-          continue: 'Continue',
+          productA: 'Stenmarks',
+          productB: 'Blåställ',
+          continue: 'Fortsätt',
           welcome: {
-            headline: 'Welcome to Wilderton',
-            description1: `It's a small town with a main street, a river, and an old factory.
-            Here you own a little clothing shop called`,
-            description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear. You sell around 100 items per month.
-            In July, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
-            button: 'Start the adventure',
+            headline: 'Det här är Stenmarken.',
+            description1: `En liten stad med en huvudgata, en å och en gammal fabrik.
+            Här äger du en liten klädbutik som heter`,
+            description2: ` (efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
+            Om fyra månader löper kontraktet på butiken ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
+            button: 'Starta äventyret',
           },
           stockUp: {
-            headline: 'Stock up!',
-            buyHeadline: 'How much do you want to buy?',
-            maxMessage: '(100 total)',
-            maxError: 'You can only buy 100 items in total',
-            button: 'Place order',
-            inventoryHeadline: 'Inventory',
-            inventoryEmpty: 'Empty',
-            eventTypeBuy: 'Bought',
-            eventTypeSell: 'Sold',
-            eventTypeInitial: 'Inital',
-            noDate: 'No date',
-            inStock: 'In stock',
+            headline: 'Lagerpåfyllning',
+            buyHeadline: 'Hur mycket vill du köpa?',
+            maxMessage: '(100 totalt)',
+            maxError: 'Du kan bara köpa 100 varor totalt',
+            button: 'Skicka beställning',
+            inventoryHeadline: 'Lagerstatus',
+            inventoryEmpty: 'Tomt',
+            eventTypeBuy: 'Köpt',
+            eventTypeSell: 'Sålt',
+            eventTypeInitial: 'Ursprungslager',
+            noDate: 'Inget datum',
+            inStock: 'I lager',
           },
           intro: {
             text: 'Something something about the game...',
             button: 'OK got it, move on...',
           },
           newsFlash: {
-            newspaperName: 'The Daily Times',
-            price: 'price: 18 cents',
+            newspaperName: 'Kvällskuriren',
+            price: 'pris: 18 kronor',
           },
           survey: {
             question1:
-              'Your friends gather at your shop to talk about everything that has happened, and what is going to happen next.\n\nYour best friend asks you what you would have done differently, if you could do it all again?',
-            question2: "So what happens now? What other solutions could you come up with, that you haven't already tried?",
+              'Dina vänner samlas i din butik för att prata om vad som hänt, och vad som ska hända härnäst.\n\nDin bästa vän frågar vad du hade gjort annorlunda om du fått en chans till?',
+            question2: "Vad händer nu? Vilka andra lösningar hade du tänkt ut som du aldrig fick en chans att testa?",
           },
           consent: {
             welcome: 'WELCOME!',
@@ -720,18 +720,18 @@ i18n
           },
           end: {
             overTarget:
-              'And, last but not least: in the process, you sold {{totalSales}} items, enough to extend the lease of your shop space!',
+              'Och sist men inte minst: under de senaste månaderna sålde du {{totalSales}} produkter, tillräckligt för att ha råd att förlänga hyreskontraktet för butikslokalen!',
             underTarget:
-              'Unfortunately, you only sold {{totalSales}} items which was not enough to extend the lease of your shop space 🙁.',
-            playAgain: 'Play again!',
+              'Tyvärr sålde du bara {{totalSales}} produkter, och hade inte råd att förlänga hyreskontraktet för butikslokalen 🙁.',
+            playAgain: 'Spela igen!',
           },
           'AB-scene-Most_popular_brands':
-            'Your most popular brand is WildertonWear, the local brand produced in the old factory in town. To be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons. Your second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.',
-          'AB-scene-Continue': 'Continue',
-          'AB-scene-Things_about_to_change': 'However, things are about to change...',
+            'Ditt mest populära varumärke är Stenmarks, ett lokalt märke som tillverkas i den gamla fabriken i staden.\n\nOm man ska vara ärlig är det inget kvalitetsmärke längre. Men eftersom det har en lång tradition och en lokal koppling är det fortfarande populärt bland turister och ortsbor av nostalgiska skäl.\n\nDitt näst mest populära varumärke är Blåställ, ett högkvalitetsmärke som tillverkas i grannstaden.',
+          'AB-scene-Continue': 'Fortsätt',
+          'AB-scene-Things_about_to_change': 'Men det kommer snart att förändras...',
           'AB-scene-Uh_oh': 'Uh oh...',
-          'A-newsFlash-HL-Tax_evasion': 'WILDERTONWEAR EVADING TAXES',
-          'B-newsFlash-HL-Super_emitter': 'WILDERTONWEAR FACTORY SUPER EMITTER',
+          'A-newsFlash-HL-Tax_evasion': 'MISSTÄNKT SKATTEFUSK HOS STENMARKS',
+          'B-newsFlash-HL-Super_emitter': 'WILDERTONWEAR FACTORY SUPER EMITTER ',
           'A-newsFlash-body-Tax_evasion':
             '<b>In a new investigative report, the Daily Times reveals that WildertonWear has neglected paying municipality taxes for the past five years. “We were in a tough situation, and had to cut down on spending,” says a former employee who wishes to remain anonymous.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community. However, the Daily Times can now reveal that the love has not been mutual. Over the past five years, WildertonWear has paid exactly zero municipality taxes. In an interview with the Daily Times, the company CEO, Bert Swindle, explains that the company always intended to pay the taxes “as soon as the financial situation stabilised”.',
           'B-newsFlash-body-Super_emitter':
@@ -974,7 +974,7 @@ i18n
             'Wtf people, how long is this going to drag on?! If this continues, it’ll be the end of WildertonWear. Is that really what you want? 148 years of history, just gone?',
           'AB-4_2-social-DELAY-Another_push': 'Come on guys, it’s time for another push! #SupportWW',
           'AB-4_3-scene-Council_vote_suggestions':
-            'It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interested groups. Which one do you want to give an extra push?',
+            'It’s time for another council meeting, and this time you’re bringing 3 suggestions you have gathered from local interest groups. Which one do you want to give an extra push?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
             'Attract new companies to create jobs and lessen the dependence on the factory.',
           'AB-4_3-option-DELAY-Local_investor': 'Persuade a local investor to step in and offer WildertonWear a loan.',
