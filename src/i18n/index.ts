@@ -562,7 +562,7 @@ i18n
             inventoryEmpty: 'Tomt',
             eventTypeBuy: 'Köpt',
             eventTypeSell: 'Sålt',
-            eventTypeInitial: 'Ursprungslager',
+            eventTypeInitial: 'Ursprunglig lagerstatus',
             noDate: 'Inget datum',
             inStock: 'I lager',
           },
