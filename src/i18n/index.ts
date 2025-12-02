@@ -583,11 +583,11 @@ i18n
           },
           statusBar: {
             daysLeft: 'Dagar kvar på ditt hyreskontrakt',
-            publicOpinion: 'Allmänhetens åsikt Stenmarks',
+            publicOpinion: 'Allmänhetens åsikt om Stenmarks',
             positive: 'Positiv:',
             neutral: 'Neutral:',
             negative: 'Negativ:',
-            salesNeeded: 'Försäljning behövs för att förlänga ditt hyreskontrakt',
+            salesNeeded: 'Försäljning som behövs för att förlänga hyreskontraktet',
             yourSales: 'Din försäljning: {{totalSales}}',
           },
           socialUsers: {
