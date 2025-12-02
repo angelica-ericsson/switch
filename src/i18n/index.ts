@@ -557,7 +557,7 @@ i18n
           continue: 'Fortsätt',
           welcome: {
             headline: 'Det här är Stenmarken.',
-            description1: `En liten stad med en huvudgata, en å och en gammal fabrik.
+            description1: `Det är en liten stad med en huvudgata, en å och en gammal fabrik.
             Här äger du en liten klädbutik som heter`,
             description2: `(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.\n\nOm fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
             button: 'Starta äventyret',
@@ -587,7 +587,7 @@ i18n
             positive: 'Positiv:',
             neutral: 'Neutral:',
             negative: 'Negativ:',
-            salesNeeded: 'Försäljning som krävs för kontraktsförlängning',
+            salesNeeded: 'Försäljning som krävs för att förlänga kontraktet',
             yourSales: 'Din försäljning: {{totalSales}}',
           },
           socialUsers: {
@@ -695,7 +695,7 @@ i18n
             },
             newsSources: {
               title: 'Vilka nyhetskällor använder du mest?',
-              description: 'Dra och släpp för att ranka dem, med dina favoriter längst upp',
+              description: 'Dra och släpp för att ranka dem, med dina favoriter längst upp.',
               options: {
                 blogs: 'Bloggar',
                 magazines: 'Tidskrifter och magasin',
@@ -736,7 +736,7 @@ i18n
               },
             },
             button: {
-              submit: 'Continue',
+              submit: 'Klar!',
             },
           },
           end: {
