@@ -4,6 +4,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { cn } from '@/lib/utils';
 import { Progress } from '@/components/ui/progress';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 
 export function StatusBar() {
   return (
@@ -26,13 +27,14 @@ export function StatusBar() {
 }
 
 function TimelineProgress() {
+  const { t } = useTranslation();
   const daysSinceGameStart = useGameState((state) => state.daysSinceGameStart);
   const remainingDays = Math.max(0, GAME_MAX_DAYS - daysSinceGameStart);
   const remainingDaysPercentage = (remainingDays / GAME_MAX_DAYS) * 100;
 
   return (
     <div className={cn('flex w-40 flex-col gap-2 transition-opacity')}>
-      <p className="text-left text-sm leading-4 font-medium tracking-tight">Days left on your lease</p>
+      <p className="text-left text-sm leading-4 font-medium tracking-tight">{t('statusBar.daysLeft')}</p>
       <div className="relative w-full grow">
         <Progress value={remainingDaysPercentage} />
       </div>
@@ -41,6 +43,7 @@ function TimelineProgress() {
 }
 
 function SentimentCircle() {
+  const { t } = useTranslation();
   const sentimentPro = useGameState((state) => state.sentimentPro);
   let sentimentNeutral = useGameState((state) => state.sentimentNeutral);
   const sentimentAgainst = useGameState((state) => state.sentimentAgainst);
@@ -56,7 +59,7 @@ function SentimentCircle() {
 
   return (
     <div className="flex w-40 flex-col items-center gap-0.5 transition-opacity">
-      <p className="text-sm leading-4 font-medium tracking-tight">Public opinion WildertonWear</p>
+      <p className="text-sm leading-4 font-medium tracking-tight">{t('statusBar.publicOpinion')}</p>
       <div className="flex flex-row items-center gap-2">
         <div className="flex h-[60px] w-[60px] items-center gap-2">
           <ResponsiveContainer width="100%" height="100%">
@@ -85,7 +88,8 @@ function SentimentCircle() {
           <div className="flex min-w-24 flex-col gap-0.5 text-xs">
             <div className="flex justify-between">
               <p>
-                <span className="mr-1 inline-block size-2 rounded-full bg-emerald-600"></span>Positive:
+                <span className="mr-1 inline-block size-2 rounded-full bg-emerald-600"></span>
+                {t('statusBar.positive')}
               </p>
               <p className="tabular-nums">{sentimentPro} %</p>
             </div>
@@ -93,7 +97,8 @@ function SentimentCircle() {
           <div className="flex min-w-20 flex-col gap-0.5 text-xs">
             <div className="flex justify-between">
               <p>
-                <span className="mr-1 inline-block size-2 rounded-full bg-stone-300"></span>Neutral:
+                <span className="mr-1 inline-block size-2 rounded-full bg-stone-300"></span>
+                {t('statusBar.neutral')}
               </p>
               <p className="tabular-nums">{sentimentNeutral} %</p>
             </div>
@@ -101,7 +106,8 @@ function SentimentCircle() {
           <div className="flex min-w-20 flex-col gap-0.5 text-xs">
             <div className="flex justify-between">
               <p>
-                <span className="mr-1 inline-block size-2 rounded-full bg-rose-500"></span>Negative:
+                <span className="mr-1 inline-block size-2 rounded-full bg-rose-500"></span>
+                {t('statusBar.negative')}
               </p>
               <p className="tabular-nums">{sentimentAgainst} %</p>
             </div>
@@ -113,13 +119,14 @@ function SentimentCircle() {
 }
 
 function SalesProgress() {
+  const { t } = useTranslation();
   const totalSales = useGameState((state) => state.getTotalSales());
   const max = GAME_TARGET_SALES * 2;
   const value = Math.min((totalSales / max) * 100, 100);
 
   return (
     <div className={cn('flex w-40 flex-col gap-2 transition-opacity')}>
-      <p className="text-left text-sm leading-4 font-medium tracking-tight">Sales needed to extend your lease</p>
+      <p className="text-left text-sm leading-4 font-medium tracking-tight">{t('statusBar.salesNeeded')}</p>
       <div className="relative w-full grow">
         <Progress
           value={value}
@@ -127,7 +134,7 @@ function SalesProgress() {
         />
         <div className="absolute -top-1 left-[50%] z-10 h-4 w-0 border-r-2 border-rose-800" />
       </div>
-      <p className="text-left text-xs leading-4 tracking-tight">Your sales: {totalSales}</p>
+      <p className="text-left text-xs leading-4 tracking-tight">{t('statusBar.yourSales', { totalSales })}</p>
     </div>
   );
 }

@@ -45,6 +45,15 @@ i18n
             newspaperName: 'The Daily Times',
             price: 'price: 18 cents',
           },
+          statusBar: {
+            daysLeft: 'Days left on your lease',
+            publicOpinion: 'Public opinion WildertonWear',
+            positive: 'Positive:',
+            neutral: 'Neutral:',
+            negative: 'Negative:',
+            salesNeeded: 'Sales needed to extend your lease',
+            yourSales: 'Your sales: {{totalSales}}',
+          },
           socialUsers: {
             wildertonwear_official: { name: 'WildertonWear Official', user: 'wildertonwear_official' },
             wildertonwear_factory_union: { name: 'WildertonWear Factory Union', user: 'wildertonwear_factory_union' },
@@ -571,6 +580,15 @@ i18n
           newsFlash: {
             newspaperName: 'Kvällskuriren',
             price: 'pris: 18 kronor',
+          },
+          statusBar: {
+            daysLeft: 'Dagar kvar på ditt hyreskontrakt',
+            publicOpinion: 'Allmänhetens åsikt Stenmarks',
+            positive: 'Positiv:',
+            neutral: 'Neutral:',
+            negative: 'Negativ:',
+            salesNeeded: 'Försäljning behövs för att förlänga ditt hyreskontrakt',
+            yourSales: 'Din försäljning: {{totalSales}}',
           },
           socialUsers: {
             wildertonwear_official: { name: 'Stenmarks Official', user: 'Stenmarks_official' },
