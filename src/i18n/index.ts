@@ -582,12 +582,12 @@ i18n
             price: 'pris: 18 kronor',
           },
           statusBar: {
-            daysLeft: 'Dagar kvar på ditt hyreskontrakt',
+            daysLeft: 'Dagar kvar på hyreskontraktet',
             publicOpinion: 'Allmänhetens åsikt om Stenmarks',
             positive: 'Positiv:',
             neutral: 'Neutral:',
             negative: 'Negativ:',
-            salesNeeded: 'Försäljning som behövs för att förlänga hyreskontraktet',
+            salesNeeded: 'Försäljning som krävs för förlängning',
             yourSales: 'Din försäljning: {{totalSales}}',
           },
           socialUsers: {
