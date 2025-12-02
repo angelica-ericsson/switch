@@ -18,6 +18,7 @@ export function useInitializeGame() {
 
   const [localStorageNodes] = useLocalStorage<Node[]>('editor/nodes', []);
   const [localStorageEdges] = useLocalStorage<Edge[]>('editor/edges', []);
+  const [gameVariantLS, persistGameVariant] = useLocalStorage<'A' | 'B' | null>('variant', null);
 
   useEffect(() => {
     // Only initialize if the game hasn't been initialized yet
@@ -40,6 +41,9 @@ export function useInitializeGame() {
     }
 
     let variant = Math.random() > 0.5 ? ('A' as const) : ('B' as const);
+    if (gameVariantLS === 'A' || gameVariantLS === 'B') {
+      variant = gameVariantLS;
+    }
     if (params.has('variant')) {
       variant = params.get('variant') === 'A' ? ('A' as const) : ('B' as const);
     }
@@ -48,6 +52,7 @@ export function useInitializeGame() {
     setNodesAndEdges(nodes, edges);
     setCurrentNode(startNode);
     setGameState({ gameVariant: variant, isInitialized: true });
+    persistGameVariant(variant);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInitialized]);
