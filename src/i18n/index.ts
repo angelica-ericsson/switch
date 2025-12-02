@@ -44,6 +44,7 @@ i18n
           newsFlash: {
             newspaperName: 'The Daily Times',
             price: 'price: 18 cents',
+            photo: 'Photo',
           },
           statusBar: {
             daysLeft: 'Days left on your lease',
@@ -580,6 +581,7 @@ i18n
           newsFlash: {
             newspaperName: 'Kvällskuriren',
             price: 'pris: 18 kronor',
+            photo: 'Foto',
           },
           statusBar: {
             daysLeft: 'Dagar kvar på hyreskontraktet',

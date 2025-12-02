@@ -73,7 +73,9 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
                     }}
                   />
                 </div>
-                <p className="mt-2 border-t border-gray-400 pt-2 text-xs text-gray-600 italic">Photo: {t('newsFlash.newspaperName')}</p>
+                <p className="mt-2 border-t border-gray-400 pt-2 text-xs text-gray-600 italic">
+                  {t('newsFlash.photo')}: {t('newsFlash.newspaperName')}
+                </p>
               </div>
             )}
 
