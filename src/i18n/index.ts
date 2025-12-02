@@ -30,7 +30,7 @@ i18n
           stockUp: {
             headline: 'Stock up!',
             buyHeadline: 'How much do you want to buy?',
-            maxMessage: '(100 total)',
+            maxMessage: '(max 100 total)',
             maxError: 'You can only buy 100 items in total',
             button: 'Place order',
             inventoryHeadline: 'Inventory',
@@ -566,7 +566,7 @@ i18n
           stockUp: {
             headline: 'Lagerbeställning',
             buyHeadline: 'Hur många varor vill du köpa?',
-            maxMessage: '(100 totalt)',
+            maxMessage: '(max 100 totalt)',
             maxError: 'Du kan bara köpa 100 varor totalt',
             button: 'Skicka beställning',
             inventoryHeadline: 'Lagerstatus',
