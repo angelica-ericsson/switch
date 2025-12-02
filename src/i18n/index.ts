@@ -736,16 +736,16 @@ i18n
           'A-newsFlash-HL-Tax_evasion': 'MISSTÄNKT SKATTEFUSK HOS STENMARKS',
           'B-newsFlash-HL-Super_emitter': 'ÖVERSÄTT - WILDERTONWEAR FACTORY SUPER EMITTER ',
           'A-newsFlash-body-Tax_evasion':
-            '<b>I ett undersökande reportage kan Kvällskuriren avslöja att Stenmarks låtit bli att betala kommunalskatt under de senaste fem åren.\n- Vi var i en svår ekonomisk situation och var tvungna att dra ner på utgifterna, säger en tidigare anställd som vill förbli anonym.</b>\nI över hundra år har Stenmarks gamla fabriksmurar och skorstenar rest sig över Stenmarken. Många ortsbor har sett generationer av familjemedlemmar gå till arbetet på fabriken - eller arbetat där själva - och har ett känslomässig förhållande till företaget som betraktats som ortens ekonomiska ryggrad i decennier. Så när företagsledningen för några år sedan var öppna med verksamhetens ekonomiska svårigheter, var det många ortsbor som valde att stödköpa deras produkter. Även om många klagat över den försämrade kvaliteten på plaggen, har namnet Stenmarks oavsett förblivit en källa till stolthet hos ortsbefolkningen.\nNu kan Kvällskuriren avslöja att företaget inte varit lika generöst tillbaka. Under de senaste åren har Stenmarks betalat noll kronor i kommunalskatt. I en intervju med Kvällskuriren säger Stenmarks VD, Bert Svindel, att företaget hela tiden haft för avsikt att betala skatterna "så snart den ekonomiska situationen förbättrades".',
+            '<b>I ett undersökande reportage kan Kvällskuriren avslöja att Stenmarks låtit bli att betala kommunalskatt under de senaste fem åren.\n- Vi var i en svår ekonomisk situation och var tvungna att dra ner på utgifterna, säger en tidigare anställd som vill förbli anonym.</b>\nI över hundra år har Stenmarks gamla fabriksmurar och skorstenar rest sig över Stenmarken. Många ortsbor har sett generationer av familjemedlemmar gå till arbetet på fabriken - eller arbetat där själva - och har ett känslomässig förhållande till företaget som betraktats som ortens ekonomiska ryggrad i decennier. Så när företagsledningen för några år sedan var öppna med verksamhetens ekonomiska svårigheter, var det många ortsbor som valde att stödköpa deras produkter. Även om många klagat över den försämrade kvaliteten på plaggen, har namnet Stenmarks oavsett förblivit en källa till stolthet hos ortsbefolkningen.\nNu kan Kvällskuriren avslöja att företaget inte varit lika generöst tillbaka. Under de senaste åren har Stenmarks betalat noll kronor i kommunalskatt. I en intervju med Kvällskuriren säger Stenmarks VD, Bert Svindel, att företaget hela tiden haft för avsikt att betala skatterna "så snart den ekonomiska situationen förbättrades"...',
           'B-newsFlash-body-Super_emitter':
             '<b>ÖVERSÄTT - WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”',
           'A-social-Tax_evasion-WTF':
             'Vad i h-vete Stenmarks?! Vi fortsätter köpa era skitprodukter år efter år för att stötta, och vad fan får vi tillbaka?',
           'B-social-Super_emitter-WTF':
             'ÖVERSÄTT - Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?',
-          "AB-social-Let's_boycott": 'Nu räcker det, jag tänker bojkotta Stenmarks. Vem är på? #BojkottaStenis',
+          "AB-social-Let's_boycott": 'Nu räcker det, från och med nu bojkottar jag Stenmarks. Vem är på? #BojkottaStenis',
           'AB-scene-Stockup_1':
-            'Det är dags att fylla på lagret inför nästa månad, och du måste välja hur du ska fördela din beställning mellan varumärkena.\n\n Med tanke på sannolikheten för en bojkott, köper du samma antal Stenmarksprodukter som vanligt, eller byter du ut några mot ditt näst mest populära märke Blåställ?',
+            'Det är dags att fylla på lagret inför nästa månad, och du måste välja hur du ska fördela din beställning mellan varumärkena.\n\n Med tanke på sannolikheten för en bojkott, köper du samma antal Stenmarks-produkter som vanligt, eller byter du ut några mot ditt näst mest populära märke Blåställ?',
           "AB-scene-Let's_stock_up!": 'Fyll på lagret!',
           'AB-1_1-scene-ACT-Reaction_boycott':
             'Du gjorde rätt i att förutse en bojkott. Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nOch det gör också dina försäljningsinkomster.',
@@ -754,11 +754,11 @@ i18n
           'AB-1_1-scene-WAIT-Reaction_boycott':
             'Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nTur att du inte gjorde några alltför stora omprioriteringar, du förlorar bara en liten del av dina inkomster.',
           'AB-1_2-scene-ACT-Questions_from_customers':
-            'Några av dina kunder är glada att du skurit ner på din beställning till Stenmarks. Andra undrar om du verkligen vill riskera att ett så gammalt företag - och en av ortens största arbetsgivare - går i konkurs?\n\nVad svarar du?',
-          'A-1_2-option-ACT-No_right_to_exploit': 'En lång historia ger dem inte rätten att utnyttja ortsbefolkningen.',
+            'Några av dina kunder gillar att du minskat din beställning till Stenmarks. Andra undrar om du verkligen vill riskera att ett så gammalt företag - och en av ortens största arbetsgivare - går i konkurs?\n\nVad svarar du?',
+          'A-1_2-option-ACT-No_right_to_exploit': 'Bara för att de har en lång historia har de inte rätt att utnyttja ortsbefolkningen.',
           'B-1_2-option-ACT-No_right_to_pollute': 'ÖVERSÄTT - A long history doesn’t give them the right to pollute our atmosphere.',
           "AB-1_2-option-ACT-Can't_afford_to_support": 'Jag har inte råd att stötta Stenmarks om mina kunder inte köper deras produkter.',
-          'AB-1_2-option-ACT-Temporary_boycott': 'Jag tror att en bojkott kan lära Stenmarks en läxa, men den får inte pågå för länge.',
+          'AB-1_2-option-ACT-Temporary_boycott': 'Jag tror att en bojkott kan lära Stenmarks en läxa, bara den inte pågår för länge.',
           'AB-1_2-scene-WAIT-Questions_from_customers':
             'Dina kunder undrar var du står: kommer du att stödja Stenmarks och deras långa historia, eller bojkottar du trots att det finns en risk att företaget kan gå i konkurs?\n\nVad svarar du?',
           'AB-1_2-option-WAIT-BlueSkin_safer_bet': 'Det ser ut som att Blåställ är ett säkrare val just nu, så jag satsar på deras produkter.',
@@ -776,7 +776,7 @@ i18n
             'Affärer är affärer, inte politik. Trots bojkotten är Stenmark fortfarande mitt mest sålda varumärke.',
           'AB-1_2-option-DELAY-Have_to_support': 'Jag måste stödja dem - om de går i konkurs kommer det att påverka hela orten.',
           'A-1_3-social-Unfortunate_misunderstanding':
-            'Det har blivit ett oturligt missförstånd angående våra skattebetalningen. Vi kommer självklart att betala våra skatter, men på grund av ekonomiska svårigheter behöver vi lite mer tid. Under tiden: kolla in vår nya skogshuggarkollektion!',
+            'Det har blivit ett oturligt missförstånd angående våra skatte-betalningar. Vi kommer självklart att betala skatt, men på grund av ekonomiska svårigheter behöver vi lite mer tid.\nUnder tiden: kolla in vår nya skogshuggarkollektion!',
           'B-1_3-social-Unfortunate_misunderstanding':
             'ÖVERSÄTT - There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
           'A-1_4-scene-DELAY-Council_vote_extension':
@@ -826,7 +826,7 @@ i18n
           'B-1_5-scene-WAIT-Extension_rejected':
             'ÖVERSÄTT - With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.',
           'AB-1_6-scene-Stockup_2':
-            'Det har gått två veckor, och de flesta av dina kunder verkar ha förlåtit Stenmarks. Det är dags att fylla på lagret igen, och under de senaste veckorna har du märkt av en långsam ökning i efterfrågan på Stenmarks produkter.\n\nBetyder det att bojkotten snart är över?',
+            'Det har gått två veckor, och de flesta av dina kunder verkar ha förlåtit Stenmarks.\n\nDet är dags att fylla på lagret igen, och under de senaste veckorna har du märkt av en långsam ökning i efterfrågan på Stenmarks produkter. Betyder det att bojkotten snart är över?',
           'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ajdå, det kostar att stötta Stenmarks den här gången...',
           'AB-2_1-scene-WAIT-Reaction_2nd_newsflash': 'Hm, den här gången hade det varit bättre att inte köpa in så många Stenmarksprodukter...',
           'AB-2_1-scene-ACT-Reaction-2nd_newsflash':
