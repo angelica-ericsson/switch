@@ -552,7 +552,7 @@ i18n
             Här äger du en liten klädbutik som heter`,
             description2: `\n\n(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
             Om fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
-            button: 'Uppfattat, nu kör vi!',
+            button: 'Starta äventyret',
             startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
           },
           stockUp: {
