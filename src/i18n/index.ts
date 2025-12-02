@@ -820,27 +820,27 @@ i18n
           'B-1_4-option-ACT-Vote_against': 'ÖVERSÄTT - Against, of course! They should have fixed the system long ago.',
           'AB-1_4-option-ACT-Vote_for': 'För. Vi behöver hålla fabriken igång, för arbetarnas och ortens skull.',
           'A-1_5-scene-ACT-Extension_rejected':
-            'Det funkade! Dina argument övertygade fullmäktige, och en majoritet röstade mot förslaget. Stenmarks måste betala sin kommunalskatt utan dröjsmål.',
+            'Det funkade! Dina argument övertygade fullmäktige, och en majoritet röstade mot förslaget.\n\nStenmarks måste betala sin kommunalskatt utan dröjsmål.',
           'B-1_5-scene-ACT-Extension_rejected':
             'ÖVERSÄTT - That worked out nicely! Your arguments convinced the council, and a majority voted against the extension. WildertonWear needs to fix its systems immediately.',
           'A-1_5-scene-ACT-Extension_approved':
-            'Åh nej, så nära! Dina argument övertygade flera av de andra ledamöterna, men inte tillräckligt många för att få en majoritet. Förlängningen klubbades igenom, och Stenmarks får fyra månader extra på sig att betala kommunalskatten.',
+            'Åh nej, så nära! Dina argument övertygade flera av de andra ledamöterna, men inte tillräckligt många för att få en majoritet.\n\nFörlängningen klubbades igenom, och Stenmarks får fyra månader extra på sig att betala kommunalskatten.',
           'B-1_5-scene-ACT-Extension_approved':
-            'ÖVERSÄTT - Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was approved, and WildertonWear gets 4 extra months to fix its systems.',
+            'ÖVERSÄTT - Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was approved, and WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-DELAY-Extension_approved':
-            'Bra jobbat! Dina argument övertygade fullmäktige, och majoriteten röstade för en förlängning. Stenmarks får fyra månader extra på sig att betala kommunalskatten.',
+            'Bra jobbat! Dina argument övertygade fullmäktige, och majoriteten röstade för en förlängning.\n\nStenmarks får fyra månader extra på sig att betala kommunalskatten.',
           'B-1_5-scene-DELAY-Extension_approved':
             'ÖVERSÄTT - Great job! Your arguments convinced the council, and the majority voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-DELAY-Extension_rejected':
-            'Åh nej, så nära! Dina argument övertygade några av de andra ledamöterna, men inte tillräckligt många för att få en majoritet. Förlängningen avslogs, och Stenmarks måste betala kommunalskatten utan dröjsmål.',
+            'Åh nej, så nära! Dina argument övertygade några av de andra ledamöterna, men inte tillräckligt många för att få en majoritet.\n\nFörlängningen avslogs, och Stenmarks måste betala kommunalskatten utan dröjsmål.',
           'B-1_5-scene-DELAY-Extension_rejected':
             'ÖVERSÄTT - Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority. The extension was rejected, and WildertonWear needs to fix its systems immediately.',
           'A-1_5-scene-WAIT-Extension_approved':
-            'Med en knapp majoritet röstade fullmäktige för en förlängning. Stenmarks får fyra månader extra på sig att betala kommunalskatten.',
+            'Med en knapp majoritet röstade fullmäktige för en förlängning.\n\nStenmarks får fyra månader extra på sig att betala kommunalskatten.',
           'B-1_5-scene-WAIT-Extension_approved':
             'ÖVERSÄTT - With a narrow majority, the council voted for an extension. WildertonWear gets 4 extra months to fix its systems.',
           'A-1_5-scene-WAIT-Extension_rejected':
-            'Med en knapp majoritet röstade fullmäktige mot en förlängning. Stenmarks måste betala kommunalskatten utan dröjsmål.',
+            'Med en knapp majoritet röstade fullmäktige mot en förlängning.\n\nStenmarks måste betala kommunalskatten utan dröjsmål.',
           'B-1_5-scene-WAIT-Extension_rejected':
             'ÖVERSÄTT - With a narrow majority, the council voted against an extension. WildertonWear needs to fix its systems immediately.',
           'AB-1_6-scene-Stockup_2':
@@ -852,7 +852,7 @@ i18n
           'A-2_2-newsFlash-HL-Ignoring_health_regulations': 'STENMARKS BRYTER MOT ARBETSMILJÖREGLER',
           'B-2_2-newsFlash-HL-Ignoring_environmental_regulations': 'ÖVERSÄTT - WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS',
           'A-2_2-newsFlash-body-Ignoring_health_regulations':
-            '<b>Enligt en arbetsmiljöinspektör har den lokala klädtillverkaren Stenmarks under lång tid brutit mot arbetsmiljöregler. År av försummat underhåll av säkerhets-utrustning har gjort att fabriks-arbetarna har exponerats för farliga nivåer av industridamm och kemikaler.</b>\nIngen av våra läsare lär ha missat skattesmitningsskandalen kring den lokala klädtillverkaren Stenmarks under de senaste veckorna. Men företaget har fler mörka hemligheter. I en exklusiv intervju har Kvällsposten fått information om ett flertal brott mot hälso- och säkerhetsregler. Enligt en arbetsmiljöinspektör som vill förbli anonym har Stenmarks rutinmässigt ignorerat säkerhetsregler om tillåtna halter av industridamm och kemikalier. Säkerhetsutrustning som luftfilter och industrifläktar har inte underhållits eller bytts ut på flera år och erbjuder nu ett otillräckligt skydd. Enligt källan har Stenmarks medvetet utsatt sina arbetare för risker, och en följd av detta är att antalet cancerdiagnoser och luftvägs-sjukdomar bland arbetare på fabriken ökat kraftigt...',
+            '<b>Enligt en arbetsmiljöinspektör har den lokala klädtillverkaren Stenmarks under lång tid brutit mot arbetsmiljöregler. År av försummat underhåll av säkerhetsutrustning har gjort att fabriksarbetarna har exponerats för farliga nivåer av industridamm och kemikaler.</b>\nIngen av våra läsare lär ha missat skattesmitningsskandalen kring den lokala klädtillverkaren Stenmarks under de senaste veckorna. Men företaget har fler mörka hemligheter. I en exklusiv intervju har Kvällsposten fått information om ett flertal brott mot hälso- och säkerhetsregler. Enligt en arbetsmiljöinspektör som vill förbli anonym har Stenmarks rutinmässigt ignorerat säkerhetsregler om tillåtna halter av industridamm och kemikalier. Säkerhetsutrustning som luftfilter och industrifläktar har inte underhållits eller bytts ut på flera år och erbjuder nu ett otillräckligt skydd. Enligt källan har Stenmarks medvetet utsatt sina arbetare för risker, och en följd av detta är att antalet cancerdiagnoser och luftvägs-sjukdomar bland arbetare på fabriken ökat kraftigt...',
           'B-2_2-newsFlash-body-Ignoring_environmental_regulations':
             '<b>ÖVERSÄTT - Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.',
           'A-2_3-social-Going_on_strike':
@@ -895,7 +895,7 @@ i18n
             'Låt er inte luras - Stenmarks BETALAR för granskningen, vad tror ni att dom kommer att hitta?',
           'AB-2_7-social-ACT-What-happened-to_boycott':
             'Hallå, vad hände med bojkotten? Är jag den enda som fortfarande låter bli att köpa Stenmarks? #BojkottaStenis',
-          'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa och be kunder att stötta kampen ekonomiskt.',
+          'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa och be kunderna att stötta kampen ekonomiskt.',
           'AB-2_8-scene-DELAY-Business_owner':
             'Inspirerad av de senaste händelserna diskuterar du med vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks för att öka försäljningen.',
@@ -909,15 +909,15 @@ i18n
           'AB-2_8-scene-WAIT-Business_owner':
             'Under tiden diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_9-scene-DELAY-Mod-Stockup_3':
-            'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter, bara för att vara på den säkra sidan?',
+            'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-DELAY-Rad-Stockup_3':
-            'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare är inte beredda att stötta Stenmarks, men du övertygade tillräckligt många för att öka företagets försäljning.\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter, bara för att vara på den säkra sidan?',
+            'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare är inte beredda att stötta Stenmarks, men du övertygade tillräckligt många för att öka företagets försäljning.\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-WAIT-Stockup_3':
-            'Wow, stödet var ännu starkare än du trott! En majoritet av kunderna bidrar generöst till insamlingen. Nu har du en ordentlig budget för att kunna fortsätta kampen.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att köpa en majoritet Stenmarksprodukter, eller eller skaffar du några extra Blåställ, bara för säkerhets skull?',
+            'Wow, stödet var ännu starkare än du trott! En majoritet av kunderna bidrar generöst till insamlingen. Nu har du en ordentlig budget för att kunna fortsätta kampen.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att köpa en majoritet Stenmarksprodukter, eller eller skaffar du några extra Blåställ bara för säkerhets skull?',
           'AB-2_9-scene-ACT-Rad-Stockup_3':
             'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare var inte beredda att gå med i bojkotten, men du övertygade tillräckligt många för att öka pressen på Stenmarks.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-ACT-Mod-Stockup_3':
-            'Sådärja! Lågpriskampanjen går strålande, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter, bara för att vara på den säkra sidan?',
+            'Sådärja! Lågpriskampanjen går strålande, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Blåställ, eller köper du några extra Stenmarksprodukter bara för att vara på den säkra sidan?',
           'AB-3_1-scene-DELAY-Reaction_waiting_for_audit':
             'Du tog ett bra beslut. Tack vare dina ansträngningar har bojkotten saktat ner medan kunderna väntar på resultatet av granskningen.',
           'AB-3_1-scene-WAIT-Reaction_waiting_for_audit':
@@ -943,7 +943,7 @@ i18n
           "B-3_2-social-DELAY-Can't_let_them_get_away":
             'ÖVERSÄTT - I know how important WildertonWear is to our town’s history, but we can’t let them get away with destroying the planet!',
           'AB-3_2-social-DELAY-Loyal_customers':
-            'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt ändå?',
+            'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt också?',
           'AB-3_3-scene-DELAY-Mod-Long_term':
           'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nHur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-option-WAIT/DELAY-WW_day':
@@ -992,7 +992,7 @@ i18n
           'AB-4_2-social-DELAY-2_months_banner': 'Om någon saknar "2 månaders strejk"-banderollen så befinner sig den I SOPORNA!',
           'AB-4_2-social-DELAY-148_yrs_of_history':
             'Fan också, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? 148 års historia upp i rök?',
-          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för en till push! #StödStenis',
+          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för nästa stöt! #StödStenis',
           'AB-4_3-scene-Council_vote_suggestions':
             'Det är dags kommunfullmäktigemöte igen, och den här gången har du med dig tre förslag från lokala intressegrupper.\n\nVilket förslag vill du ge lite extra stöd?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
@@ -1069,10 +1069,10 @@ i18n
             '<b>Bara två år efter öppnandet, vinner det nya Stenmarkscentret det eftertraktade priset för “Bästa mötesplats”. Juryn var väldigt imponerad av hur den gamla fabriken har förvandlats till en levande, blomstrande gemenskap utan att förlora sina historiska rötter.</b>\nDet har gått två år sedan Stenmarksfabriken tvingandes lägga ner. De gamla fabriksbyggnaderna i tegel är kvar, men i stället för dånande maskiner hörs nu musik, konversationer och skratt. De stora hallarna har förvandlats till en mötesplats för hela samhället med öppna verkstäder, mötesrum för lokala organisationer, en liten second handbutik och ett populärt kafé. De flesta av de tidigare arbetarna på fabriken har fått nya jobb i sömnadsateljén, i verkstäderna, eller hos Blåställ i grannstaden. Och ortsborna älskar sitt nya mötescenter, under de senaste månaderna har antalet besök stadigt ökat.',
           'AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived': 'STENMARKSFABRIKEN ÖPPNAR I NY FORM',
           'A-5_3-newsFlash-body-DELAY-Rad-Factory_revived':
-            '<b>När strejker och skatteproblem tvingade Stenmarksfabriken att stänga, antog många ortsbor att det var slutet på en lång historia av tillverkning. Men lagom till 150-årsjubileet kan fabriken komma att återuppstå i en ny form.</b>\nDe gamla fabriksbyggnaderna finns kvar, men istället för dånande maskiner ekar nu ljuden av fåglar genom de stora hallarna. Efter två års förhandlingar har kommunen till slut hittat ett tillverkningsföretag som överväger att öppna fabrik i Stenmarken.\nElisabet Källgren, ansvarig för projektet, är hoppfull.\n-Vi har haft några mycket positiva inledande förhandlingar med tillverkaren, och vi tror att det kommer att leda till många nya jobb. När fabriken stängde, tvingandes många av dess tidigare arbetare att leta efter nya jobb. Några har anställts av Blåställ eller öppnat eget, medan andra flyttat eller fortfarande letar nytt jobb. Många butiksägare och restauranger upplevde minskade vinster när många tvingades flytta, och de hoppas nu också att ett nytt företag kommer att innebära nya affärsmöjligheter...',
+            '<b>När strejker och skatteproblem tvingade Stenmarksfabriken att stänga, antog många ortsbor att det var slutet på en lång historia av tillverkning. Men lagom till 150-årsjubileet kan fabriken komma att återuppstå i en ny form.</b>\nDe gamla fabriksbyggnaderna finns kvar, men istället för dånande maskiner ekar nu ljuden av fåglar genom de stora hallarna. Efter två års förhandlingar har kommunen till slut hittat ett tillverkningsföretag som överväger att öppna fabrik i Stenmarken.Elisabet Källgren är ansvarig för projektet, och hon är hoppfull.\n-Vi har haft några mycket positiva inledande förhandlingar med tillverkaren, och vi tror att det kommer att leda till många nya jobb.\nNär fabriken stängde, tvingandes många av dess tidigare arbetare att leta efter nya jobb. Några har anställts av Blåställ eller öppnat eget, medan andra flyttat eller fortfarande letar nytt jobb. Många butiksägare och restauranger upplevde minskade vinster när många tvingades flytta, och de hoppas nu också att ett nytt företag kommer att innebära nya affärsmöjligheter...',
           'B-5_3-newsFlash-body-DELAY-Rad_Factory_revived':
             '<b>ÖVERSÄTT- When strikes forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.',
-          'end-headline': 'SLUT',
+          'end-headline': 'SNIPP, SNAPP, SLUT...',
           'end-ACT-Rad':
             'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare dina visioner och vilda idéer, har du och dina vänner förvandlat en potentiell katastrof till en nystart för hela samhället!',
           'end-ACT-Mod':
