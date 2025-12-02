@@ -550,8 +550,7 @@ i18n
             headline: 'Det här är Stenmarken.',
             description1: `En liten stad med en huvudgata, en å och en gammal fabrik.
             Här äger du en liten klädbutik som heter`,
-            description2: `\n\n(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
-            Om fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
+            description2: `\n(uppkallad efter din favoritfärg och mest använda verktyg)\ndär du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.\n\nOm fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
             button: 'Starta äventyret',
             startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
           },
@@ -603,7 +602,7 @@ i18n
               },
             },
             statement2: {
-              prefix: 'Jag är medveten om och godkänner att mina spelresultat och informationen jag fyller i på den här hemsidan kommer att',
+              prefix: 'Jag är medveten om och godkänner att mina spelresultat och informationen jag anger på den här hemsidan kommer att',
               suffix: '. Informationen sparas i minst 10 år, och kan komma att användas för framtida studier.',
               options: {
                 storedDigitally: 'sparas digitalt',
@@ -612,7 +611,7 @@ i18n
               },
             },
             statement3: {
-              prefix: 'Jag kommer',
+              prefix: 'Jag lovar att',
               suffix: 'uppge några personliga uppgifter som mitt riktiga namn, mina kontaktuppgifter, eller någon annan identifierande eller känslig information.',
               options: {
                 not: 'inte',
@@ -671,7 +670,7 @@ i18n
                 primary: 'Grundskola',
                 secondary: 'Gymnasium',
                 folkHighSchool: 'Folkhögskola',
-                adultEducation: 'Vuxenutbildning/yrkesutbildning (Komvux)',
+                adultEducation: 'Vuxenutbildning (Komvux)',
                 university: 'Universitet eller högskola',
                 other: 'Annan',
               },
