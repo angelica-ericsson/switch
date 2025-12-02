@@ -550,14 +550,14 @@ i18n
             headline: 'Det här är Stenmarken.',
             description1: `En liten stad med en huvudgata, en å och en gammal fabrik.
             Här äger du en liten klädbutik som heter`,
-            description2: ` (efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
+            description2: `\n\n(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.
             Om fyra månader löper hyreskontraktet på butikslokalen ut, och för att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
-            button: 'Starta äventyret',
+            button: 'Uppfattat, nu kör vi!',
             startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
           },
           stockUp: {
             headline: 'Lagerbeställning',
-            buyHeadline: 'Hur mycket vill du köpa?',
+            buyHeadline: 'Hur många varor vill du köpa?',
             maxMessage: '(100 totalt)',
             maxError: 'Du kan bara köpa 100 varor totalt',
             button: 'Skicka beställning',
@@ -565,7 +565,7 @@ i18n
             inventoryEmpty: 'Tomt',
             eventTypeBuy: 'Köpt',
             eventTypeSell: 'Sålt',
-            eventTypeInitial: 'Ursprunglig lagerstatus',
+            eventTypeInitial: 'Urspr. lager',
             noDate: 'Inget datum',
             inStock: 'I lager',
           },
@@ -575,24 +575,24 @@ i18n
           },
           socialUsers: {
             wildertonwear_official: { name: 'Stenmarks Official', user: 'Stenmarks_official' },
-            wildertonwear_factory_union: { name: 'Facket Stenmarkens fabrik', user: 'Stenmarken_factory_union' },
+            wildertonwear_factory_union: { name: 'Stenmarksfabrikens fackförening', user: 'Stenmarks_factory_union' },
             joe_6000: { name: 'Josef Cassel', user: 'joe_6000' },
             wilhelmine_lillie: { name: 'Wilhelmina Lilja', user: 'wilhelmina_lilja' },
-            randy: { name: 'Robert Witting', user: 'robbie' },
+            randy: { name: 'Robin Witting', user: 'robbie' },
             Domenic71: { name: 'Dennis Lundin', user: 'Dennis71' },
             LLindström: { name: 'Liam Lindström', user: 'LLindström' },
             leta_54: { name: 'Meta Molin', user: 'meta_54' },
           },
           survey: {
             question1:
-              'Dina vänner samlas i din butik för att prata om vad som hänt, och vad som ska hända härnäst.\n\nDin bästa vän frågar vad du hade gjort annorlunda om du fått en chans till?',
-            question2: "Vad händer nu? Vilka andra lösningar hade du tänkt ut som du aldrig fick en chans att testa?",
+              'Dina vänner samlas i din butik för att prata om vad som hänt, och vad som kommer att hända.\n\nDin bästa vän frågar vad du hade gjort annorlunda om du fått en chans till?',
+            question2: "Vilka andra lösningar hade du tänkt ut som du aldrig fick en chans att testa?",
           },
           consent: {
             welcome: 'VÄLKOMMEN!',
-            instruction: 'Innan du spelar behöver du har läst och godkänt följande:',
+            instruction: 'Innan du spelar behöver du har läst och samtyckt till följande:',
             noConsentMessage1: "Synd att du inte samtycker. Är du helt säker på att du vill lämna spelet?",
-            noConsentMessage2: 'Trist att se dig lämna. Hoppas du hittar till ett gladare ställe...',
+            noConsentMessage2: 'Trist att se dig lämna. Hoppas du hittar till ett roligare ställe...',
             statement1: {
               prefix: "Jag förstår att det här spelet är en del av ett masteruppsatsprojekt vid Stockholms universitet som handlar om",
               suffix: 'som kommunikationskanaler.',
@@ -603,7 +603,7 @@ i18n
               },
             },
             statement2: {
-              prefix: 'Jag är medveten om och godkänner att mina spelresultat och all information jag fyller i på den här hemsidan kommer att',
+              prefix: 'Jag är medveten om och godkänner att mina spelresultat och informationen jag fyller i på den här hemsidan kommer att',
               suffix: '. Informationen sparas i minst 10 år, och kan komma att användas för framtida studier.',
               options: {
                 storedDigitally: 'sparas digitalt',
@@ -612,8 +612,8 @@ i18n
               },
             },
             statement3: {
-              prefix: 'Jag samtycker till att',
-              suffix: 'uppge några personliga uppgifter som mitt riktiga namn, mina kontaktuppgifter, någon annan identifierande information eller känslig information.',
+              prefix: 'Jag kommer',
+              suffix: 'uppge några personliga uppgifter som mitt riktiga namn, mina kontaktuppgifter, eller någon annan identifierande eller känslig information.',
               options: {
                 not: 'inte',
                 absolutelyNot: 'absolut inte',
@@ -631,7 +631,7 @@ i18n
               },
             },
             statement5: {
-              prefix: 'Jag förstår att om jag har frågor, synpunkter, eller vill veta mer om studieresultaten, kan jag kontakta',
+              prefix: 'Jag förstår att om jag har frågor, synpunkter eller vill veta mer om studieresultaten kan jag kontakta',
               suffix: '(se kontaktuppgifter nedan).',
               options: {
                 responsibleResearcher: 'ansvarig forskare',
@@ -647,12 +647,12 @@ i18n
               name: 'Angelica Ericsson:',
               email: 'aner5235@student.su.se',
             },
-            screenshot: 'Var snäll och ta en skärmbild av den här sidan utifall att du behöver kontakta forskaren senare.',
+            screenshot: 'Ta en skärmbild av den här sidan utifall att du behöver kontakta forskaren senare.',
           },
           demographic: {
             title: 'VEM ÄR DU?',
             instruction: 'Innan vi börjar, behöver vi veta lite mer om dig:',
-            tooYoung: 'Tyvärr, du behöver vara minst 18 år för att spela det här spelet. Gå ut och lek...',
+            tooYoung: 'Tyvärr behöver du vara minst 18 år för att spela det här spelet. Gå och lek nån annanstans...',
             birthYear: {
               label: 'Vilket år är du född?',
             },
@@ -671,7 +671,7 @@ i18n
                 primary: 'Grundskola',
                 secondary: 'Gymnasium',
                 folkHighSchool: 'Folkhögskola',
-                adultEducation: 'Vuxenutbildning (Komvux)',
+                adultEducation: 'Vuxenutbildning/yrkesutbildning (Komvux)',
                 university: 'Universitet eller högskola',
                 other: 'Annan',
               },
@@ -683,7 +683,7 @@ i18n
                 blogs: 'Bloggar',
                 magazines: 'Tidskrifter och magasin',
                 newspapers: 'Dagstidningar',
-                publicService: 'Public service / Nationell radio or TV',
+                publicService: 'Public service / Nationell radio eller TV',
                 socialMedia: 'Sociala medier',
                 websites: 'Hemsidor',
                 youtube: 'Youtube',
@@ -691,7 +691,7 @@ i18n
               },
             },
             electionIssues: {
-              title: 'Vilka av dessa frågor tycker du är viktigast inför nästa val',
+              title: 'Vilka av dessa frågor tycker du är viktigast inför nästa val?',
               description: 'Dra och släpp för att ranka dem, med de viktigaste frågorna längst upp.',
               options: {
                 healthcare: 'Sjukvården',
@@ -702,7 +702,7 @@ i18n
                 defense: 'Försvar och säkerhet',
                 elderlycare: 'Äldreomsorgen',
                 economy: 'Sveriges ekonomi',
-                employment: 'Arbetsmarknaden',
+                employment: 'Arbetslöshet/sysselsättning',
                 pensions: 'Pensioner',
               },
             },
@@ -712,7 +712,7 @@ i18n
               options: {
                 internetLink: 'Klickade på en länk på internet',
                 socialMediaLink: 'Klickade på en länk på sociala medier',
-                friend: 'Hörde talas om det från en vän',
+                friend: 'Fick tips av en vän',
                 poster: 'Såg en affisch',
                 gameSession: 'Anmälde mig till ett speltillfälle',
                 other: 'Annat',
