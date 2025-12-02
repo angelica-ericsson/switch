@@ -620,7 +620,7 @@ i18n
               },
             },
             statement2: {
-              prefix: 'Jag är medveten om och godkänner att mina spelresultat och informationen jag anger på den här hemsidan kommer att',
+              prefix: 'Jag är medveten om och godkänner att mina spelresultat och informationen jag anger kommer att',
               suffix: '. Informationen sparas i minst 10 år, och kan komma att användas för framtida studier.',
               options: {
                 storedDigitally: 'sparas digitalt',
@@ -668,7 +668,7 @@ i18n
           },
           demographic: {
             title: 'VEM ÄR DU?',
-            instruction: 'Innan vi börjar, behöver vi veta lite mer om dig:',
+            instruction: 'Innan vi börjar behöver vi veta lite mer om dig:',
             tooYoung: 'Tyvärr behöver du vara minst 18 år för att spela det här spelet. Gå och lek nån annanstans...',
             birthYear: {
               label: 'Vilket år är du född?',
@@ -758,12 +758,12 @@ i18n
           'B-newsFlash-body-Super_emitter':
             '<b>ÖVERSÄTT - WildertonWear has been emitting very high levels of carbon dioxide and methane gas into the atmosphere for the past decades. The pollution filtering systems have not been upgraded since the 1990s, and as a result, the company has been releasing more greenhouse gases into the atmosphere than all car traffic in the country during the same period.</b> For over a hundred years, the old brick factory walls and chimneys of WildertonWear have been rising over Wilderton. Many residents have seen generations of family members go to work at the factory - or worked there themselves - and all of us have an emotional relationship with the company that has been regarded as the financial backbone of the town for decades. So when the company management admitted to having financial difficulties a few years back, many residents stepped up to help by purchasing their products. And even though many have complained about the declining quality of the clothing items, the name WildertonWear has nonetheless been a source of pride for the community.  But when the Daily Times’ investigative journalism team decided to take a closer look, it found a darker side. The factory has been emitting very high levels of carbon dioxide and methane gas, relative to other factories of the same size and type. “We knew our emission filtering systems were not up to the current standard,” says a former employee who wishes to remain anonymous. “But we were told it couldn’t be fixed since we had to cut down on spending.”',
           'A-social-Tax_evasion-WTF':
-            'Vad i h-vete Stenmarks?! Vi fortsätter köpa era skitkvalitetsprodukter år efter år för att stötta, och vad fan får vi tillbaka?',
+            'Vad i h-vete Stenmarks?! Vi fortsätter köpa era skitkvalitets-produkter år efter år för att stötta, och vad fan får vi tillbaka?',
           'B-social-Super_emitter-WTF':
             'ÖVERSÄTT - Wtf WildertonWear?! We keep buying your cheap quality products year after year to support you, and in return you continue heating our planet?',
-          "AB-social-Let's_boycott": 'Nu räcker det, från och med nu bojkottar jag Stenmarks. Vem är på? #BojkottaStenis',
+          "AB-social-Let's_boycott": 'Nu räcker det, från och med nu bojkottar jag Stenmarks! Vem är på? #BojkottaStenis',
           'AB-scene-Stockup_1':
-            'Det är dags att fylla på lagret inför nästa månad, och du måste välja hur du ska fördela din beställning mellan varumärkena.\n\n Med tanke på sannolikheten för en bojkott, köper du samma antal Stenmarks-produkter som vanligt, eller byter du ut några mot ditt näst mest populära märke Blåställ?',
+            'Det är dags att fylla på lagret inför nästa månad, och du måste välja hur du ska fördela din beställning mellan varumärkena.\n\n Med tanke på sannolikheten för en bojkott, köper du samma antal produkter från Stenmarks som vanligt, eller byter du ut några mot ditt näst mest populära märke Blåställ?',
           "AB-scene-Let's_stock_up!": 'Fyll på lagret!',
           'AB-1_1-scene-ACT-Reaction_boycott':
             'Du gjorde rätt i att förutse en bojkott. Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nOch det gör också dina försäljningsinkomster.',
@@ -785,7 +785,7 @@ i18n
           'AB-1_2-option-WAIT-Business_is_business':
             'Affärer är affärer, inte politik. Trots bojkotten är Stenmarks fortfarande mitt mest sålda varumärke.',
           'A-1_2-scene-DELAY-Questions_from_customers':
-            'Vissa av dina kunder är glada att du fortsätter stödja Stenmarks, eftersom de är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen utnyttjar ortsbefolkningen.\n\nVad svarar du?',
+            'Vissa av dina kunder är glada att du fortsätter stödja Stenmarks, eftersom de är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen utnyttjar ortsbefolkningen?\n\nVad svarar du?',
           'B-1_2-scene-DELAY-Questions_from_customers':
             'ÖVERSÄTT - Some of your customers are happy that you’re still supporting WildertonWear, since it’s one of the town’s largest employers. Others are wondering how you can support a business that is clearly a big contributor to climate change. What do you tell them?',
           'AB-1_2-option-DELAY-Better_through_dialogue':
@@ -852,11 +852,11 @@ i18n
           'A-2_2-newsFlash-HL-Ignoring_health_regulations': 'STENMARKS BRYTER MOT ARBETSMILJÖREGLER',
           'B-2_2-newsFlash-HL-Ignoring_environmental_regulations': 'ÖVERSÄTT - WILDERTONWEAR IGNORES ENVIRONMENTAL REGULATIONS',
           'A-2_2-newsFlash-body-Ignoring_health_regulations':
-            '<b>Enligt en arbetsmiljöinspektör har den lokala klädtillverkaren Stenmarks har under lång tid brutit mot arbetsmiljöregler. År av försummat underhåll av säkerhets-utrustning har gjort att fabriksarbetarna har exponerats för farliga nivåer av industridamm och kemikaler.</b>\nIngen av våra läsare lär ha missat skattesmitningsskandalen kring den lokala klädtillverkaren Stenmarks under de senaste veckorna. Men företaget har fler mörka hemligheter. I en exklusiv intervju har Kvällsposten fått information om ett flertal brott mot hälso- och säkerhetsregler. Enligt en arbetsmiljöinspektör som vill förbli anonym har Stenmarks rutinmässigt ignorerat säkerhetsregler om tillåtna halter av industridamm och kemikalier. Säkerhetsutrustning som luftfilter och industrifläktar har inte underhållits eller bytts ut på flera år och erbjuder nu ett otillräckligt skydd. Enligt källan har Stenmarks medvetet utsatt sina arbetare för risker, och en följd av detta är att antalet cancerdiagnoser och luftvägssjukdomar bland arbetare på fabriken ökat kraftigt.',
+            '<b>Enligt en arbetsmiljöinspektör har den lokala klädtillverkaren Stenmarks under lång tid brutit mot arbetsmiljöregler. År av försummat underhåll av säkerhets-utrustning har gjort att fabriks-arbetarna har exponerats för farliga nivåer av industridamm och kemikaler.</b>\nIngen av våra läsare lär ha missat skattesmitningsskandalen kring den lokala klädtillverkaren Stenmarks under de senaste veckorna. Men företaget har fler mörka hemligheter. I en exklusiv intervju har Kvällsposten fått information om ett flertal brott mot hälso- och säkerhetsregler. Enligt en arbetsmiljöinspektör som vill förbli anonym har Stenmarks rutinmässigt ignorerat säkerhetsregler om tillåtna halter av industridamm och kemikalier. Säkerhetsutrustning som luftfilter och industrifläktar har inte underhållits eller bytts ut på flera år och erbjuder nu ett otillräckligt skydd. Enligt källan har Stenmarks medvetet utsatt sina arbetare för risker, och en följd av detta är att antalet cancerdiagnoser och luftvägs-sjukdomar bland arbetare på fabriken ökat kraftigt...',
           'B-2_2-newsFlash-body-Ignoring_environmental_regulations':
             '<b>ÖVERSÄTT - Local textile manufacturer WildertonWear has routinely disregarded environmental regulations, says environmental inspector. Years of neglected wastewater filtering system upgrades have resulted in dangerous chemicals being released in the Wilderton River.</b> None of our readers is likely to have missed the emissions scandal around local textile manufacturer WildertonWear lately. But the company has more dark secrets; in an exclusive interview, the Daily Times has gained information about multiple breaches of environmental regulations. According to an environmental inspector, who wishes to remain anonymous, WildertonWear has routinely ignored environmental regulations about permissible levels of chemicals in wastewater. Wastewater filtering equipment has not been upgraded for years and currently provides insufficient protection. According to the source, WildertonWear has knowingly put the local environment and its residents at risk of being exposed to dangerous chemicals, and as a result, there has been an increase in cancer diagnoses and respiratory diseases in Wilderton.',
           'A-2_3-social-Going_on_strike':
-            'Klockan 12 idag inleder 34 av våra medlemmar en strejk. Efter gårdagens avslöjande att Stenmarks bryter mot arbetsmiljöregelverket kräver vi förbättrat skydd för våra arbetare!',
+            'Klockan 12 idag inleder 34 av våra medlemmar en strejk. Efter gårdagens avslöjande att Stenmarks bryter mot arbetsmiljö-regelverket kräver vi förbättrat skydd för våra arbetare!',
           'B-2_3-social-Going_on_strike':
             'ÖVERSÄTT - From 12:00 today, 34 of our members will go on a strike. Following yesterday’s disclosure regarding WildertonWear’s environmental regulation breaches, we demand proper pollution and wastewater management systems so that we and our community can feel safe!',
           'AB-2_4-scene-ACT-Local_meeting_point':
@@ -873,7 +873,7 @@ i18n
           'AB-2_4--scene-DELAY-Local_meeting_point':
             'Det här var inte bra. Nu blir det mycket svårare att övertyga ortsborna om att stötta Stenmarks.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som stödjer fabriken, och tillsammans diskuterar ni nästa steg. Vad föreslår du?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
-            'Den där intervjun är skum, vi borde skriva en insändare i tidningen för att ifrågasätta de här påståendena.',
+            'Intervjun är skum, vi borde skriva en insändare i tidningen för att ifrågasätta påståendena.',
           'AB-2_5-scene-ACT-Demonstration_successful': 'Demonstrationen blev en framgång, hundratals ortsbor dök upp! Stenmarks verkar till och med ha blivit nervösa...',
           'AB-2_5-scene-ACT-Posters_have_effect': 'Affischerna verkar ha effekt, antalet som bojkottar växer varje vecka! Stenmarks ser sig tvungna att svara...',
           'AB-2_5-scene-WAIT-Declined_invitation':
@@ -881,7 +881,7 @@ i18n
           'AB-2_5-scene-DELAY-Small_but_loud':
             'Demonstrationen är liten med högljudd, och tack vare en vän på lokaltidningen får ni mycket pressuppmärksamhet. Stenmarks verkar också ha inspirerats...',
           'AB-2_5-scene-DELAY-Confront_rumours':
-            'Ett mycket bra val! Dina ansträngningar med att konfrontera de där skadliga rykterna verkar fungera!\n\nDet verkar till och med som att Stenmarks själva inspirerats av er strategi...',
+            'Ett mycket bra val!\n\nDina ansträngningar med att konfrontera de där skadliga rykterna verkar fungera. Det verkar till och med som att Stenmarks själva inspirerats av er strategi...',
           'A-2_6-social-Independent_audit':
             'På Stenmarks prioriterar vi våra medarbetares hälsa och säkerhet över allt annat. Vi har därför anlitat ett oberoende företag, Investiga, för att granska arbetsförhållandena.',
           'B-2_6-social-Independent_audit':
@@ -895,7 +895,7 @@ i18n
             'Låt er inte luras - Stenmarks BETALAR för granskningen, vad tror ni att dom kommer att hitta?',
           'AB-2_7-social-ACT-What-happened-to_boycott':
             'Hallå, vad hände med bojkotten? Är jag den enda som fortfarande låter bli att köpa Stenmarks? #BojkottaStenis',
-          'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa på butiksdisken och uppmuntra kunder att stödja kampen ekonomiskt.',
+          'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa och be kunder att stötta kampen ekonomiskt.',
           'AB-2_8-scene-DELAY-Business_owner':
             'Inspirerad av de senaste händelserna diskuterar du med vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks för att öka försäljningen.',
@@ -945,14 +945,14 @@ i18n
           'AB-3_2-social-DELAY-Loyal_customers':
             'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt ändå?',
           'AB-3_3-scene-DELAY-Mod-Long_term':
-            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar. Hur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
+          'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nHur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-option-WAIT/DELAY-WW_day':
             'Organisera en dag med konserter och familjeaktiviteter för att samla in pengar till fabriken.',
           'AB-3_3-option-DELAY-Invite_interest_groups': 'Bjuda in lokala intressegrupper att ge förslag på hur jobben kan räddas.',
           'A-3_3-option-DELAY-Local_producer': 'Övertyga en lokal tillverkare av luftfilter att donera säkerhetsutrustning till fabriken.',
           'B-3_3-option-DELAY-Local_producer': 'ÖVERSÄTT - Convince a local producer of pollution filters to donate equipment to the factory.',
           'AB-3_3-scene-DELAY-Rad-Long_term':
-            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar. Hur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb',
+            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nHur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-scene-ACT-How_to_thrive':
             'Folk är oroliga, och du inser att ni behöver prata om hur Stenmarken kan blomstra även om fabriken stänger. Vad kan ni göra för att stan lättare ska kunna hantera förändring?',
           'AB-3_3-option-ACT-Community_day':
@@ -967,7 +967,7 @@ i18n
           'AB-3_4-scene-ACT-Mod-Suggestions':
             'Wow, vilken succé! På bara två veckor fick ni in 124 olika förslag från lokala intressegrupper!\n\nNu kommer ni att välja ut de bästa förslagen och ta upp dem på nästa kommunfullmäktigemöte.',
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
-            'Du kontaktar några olika tillverkare av säkerhetsutrustning och hittar en som är beredd att donera.\n\nTyvärr är den nödvändiga utrustningen tillfälligt slut på grund av stor beställning. Tillverkaren lovar att återkomma så snart du kan hämta utrustningen.',
+            'Du kontaktar några olika tillverkare av säkerhetsutrustning och hittar en som är beredd att donera utrustning.\n\nTyvärr är den nödvändiga utrustningen tillfälligt slut på grund av stor beställning. Tillverkaren lovar att återkomma så snart du kan hämta utrustningen.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
             'ÖVERSÄTT - You contact a few wastewater filtering system producers and find one that is willing to donate filters. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'AB-3_4_scene-DELAY-Mod-Suggestions':
@@ -978,21 +978,21 @@ i18n
             'Insamlingen tar fart direkt, eftersom många ortsbor vill hjälpa arbetarna även om de inte alltid gillar deras arbetsgivare.',
           'AB-3_5-scene-Stockup_4':
             'Den här veckan bubblar stan av diskussioner. Imorgon släpps resultatrapporten från granskningen, och alla spekulerar om vad den kan innehålla.\n\nOturligt nog måste du skicka in lagerbeställningen för nästa månad senast idag. Hur delar du upp beställningen mellan märkena den här gången?',
-          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'GRANSKNING VISAR: STENMARKS IGNORERADE VARNINGAR',
+          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'GRANSKNING VISAR:\nSTENMARKS IGNORERADE VARNINGAR',
           'A-4_1-newsFlash-body-ACT-WW_ignored_warnings':
-            '<b>I en uppmärksammad rapport som släpptes igår av granskningsföretaget Investiga avslöjas att Stenmarks varnats ett flertal gånger om säkerhetsbristerna utan att agera. Till följd av rapporten meddelade tre av landets största detaljhandelskedjor att de slutar sälja Stenmarks produkter.</b>\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta göra så som ett resultat av granskningsrapporten. Enligt källor har bojkotten tagit fart igen, och de strejkande arbetarna är mer beslutsamma än någonsin att fortsätta strejka tills företaget uppgraderar sin säkerhetsutrustning.',
+            '<b>I en uppmärksammad rapport som släpptes igår av gransknings-företaget Investiga avslöjas att Stenmarks varnats ett flertal gånger om säkerhetsbristerna utan att agera. Till följd av rapporten meddelade tre av landets största detaljhandelskedjor att de slutar sälja Stenmarks produkter.</b>\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta göra så som ett resultat av granskningsrapporten. Enligt källor har bojkotten tagit fart igen, och de strejkande arbetarna är mer beslutsamma än någonsin att fortsätta strejka tills företaget uppgraderar sin säkerhetsutrustning.',
           'B-4_1-newsFlash-body-ACT-WW-ignored_warnings':
             '<b>ÖVERSÄTT - A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b> “This is a nightmare,” says an anonymous representative of WildertonWear. “We have not done anything wrong.” The discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company upgrades its filtering systems.',
           'AB-4_1-newsFlash-DELAY-body-WW_ignored_warnings':
-            '<b>I en uppmärksammad rapport som släpptes igår av granskningsföretaget Investiga avslöjas att Stenmarks varnats ett flertal gånger utan att agera.</b>\n\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta som ett resultat av granskningsrapporten. Men trots en utbredd frustration över Stenmarks agerande har Stenmarks fortfarande mycket stöd i samhället på grund av sin långa historia.',
+            '<b>I en uppmärksammad rapport som släpptes igår av gransknings-företaget Investiga avslöjas att Stenmarks varnats ett flertal gånger utan att agera.</b>\n-Det här är en mardröm, säger en anställd på Stenmarks som vill förbli anonym. Vi har inte gjort något fel.\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta som ett resultat av granskningsrapporten. Men trots en utbredd frustration över Stenmarks agerande har Stenmarks fortfarande mycket stöd i samhället på grund av sin långa historia.',
           'AB-4_2-social-ACT-Still_on_a_strike':
             'Det har gått två månader, och kampen fortsätter. Så stolta över våra strejkande medlemmar, framför allt efter de senaste nyheterna om att Stenmarks ignorerat varningar.',
           'AB-4_2-social-ACT-Another_push': 'Precis som vi trodde... Kom igen nu, det är dags att pusha företaget lite till! #BojkottaStenis',
           'AB-4_2-social-ACT-Out_of_this_mess':'Hur kommer vi ur den här soppan? Snälla, kan nån komma på en mer långsiktig plan!',
           'AB-4_2-social-DELAY-2_months_banner': 'Om någon saknar "2 månaders strejk"-banderollen så befinner sig den I SOPORNA!',
           'AB-4_2-social-DELAY-148_yrs_of_history':
-            'Vad i h-vete, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? 148 års historia upp i rök?',
-          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för en ny push! #StödStenis',
+            'Fan också, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? 148 års historia upp i rök?',
+          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för en till push! #StödStenis',
           'AB-4_3-scene-Council_vote_suggestions':
             'Det är dags kommunfullmäktigemöte igen, och den här gången har du med dig tre förslag från lokala intressegrupper.\n\nVilket förslag vill du ge lite extra stöd?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
@@ -1001,7 +1001,7 @@ i18n
           'B-4_3-option-DELAY-Rad-Relax_environmental_regulations':
             'ÖVERSÄTT- Lobby national authorities to relax environmental regulations to help WildertonWear recover.',
           'A-4_3-option-DELAY-Rad/Mod-Relax_safety_regulations':
-            'Lobba för att myndigheterna ska sänka säkerhetskraven för att hjälpa Stenmarks att återhämta sig.',
+            'Lobba för att myndigheterna ska sänka säkerhetskraven så att Stenmarks kan återhämta sig.',
           'AB-4_3-option-ACT-Rad/Mod-Universal_basic_income':
             'Inför medborgarlön, så att arbetarna har råd att sluta på Stenmarks om de vill.',
           'AB-4_3-option-ACT-Evening_classes': 'Sponsra kvällskurser för fabriksarbetare som vill lära sig ett nytt yrke.',
@@ -1016,7 +1016,7 @@ i18n
           'AB-4_4-scene-DELAY-ModMod-Attract_companies':
             'Sådärja! Fullmäktige beslutade om att starta en grupp som kan skissa på ett förslag med fördelaktiga villkor och billiga hyreskontrakt, och boka möten med företag som funderar på att flytta till Stenmarken.',
           'A-4_4-scene-DELAY-Rad-Relax_safety_regulations':
-            'Det ser ut som att alla ansträngningar kommer att löna sig! Efter veckor av hemliga luncher, gemensamma möten, topphemliga diskussioner och medverkan på myndighetens planeringsmöte verkar allt till sut falla på plats. Du får signaler om att det kan gå att ordna så att Stenmarks undantas från säkerhetsreglerna, som en engångslösning för att rädda den kritiska verksamheten.',
+            'Det ser ut som att alla ansträngningar kommer att löna sig! Efter veckor av hemliga luncher, gemensamma möten, topphemliga diskussioner och medverkan på myndighetens planeringsmöte verkar allt till sut falla på plats.\n\nDu får signaler om att det kan gå att ordna så att Stenmarks undantas från säkerhetsreglerna, som en engångslösning för att rädda den kritiska verksamheten.',
           'B-4_4-scene-DELAY-Rad-Relax_environmental_regulations':
             'ÖVERSÄTT - Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place. You are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.',
           'AB-4_4-scene-ACT-Rad-Universal_basic_income':
@@ -1035,7 +1035,7 @@ i18n
           'B-5_1-newsFlash-body-DELAY-ModMod-Factory_closing':
             '<b>ÖVERSÄTT - After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job, but hopefully the campaign to bring in new companies will lead to more jobs.”',
           'A-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
-            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta säkerhetskraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades runt lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n-Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är övertygad om att företaget kunde ha löst det om de fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbar här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta.',
+            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta säkerhetskraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades runt lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n\n-Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är övertygad om att företaget kunde ha löst det om de fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbar här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta...',
           'B-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
             '<b>ÖVERSÄTT - After months of strikes and boycotts, the WildertonWear management announced yesterday that the company will be closing. The relaxed environmental regulations came too late, and with the tough financial situation, decreased production due to the strikes, and high costs for system upgrades, it was simply too much for the company.</b> It is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton. “It’s frustrating,” says Simon Grady, a former employee who passes by to collect his things. “I get that people are angry because of the environmental breaches, but I’m sure the company could have fixed it with some more time. This place has such a long tradition - I am the fourth generation of family members working here - and closing it down will change the entire community. And I’m worried about getting a new job; maybe I’ll have to move.”',
           'A-5_1-newsFlash-body-DELAY-Mod-Factory_closing':
@@ -1069,10 +1069,10 @@ i18n
             '<b>Bara två år efter öppnandet, vinner det nya Stenmarkscentret det eftertraktade priset för “Bästa mötesplats”. Juryn var väldigt imponerad av hur den gamla fabriken har förvandlats till en levande, blomstrande gemenskap utan att förlora sina historiska rötter.</b>\nDet har gått två år sedan Stenmarksfabriken tvingandes lägga ner. De gamla fabriksbyggnaderna i tegel är kvar, men i stället för dånande maskiner hörs nu musik, konversationer och skratt. De stora hallarna har förvandlats till en mötesplats för hela samhället med öppna verkstäder, mötesrum för lokala organisationer, en liten second handbutik och ett populärt kafé. De flesta av de tidigare arbetarna på fabriken har fått nya jobb i sömnadsateljén, i verkstäderna, eller hos Blåställ i grannstaden. Och ortsborna älskar sitt nya mötescenter, under de senaste månaderna har antalet besök stadigt ökat.',
           'AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived': 'STENMARKSFABRIKEN ÖPPNAR I NY FORM',
           'A-5_3-newsFlash-body-DELAY-Rad-Factory_revived':
-            '<b>När strejker och skatteproblem tvingade Stenmarksfabriken att stänga, antog många ortsbor att det var slutet på en lång historia av tillverkning. Men lagom till 150-årsjubileet kan fabriken komma att återuppstå i en ny form.</b>\nDe gamla fabriksbyggnaderna finns kvar, men istället för dånande maskiner ekar nu ljuden av fåglar genom de stora hallarna. Efter två års förhandlingar har kommunen till slut hittat ett tillverkningsföretag som överväger att öppna fabrik i Stenmarken. Elisabet Källgren, ansvarig för projektet, är hoppfull.\n-Vi har haft några mycket positiva inledande förhandlingar med tillverkaren, och vi tror att det kommer att leda till många nya jobb. När fabriken stängde, tvingandes många av dess tidigare arbetare att leta efter nya jobb. Några har anställts av Blåställ eller öppnat eget, medan andra flyttat eller fortfarande letar nytt jobb. Många butiksägare och restauranger upplevde minskade vinster när många tvingades flytta, och de hoppas nu också att ett nytt företag kommer att innebära nya affärsmöjligheter.',
+            '<b>När strejker och skatteproblem tvingade Stenmarksfabriken att stänga, antog många ortsbor att det var slutet på en lång historia av tillverkning. Men lagom till 150-årsjubileet kan fabriken komma att återuppstå i en ny form.</b>\nDe gamla fabriksbyggnaderna finns kvar, men istället för dånande maskiner ekar nu ljuden av fåglar genom de stora hallarna. Efter två års förhandlingar har kommunen till slut hittat ett tillverkningsföretag som överväger att öppna fabrik i Stenmarken.\nElisabet Källgren, ansvarig för projektet, är hoppfull.\n-Vi har haft några mycket positiva inledande förhandlingar med tillverkaren, och vi tror att det kommer att leda till många nya jobb. När fabriken stängde, tvingandes många av dess tidigare arbetare att leta efter nya jobb. Några har anställts av Blåställ eller öppnat eget, medan andra flyttat eller fortfarande letar nytt jobb. Många butiksägare och restauranger upplevde minskade vinster när många tvingades flytta, och de hoppas nu också att ett nytt företag kommer att innebära nya affärsmöjligheter...',
           'B-5_3-newsFlash-body-DELAY-Rad_Factory_revived':
             '<b>ÖVERSÄTT- When strikes forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b> The old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful. “We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.',
-          'end-headline': 'THE END',
+          'end-headline': 'SLUT',
           'end-ACT-Rad':
             'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare dina visioner och vilda idéer, har du och dina vänner förvandlat en potentiell katastrof till en nystart för hela samhället!',
           'end-ACT-Mod':
