@@ -20,8 +20,8 @@ i18n
           continue: 'Continue',
           welcome: {
             headline: 'Welcome to Wilderton',
-            description1: `It's a small town with a main street, a river, and an old factory.\n\nHere you own a little clothing shop called`,
-            description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear. You sell around 100 items per month.\n\nIn four months, the lease of your shop space will expire, and to be able to extend it you need to sell at least 50 clothing items per month.`,
+            description1: `It's a small town with a main street, a river, and an old factory.\nHere you own a little clothing shop called`,
+            description2: ` (named after your favourite colour and most used tool) where you sell traditional workwear, like overalls, jackets and boots. You sell around 100 items per month.\n\nIn four months, the lease of your shop space will expire. To be able to extend it you need to sell roughly 50 clothing items per month.`,
             button: 'Start the adventure',
             startScreenSubtitle: 'Can you balance your budget on a social tipping point?',
           },
@@ -558,7 +558,7 @@ i18n
             headline: 'Det här är Stenmarken.',
             description1: `Det är en liten stad med en huvudgata, en å och en gammal fabrik.
             Här äger du en liten klädbutik som heter`,
-            description2: `(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder. Du säljer ungefär 100 produkter per månad.\n\nOm fyra månader löper hyreskontraktet på butikslokalen ut. För att ha råd att förlänga det behöver du sälja åtminstone 50 plagg varje månad.`,
+            description2: `(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder som overaller, jackor och kängor. Du säljer ungefär 100 produkter per månad.\n\nOm fyra månader löper hyreskontraktet på butikslokalen ut. För att ha råd att förlänga det behöver du sälja ungefär 50 plagg varje månad.`,
             button: 'Starta äventyret',
             startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
           },
