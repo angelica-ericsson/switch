@@ -71,6 +71,8 @@ export function EndScreen({ node }: EndScreenProps) {
       .catch((error) => {
         console.error('Failed to submit game data to Supabase:', error);
       });
+
+    window.umami.track('game-end');
   }, [node.id]);
 
   return (

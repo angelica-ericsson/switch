@@ -13,6 +13,7 @@ export function StartScreen() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    window.umami.track('screen:start:button');
     const form = e.currentTarget;
     if (form.checkValidity()) {
       moveForward('default');

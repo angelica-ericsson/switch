@@ -76,6 +76,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
     // Move forward with 'default' direction
     moveForward('default');
+    window.umami.track('screen:stockUp:button', { eventId: node.data.eventId ?? node.id });
   };
 
   return (

@@ -21,6 +21,7 @@ function Index() {
   const isDemoValid = useDemographicStore((state) => state.validate);
 
   const handleStartGame = () => {
+    window.umami.track('page:index:startbutton');
     if (isConsentValid() && isDemoValid()) {
       navigate({ to: '/game' });
     } else {

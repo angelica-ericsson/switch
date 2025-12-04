@@ -3,6 +3,7 @@ import { useLocalStorage } from 'usehooks-ts';
 import type { Edge, Node } from '@xyflow/react';
 import game from '../../game-files/game.json';
 import { generateGameNodeGraph, useGameState } from './state';
+import { useDemographicStore } from '../onboarding/demographicStore';
 
 /**
  * Custom hook to initialize the game from URL parameters or defaults.
@@ -53,6 +54,9 @@ export function useInitializeGame() {
     setCurrentNode(startNode);
     setGameState({ gameVariant: variant, isInitialized: true });
     persistGameVariant(variant);
+
+    const demographicData = useDemographicStore.getState();
+    window.umami.identify(demographicData.sessionId, { variant });
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInitialized]);
