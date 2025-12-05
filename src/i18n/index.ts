@@ -897,7 +897,7 @@ i18n
             'Hallå, vad hände med bojkotten? Är jag den enda som fortfarande låter bli att köpa Stenmarks? #BojkottaStenis',
           'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa och be kunderna att stötta kampen ekonomiskt.',
           'AB-2_8-scene-DELAY-Business_owner':
-            'Inspirerad av de senaste händelserna diskuterar du med vänner vad du som butiksägare kan göra för att stötta?',
+            'Inspirerad av de senaste händelserna diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks produkter för att öka försäljningen.',
           'AB-2_8-option-DELAY-Call_resellers-to-support':
             'Ringa andra återförsäljare av Stenmarks produkter och övertala dem att stötta företaget.',
@@ -952,7 +952,7 @@ i18n
           'A-3_3-option-DELAY-Local_producer': 'Övertyga en lokal tillverkare av luftfilter att donera säkerhetsutrustning till fabriken.',
           'B-3_3-option-DELAY-Local_producer': 'Övertyga en lokal tillverkare av utsläppsfilter att skänka utrustning till fabriken.',
           'AB-3_3-scene-DELAY-Rad-Long_term':
-            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nHur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
+            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nVad kan ni göra för att få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-scene-ACT-How_to_thrive':
             'Folk är oroliga, och du inser att ni behöver prata om hur Stenmarken kan blomstra även om fabriken stänger.\n\nVad kan ni göra för att orten lättare ska kunna hantera förändring?',
           'AB-3_3-option-ACT-Community_day':
@@ -967,7 +967,7 @@ i18n
           'AB-3_4-scene-ACT-Mod-Suggestions':
             'Wow, vilken succé! På bara två veckor fick ni in 124 olika förslag från lokala intressegrupper.\n\nNu kommer ni att välja ut de bästa förslagen och ta upp dem på nästa kommunfullmäktigemöte.',
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
-            'Du kontaktar några olika tillverkare av säkerhetsutrustning och hittar en som är beredd att skänka produkter till fabriken.\n\nTyvärr är den nödvändiga utrustningen tillfälligt slut på grund av stor beställning, men tillverkaren lovar att återkomma så snart utrustningen är redo att hämtas.',
+            'Du kontaktar några olika tillverkare av säkerhetsutrustning och hittar en som är beredd att skänka produkter till fabriken.\n\nTyvärr är den nödvändiga utrustningen tillfälligt slut på grund av en stor beställning, men tillverkaren lovar att återkomma så snart utrustningen är redo att hämtas.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
             'Du kontaktar några olika tillverkare av utsläppsfilter och hittar en som är villig att skänka utrustning till fabriken.\n\nTyvärr är de nödvändiga filtren tillfälligt slut på grund av en stor beställning, men tillverkaren lovar att återkomma så snart de är redo att hämtas.',
           'AB-3_4_scene-DELAY-Mod-Suggestions':
@@ -1008,7 +1008,7 @@ i18n
           'AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop':
             'Finansiera en sömnadsateljé där arbetarna kan få jobb om fabriken stänger.',
           'AB-4_4-scene-DELAY-Mod-Local_sponsor':
-            'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen.Sponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare.\n\nDu är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
+            'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen. Sponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare.\n\nDu är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
           'AB-4_4-scene-ACT-ModMod-Clothing_repair_shop':
             'Sådärja!\n\nFörslaget om att finansiera en sömnadsateljé för att laga och sy om kläder gick igenom. Det kommer inte bara att skapa nya jobb utan också förlänga livstiden på Stenmarks produkter.',
           'AB-4_4-scene-ACT-Mod-Evening_classes':
@@ -1035,7 +1035,7 @@ i18n
           'B-5_1-newsFlash-body-DELAY-ModMod-Factory_closing':
             '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. En tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga kostnader för systemunderhåll blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre fabrikens ljud genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över miljöbristerna, men jag är säker på att företaget kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är den fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och så är jag orolig över hur jag ska hitta ett nytt jobb, men förhoppningsvis kommer kampanjen för att locka hit nya företag att leda till fler jobb.',
           'A-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
-            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta säkerhetskraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är övertygad om att företaget kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta.',
+            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta säkerhetskraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är övertygad om att Stenmarks kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta.',
           'B-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
             '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta miljökraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga kostnader för systemunderhåll blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över miljöbristerna, men jag är övertygad om att företaget kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta.',
           'A-5_1-newsFlash-body-DELAY-Mod-Factory_closing':
