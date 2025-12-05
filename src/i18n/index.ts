@@ -785,7 +785,7 @@ i18n
           'AB-1_2-option-WAIT-Business_is_business':
             'Affärer är affärer, inte politik. Trots bojkotten är Stenmarks fortfarande mitt mest sålda varumärke.',
           'A-1_2-scene-DELAY-Questions_from_customers':
-            'Vissa av dina kunder är glada att du fortsätter stödja Stenmarks, eftersom de är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen utnyttjar ortsbefolkningen?\n\nVad svarar du?',
+            'Vissa av dina kunder är glada att du fortsätter stödja Stenmarks, eftersom det är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen utnyttjar ortsbefolkningen.\n\nVad svarar du?',
           'B-1_2-scene-DELAY-Questions_from_customers':
             'Vissa av dina kunder är glada att du fortsätter att stödja Stenmarks, eftersom de är en av ortens största arbetsgivare. Andra undrar hur du kan stötta en verksamhet som uppenbarligen bidrar till klimatförändringen.\n\nVad svarar du?',
           'AB-1_2-option-DELAY-Better_through_dialogue':
@@ -866,12 +866,12 @@ i18n
           'AB-2_4-option-ACT/WAIT-Put_up_posters': 'Sätta upp affischer och dela ut flygblad för att få fler att gå med i bojkotten.',
           'AB-2_4-option-ACT-Have_a_dialogue': 'Ha en dialog med företaget - konsumentkraft kommer förmodligen inte räcka hela vägen.',
           'AB-2_4-scene-WAIT-Local_meeting_point':
-            'Det här var inte bra. Nu måste du fundera på om du kan fortsätta stödja Stenmarks eller inte.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som vill diskutera frågan, och tillsammans diskuterar ni vad som bör göras. Vad föreslår du?',
+            'Det här var inte bra. Nu måste du fundera på om du kan fortsätta stödja Stenmarks eller inte.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötespunkt för de som vill diskutera frågan, och tillsammans diskuterar ni vad som bör göras. Vad föreslår du?',
           'AB-2_4-option-WAIT/DELAY-Have a dialogue': 'Ha en dialog med företaget för att övertala dem att åtgärda bristerna.',
           'AB-2_4-option-WAIT/DELAY-Astroturf':
             'Samla vänner och andra återförsäljare för att demonstrera till stöd för den gamla fabriken.',
           'AB-2_4--scene-DELAY-Local_meeting_point':
-            'Det här var inte bra. Nu blir det mycket svårare att övertyga ortsborna om att stötta Stenmarks.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som stödjer fabriken, och tillsammans diskuterar ni nästa steg. Vad föreslår du?',
+            'Det här var inte bra. Nu blir det mycket svårare att övertyga ortsborna om att stötta Stenmarks.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötespunkt för de som stödjer fabriken, och tillsammans diskuterar ni nästa steg. Vad tycker du att ni borde göra?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
             'Intervjun är skum, vi borde skriva en insändare i tidningen för att ifrågasätta påståendena.',
           'AB-2_5-scene-ACT-Demonstration_successful': 'Demonstrationen blev en framgång, hundratals ortsbor dök upp!\n\n Stenmarks verkar ha blivit nervösa...',
@@ -898,7 +898,7 @@ i18n
           'AB-2_8-option-Collection_box': 'Ställa fram en insamlingsbössa och be kunderna att stötta kampen ekonomiskt.',
           'AB-2_8-scene-DELAY-Business_owner':
             'Inspirerad av de senaste händelserna diskuterar du med vänner vad du som butiksägare kan göra för att stötta?',
-          'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks för att öka försäljningen.',
+          'AB-2_8-option-DELAY-Discount-WildertonWear': 'Sänka priset på Stenmarks produkter för att öka försäljningen.',
           'AB-2_8-option-DELAY-Call_resellers-to-support':
             'Ringa andra återförsäljare av Stenmarks produkter och övertala dem att stötta företaget.',
           'AB-2_8-scene-ACT-Business_owner': 'Tillsammans med vänner diskuterar du vad du som butiksägare kan göra för att stötta?',
@@ -909,7 +909,7 @@ i18n
           'AB-2_8-scene-WAIT-Business_owner':
             'Under tiden diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_9-scene-DELAY-Mod-Stockup_3':
-            'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder!\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
+            'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-DELAY-Rad-Stockup_3':
             'Puh, det var mycket jobb! Men det verkar löna sig. Alla återförsäljare är inte beredda att stötta Stenmarks, men du övertygade tillräckligt många för att öka företagets försäljning.\n\nDet är dags att fylla på lagren inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-WAIT-Stockup_3':
@@ -937,7 +937,7 @@ i18n
           'AB-3_2-social-ACT-What_alternatives':
             'Jag fattar grejen med att bojkotta för att förändra, men vad har vi för alternativ om fabriken går omkull?',
           'AB-3_2-social-DELAY-Brute_consumer_force':
-            'Jag är inte övertygad om att rå konsumentkraft är ett konstruktivt sätt att skapa förändring, men hur kan vi annars få Stenmarks att fatta hur allvarligt det här är?',
+            'Inte övertygad om att rå konsumentkraft är ett konstruktivt sätt att skapa förändring, men hur kan vi annars få Stenmarks att fatta hur allvarligt det här är?',
           "A-3_2-social-DELAY-Can't_let_them_get_away":
             'Jag vet hur viktig Stenmarks är för stans historia, men vi kan inte låta dem komma undan med att utsätta sina arbetare för allvarliga risker!',
           "B-3_2-social-DELAY-Can't_let_them_get_away":
@@ -945,7 +945,7 @@ i18n
           'AB-3_2-social-DELAY-Loyal_customers':
             'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt också?',
           'AB-3_3-scene-DELAY-Mod-Long_term':
-          'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nHur kan ni få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
+          'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nVad kan ni göra för att få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-option-WAIT/DELAY-WW_day':
             'Organisera en dag med konserter och familjeaktiviteter för att samla in pengar till fabriken.',
           'AB-3_3-option-DELAY-Invite_interest_groups': 'Bjuda in lokala intressegrupper att ge förslag på hur jobben kan räddas.',
@@ -973,7 +973,7 @@ i18n
           'AB-3_4_scene-DELAY-Mod-Suggestions':
             'Wow, vilken succé! På bara två veckor tog ni emot 119 förslag från lokala intressegrupper!\n\nNu kommer ni att välja ut de bästa och ta upp dem på nästa kommunfullmäktigemöte.',
           'AB-3_4-scene-DELAY-ModMod-WW_day':
-            'Stenmarksdagen blir en succé, och samlar en stor grupp ortsbor: barnfamiljer, pensionärer, entusiastiska tonåringar och engagerade par. Tillsammans samlar ni in ett stort belopp till fabriken!',
+            'Stenmarksdagen blir en succé, och samlar en stor grupp ortsbor: barnfamiljer, pensionärer, entusiastiska tonåringar och engagerade par.\n\nTillsammans samlar ni in ett stort belopp till fabriken!',
           'AB-3_4-scene-ACT-ModMod-Collection':
             'Insamlingen tar fart direkt, eftersom många ortsbor vill hjälpa arbetarna även om de inte alltid gillar deras arbetsgivare.',
           'AB-3_5-scene-Stockup_4':
@@ -1008,7 +1008,7 @@ i18n
           'AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop':
             'Finansiera en sömnadsateljé där arbetarna kan få jobb om fabriken stänger.',
           'AB-4_4-scene-DELAY-Mod-Local_sponsor':
-            'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen.\n\nSponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare. Du är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
+            'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen.Sponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare.\n\nDu är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
           'AB-4_4-scene-ACT-ModMod-Clothing_repair_shop':
             'Sådärja!\n\nFörslaget om att finansiera en sömnadsateljé för att laga och sy om kläder gick igenom. Det kommer inte bara att skapa nya jobb utan också förlänga livstiden på Stenmarks produkter.',
           'AB-4_4-scene-ACT-Mod-Evening_classes':
@@ -1058,9 +1058,9 @@ i18n
           'AB-5_3-newsFlash-HL-ACT-ModMod-Community_centre_2_yrs': 'MÖTESPLATS FYLLER TVÅ ÅR',
           'AB-5_3-newsFlash-body-ACT-ModMod-Community_centre_2_yrs':
             '<b>Stenmarkens gamla fabriks historia kunde ha tagit slut när företaget Stenmarks slog igen. Men istället firar det nu två år som mötesplats med kontorskollektiv, kafé och gym.</b>\nTack vare en grupp entusiaster firar den historiska Stenmarkenfabriken sitt 150-årsjubileum med en nypremiär. De gamla fabriksbyggnaderna är fortfarande kvar, men istället för dånande maskiner hörs nu dämpade konversationer och klickandet av datortangenter. De stora hallarna har förvandlats till ett kontorskollektiv, ett populärt kafé och ett gym.\nDe flesta av de tidigare fabriksarbetarna har hittat nya jobb. Några har öppnat nya skräddeributiker i orten, andra har anställts av Blåställ, och några har tagit tillfälliga jobb medan de letar efter nya möjligheter.',
-          'AB-5_3-newsFlash-HL-DELAY-Mod-Coworking_space': 'STENMARKENS FABRIK BLIR KONTORKOLLEKTIV',
+          'AB-5_3-newsFlash-HL-DELAY-Mod-Coworking_space': 'STENMARKENS FABRIK BLIR KONTORSKOLLEKTIV',
           'AB-5_3-newsFlash-body-DELAY-Mod-Coworking_space':
-            '<b>När maskinerna på Stenmarks fabrik stannade, antog många ortsbor att det skulle bli slutet på en lång historia. Men lagom till 150-årsjubileet upplever fabriken en nypremiär.</b>\nDe gamla fabriksbyggnaderna är kvar, men istället för dånande maskiner hörs nu ljudet av borrmaskiner och cirkelsågar. Efter en tid av förhandlingar beslutade kommunen till slut att förvandla fabriksbyggnaderna till kontorslokaler, med ett kafé och ett litet museum över fabrikens historia. De flesta tidigare anställda vid fabriken har fått nya jobb hos Blåställ eller öppnat egna skrädderier, medan vissa fortfarande har gig-arbeten medan de letar efter nya möjligheter. Och kanske kommer de en dag att jobba på ett av de nya kontoren som öppnar i de gamla fabriksbyggnaderna? Elisabet Källgren, ansvarig för projektet, är hoppfull:\n-Vi har redan fått många förfrågningar från företag som funderar på att flytta sitt kontor hit.',
+            '<b>När maskinerna på Stenmarks fabrik stannade antog många ortsbor att det skulle bli slutet på en lång historia. Men lagom till 150-årsjubileet upplever fabriken en nypremiär.</b>\nDe gamla fabriksbyggnaderna är kvar, men istället för dånande maskiner hörs nu ljudet av borrmaskiner och cirkelsågar. Efter en tid av förhandlingar beslutade kommunen till slut att förvandla fabriksbyggnaderna till kontorslokaler, med ett kafé och ett litet museum över fabrikens historia.\nDe flesta tidigare anställda vid fabriken har fått nya jobb hos Blåställ eller öppnat egna skrädderier, medan vissa fortfarande har tillfälliga arbeten medan de letar efter nya möjligheter. Och kanske kommer de en dag att jobba på ett av de nya kontoren som öppnar i de gamla fabriksbyggnaderna?\nElisabet Källgren, ansvarig för projektet, är hoppfull:\n-Vi har redan fått många förfrågningar från företag som funderar på att flytta sitt kontor hit. Om allt går som vi vill kan det här bli en nytändning för orten.',
           'AB-5_3-newsFlash-HL-DELAY-ModMod-Coworking_space_opened': 'STENMARKENS KONTORSKOLLEKTIV FYLLER ETT',
           'AB-5_3-newsFlash-body-DELAY-ModMod-Coworking_space_opened':
             '<b>Tack vare en grupp entusiaster är Stenmarkens historiska fabrik inte längre tom. Idag firar de gamla fabriksbyggnaderna ett år som modernt kontorskollektiv för lokala entreprenörer.</b>\nNär maskinerna i den gamla Sternmarksfabriken stannade, antog många att det var slutet på en lång historia. Men lagom till sitt 150-årsjubileum lever fabriken upp igen. Fabriksbyggnaderna finns kvar, men istället för dånande maskiner hörs nu dämpade konversationer och klickandet från datortangenter. Tack vare en grupp entusiaster och en generös donation från kommunen har de stora hallarna förvandlats till nya fräscha kontor och ett kafé.',
@@ -1074,15 +1074,15 @@ i18n
             '<b>När strejker och bojkotter tvingade Stenmarksfabriken att stänga antog många ortsbor att det var slutet på en lång historia av tillverkning. Men lagom till 150-årsjubileet kan fabriken komma att återuppstå i en ny form.</b>\nDe gamla fabriksbyggnaderna finns kvar, men istället för dånande maskiner ekar nu ljuden av fåglar genom de stora hallarna. Efter två års förhandlingar har kommunen till slut hittat ett tillverkningsföretag som överväger att öppna fabrik i Stenmarken.\nElisabet Källgren är ansvarig för projektet, och hon är hoppfull.\n- Vi har haft några mycket positiva inledande förhandlingar med tillverkaren, och vi tror att det kommer att leda till många nya jobb.\nNär fabriken stängde tvingades många av dess tidigare arbetare att leta nya jobb. Några har anställts av Blåställ eller öppnat eget, medan andra flyttat eller fortfarande söker jobb. Många butiksägare och restauranger upplevde minskade vinster när många tvingandes flytta, och de hoppas nu också att ett nytt företag kommer att innebära nya affärsmöjligheter.',
           'end-headline': 'SLUT',
           'end-ACT-Rad':
-            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare dina visioner och vilda idéer, har du och dina vänner förvandlat en potentiell katastrof till en nystart för hela samhället!',
+            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare era visioner och vilda idéer har du och dina vänner förvandlat en potentiell katastrof till en nystart för hela samhället!',
           'end-ACT-Mod':
-            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare din framsynthet och goda planering lyckades du och dina vänner vända en potentiell katastrof till en utveckling som kommit hela samhället till del!',
+            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare er framsynthet och goda planering lyckades du och dina vänner vända en potentiell katastrof till en utveckling som kommit hela samhället till del!',
           'end-ACT-ModMod/DELAY-ModMod':
             'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare ert hårda arbete förvandlade du och dina vänner en potentiell katastrof till en positiv utveckling!',
           'end-DELAY-Rad':
             'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare ert hårda arbete lyckades du och dina vänner hålla orten och dess historia levande. Du höll igång Stenmarksfabriken så länge det gick, och har gott hopp om framtiden.',
           'end-DELAY-Mod':
-            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare ert hårda arbete för att bevara ortens historia, förvandlade du och dina vänner en potentiell katastrof till en ny möjlighet!',
+            'Tack för att du spelade, fantastiskt jobbat!\n\nTack vare ert hårda arbete för att bevara ortens historia förvandlade du och dina vänner en potentiell katastrof till en ny möjlighet!',
         },
       },
     },
