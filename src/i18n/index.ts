@@ -58,7 +58,7 @@ i18n
             wildertonwear_factory_union: { name: 'WildertonWear Factory Union', user: 'wildertonwear_factory_union' },
             joe_6000: { name: 'Joseph Cassandra', user: 'joe_6000' },
             wilhelmine_lillie: { name: 'Wilhelmine Lillie', user: 'wilhelmine_lillie' },
-            randy: { name: 'Randal Witting', user: 'randy' },
+            randy: { name: 'Randal Witting', user: 'randal' },
             Domenic71: { name: 'Domenic Laury', user: 'Domenic71' },
             LLindström: { name: 'Liam Lindström', user: 'LLindström' },
             leta_54: { name: 'Leta Merl', user: 'leta_54' },
@@ -239,7 +239,7 @@ i18n
           'A-1_2-option-ACT-No_right_to_exploit': 'A long history doesn’t give WildertonWear the right to exploit the community.',
           'B-1_2-option-ACT-No_right_to_pollute': 'A long history doesn’t give WildertonWear the right to pollute our atmosphere.',
           "AB-1_2-option-ACT-Can't_afford_to_support": 'I can’t afford to support WildertonWear if my customers won’t buy their products.',
-          'AB-1_2-option-ACT-Temporary_boycott': 'I think a boycott could teach Wildertonwear a lesson, but it should be temporary.',
+          'AB-1_2-option-ACT-Temporary_boycott': 'I think a boycott could teach WildertonWear a lesson, but it should be temporary.',
           'AB-1_2-scene-WAIT-Questions_from_customers':
             'Your customers are wondering where you stand; are you going to support WildertonWear because of its long traditions, or are you joining the boycott even if there’s a risk that the company could be forced to close?\n\nWhat do you tell them?',
           'AB-1_2-option-WAIT-BlueSkin_safer_bet': 'It looks like BlueSkin is the safer choice right now, so I’ll go with that.',
@@ -337,8 +337,8 @@ i18n
             'This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs.\n\nGradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next.\n\nWhat do you think should be your next step?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
             'The interview seems fishy; we should write an opinion piece in the paper to question it.',
-          'AB-2_5-scene-ACT-Demonstration_successful': 'The demonstration was very successful; hundreds of townspeople joined in!\n\nAnd it seems to have made WildertonWear nervous...',
-          'AB-2_5-scene-ACT-Posters_have_effect': 'The posters seem to have an effect; more people join the boycott every week!\n\nWildertonWear seems compelled to act...',
+          'AB-2_5-scene-ACT-Demonstration_successful': 'The demonstration was very successful; hundreds of locals joined in!\n\nAnd it seems to have made WildertonWear nervous...',
+          'AB-2_5-scene-ACT-Posters_have_effect': 'The posters seem to have an effect; more people join the boycott every week!\n\nWildertonWear seems to be getting nervous...',
           'AB-2_5-scene-WAIT-Declined_invitation':
             'You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy working on their own solution.',
           'AB-2_5-scene-DELAY-Small_but_loud':
@@ -355,7 +355,7 @@ i18n
           'AB-2_7-social-DELAY-People_making_sense':
             'Finally, people are making sense again - let’s wait and see what the audit says before we make rash decisions.',
           'AB-2_7-social-ACT/WAIT-Paying_for_audit':
-            'Don’t fall for it people - Wilderton is PAYING for this audit, what do you think they’ll find?',
+            'Don’t fall for it people - WildertonWear is PAYING for this audit, what do you think they’ll find?',
           'AB-2_7-social-ACT-What-happened-to_boycott':
             'Hey, what happened to the boycott? Am I the only one still not buying WildertonWear? #BoycottWW',
           'AB-2_8-option-Collection_box': 'Put a collection box on the shop counter and encourage customers to give to support the cause.',
@@ -426,9 +426,9 @@ i18n
           'AB-3_3-scene-WAIT-Long_term':
             'People are worried, and you realise that you are finally forced to choose sides. Should you try to find a way to force WildertonWear to make the necessary changes without risking the workers’ jobs, or is it time to start talking about how the town could thrive even if the factory closes?\n\nWhat is your next step?',
           'AB-3_4-scene-ACT-Rad-Community_day':
-            'The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.',
+            'The community day was a big success! A large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.\n\nYou got a lot of new ideas and inspiration!',
           'AB-3_4-scene-ACT-Mod-Suggestions':
-            'Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.',
+            'Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups!\n\nNow you’ll sort out the best ones to bring to the next council meeting.',
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
             'You contact a few safety gear producers and find one that is willing to donate safety gear. However, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
@@ -440,8 +440,8 @@ i18n
           'AB-3_4-scene-ACT-ModMod-Collection':
             'The collection takes off immediately, as many residents want to help the workers even if they don’t like their employer.',
           'AB-3_5-scene-Stockup_4':
-            'This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say.\n\nUnfortunately, you need to get your stock-up order in today. How do you divide between the brands this time?',
-          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'AUDIT SHOWS:\nWILDERTONWEAR IGNORED WARNINGS',
+            'This week, the town is bubbling with discussions. Tomorrow, the report from the factory audit will be released, and everyone is speculating on what it is going to say.\n\nUnfortunately, you need to place your stock-up order today. How do you divide between the brands this time?',
+          'AB-4_1-newsFlash-HL-WW_ignored_warnings': 'AUDIT SHOWS: WILDERTONWEAR IGNORED WARNINGS',
           'A-4_1-newsFlash-body-ACT-WW_ignored_warnings':
             '<b>A highly anticipated report, released yesterday by the auditing company Investiga, reveals that WildertonWear had been warned multiple times about the breaches without taking action. As a result, three of the largest national department stores announced that they have stopped selling WildertonWear.</b>\nThe discussions have been running high in the community over the past days, and are likely to continue as a result of the audit findings. According to sources, the boycott is on again, and the strikers are more determined than ever to keep striking until the company improves its safety equipment.',
           'B-4_1-newsFlash-body-ACT-WW-ignored_warnings':
@@ -474,9 +474,9 @@ i18n
           'AB-4_4-scene-DELAY-Mod-Local_sponsor':
             'It has taken quite some time, but you finally manage to find a local sponsor who is willing to step in and offer WildertonWear a loan to get back on their feet. The sponsor prefers to stay anonymous and mentions that you can negotiate the repayment conditions later.\n\nYou are so relieved to finally have found a solution that you happily agree to the conditions.',
           'AB-4_4-scene-ACT-ModMod-Clothing_repair_shop':
-            'That went well!\n\nYour group decided to start collecting money to fund a little shop to repair and mend clothes. Not only would it create more jobs, but it would also extend the lifetime of WildertonWear clothing.',
+            'That went well!\n\nThe council decided to fund a little shop to repair and mend clothes. It will not only create more jobs, but also extend the lifetime of WildertonWear clothing.',
           'AB-4_4-scene-ACT-Mod-Evening_classes':
-            'Yay, the proposal was approved!\n\nNow you need to find a suitable place to be, recruit teachers, set up the administration and enrol students.',
+            'Yay, your proposal to sponsor evening classes was approved!\n\nNow you need to find a suitable place to be, recruit teachers, set up the administration, and enrol students.',
           'AB-4_4-scene-DELAY-ModMod-Attract_companies':
             'Yes, you did it! A group is put together to draft a proposal with cheap land deals and potential tax reductions, and to book meetings with companies that are considering moving to Wilderton.',
           'A-4_4-scene-DELAY-Rad-Relax_safety_regulations':
@@ -484,7 +484,7 @@ i18n
           'B-4_4-scene-DELAY-Rad-Relax_environmental_regulations':
             'Looks like your efforts are finally paying off! After weeks of lunches, joint meetings, top-secret discussions, and a visit to one of the authority’s planning meetings, everything seems to fall into place.\n\nYou are getting signals that it might be possible to arrange a one-time exception from the environmental regulations for WildertonWear, just to save its crucial business.',
           'AB-4_4-scene-ACT-Rad-Universal_basic_income':
-            'No luck this time.\n\nThe council promised to consider it, but they didn’t think it was a good solution for now since it would probably take too long to implement.',
+            'No luck this time.\n\nThe council members promised to consider it, but they didn’t think it was a good solution for now since it would probably take too long to implement.',
           'AB-4_5-scene-ACT-Stockup_5':
             'Meanwhile, there are rumours about a potential investor who could help the factory with a sizable loan.\n\nWith that in mind, how will you stock up for next month?',
           'AB-4_5-scene-DELAY-Stockup_5':
@@ -516,9 +516,9 @@ i18n
             '<b>After months of turbulence, the WildertonWear management announced yesterday that the company will be closing. The tough financial situation, decreased production due to the strikes, and high costs for system upgrades were simply too much for the company.</b>\nIt is a quiet day at the factory. When the closing was announced around lunchtime yesterday, the staff was sent home. After 148 years in operation, the sounds of the factory are no longer echoing through Wilderton.\n“It’s bittersweet,” says Niels West, a former employee who passes by to collect his things. “On the one hand, I’m glad that the factory won’t be able to put the community and climate at risk. But on the other hand, I’m sad to see a company with such a long tradition fail. My dad used to work here, and two of my grandparents. I’m not so sad about the job, though. I’m starting next week at the newly opened clothing repair and mending shop in town.”',
           'AB-5_2-scene-option-What_has_happened': 'What has happened?',
           'AB-5_2-scene-2_yrs_later': 'Two years later...',
-          'AB-5_3-newsFlash-HL-ACT-Mod-Centre_2_yrs': 'WEARHOUSE CENTRE CELEBRATES 2 YEARS',
+          'AB-5_3-newsFlash-HL-ACT-Mod-Centre_2_yrs': 'WEARHOUSE CENTRE CELEBRATES TWO YEARS',
           'AB-5_3-newsFlash-body-ACT-Mod-Centre_2_yrs':
-            '<b>When the machines at WildertonWear stopped, a few enthusiasts stepped in. Today, the old factory building celebrates two years as a thriving community centre, and invites all residents to join in the celebrations.</b>\n Thanks to a group of enthusiasts, the history of the WildertonWear factory took a completely new turn. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and the clicking of computer keyboards. The large halls have been turned into a co-working space, with a popular café, a clothing repair and mending shop, and a gym.\nMost of the former factory workers have found new occupations, working for the tailor, in the BlueSkin workshop in the next town, or pursuing new dreams as café owners or students. And the community members love their new centre - in the past months, the number of visitors has been growing steadily.',
+            '<b>When the machines at WildertonWear stopped, a few enthusiasts stepped in. Today, the old factory building celebrates two years as a thriving community centre, and invites all residents to join in the celebrations.</b>\n Thanks to a group of enthusiasts, the history of the WildertonWear factory took a completely new turn. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and the clicking of computer keyboards.\nThe large halls have been turned into a co-working space, with a popular café, a clothing repair and mending shop, and a gym.\nMost of the former factory workers have found new occupations, working for the tailor, in the BlueSkin workshop in the next town, or pursuing new dreams as café owners or students. And the community members love their new centre; in the past months, the number of visitors has been growing steadily.',
           'AB-5_3-newsFlash-HL-ACT-ModMod-Community_centre_2_yrs': 'COMMUNITY CENTRE TURNS 2 YEARS',
           'AB-5_3-newsFlash-body-ACT-ModMod-Community_centre_2_yrs':
             '<b>The history of the old Wilderton factory could have ended when WildertonWear folded. Instead, it now celebrates two years as a community centre, with a co-working space, café and gym.</b>\nThanks to a group of enthusiasts, the historical Wilderton factory now celebrates its 150th anniversary with a complete revival. The old factory buildings are still there, but instead of thundering machines, you now hear soft conversations and the clicking of computer keyboards. The large halls have been turned into a co-working space, a popular café, and a gym.\nMost of the former factory workers have found new occupations. Some have opened their own tailor shops in town, others have been hired by BlueSkin, and some have taken temporary jobs while looking for new opportunities.',
@@ -530,7 +530,7 @@ i18n
             '<b>Thanks to a group of enthusiasts, the buildings of the historical WildertonWear factory are no longer empty. Today, the old factory building celebrates one year as a modern co-working space for local entrepreneurs.</b>\nWhen the machines at WildertonWear stopped, many declared it the end of a proud history of manufacturing. But just in time for it’s 150th anniversary, the factory is once again thriving. The factory buildings are still there, but instead of the thundering machines, you now hear soft conversations and the clicking from keyboards. Thanks to a group of enthusiasts and a generous donation by the municipality, the large halls have been turned into fresh new offices and a café.',
           'AB-5_3-newsFlash-HL-ACT-Rad-Centre_wins_award': 'WEARHOUSE CENTRE WINS AWARD',
           'AB-5_3-newsFlash-body-ACT-Rad_Centre_wins_award':
-            '<b>Only two years after its opening, the new WearHouse community centre won the prestigious “Best community centre” award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b>\nIt’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter.\nThe big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. \nMost of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre, in the past months, the number of visitors has been growing steadily.',
+            '<b>Only two years after its opening, the new WearHouse community centre won the prestigious Best Community Centre Award. The jury was deeply impressed by how the old factory had been turned into a living, thriving community without losing sight of its old history.</b>\nIt’s been two years since the WildertonWear factory was forced to close down. The old brick factory buildings are still there, but instead of thundering machines, you now hear music, conversations, and laughter.\nThe big halls have been turned into a community centre with maker space workshops, meeting rooms for local organisations, a small second hand shopping mall, and a popular café. \nMost of the former factory workers have found new jobs in the clothing repair and mending shop, in the workshops, or at Blueskin in the next town. And the community members love their new centre; in the past months, the number of visitors has been growing steadily.',
           'AB-5_3-newsFlash-HL-DELAY-Rad-Factory_revived': 'WILDERTON FACTORY TO BE REVIVED',
           'A-5_3-newsFlash-body-DELAY-Rad-Factory_revived':
             '<b>When strikes and tax problems forced the WildertonWear factory to close, many residents declared it the end of a proud history of manufacturing. But just in time for its 150th anniversary, the factory might be revived in a new shape.</b>\nThe old factory buildings are still here, but instead of thundering machines, you now hear the sound of birds echoing through the large halls. After two years of deliberations, the municipality has finally found a large manufacturing company that is considering settling in town. Beth Callistor, responsible for the project, is hopeful.\n“We have had some very positive initial talks with the manufacturer, and we think that this could bring a lot of new jobs.” When the factory closed, many of its former workers were forced to look elsewhere for jobs. Some have been hired by BlueSkin or opened their own business, while others have left town or are still searching for a new occupation. Many shop owners and restaurants also saw their revenues decrease as many residents moved out, and are also hoping that a new company could mean new business opportunities.',
