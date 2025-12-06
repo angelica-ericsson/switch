@@ -13,6 +13,7 @@ import game from '../../../game-files/game.json';
 import { generateGameNodeGraph } from '../state';
 import { GAME_TARGET_SALES } from '../constants';
 import { trackEvent } from '@/lib/umami';
+import { Repeat, Send } from 'lucide-react';
 
 interface EndScreenProps {
   node: EndNodeType;
@@ -25,6 +26,15 @@ export function EndScreen({ node }: EndScreenProps) {
   const totalSales = useGameState((state) => state.getTotalSales)();
   const gameVariant = useGameState((state) => state.gameVariant);
   const setGameState = useGameState((state) => state.setGameState);
+  const demographicData = useDemographicStore.getState();
+
+  const shareData = {
+    title: t('end.shareTitle'),
+    text: t('end.shareText'),
+    url: 'https://www.switch-the-game.com/?utm_source=share-button&utm_campaign=' + demographicData.sessionId,
+  };
+  // Check if Web Share API is supported
+  const isWebShareSupported = typeof navigator !== 'undefined' && 'share' in navigator;
 
   // Submit data when end screen is reached (only once per node)
   useEffect(() => {
@@ -74,7 +84,20 @@ export function EndScreen({ node }: EndScreenProps) {
       });
 
     trackEvent('game-end');
-  }, [node.id]);
+  }, [node.id, totalSales]);
+
+  const handleShare = async () => {
+    if (!isWebShareSupported) {
+      return;
+    }
+
+    try {
+      await navigator.share(shareData);
+      trackEvent('game-shared', { method: 'web-share-api' });
+    } catch (error) {
+      console.error('Error sharing:', error);
+    }
+  };
 
   return (
     <GameLayout>
@@ -99,30 +122,39 @@ export function EndScreen({ node }: EndScreenProps) {
             }}
           />
         </p>
-        <GameButton
-          className="mt-8"
-          onClick={() => {
-            // Reset game state but preserve gameVariant and sessionId
-            // sessionId is already preserved in demographicStore (persisted)
-            const { startNode } = generateGameNodeGraph(game);
-            setGameState({
-              sentimentPro: 0,
-              sentimentNeutral: 0,
-              sentimentAgainst: 0,
-              events: [],
-              isInitialized: true,
-              daysSinceGameStart: 0,
-              currentNode: startNode,
-              surveyResponse1: null,
-              surveyResponse2: null,
-              gameVariant, // Preserve gameVariant
-            });
-            // Navigate to game to restart
-            navigate({ to: '/game' });
-          }}
-        >
-          {t('end.playAgain')}
-        </GameButton>
+        <div className="mt-8 flex justify-between">
+          <GameButton
+            onClick={() => {
+              // Reset game state but preserve gameVariant and sessionId
+              // sessionId is already preserved in demographicStore (persisted)
+              const { startNode } = generateGameNodeGraph(game);
+              setGameState({
+                sentimentPro: 0,
+                sentimentNeutral: 0,
+                sentimentAgainst: 0,
+                events: [],
+                isInitialized: true,
+                daysSinceGameStart: 0,
+                currentNode: startNode,
+                surveyResponse1: null,
+                surveyResponse2: null,
+                gameVariant, // Preserve gameVariant
+              });
+              // Navigate to game to restart
+              navigate({ to: '/game' });
+            }}
+          >
+            <Repeat className="size-4" />
+            {t('end.playAgain')}
+          </GameButton>
+
+          {isWebShareSupported && (
+            <GameButton onClick={handleShare}>
+              <Send className="size-4" />
+              {t('end.shareButton')}
+            </GameButton>
+          )}
+        </div>
       </div>
     </GameLayout>
   );
