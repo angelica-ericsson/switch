@@ -56,7 +56,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
         <div className="space-y-6">
           {/* Headline */}
           {headline && (
-            <h2 className="leading-tighter border-b-4 border-black/70 pb-4 text-center font-serif text-4xl hyphens-auto text-black/70 italic">
+            <h2 className="leading-tighter border-b-4 border-black/70 pb-4 text-center font-serif text-4xl hyphens-auto whitespace-pre-line text-black/70 italic">
               {t(headline)}
             </h2>
           )}
