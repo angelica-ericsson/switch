@@ -155,6 +155,14 @@ export function EndScreen({ node }: EndScreenProps) {
             </GameButton>
           )}
         </div>
+        <div className="text-center text-sm">
+          <p className="font-bold">{t('end.credits.headline')}</p>{' '}
+          <p>
+            {t('end.credits.text')} {t('consent.contact.name')} (
+            <a href={`mailto:${t('consent.contact.email')}`}>{t('consent.contact.email')}</a>)
+          </p>{' '}
+          <p>{t('end.credits.programming')}</p>
+        </div>
       </div>
     </GameLayout>
   );

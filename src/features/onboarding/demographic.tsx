@@ -62,7 +62,10 @@ export function DemographicForm() {
               <div className="relative flex-1">
                 <GameInput
                   id="birthYear"
-                  type="text"
+                  type="number"
+                  min="1900"
+                  max="2099"
+                  step="1"
                   placeholder="YYYY"
                   value={formData.birthYear}
                   onChange={(e) => {

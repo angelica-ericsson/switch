@@ -171,7 +171,7 @@ export function ConsentForm() {
               <strong>{t('consent.contact.label')}</strong>
             </p>
             <p>
-              {t('consent.contact.name')} <a href={`mailto:${t('consent.contact.email')}`}>{t('consent.contact.email')}</a>
+              {t('consent.contact.name')}: <a href={`mailto:${t('consent.contact.email')}`}>{t('consent.contact.email')}</a>
             </p>
           </div>
 

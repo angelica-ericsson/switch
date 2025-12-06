@@ -124,7 +124,7 @@ i18n
             },
             contact: {
               label: 'Responsible researcher:',
-              name: 'Angelica Ericsson:',
+              name: 'Angelica Ericsson',
               email: 'aner5235@student.su.se',
             },
             screenshot: 'Please take a screenshot of this page in case you need to contact the researcher later.',
@@ -211,6 +211,11 @@ i18n
             shareButton: 'Share',
             shareTitle: 'Switch the Game',
             shareText: 'I just finished playing Switch the Game! Can you balance your budget on a social tipping point?',
+            credits: {
+              headline: 'Credits:',
+              text: 'Text: ',
+              programming: 'Programming: Matthias Feist',
+            },
           },
           'AB-scene-Most_popular_brands':
             'Your most popular brand is WildertonWear, the local brand produced in the old factory in town.\n\nTo be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons.\n\nYour second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.',
@@ -258,7 +263,8 @@ i18n
             'WildertonWear clearly has problems, but it’s better to influence them through dialogue.',
           'AB-1_2-option-DELAY-Business_is_business':
             'Business is business, not politics. Despite the boycott, WildertonWear is still the most popular brand.',
-          'AB-1_2-option-DELAY-Have_to_support': 'I have to support WildertonWear; if they have to close, it will affect the entire community.',
+          'AB-1_2-option-DELAY-Have_to_support':
+            'I have to support WildertonWear; if they have to close, it will affect the entire community.',
           'A-1_3-social-Unfortunate_misunderstanding':
             'There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
           'B-1_3-social-Unfortunate_misunderstanding':
@@ -340,8 +346,10 @@ i18n
             'This is not good. Now it will be a lot harder to convince the community to save WildertonWear and the workers’ jobs.\n\nGradually, your shop becomes the meeting point for those who want to support the factory, and together you discuss what to do next. What do you think should be your next step?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
             'The interview seems fishy; we should write an opinion piece in the paper to question it.',
-          'AB-2_5-scene-ACT-Demonstration_successful': 'The demonstration was very successful; hundreds of locals joined in!\n\nAnd it seems to have made WildertonWear nervous...',
-          'AB-2_5-scene-ACT-Posters_have_effect': 'The posters seem to have an effect; more people join the boycott every week!\n\nWildertonWear seems to be getting nervous...',
+          'AB-2_5-scene-ACT-Demonstration_successful':
+            'The demonstration was very successful; hundreds of locals joined in!\n\nAnd it seems to have made WildertonWear nervous...',
+          'AB-2_5-scene-ACT-Posters_have_effect':
+            'The posters seem to have an effect; more people join the boycott every week!\n\nWildertonWear seems to be getting nervous...',
           'AB-2_5-scene-WAIT-Declined_invitation':
             'You contact WildertonWear, but the company representatives politely decline your meeting invitation since they are too busy working on their own solution.',
           'AB-2_5-scene-DELAY-Small_but_loud':
@@ -606,15 +614,15 @@ i18n
           survey: {
             question1:
               'Dina vänner samlas i din butik för att prata om vad som hänt, och vad som kommer att hända.\n\nDin bästa vän frågar vad du hade gjort annorlunda om du fått en chans till?',
-            question2: "Vilka andra lösningar har du funderat på som du aldrig fick en chans att testa?",
+            question2: 'Vilka andra lösningar har du funderat på som du aldrig fick en chans att testa?',
           },
           consent: {
             welcome: 'VÄLKOMMEN!',
             instruction: 'Innan du spelar behöver du har läst och samtyckt till följande:',
-            noConsentMessage1: "Synd att du inte samtycker. Är du helt säker på att du vill lämna spelet?",
+            noConsentMessage1: 'Synd att du inte samtycker. Är du helt säker på att du vill lämna spelet?',
             noConsentMessage2: 'Trist att se dig lämna. Hoppas du hittar till ett roligare ställe...',
             statement1: {
-              prefix: "Jag förstår att det här spelet är en del av ett masteruppsatsprojekt vid Stockholms universitet som handlar om",
+              prefix: 'Jag förstår att det här spelet är en del av ett masteruppsatsprojekt vid Stockholms universitet som handlar om',
               suffix: 'som kommunikationskanaler.',
               options: {
                 games: 'spel',
@@ -633,7 +641,8 @@ i18n
             },
             statement3: {
               prefix: 'Jag lovar att',
-              suffix: 'uppge några personliga uppgifter som mitt riktiga namn, mina kontaktuppgifter, eller någon annan identifierande eller känslig information.',
+              suffix:
+                'uppge några personliga uppgifter som mitt riktiga namn, mina kontaktuppgifter, eller någon annan identifierande eller känslig information.',
               options: {
                 not: 'inte',
                 absolutelyNot: 'absolut inte',
@@ -751,6 +760,11 @@ i18n
             shareButton: 'Dela',
             shareTitle: 'Switch the Game',
             shareText: 'Jag har precis spelat klart Switch the Game! Kan du balansera din budget på en social vändpunkt?',
+            credits: {
+              headline: 'Credits:',
+              text: 'Text: ',
+              programming: 'Programming: Matthias Feist',
+            },
           },
           'AB-scene-Most_popular_brands':
             'Ditt mest sålda varumärke är Stenmarks, ett lokalt märke som tillverkas i den gamla fabriken i staden.\n\nOm man ska vara ärlig är det inget kvalitetsmärke längre. Men eftersom det har en lång tradition och en lokal koppling är det fortfarande populärt bland turister och ortsbor av nostalgiska skäl.\n\nDitt näst mest sålda varumärke är Blåställ, ett högkvalitetsmärke som tillverkas i grannstaden.',
@@ -779,13 +793,15 @@ i18n
             'Ortsborna är förbannade på Stenmarks, och efterfrågan sjunker snabbt.\n\nTur att du inte gjorde några alltför stora omprioriteringar, du förlorar bara en liten del av dina inkomster.',
           'AB-1_2-scene-ACT-Questions_from_customers':
             'Några av dina kunder gillar att du minskat din beställning till Stenmarks. Andra undrar om du verkligen vill riskera att ett så gammalt företag - och en av ortens största arbetsgivare - går i konkurs?\n\nVad svarar du?',
-          'A-1_2-option-ACT-No_right_to_exploit': 'Bara för att Stenmarks har en lång historia har de inte rätt att utnyttja ortsbefolkningen.',
+          'A-1_2-option-ACT-No_right_to_exploit':
+            'Bara för att Stenmarks har en lång historia har de inte rätt att utnyttja ortsbefolkningen.',
           'B-1_2-option-ACT-No_right_to_pollute': 'Bara för att Stenmarks har en lång historia har de inte rätt att förstöra klimatet.',
           "AB-1_2-option-ACT-Can't_afford_to_support": 'Jag har inte råd att stötta Stenmarks om mina kunder inte köper deras produkter.',
           'AB-1_2-option-ACT-Temporary_boycott': 'Jag tror att en bojkott kan lära Stenmarks en läxa, bara den inte pågår för länge.',
           'AB-1_2-scene-WAIT-Questions_from_customers':
             'Dina kunder undrar var du står: kommer du att stödja Stenmarks och deras långa historia, eller bojkottar du trots att det finns en risk att företaget kan gå i konkurs?\n\nVad svarar du?',
-          'AB-1_2-option-WAIT-BlueSkin_safer_bet': 'Det ser ut som att Blåställ är ett säkrare val just nu, så jag satsar på deras produkter.',
+          'AB-1_2-option-WAIT-BlueSkin_safer_bet':
+            'Det ser ut som att Blåställ är ett säkrare val just nu, så jag satsar på deras produkter.',
           "AB-1_2-option-WAIT-Can't_afford_financial_risk":
             'Jag har inte råd att ta några ekonomiska risker, så jag väntar och ser vad mina konkurrenter gör.',
           'AB-1_2-option-WAIT-Business_is_business':
@@ -852,7 +868,8 @@ i18n
           'AB-1_6-scene-Stockup_2':
             'Det har gått två veckor, och de flesta av dina kunder verkar ha förlåtit Stenmarks.\n\nDet är dags att fylla på lagret igen, och under de senaste veckorna har du märkt av en långsam ökning i efterfrågan på Stenmarks produkter. Betyder det att bojkotten snart är över?',
           'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ajdå, det kostar att stötta Stenmarks den här gången...',
-          'AB-2_1-scene-WAIT-Reaction_2nd_newsflash': 'Hm, den här gången hade det varit bättre att inte köpa in så många Stenmarksprodukter...',
+          'AB-2_1-scene-WAIT-Reaction_2nd_newsflash':
+            'Hm, den här gången hade det varit bättre att inte köpa in så många Stenmarksprodukter...',
           'AB-2_1-scene-ACT-Reaction-2nd_newsflash':
             'Du gjorde rätt i att inte beställa så många Stenmarksprodukter.\n\nMånga kunder var på jakt efter ett alternativ, och du sålde helt slut på Blåställ!',
           'A-2_2-newsFlash-HL-Ignoring_health_regulations': 'STENMARKS BRYTER MOT ARBETSMILJÖREGLER',
@@ -880,8 +897,10 @@ i18n
             'Det här var inte bra. Nu blir det mycket svårare att övertyga ortsborna om att stötta Stenmarks.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som stödjer fabriken, och tillsammans diskuterar ni nästa steg. Vad tycker du att ni borde göra?',
           'AB-2_4-option-DELAY-Interview_is_fishy':
             'Intervjun är skum, vi borde skriva en insändare i tidningen för att ifrågasätta påståendena.',
-          'AB-2_5-scene-ACT-Demonstration_successful': 'Demonstrationen blev en framgång, hundratals ortsbor dök upp!\n\n Stenmarks verkar ha blivit nervösa...',
-          'AB-2_5-scene-ACT-Posters_have_effect': 'Affischerna verkar ha effekt, antalet som bojkottar växer varje vecka! \n\nStenmarks ser sig tvungna att agera...',
+          'AB-2_5-scene-ACT-Demonstration_successful':
+            'Demonstrationen blev en framgång, hundratals ortsbor dök upp!\n\n Stenmarks verkar ha blivit nervösa...',
+          'AB-2_5-scene-ACT-Posters_have_effect':
+            'Affischerna verkar ha effekt, antalet som bojkottar växer varje vecka! \n\nStenmarks ser sig tvungna att agera...',
           'AB-2_5-scene-WAIT-Declined_invitation':
             'Du kontaktar Stenmarks, men företaget tackar artigt nej till ett möte eftersom de är för upptagna med att ordna en egen lösning.',
           'AB-2_5-scene-DELAY-Small_but_loud':
@@ -912,8 +931,7 @@ i18n
             'Ringa andra återförsäljare av Stenmarks produkter och övertala dem att bojkotta.',
           'AB-2_8-option-ACT/WAIT-Discount_BlueSkin':
             'Dra igång en lågpriskampanj på Blåställ för att övertyga fler kunder att byta märke.',
-          'AB-2_8-scene-WAIT-Business_owner':
-            'Under tiden diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
+          'AB-2_8-scene-WAIT-Business_owner': 'Under tiden diskuterar du och dina vänner vad du som butiksägare kan göra för att stötta?',
           'AB-2_9-scene-DELAY-Mod-Stockup_3':
             'Sådärja! Prissänkningen är en hit, och lockar till sig nya kunder.\n\nDet är dags att fylla på lagret inför nästa månad. Fortsätter du att fokusera på Stenmarks, eller köper du några extra Blåställsprodukter bara för att vara på den säkra sidan?',
           'AB-2_9-scene-DELAY-Rad-Stockup_3':
@@ -951,7 +969,7 @@ i18n
           'AB-3_2-social-DELAY-Loyal_customers':
             'Håller med om att staden behöver jobben, men behöver inte Stenmarks behandla sina arbetare och lojala kunder med respekt också?',
           'AB-3_3-scene-DELAY-Mod-Long_term':
-          'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nVad kan ni göra för att få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
+            'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nVad kan ni göra för att få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-option-WAIT/DELAY-WW_day':
             'Organisera en dag med konserter och familjeaktiviteter för att samla in pengar till fabriken.',
           'AB-3_3-option-DELAY-Invite_interest_groups': 'Bjuda in lokala intressegrupper att ge förslag på hur jobben kan räddas.',
@@ -961,8 +979,7 @@ i18n
             'Många är oroliga, och du inser att ni hellre än att ta snabba beslut behöver fundera på långsiktiga lösningar.\n\nVad kan ni göra för att få Stenmarks att genomföra de nödvändiga förändringarna utan att riskera arbetarnas jobb?',
           'AB-3_3-scene-ACT-How_to_thrive':
             'Folk är oroliga, och du inser att ni behöver prata om hur Stenmarken kan blomstra även om fabriken stänger.\n\nVad kan ni göra för att orten lättare ska kunna hantera förändring?',
-          'AB-3_3-option-ACT-Community_day':
-            'Organisera en temadag och låt ortsborna spåna på hur Stenmarken kan se ut i framtiden.',
+          'AB-3_3-option-ACT-Community_day': 'Organisera en temadag och låt ortsborna spåna på hur Stenmarken kan se ut i framtiden.',
           'AB-3_3-option-ACT/WAIT-Invite_interest_groups':
             'Bjuda in lokala intressegrupper att ge förslag på hur ni kan skapa alternativa inkomstkällor.',
           'AB-3_3-option-ACT/WAIT-Fund_to_support': 'Starta en insamling för arbetarna utifall att fabriken stänger.',
@@ -993,8 +1010,9 @@ i18n
             '<b>I en uppmärksammad rapport som släpptes igår av gransknings-företaget Investiga avslöjas att Stenmarks varnats ett flertal gånger utan att agera.</b>\nDiskussionerna har gått höga i orten under de senaste dagarna, och kommer troligen att fortsätta som ett resultat av granskningsrapporten. Men trots en utbredd frustration över Stenmarks agerande har Stenmarks fortfarande mycket stöd i samhället på grund av sin långa historia.',
           'AB-4_2-social-ACT-Still_on_a_strike':
             'Det har gått två månader, och kampen fortsätter. Så stolta över våra strejkande medlemmar, framför allt efter de senaste nyheterna om att Stenmarks ignorerat varningar.',
-          'AB-4_2-social-ACT-Another_push': 'Precis som vi trodde... Kom igen nu, det är dags att pusha företaget lite till! #BojkottaStenis',
-          'AB-4_2-social-ACT-Out_of_this_mess':'Hur kommer vi ur den här soppan? Snälla, kan nån komma på en mer långsiktig plan!',
+          'AB-4_2-social-ACT-Another_push':
+            'Precis som vi trodde... Kom igen nu, det är dags att pusha företaget lite till! #BojkottaStenis',
+          'AB-4_2-social-ACT-Out_of_this_mess': 'Hur kommer vi ur den här soppan? Snälla, kan nån komma på en mer långsiktig plan!',
           'AB-4_2-social-DELAY-2_months_banner': 'Om någon saknar "2 månaders strejk"-banderollen så befinner sig den I SOPORNA!',
           'AB-4_2-social-DELAY-148_yrs_of_history':
             'Fan också, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? 148 års historia upp i rök?',
@@ -1011,8 +1029,7 @@ i18n
           'AB-4_3-option-ACT-Rad/Mod-Universal_basic_income':
             'Inför medborgarlön, så att arbetarna har råd att sluta på Stenmarks om de vill.',
           'AB-4_3-option-ACT-Evening_classes': 'Sponsra kvällskurser för fabriksarbetare som vill lära sig ett nytt yrke.',
-          'AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop':
-            'Finansiera en sömnadsateljé där arbetarna kan få jobb om fabriken stänger.',
+          'AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop': 'Finansiera en sömnadsateljé där arbetarna kan få jobb om fabriken stänger.',
           'AB-4_4-scene-DELAY-Mod-Local_sponsor':
             'Det tog ett tag, men du har till slut lyckats hitta en lokal sponsor som är villig att erbjuda Stenmarks ett lån för att komma på fötter igen. Sponsorn föredrar att förbli anonym och säger att ni kan förhandla om återbetalningsvillkoren senare.\n\nDu är så lättad över att äntligen ha hittat en lösning att du glatt går med på kraven.',
           'AB-4_4-scene-ACT-ModMod-Clothing_repair_shop':
