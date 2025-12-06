@@ -8,21 +8,39 @@ import { useTranslation } from 'react-i18next';
 
 export function StatusBar() {
   return (
-    <div className="fixed top-0 right-0 bottom-0 flex items-center pt-24">
-      <div>
+    <>
+      <div className="fixed top-0 right-0 bottom-0 z-100 hidden items-center pt-24 md:flex">
+        <div>
+          <motion.div
+            initial={{ opacity: 0, x: 200 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 200 }}
+            transition={{ duration: 0.6, ease: 'easeInOut' }}
+            className="postcard-bg flex flex-col items-center justify-center gap-6 rounded-tl-2xl rounded-bl-2xl p-3 shadow-2xl"
+          >
+            <SentimentCircle />
+            <SalesProgress />
+            <TimelineProgress />
+          </motion.div>
+        </div>
+      </div>
+
+      <div className="fixed right-0 bottom-0 left-0 z-100 flex justify-center md:hidden">
         <motion.div
-          initial={{ opacity: 0, x: 200 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: 200 }}
+          initial={{ opacity: 0, y: 200 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 200 }}
           transition={{ duration: 0.6, ease: 'easeInOut' }}
-          className="postcard-bg flex flex-col items-center justify-center gap-6 rounded-tl-2xl rounded-bl-2xl p-3 shadow-2xl"
+          className="postcard-bg flex w-full max-w-[400px] flex-row items-start justify-between gap-3 rounded-tl-2xl rounded-tr-2xl p-2"
         >
           <SentimentCircle />
-          <SalesProgress />
-          <TimelineProgress />
+          <div className="flex flex-col gap-3">
+            <TimelineProgress />
+            <SalesProgress />
+          </div>
         </motion.div>
       </div>
-    </div>
+    </>
   );
 }
 
@@ -33,7 +51,7 @@ function TimelineProgress() {
   const remainingDaysPercentage = (remainingDays / GAME_MAX_DAYS) * 100;
 
   return (
-    <div className={cn('flex w-40 flex-col gap-2 transition-opacity')}>
+    <div className={cn('flex w-40 flex-col gap-1 transition-opacity md:gap-2')}>
       <p className="text-left text-sm leading-4 font-medium tracking-tight">{t('statusBar.daysLeft')}</p>
       <div className="relative w-full grow">
         <Progress value={remainingDaysPercentage} />
@@ -125,7 +143,7 @@ function SalesProgress() {
   const value = Math.min((totalSales / max) * 100, 100);
 
   return (
-    <div className={cn('flex w-40 flex-col gap-2 transition-opacity')}>
+    <div className={cn('flex w-40 flex-col gap-1 transition-opacity md:gap-2')}>
       <p className="text-left text-sm leading-4 font-medium tracking-tight">{t('statusBar.salesNeeded')}</p>
       <div className="relative w-full grow">
         <Progress
