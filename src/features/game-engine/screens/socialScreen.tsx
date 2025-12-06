@@ -65,28 +65,42 @@ export function SocialScreen({ node }: SocialScreenProps) {
     return map;
   }, []);
 
-  // Select variant-specific content
-  const tweets = [
-    {
-      text: gameVariant === 'A' ? node.data?.text1A : node.data?.text1B,
-      userName: node.data?.userName1,
-    },
-    {
-      text: gameVariant === 'A' ? node.data?.text2A : node.data?.text2B,
-      userName: node.data?.userName2,
-    },
-    {
-      text: gameVariant === 'A' ? node.data?.text3A : node.data?.text3B,
-      userName: node.data?.userName3,
-    },
-  ]
-    .filter((config): config is { text: string; userName: string } => {
-      return !!config.text && !!config.userName && fakeDataMap.has(config.userName);
-    })
-    .map((config) => ({
-      text: config.text,
-      fake: fakeDataMap.get(config.userName)!,
-    }));
+  // Shuffle array function
+  const shuffleArray = <T,>(array: T[]): T[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Select variant-specific content and randomize order
+  const tweets = useMemo(() => {
+    const tweetArray = [
+      {
+        text: gameVariant === 'A' ? node.data?.text1A : node.data?.text1B,
+        userName: node.data?.userName1,
+      },
+      {
+        text: gameVariant === 'A' ? node.data?.text2A : node.data?.text2B,
+        userName: node.data?.userName2,
+      },
+      {
+        text: gameVariant === 'A' ? node.data?.text3A : node.data?.text3B,
+        userName: node.data?.userName3,
+      },
+    ]
+      .filter((config): config is { text: string; userName: string } => {
+        return !!config.text && !!config.userName && fakeDataMap.has(config.userName);
+      })
+      .map((config) => ({
+        text: config.text,
+        fake: fakeDataMap.get(config.userName)!,
+      }));
+
+    return shuffleArray(tweetArray);
+  }, [gameVariant, node.data, fakeDataMap]);
 
   return (
     <GameLayout>
