@@ -673,7 +673,7 @@ i18n
             },
             contact: {
               label: 'Ansvarig forskare:',
-              name: 'Angelica Ericsson:',
+              name: 'Angelica Ericsson',
               email: 'aner5235@student.su.se',
             },
             screenshot: 'Ta en skärmbild av den här sidan utifall att du behöver kontakta forskaren senare.',
