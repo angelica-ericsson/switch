@@ -432,7 +432,7 @@ i18n
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
             'You contact a few safety gear producers and find one that is willing to donate safety gear.\n\nHowever, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
-            'You contact a few wastewater filtering system producers and find one that is willing to donate filters.\n\nHowever, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
+            'You contact a few pollution filtering system producers and find one that is willing to donate filters.\n\nHowever, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'AB-3_4_scene-DELAY-Mod-Suggestions':
             'Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups.\n\nNow you’ll sort out the best ones to bring to the next council meeting.',
           'AB-3_4-scene-DELAY-ModMod-WW_day':
