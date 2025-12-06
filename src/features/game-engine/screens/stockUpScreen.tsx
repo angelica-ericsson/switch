@@ -84,13 +84,13 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
     <GameLayout>
       <div className="order-form-bg z-1 max-w-3xl rotate-0 font-mono shadow-2xl md:rotate-1">
         <div className="ml-2 border-l-2 border-red-300/50 p-4 pt-8 text-black/70 md:ml-8 md:p-8">
-          <h1 className="text-3xl leading-8">
+          <h1 className="text-3xl leading-8 hyphens-auto">
             {alias} {t('stockUp.headline')}
           </h1>
           <p className="mb-8 text-xs leading-8">{formattedDate}</p>
 
           <div className="mb-8">
-            <h2 className="text-xl leading-8">{t('stockUp.inventoryHeadline')}</h2>
+            <h2 className="text-xl leading-8 hyphens-auto">{t('stockUp.inventoryHeadline')}</h2>
             {events.length === 0 ? (
               <p className="leading-8 text-gray-500">{t('stockUp.inventoryEmpty')}</p>
             ) : (

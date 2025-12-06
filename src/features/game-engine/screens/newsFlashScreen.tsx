@@ -42,7 +42,9 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
         {/* Newspaper Header */}
         <div className="mb-6 border-b-4 border-black/70 pb-4">
           <div className="mb-2 text-center">
-            <h1 className="mb-2 font-serif text-6xl font-black tracking-tight text-black/70 uppercase">{t('newsFlash.newspaperName')}</h1>
+            <h1 className="mb-2 font-serif text-6xl font-black tracking-tight hyphens-auto text-black/70 uppercase">
+              {t('newsFlash.newspaperName')}
+            </h1>
             <div className="flex items-center justify-between border-t-2 border-b-2 border-black/70 py-2 text-sm text-gray-600">
               <span className="font-semibold capitalize">{formattedDate}</span>
               <span className="font-semibold capitalize">{t('newsFlash.price')}</span>
@@ -54,7 +56,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
         <div className="space-y-6">
           {/* Headline */}
           {headline && (
-            <h2 className="leading-tighter border-b-4 border-black/70 pb-4 text-center font-serif text-4xl text-black/70 italic">
+            <h2 className="leading-tighter border-b-4 border-black/70 pb-4 text-center font-serif text-4xl hyphens-auto text-black/70 italic">
               {t(headline)}
             </h2>
           )}
@@ -73,7 +75,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
                     }}
                   />
                 </div>
-                <p className="mt-2 border-t border-gray-400 pt-2 text-xs text-gray-600 italic">
+                <p className="mt-2 border-t border-gray-400 pt-2 text-xs hyphens-auto text-gray-600 italic">
                   {t('newsFlash.photo')}: {t('newsFlash.newspaperName')}
                 </p>
               </div>
@@ -82,7 +84,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
             {/* Text Columns */}
             {text && (
               <div className={`gap-6 text-justify text-pretty md:col-span-2 md:columns-2`}>
-                <p className="mb-4 text-base leading-relaxed whitespace-pre-line text-black/70 first-letter:float-left first-letter:mr-2 first-letter:text-6xl first-letter:leading-none first-letter:font-bold">
+                <p className="mb-4 text-base leading-relaxed hyphens-auto whitespace-pre-line text-black/70 first-letter:float-left first-letter:mr-2 first-letter:text-6xl first-letter:leading-none first-letter:font-bold">
                   <Trans
                     i18nKey={text}
                     components={{

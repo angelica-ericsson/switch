@@ -104,7 +104,7 @@ export function EndScreen({ node }: EndScreenProps) {
       <Confetti recycle={false} numberOfPieces={1000} />
       <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
         {node.data?.headline && <h1 className="font-script text-4xl font-bold">{t(node.data.headline)}</h1>}
-        <p className="text-xl text-pretty whitespace-pre-line">
+        <p className="text-xl text-pretty hyphens-auto whitespace-pre-line">
           <Trans
             i18nKey={node.data?.text ?? ''}
             values={{ totalSales }}
@@ -113,7 +113,7 @@ export function EndScreen({ node }: EndScreenProps) {
             }}
           />
         </p>
-        <p className="text-xl text-pretty whitespace-pre-line">
+        <p className="text-xl text-pretty hyphens-auto whitespace-pre-line">
           <Trans
             i18nKey={totalSales >= GAME_TARGET_SALES ? 'end.overTarget' : 'end.underTarget'}
             values={{ totalSales }}

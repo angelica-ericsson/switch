@@ -40,7 +40,7 @@ export function SceneScreen({ node }: SceneScreenProps) {
   return (
     <GameLayout>
       <div className="intro-screens-bg border-eastbay-900 mx-auto max-w-3xl space-y-6 rounded-2xl border-3 p-8 shadow-2xl">
-        <p className="text-xl text-pretty whitespace-pre-line">
+        <p className="text-xl text-pretty hyphens-auto whitespace-pre-line">
           <Trans
             i18nKey={gameVariant === 'A' ? node.data.textA! : node.data.textB!}
             components={{

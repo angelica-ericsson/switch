@@ -32,7 +32,7 @@ export const FakeTweet = ({ text, displayName, userName, picture, className, ...
 
         <Bird className="size-5 items-start text-blue-500" />
       </div>
-      <div className="leading-normal wrap-break-word">{text}</div>
+      <div className="leading-normal wrap-break-word hyphens-auto">{text}</div>
     </div>
   );
 };
