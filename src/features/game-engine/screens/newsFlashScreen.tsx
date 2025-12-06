@@ -66,7 +66,7 @@ export function NewsFlashScreen({ node }: NewsFlashScreenProps) {
               <div className="md:col-span-1">
                 <div className="newspaper-img-bg">
                   <img
-                    src={node.data.imageUrl}
+                    src={'/' + node.data.imageUrl}
                     className="newspaper-image h-auto w-full border-2 border-black/70 object-cover"
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = 'none';

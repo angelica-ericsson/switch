@@ -14,7 +14,7 @@ Sentry.init({
 });
 
 // Create a new router instance
-const router = createRouter({ routeTree, basepath: 'switch', defaultViewTransition: true });
+const router = createRouter({ routeTree, defaultViewTransition: true });
 
 // Register the router instance for type safety
 declare module '@tanstack/react-router' {
