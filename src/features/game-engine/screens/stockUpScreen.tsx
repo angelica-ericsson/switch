@@ -82,7 +82,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
   return (
     <GameLayout>
-      <div className="order-form-bg max-w-3xl rotate-1 font-mono shadow-2xl">
+      <div className="order-form-bg max-w-3xl rotate-0 font-mono shadow-2xl md:rotate-1">
         <div className="ml-2 border-l-2 border-red-300/50 p-4 pt-8 text-black/70 md:ml-8 md:p-8">
           <h1 className="text-3xl leading-8">
             {alias} {t('stockUp.headline')}
