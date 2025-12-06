@@ -1,8 +1,13 @@
 .game-background {
-  background:
+  /* this was the old background. replaced with the new mountains-1412683_1920_rendered.jpg for performance reasons
+  as different browsers render the image differently. */
+
+  /* background:
     url('assets/45-degree-fabric-dark.png'),
     center / cover no-repeat url('assets/mountains-1412683_1920.jpg');
-  background-blend-mode: color-burn;
+  background-blend-mode: color-burn;  */
+
+  background: center / cover no-repeat url('assets/mountains-1412683_1920_rendered.jpg');
   background-attachment: fixed;
 }
 
@@ -43,12 +48,19 @@
   right: 0;
   bottom: 0;
   pointer-events: none;
-  background:
+  /* 
+    this was the old background. replaced with the new newspaper_rendered.jpg for performance reasons as
+    the browser needs to render multiple divs of the same layered background.
+  */
+  /*background:
     linear-gradient(137deg, #fff8e4ca, #f9f7f157) padding-box,
     url(assets/crumpled-paper.jpg) center/cover padding-box,
     url(assets/black-paper.png) padding-box,
     linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgb(186 186 186) 100%) border-box;
-  background-blend-mode: normal, multiply;
+  background-blend-mode: normal, multiply; */
+  background:
+    url(assets/newspaper_rendered.jpg) center/cover padding-box,
+    linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgb(186 186 186) 100%) border-box;
   border: 2px solid transparent;
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.1),
@@ -62,7 +74,7 @@
   mix-blend-mode: multiply;
 }
 .newspaper-img-bg {
-    background:
+  background:
     linear-gradient(137deg, #fff8e4ca, #f9f7f157) padding-box,
     url(assets/black-paper.png) padding-box;
   background-blend-mode: normal, multiply;
