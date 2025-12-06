@@ -259,7 +259,7 @@ i18n
           'A-1_3-social-Unfortunate_misunderstanding':
             'There has been an unfortunate misunderstanding regarding our tax payments. We will, of course, pay our taxes, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
           'B-1_3-social-Unfortunate_misunderstanding':
-            'There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering systems, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
+            'There has been an unfortunate misunderstanding regarding our greenhouse gas emissions. We will, of course, upgrade our filtering system, but due to financial complications we need a little more time. In the meantime, check out our new Lumberjack collection!',
           'A-1_4-scene-DELAY-Council_vote_extension':
             'There are more ways you can support WildertonWear. As a local politician and council member, you are invited to the regular municipal council meetings.\n\nThis week, you will vote on a proposal to extend the tax repayment period for WildertonWear for four months. How do you vote?',
           'B-1_4-scene-DELAY-Council_vote_extension':
@@ -285,27 +285,27 @@ i18n
           'A-1_5-scene-ACT-Extension_rejected':
             'That worked out nicely! Your arguments convinced the council, and a majority voted against the extension.\n\nWildertonWear needs to pay its taxes immediately.',
           'B-1_5-scene-ACT-Extension_rejected':
-            'That worked out nicely! Your arguments convinced the council, and a majority voted against the extension.\n\n WildertonWear needs to fix its systems immediately.',
+            'That worked out nicely! Your arguments convinced the council, and a majority voted against the extension.\n\n WildertonWear needs to fix its system immediately.',
           'A-1_5-scene-ACT-Extension_approved':
             'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was approved, and WildertonWear gets four extra months to pay its taxes.',
           'B-1_5-scene-ACT-Extension_approved':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was approved, and WildertonWear gets four extra months to fix its systems.',
+            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was approved, and WildertonWear gets four extra months to fix its system.',
           'A-1_5-scene-DELAY-Extension_approved':
             'Great job! Your arguments convinced the council, and the majority voted for an extension.\n\nWildertonWear gets four extra months to pay its taxes.',
           'B-1_5-scene-DELAY-Extension_approved':
-            'Great job! Your arguments convinced the council, and the majority voted for an extension.\n\nWildertonWear gets four extra months to fix its systems.',
+            'Great job! Your arguments convinced the council, and the majority voted for an extension.\n\nWildertonWear gets four extra months to fix its system.',
           'A-1_5-scene-DELAY-Extension_rejected':
             'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was rejected, and WildertonWear needs to pay its taxes immediately.',
           'B-1_5-scene-DELAY-Extension_rejected':
-            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was rejected, and WildertonWear needs to fix its systems immediately.',
+            'Oh no, so close! Your arguments convinced some of the council members, but not enough to get a majority.\n\nThe extension was rejected, and WildertonWear needs to fix its system immediately.',
           'A-1_5-scene-WAIT-Extension_approved':
             'With a narrow majority, the council voted for an extension.\n\nWildertonWear gets four extra months to pay its taxes.',
           'B-1_5-scene-WAIT-Extension_approved':
-            'With a narrow majority, the council voted for an extension.\n\nWildertonWear gets four extra months to fix its systems.',
+            'With a narrow majority, the council voted for an extension.\n\nWildertonWear gets four extra months to fix its system.',
           'A-1_5-scene-WAIT-Extension_rejected':
             'With a narrow majority, the council voted against an extension.\n\nWildertonWear needs to pay its taxes immediately.',
           'B-1_5-scene-WAIT-Extension_rejected':
-            'With a narrow majority, the council voted against an extension.\n\nWildertonWear needs to fix its systems immediately.',
+            'With a narrow majority, the council voted against an extension.\n\nWildertonWear needs to fix its system immediately.',
           'AB-1_6-scene-Stockup_2':
             'It’s been another two weeks, and most of your customers seem to have forgiven WildertonWear.\n\nIt’s time to stock up again, and over the past weeks, you have noticed a slow increase in demand for WildertonWear’s products. Does this mean that the boycott is soon going to be over?',
           'AB-2_1-scene-DELAY-Reaction_2nd_newsflash': 'Ouch, supporting the company comes at a cost this time...',
@@ -380,7 +380,7 @@ i18n
           'AB-2_9-scene-ACT-Rad-Stockup_3':
             'Phew, that was a lot of work! But it seems to pay off. Not all retailers were ready to join the boycott, but you convinced enough of them to add pressure on WildertonWear.\n\nIt is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?',
           'AB-2_9-scene-ACT-Mod-Stockup_3':
-            'Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop. But this is clearly better for the cause than for your business; your revenues are lagging quite a bit.\n\nIt is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?',
+            'Look at that! The discount campaign is going very well, you’ve even seen a number of new customers in the shop. But this is clearly better for the cause than for your business; your revenues are lagging.\n\nIt is time to stock up for the coming month. Should you continue to focus on BlueSkin, or maybe get some extra WildertonWear, just to be safe?',
           'AB-3_1-scene-DELAY-Reaction_waiting_for_audit':
             'You made a good choice.\n\nThanks to your efforts, the boycott is slowing down while the customers are waiting for the results of the audit.',
           'AB-3_1-scene-WAIT-Reaction_waiting_for_audit':
@@ -428,13 +428,13 @@ i18n
           'AB-3_4-scene-ACT-Rad-Community_day':
             'The community day was a big success!\n\nA large group of families with children, elderly citizens, enthusiastic teenagers, and local couples showed up to dream up different visions for the way forward.',
           'AB-3_4-scene-ACT-Mod-Suggestions':
-            'Wow, that was a success!\n\nIn just two weeks, you got 124 different suggestions from local interest groups.\n\nNow you’ll sort out the best ones to bring to the next council meeting.',
+            'Wow, that was a success! In just two weeks, you got 124 different suggestions from local interest groups.\n\nNow you’ll sort out the best ones to bring to the next council meeting.',
           'A-3_4-scene-DELAY-Rad-Safety_gear_producer':
             'You contact a few safety gear producers and find one that is willing to donate safety gear.\n\nHowever, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'B-3_4-scene-DELAY-Rad-Filtering_system_producer':
             'You contact a few wastewater filtering system producers and find one that is willing to donate filters.\n\nHowever, the necessary equipment is currently out of stock due to a large order. The producer promises to get back to you as soon as the equipment is ready to be sent.',
           'AB-3_4_scene-DELAY-Mod-Suggestions':
-            'Wow, that was a success!\n\nIn just two weeks, you got 119 different suggestions from local interest groups! Now you’ll sort out the best ones to bring to the next council meeting.',
+            'Wow, that was a success! In just two weeks, you got 119 different suggestions from local interest groups.\n\nNow you’ll sort out the best ones to bring to the next council meeting.',
           'AB-3_4-scene-DELAY-ModMod-WW_day':
             'The WildertonWear Day is a success, and gathers a lot of residents; families with children, elderly citizens, enthusiastic teenagers, and local couples.\n\nAs a result, you raise a lot of money for the factory.',
           'AB-3_4-scene-ACT-ModMod-Collection':
