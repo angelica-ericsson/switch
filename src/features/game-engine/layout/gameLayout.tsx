@@ -8,7 +8,7 @@ export function GameBackground(props: React.PropsWithChildren) {
   return (
     <div className="game-background min-h-screen">
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} className="fixed left-10 size-30" />
-      <div className="overflow-x-hidden pt-24 pb-36 md:pr-36 md:pb-0 xl:pt-5 xl:pr-0">{props.children}</div>
+      <div className="overflow-hidden pt-24 pb-36 md:pr-36 md:pb-0 xl:pt-5 xl:pr-0">{props.children}</div>
     </div>
   );
 }
