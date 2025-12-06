@@ -208,6 +208,9 @@ i18n
             underTarget:
               'Unfortunately, you only sold {{totalSales}} items which was not enough to extend the lease of your shop space 🙁.',
             playAgain: 'Play again!',
+            shareButton: 'Share',
+            shareTitle: 'Switch the Game',
+            shareText: 'I just finished playing Switch the Game! Can you balance your budget on a social tipping point?',
           },
           'AB-scene-Most_popular_brands':
             'Your most popular brand is WildertonWear, the local brand produced in the old factory in town.\n\nTo be honest, it’s not the best quality brand - anymore. But because of its long tradition and local connection, it is still popular among tourists and locals for nostalgic reasons.\n\nYour second most popular brand is BlueSkin, a higher quality brand made in a neighbouring town.',
@@ -745,6 +748,9 @@ i18n
             underTarget:
               'Tyvärr sålde du bara {{totalSales}} produkter, och hade inte råd att förlänga hyreskontraktet för butikslokalen 🙁.',
             playAgain: 'Spela igen!',
+            shareButton: 'Dela',
+            shareTitle: 'Switch the Game',
+            shareText: 'Jag har precis spelat klart Switch the Game! Kan du balansera din budget på en social vändpunkt?',
           },
           'AB-scene-Most_popular_brands':
             'Ditt mest sålda varumärke är Stenmarks, ett lokalt märke som tillverkas i den gamla fabriken i staden.\n\nOm man ska vara ärlig är det inget kvalitetsmärke längre. Men eftersom det har en lång tradition och en lokal koppling är det fortfarande populärt bland turister och ortsbor av nostalgiska skäl.\n\nDitt näst mest sålda varumärke är Blåställ, ett högkvalitetsmärke som tillverkas i grannstaden.',
