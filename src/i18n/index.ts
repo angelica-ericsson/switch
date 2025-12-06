@@ -798,9 +798,9 @@ i18n
           'B-1_3-social-Unfortunate_misunderstanding':
             'Det har blivit ett olyckligt missförstånd angående våra växthusgas-utsläpp. Vi kommer självklart att uppgradera våra filtreringssystem, men på grund av ekonomiska svårigheter behöver vi lite mer tid.\nUnder tiden: kolla in vår nya skogshuggarkollektion!',
           'A-1_4-scene-DELAY-Council_vote_extension':
-            'Det finns fler sätt du kan påverka eller stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att förlänga Stenmarks skatteinbetalningsperiod med fyra månader. Hur röstar du?',
+            'Det finns fler sätt du kan stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att förlänga Stenmarks skatteinbetalningsperiod med fyra månader. Hur röstar du?',
           'B-1_4-scene-DELAY-Council_vote_extension':
-            'Det finns fler sätt du kan påverka eller stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att skjuta fram deadline för uppgraderingen av Stenmarks filtersystem med fyra månader för att minska det ekonomiska trycket på företaget. Hur röstar du?',
+            'Det finns fler sätt du kan stödja Stenmarks. Som lokalpolitiker och ledamot i kommunfullmäktige bjuds du in till regelbundna kommunfullmäktigemöten.\n\nDen här veckan röstar ni på ett förslag om att skjuta fram deadline för uppgraderingen av Stenmarks filtersystem med fyra månader för att minska det ekonomiska trycket på företaget. Hur röstar du?',
           'AB-1_4-option-DELAY-Vote_against': 'Mot. Vi har stöttat dem länge nog.',
           'AB-1_4-option-DELAY-Abstain_vote': 'Jag avstår. Om jag väljer sida kan jag förlora kunder.',
           'AB-1_4-option-DELAY-Vote_for': 'För, förstås! Vi måste hålla fabriken igång, för arbetarnas och ortens skull.',
@@ -866,7 +866,7 @@ i18n
           'AB-2_4-option-ACT/WAIT-Put_up_posters': 'Sätta upp affischer och dela ut flygblad för att få fler att gå med i bojkotten.',
           'AB-2_4-option-ACT-Have_a_dialogue': 'Ha en dialog med företaget - konsumentkraft kommer förmodligen inte räcka hela vägen.',
           'AB-2_4-scene-WAIT-Local_meeting_point':
-            'Det här var inte bra. Nu måste du fundera på om du kan fortsätta stödja Stenmarks eller inte.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som vill diskutera frågan, och tillsammans diskuterar ni vad som bör göras. Vad föreslår du?',
+            'Det här var inte bra. Nu måste du fundera på om du kan fortsätta stödja Stenmarks eller inte.\n\nOrtsbor kommer förbi för att prata. Gradvis blir din lilla butik en mötesplats för de som vill diskutera frågan, och tillsammans diskuterar ni vad ni bör göra. Vad föreslår du?',
           'AB-2_4-option-WAIT/DELAY-Have a dialogue': 'Ha en dialog med företaget för att övertala dem att åtgärda bristerna.',
           'AB-2_4-option-WAIT/DELAY-Astroturf':
             'Samla vänner och andra återförsäljare för att demonstrera till stöd för den gamla fabriken.',
@@ -879,7 +879,7 @@ i18n
           'AB-2_5-scene-WAIT-Declined_invitation':
             'Du kontaktar Stenmarks, men företaget tackar artigt nej till ett möte eftersom de är för upptagna med att ordna en egen lösning.',
           'AB-2_5-scene-DELAY-Small_but_loud':
-            'Demonstrationen är liten med högljudd, och tack vare en vän på lokaltidningen får ni mycket pressuppmärksamhet.\n\nStenmarks verkar också ha inspirerats...',
+            'Demonstrationen är liten med högljudd, och tack vare en vän på lokaltidningen får ni mycket uppmärksamhet i pressen.\n\nStenmarks verkar också ha inspirerats...',
           'AB-2_5-scene-DELAY-Confront_rumours':
             'Ett mycket bra val!\n\nDina ansträngningar med att konfrontera de där skadliga rykterna verkar fungera. Det verkar till och med som att Stenmarks själva inspirerats av er strategi...',
           'A-2_6-social-Independent_audit':
@@ -992,7 +992,7 @@ i18n
           'AB-4_2-social-DELAY-2_months_banner': 'Om någon saknar "2 månaders strejk"-banderollen så befinner sig den I SOPORNA!',
           'AB-4_2-social-DELAY-148_yrs_of_history':
             'Fan också, hur länge ska det här hålla på? Om det fortsätter blir det slutet på Stenmarks. Är det det vi vill? 148 års historia upp i rök?',
-          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för nästa stöt! #StödStenis',
+          'AB-4_2-social-DELAY-Another_push': 'Kom igen nu, det är dags för nästa push! #StödStenis',
           'AB-4_3-scene-Council_vote_suggestions':
             'Det är dags kommunfullmäktigemöte igen, och den här gången har du med dig tre förslag från lokala intressegrupper.\n\nVilket förslag vill du lyfta lite extra?',
           'AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies':
@@ -1014,7 +1014,7 @@ i18n
           'AB-4_4-scene-ACT-Mod-Evening_classes':
             'Hurra, förslaget om kvällskurser gick igenom!\n\nNu behöver du hitta en passande lokal, rekrytera lärare, anställa administratörer och värva kursdeltagare.',
           'AB-4_4-scene-DELAY-ModMod-Attract_companies':
-            'Sådärja!\n\nFullmäktige godkände förslaget om att attrahera nya företag, och skapar en grupp som kan skissa på ett förslag med fördelaktiga villkor och billiga hyreskontrakt, och boka möten med företag som funderar på att flytta till Stenmarken.',
+            'Sådärja! Fullmäktige godkände förslaget om att attrahera nya företag.\n\nNi skapar en grupp som ska skissa på ett förslag med fördelaktiga villkor och billiga hyreskontrakt, och boka möten med företag som funderar på att flytta till Stenmarken.',
           'A-4_4-scene-DELAY-Rad-Relax_safety_regulations':
             'Det ser ut som att alla ansträngningar kommer att löna sig! Efter veckor av hemliga luncher, gemensamma möten, topphemliga diskussioner och medverkan på myndighetens planeringsmöte verkar allt till slut falla på plats.\n\nDu får signaler om att det kan gå att ordna så att Stenmarks undantas från säkerhetsreglerna, som en engångslösning för att rädda den kritiska verksamheten.',
           'B-4_4-scene-DELAY-Rad-Relax_environmental_regulations':
@@ -1033,7 +1033,7 @@ i18n
           'A-5_1-newsFlash-body-DELAY-ModMod-Factory_closing':
             '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. En tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre fabrikens ljud genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är säker på att Stenmarks kunde ha löst om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är den fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och så är jag orolig över hur jag ska hitta ett nytt jobb, men förhoppningsvis kommer kampanjen för att locka hit nya företag att leda till fler arbeten.',
           'B-5_1-newsFlash-body-DELAY-ModMod-Factory_closing':
-            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. En tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga kostnader för systemunderhåll blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre fabrikens ljud genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över miljöbristerna, men jag är säker på att företaget kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är den fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och så är jag orolig över hur jag ska hitta ett nytt jobb, men förhoppningsvis kommer kampanjen för att locka hit nya företag att leda till fler jobb.',
+            '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. En tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga kostnader för systemunderhåll blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre fabrikens ljud genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över miljöbristerna, men jag är säker på att företaget kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är den fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och så är jag orolig över hur jag ska hitta ett nytt jobb, men förhoppningsvis kommer kampanjen för att locka hit nya företag att leda till fler arbeten.',
           'A-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
             '<b>Efter månader av strejker och bojkotter meddelade Stenmarks ledning igår att företaget lägger ner. De sänkta säkerhetskraven kom för sent, och en tuff ekonomisk situation, minskad produktion till följd av strejkerna och höga skattekostnader blev till slut för mycket för företaget.</b>\nDet är tyst på fabriksområdet. När stängningen meddelades vid lunchtid igår skickades hela personalen hem. För första gången på 148 år ekar inte längre ljuden från fabriken genom Stenmarken.\n- Det är frustrerande, säger Simon Gradén, en före detta anställd som kommer förbi för att hämta sina saker. Jag fattar att folk är arga över säkerhetsbristerna, men jag är övertygad om att Stenmarks kunde ha löst det om de bara fått lite mer tid. Den här fabriken har en så lång historia - jag är fjärde generationen i min familj som jobbat här - och nedstängningen kommer att förändra hela samhället. Och jag är orolig över att inte hitta ett nytt jobb, jag kanske blir tvungen att flytta.',
           'B-5_1-newsFlash-body-DELAY-Rad-Factory_closing':
