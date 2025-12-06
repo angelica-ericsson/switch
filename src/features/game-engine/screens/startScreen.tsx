@@ -4,6 +4,7 @@ import { GameLayout } from '../layout/gameLayout';
 import { GameButton } from '@/components/ui/gameButton';
 import { useDemographicStore } from '@/features/onboarding/demographicStore';
 import imagePath from '@/assets/pexels-tomfisk-13777960.jpg';
+import { trackEvent } from '@/lib/umami';
 
 export function StartScreen() {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ export function StartScreen() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    window.umami.track('screen:start:button');
+    trackEvent('screen:start:button');
     const form = e.currentTarget;
     if (form.checkValidity()) {
       moveForward('default');

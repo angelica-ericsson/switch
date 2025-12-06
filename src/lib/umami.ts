@@ -1,3 +1,21 @@
+declare global {
+  interface Window {
+    umami: UmamiTracker;
+  }
+}
+
+export function trackEvent(event: string, properties?: EventData) {
+  if (typeof window.umami !== 'undefined') {
+    window.umami.track(event, properties ?? {});
+  }
+}
+
+export function identify(id: string, properties?: Record<string, string>) {
+  if (typeof window.umami !== 'undefined') {
+    window.umami.identify(id, properties ?? {});
+  }
+}
+
 export type TrackedProperties = {
   /**
    * Hostname of server

@@ -5,6 +5,7 @@ import { GameButton } from '@/components/ui/gameButton';
 import { useDemographicStore } from '@/features/onboarding/demographicStore';
 import i18n from '@/i18n';
 import type { StockUpNodeType } from '../zod-schema';
+import { trackEvent } from '@/lib/umami';
 
 interface StockUpScreenProps {
   node: StockUpNodeType;
@@ -76,7 +77,7 @@ export function StockUpScreen({ node }: StockUpScreenProps) {
 
     // Move forward with 'default' direction
     moveForward('default');
-    window.umami.track('screen:stockUp:button', { eventId: node.data.eventId ?? node.id });
+    trackEvent('screen:stockUp:button', { eventId: node.data.eventId ?? node.id });
   };
 
   return (

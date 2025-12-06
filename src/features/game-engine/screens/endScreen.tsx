@@ -12,6 +12,7 @@ import { useNavigate } from '@tanstack/react-router';
 import game from '../../../game-files/game.json';
 import { generateGameNodeGraph } from '../state';
 import { GAME_TARGET_SALES } from '../constants';
+import { trackEvent } from '@/lib/umami';
 
 interface EndScreenProps {
   node: EndNodeType;
@@ -72,7 +73,7 @@ export function EndScreen({ node }: EndScreenProps) {
         console.error('Failed to submit game data to Supabase:', error);
       });
 
-    window.umami.track('game-end');
+    trackEvent('game-end');
   }, [node.id]);
 
   return (
