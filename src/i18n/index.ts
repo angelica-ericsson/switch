@@ -571,7 +571,7 @@ i18n
             Här äger du en liten klädbutik som heter`,
             description2: `(uppkallad efter din favoritfärg och mest använda verktyg) där du säljer arbetskläder som overaller, jackor och kängor. Du säljer ungefär 100 produkter per månad.\n\nOm fyra månader löper hyreskontraktet på butikslokalen ut. För att ha råd att förlänga det behöver du sälja ungefär 50 plagg varje månad.`,
             button: 'Starta äventyret',
-            startScreenSubtitle: 'Kan du balansera din budget på en social vändpunkt?',
+            startScreenSubtitle: 'Kan du balansera din budget på en social brytpunkt?',
           },
           stockUp: {
             headline: 'lagerbeställning',
@@ -759,7 +759,7 @@ i18n
             playAgain: 'Spela igen!',
             shareButton: 'Dela',
             shareTitle: 'Switch - the game',
-            shareText: 'Jag har precis spelat klart Switch - the game! Kan du balansera din budget på en social vändpunkt?',
+            shareText: 'Jag har precis spelat klart Switch - the game! Kan du balansera din budget på en social brytpunkt?',
             credits: {
               headline: 'Spelmakare',
               text: 'Text: ',
