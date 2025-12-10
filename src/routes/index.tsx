@@ -8,6 +8,7 @@ import '../game.css';
 import logoUrl from '../assets/logo.svg';
 import { GameButton } from '@/components/ui/gameButton';
 import { Check } from 'lucide-react';
+import { trackEvent } from '@/lib/umami';
 
 export const Route = createFileRoute('/')({
   component: Index,
@@ -21,7 +22,8 @@ function Index() {
   const isDemoValid = useDemographicStore((state) => state.validate);
 
   const handleStartGame = () => {
-    window.umami.track('page:index:startbutton');
+    trackEvent('page:index:startbutton');
+
     if (isConsentValid() && isDemoValid()) {
       navigate({ to: '/game' });
     } else {
