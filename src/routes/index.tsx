@@ -52,7 +52,7 @@ function Index() {
       <img src={logoUrl} style={{ viewTransitionName: 'logo' }} />
 
       {/* Large headline in center */}
-      <h1 className="font-script text-shadow-eastbay-900 m-12 text-center text-5xl font-bold hyphens-auto text-white text-shadow-lg">
+      <h1 className="font-script text-shadow-eastbay-900 my-12 text-center text-5xl font-bold hyphens-auto text-white text-shadow-lg">
         {t('welcome.startScreenSubtitle')}
       </h1>
 
