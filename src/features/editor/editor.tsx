@@ -20,7 +20,7 @@ import { SceneNode } from './nodes/scene';
 import { useLocalStorage } from 'usehooks-ts';
 
 import { EditorToolbar } from './nodeToolbar';
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 import { StockUpNode } from './nodes/stock-up';
 import { SetStateNode } from './nodes/set-state';
 import { StartNode } from './nodes/start';
@@ -32,6 +32,7 @@ import { SocialNode } from './nodes/social';
 import { SurveyNode } from './nodes/survey';
 import { ImportExportToolbar } from './importExportToolbar';
 import { SearchToolbar } from './searchToolbar';
+import game from '../../game-files/game.json';
 
 const nodeTypes = {
   scene: SceneNode,
@@ -53,6 +54,19 @@ export function Editor() {
   const onNodesChange: OnNodesChange = useCallback((changes) => setNodes((nds) => applyNodeChanges(changes, nds)), [setNodes]);
   const onEdgesChange: OnEdgesChange = useCallback((changes) => setEdges((eds) => applyEdgeChanges(changes, eds)), [setEdges]);
   const onConnect: OnConnect = useCallback((connection) => setEdges((eds) => addEdge(connection, eds)), [setEdges]);
+
+  // Initialize editor with game.json if localStorage is empty
+  useEffect(() => {
+    const masterNodes = game.nodes as Node[];
+    const masterEdges = game.edges as Edge[];
+
+    if (nodes.length === 0 && edges.length === 0) {
+      // LocalStorage is empty, load master game.json
+      setNodes(masterNodes);
+      setEdges(masterEdges);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <ReactFlowProvider>
