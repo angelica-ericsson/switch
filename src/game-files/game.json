@@ -607,7 +607,8 @@
         "sentimentPro": "56",
         "sentimentNeutral": "6",
         "sentimentAgainst": "38",
-        "daysSinceGameStart": 30
+        "daysSinceGameStart": 30,
+        "eventId": "2 . 1 - ACT - Game state"
       }
     },
     {
@@ -623,7 +624,8 @@
         "sentimentPro": "64",
         "sentimentNeutral": "6",
         "sentimentAgainst": "30",
-        "daysSinceGameStart": 30
+        "daysSinceGameStart": 30,
+        "eventId": "2 . 1 - WAIT - Game state"
       }
     },
     {
@@ -639,7 +641,8 @@
         "sentimentPro": "71",
         "sentimentNeutral": "6",
         "sentimentAgainst": "23",
-        "daysSinceGameStart": 30
+        "daysSinceGameStart": 30,
+        "eventId": "2 . 1 - DELAY - Game state"
       }
     },
     {
@@ -655,7 +658,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 2 - ACT - Reaction 2nd newsflash",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -674,7 +677,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 2 - WAIT - Reaction 2nd newsflash",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -693,7 +696,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 2 - DELAY - Reaction 2nd newsflash",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -715,7 +718,7 @@
         "option1B": "B-2_4-option-ACT-Organise_demonstration",
         "option2B": "AB-2_4-option-ACT/WAIT-Put_up_posters",
         "option3B": "AB-2_4-option-ACT-Have_a_dialogue",
-        "eventId": null
+        "eventId": "2 . 5 - ACT - Local meeting point"
       }
     },
     {
@@ -731,7 +734,7 @@
         "option1A": "AB-2_4-option-ACT/WAIT-Put_up_posters",
         "option2A": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
         "option3A": "AB-2_4-option-WAIT/DELAY-Astroturf",
-        "eventId": null,
+        "eventId": "2 . 5 - WAIT - Local meeting point",
         "option1B": "AB-2_4-option-ACT/WAIT-Put_up_posters",
         "option2B": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
         "option3B": "AB-2_4-option-WAIT/DELAY-Astroturf"
@@ -750,7 +753,7 @@
         "option1A": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
         "option2A": "AB-2_4-option-WAIT/DELAY-Astroturf",
         "option3A": "AB-2_4-option-DELAY-Interview_is_fishy",
-        "eventId": null,
+        "eventId": "2 . 5 - DELAY - Local meeting point",
         "option1B": "AB-2_4-option-WAIT/DELAY-Have a dialogue",
         "option2B": "AB-2_4-option-WAIT/DELAY-Astroturf",
         "option3B": "AB-2_4-option-DELAY-Interview_is_fishy"
@@ -769,7 +772,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 7 - ACT Rad - Demonstration successful",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -836,7 +839,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 7 - ACT Mod - Posters have effect",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -855,7 +858,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 7 - WAIT - Declined invitation",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -874,7 +877,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 7 - DELAY Mod - Small but loud",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -893,7 +896,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 7 - DELAY Rad - Confront rumours",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -912,7 +915,7 @@
         "option1A": "AB-2_8-option-ACT-Call_resellers_join_boycott",
         "option2A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option3A": "AB-2_8-option-Collection_box",
-        "eventId": null,
+        "eventId": "2 . 10 - ACT Rad - Business owner",
         "option1B": "AB-2_8-option-ACT-Call_resellers_join_boycott",
         "option2B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option3B": "AB-2_8-option-Collection_box"
@@ -931,7 +934,7 @@
         "option1A": "AB-2_8-option-ACT-Call_resellers_join_boycott",
         "option2A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option3A": "AB-2_8-option-Collection_box",
-        "eventId": null,
+        "eventId": "2 . 10 - ACT Mod - Business owner",
         "option1B": "AB-2_8-option-ACT-Call_resellers_join_boycott",
         "option2B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option3B": "AB-2_8-option-Collection_box"
@@ -950,7 +953,7 @@
         "option1A": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option2A": "AB-2_8-option-Collection_box",
         "option3A": "AB-2_8-option-DELAY-Discount-WildertonWear",
-        "eventId": null,
+        "eventId": "2 . 10 - WAIT - Business owner",
         "option1B": "AB-2_8-option-ACT/WAIT-Discount_BlueSkin",
         "option2B": "AB-2_8-option-Collection_box",
         "option3B": "AB-2_8-option-DELAY-Discount-WildertonWear"
@@ -969,7 +972,7 @@
         "option1A": "AB-2_8-option-Collection_box",
         "option2A": "AB-2_8-option-DELAY-Discount-WildertonWear",
         "option3A": "AB-2_8-option-DELAY-Call_resellers-to-support",
-        "eventId": null,
+        "eventId": "2 . 10 - DELAY Mod - Business owner",
         "option1B": "AB-2_8-option-Collection_box",
         "option2B": "AB-2_8-option-DELAY-Discount-WildertonWear",
         "option3B": "AB-2_8-option-DELAY-Call_resellers-to-support"
@@ -991,7 +994,7 @@
         "option1B": "AB-2_8-option-Collection_box",
         "option2B": "AB-2_8-option-DELAY-Discount-WildertonWear",
         "option3B": "AB-2_8-option-DELAY-Call_resellers-to-support",
-        "eventId": null
+        "eventId": "2 . 10 - DELAY Rad - Business owner"
       }
     },
     {
@@ -1007,7 +1010,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 12 - ACT Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1026,7 +1029,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 12 - ACT Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1045,7 +1048,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 12 - WAIT - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1064,7 +1067,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 12 - DELAY Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1083,7 +1086,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "2 . 12 - DELAY Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1097,7 +1100,8 @@
         "y": 14456.187162209559
       },
       "data": {
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 - ACT Rad - Stock up"
       }
     },
     {
@@ -1108,7 +1112,8 @@
         "y": 14458.59521514264
       },
       "data": {
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 - ACT Mod - Stock up"
       }
     },
     {
@@ -1119,7 +1124,8 @@
         "y": 14458.824818379948
       },
       "data": {
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 - WAIT - Stock up"
       }
     },
     {
@@ -1130,7 +1136,8 @@
         "y": 14458.922714910475
       },
       "data": {
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 - DELAY Mod - Stock up"
       }
     },
     {
@@ -1141,7 +1148,8 @@
         "y": 14454.144520872616
       },
       "data": {
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 - DELAY Rad - Stock up"
       }
     },
     {
@@ -1149,7 +1157,7 @@
       "type": "setState",
       "position": {
         "x": -2382.6854030642157,
-        "y": 15569.53578350042
+        "y": 15534.53578350042
       },
       "data": {
         "demandA": "54",
@@ -1157,7 +1165,8 @@
         "sentimentPro": "48",
         "sentimentNeutral": "6",
         "sentimentAgainst": "46",
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 . 1 - ACT Rad - Game state"
       }
     },
     {
@@ -1165,7 +1174,7 @@
       "type": "setState",
       "position": {
         "x": -1491.86148959568,
-        "y": 15572.455993063691
+        "y": 15537.455993063691
       },
       "data": {
         "demandA": "56",
@@ -1173,7 +1182,8 @@
         "sentimentPro": "50",
         "sentimentNeutral": "6",
         "sentimentAgainst": "44",
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 . 1 - ACT Mod - Game state"
       }
     },
     {
@@ -1181,7 +1191,7 @@
       "type": "setState",
       "position": {
         "x": -289.07180802902883,
-        "y": 15569.746745386603
+        "y": 15534.746745386603
       },
       "data": {
         "demandA": "64",
@@ -1189,7 +1199,8 @@
         "sentimentPro": "61",
         "sentimentNeutral": "6",
         "sentimentAgainst": "33",
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 . 1 - WAIT - Game state"
       }
     },
     {
@@ -1197,7 +1208,7 @@
       "type": "setState",
       "position": {
         "x": 938.9874601463396,
-        "y": 15571.16673429775
+        "y": 15536.16673429775
       },
       "data": {
         "demandA": "72",
@@ -1205,7 +1216,8 @@
         "sentimentPro": "72",
         "sentimentNeutral": "6",
         "sentimentAgainst": "22",
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 . 1 - DELAY Mod - Game state"
       }
     },
     {
@@ -1213,7 +1225,7 @@
       "type": "setState",
       "position": {
         "x": 1889.2797505194258,
-        "y": 15569.269897721066
+        "y": 15534.269897721066
       },
       "data": {
         "demandA": "74",
@@ -1221,7 +1233,8 @@
         "sentimentPro": "74",
         "sentimentNeutral": "6",
         "sentimentAgainst": "20",
-        "daysSinceGameStart": 61
+        "daysSinceGameStart": 61,
+        "eventId": "3 . 1 - DELAY Rad - Game state"
       }
     },
     {
@@ -1237,7 +1250,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 2 - ACT Mod - Reaction waiting for audit",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1256,7 +1269,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 2 - ACT Rad - Reaction waiting for audit",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1275,7 +1288,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 2 - DELAY Mod - Reaction waiting for audit",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1294,7 +1307,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 2 - DELAY Rad - Reaction waiting for audit",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1313,7 +1326,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 2 - WAIT - Reaction waiting for audit",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1332,7 +1345,7 @@
         "option1A": "AB-3_3-option-ACT-Community_day",
         "option2A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option3A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
-        "eventId": null,
+        "eventId": "3 . 4 - ACT Rad - How to thrive",
         "option1B": "AB-3_3-option-ACT-Community_day",
         "option2B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option3B": "AB-3_3-option-ACT/WAIT-Fund_to_support"
@@ -1351,7 +1364,7 @@
         "option1A": "AB-3_3-option-ACT-Community_day",
         "option2A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option3A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
-        "eventId": null,
+        "eventId": "3 . 4 - ACT Mod - How to thrive",
         "option1B": "AB-3_3-option-ACT-Community_day",
         "option2B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option3B": "AB-3_3-option-ACT/WAIT-Fund_to_support"
@@ -1373,7 +1386,7 @@
         "option1B": "AB-3_3-option-WAIT/DELAY-WW_day",
         "option2B": "AB-3_3-option-DELAY-Invite_interest_groups",
         "option3B": "B-3_3-option-DELAY-Local_producer",
-        "eventId": null
+        "eventId": "3 . 4 - DELAY Mod - Long term"
       }
     },
     {
@@ -1389,7 +1402,7 @@
         "option1A": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option2A": "AB-3_3-option-ACT/WAIT-Fund_to_support",
         "option3A": "AB-3_3-option-WAIT/DELAY-WW_day",
-        "eventId": null,
+        "eventId": "3 . 4 - WAIT - Long term",
         "option1B": "AB-3_3-option-ACT/WAIT-Invite_interest_groups",
         "option2B": "AB-3_3-option-ACT/WAIT-Fund_to_support",
         "option3B": "AB-3_3-option-WAIT/DELAY-WW_day"
@@ -1411,7 +1424,7 @@
         "option1B": "AB-3_3-option-WAIT/DELAY-WW_day",
         "option2B": "AB-3_3-option-DELAY-Invite_interest_groups",
         "option3B": "B-3_3-option-DELAY-Local_producer",
-        "eventId": null
+        "eventId": "3 . 4 - DELAY Rad - Long term"
       }
     },
     {
@@ -1427,7 +1440,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 6 - ACT Rad - Community day",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1446,7 +1459,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 6 - ACT Mod - Suggestions",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1465,7 +1478,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 6 - ACT ModMod - Collection",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1484,7 +1497,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 6 - DELAY ModMod - WW day",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1503,7 +1516,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 6 - DELAY Mod - Suggestions",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -1573,7 +1586,8 @@
         "sentimentPro": "51",
         "sentimentNeutral": "6",
         "sentimentAgainst": "43",
-        "daysSinceGameStart": 38
+        "daysSinceGameStart": 38,
+        "eventId": "2 . 6 - ACT - Game state"
       }
     },
     {
@@ -1589,7 +1603,8 @@
         "sentimentPro": "53",
         "sentimentNeutral": "6",
         "sentimentAgainst": "41",
-        "daysSinceGameStart": 38
+        "daysSinceGameStart": 38,
+        "eventId": "2 . 6 - WAIT - Game state"
       }
     },
     {
@@ -1605,7 +1620,8 @@
         "sentimentPro": "62",
         "sentimentNeutral": "6",
         "sentimentAgainst": "32",
-        "daysSinceGameStart": 38
+        "daysSinceGameStart": 38,
+        "eventId": "2 . 6 - DELAY - Game state"
       }
     },
     {
@@ -1653,7 +1669,8 @@
         "sentimentPro": "48",
         "sentimentNeutral": "6",
         "sentimentAgainst": "46",
-        "daysSinceGameStart": 46
+        "daysSinceGameStart": 46,
+        "eventId": "2 . 11 - ACT Rad - Game state"
       }
     },
     {
@@ -1669,7 +1686,8 @@
         "sentimentPro": "50",
         "sentimentNeutral": "6",
         "sentimentAgainst": "44",
-        "daysSinceGameStart": 46
+        "daysSinceGameStart": 46,
+        "eventId": "2 . 11 - ACT - Mod - Game state"
       }
     },
     {
@@ -1685,7 +1703,8 @@
         "sentimentPro": "61",
         "sentimentNeutral": "6",
         "sentimentAgainst": "33",
-        "daysSinceGameStart": 46
+        "daysSinceGameStart": 46,
+        "eventId": "2 . 11 - WAIT - Game state"
       }
     },
     {
@@ -1701,7 +1720,8 @@
         "sentimentPro": "72",
         "sentimentNeutral": "6",
         "sentimentAgainst": "22",
-        "daysSinceGameStart": 46
+        "daysSinceGameStart": 46,
+        "eventId": "2 . 11 - DELAY Mod - Game state"
       }
     },
     {
@@ -1717,7 +1737,8 @@
         "sentimentPro": "74",
         "sentimentNeutral": "6",
         "sentimentAgainst": "20",
-        "daysSinceGameStart": 46
+        "daysSinceGameStart": 46,
+        "eventId": "2 . 11 - DELAY Rad - Game state"
       }
     },
     {
@@ -1733,7 +1754,8 @@
         "sentimentPro": "45",
         "sentimentNeutral": "6",
         "sentimentAgainst": "49",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - ACT Mod - Game state"
       }
     },
     {
@@ -1749,7 +1771,8 @@
         "sentimentPro": "62",
         "sentimentNeutral": "6",
         "sentimentAgainst": "32",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - ACT ModMod - Game state"
       }
     },
     {
@@ -1765,7 +1788,8 @@
         "sentimentPro": "58",
         "sentimentNeutral": "6",
         "sentimentAgainst": "32",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - DELAY ModMod - Game state"
       }
     },
     {
@@ -1781,7 +1805,8 @@
         "sentimentPro": "74",
         "sentimentNeutral": "6",
         "sentimentAgainst": "20",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - DELAY Mod - Game state"
       }
     },
     {
@@ -1797,7 +1822,8 @@
         "sentimentPro": "76",
         "sentimentNeutral": "6",
         "sentimentAgainst": "18",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - DELAY Rad - Game state"
       }
     },
     {
@@ -1813,7 +1839,8 @@
         "sentimentPro": "43",
         "sentimentNeutral": "6",
         "sentimentAgainst": "51",
-        "daysSinceGameStart": 81
+        "daysSinceGameStart": 81,
+        "eventId": "3 . 5 - ACT Rad - Game state"
       }
     },
     {
@@ -1832,7 +1859,7 @@
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
-        "eventId": null
+        "eventId": "3 . 6 - DELAY Rad - Safety gear producer"
       }
     },
     {
@@ -1848,7 +1875,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - ACT Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1867,7 +1894,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - ACT Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1886,7 +1913,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - ACT ModMod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1905,7 +1932,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - DELAY ModMod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1924,7 +1951,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - DELAY Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1943,7 +1970,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "3 . 7 - DELAY Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -1957,7 +1984,8 @@
         "y": 19414.28025442975
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - ACT Rad - Stock up"
       }
     },
     {
@@ -1968,7 +1996,8 @@
         "y": 19413.800290535317
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - ACT Mod - Stock up"
       }
     },
     {
@@ -1979,7 +2008,8 @@
         "y": 19413.46549216079
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - ACT ModMod - Stock up"
       }
     },
     {
@@ -1990,7 +2020,8 @@
         "y": 19415.58717657616
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - DELAY ModMod - Stock up"
       }
     },
     {
@@ -2001,7 +2032,8 @@
         "y": 19413.339852397792
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - DELAY Mod - Stock up"
       }
     },
     {
@@ -2012,7 +2044,8 @@
         "y": 19416.02348420707
       },
       "data": {
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 - DELAY Rad - Stock up"
       }
     },
     {
@@ -2028,7 +2061,8 @@
         "sentimentPro": "37",
         "sentimentNeutral": "4",
         "sentimentAgainst": "59",
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 . 1 - ACT Rad - Game state"
       }
     },
     {
@@ -2044,7 +2078,8 @@
         "sentimentPro": "39",
         "sentimentNeutral": "4",
         "sentimentAgainst": "57",
-        "daysSinceGameStart": 91
+        "daysSinceGameStart": 91,
+        "eventId": "4 . 1 - ACT Mod - Game state"
       }
     },
     {
@@ -2060,7 +2095,8 @@
         "sentimentPro": "57",
         "sentimentNeutral": "4",
         "sentimentAgainst": "39",
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 . 1 - ACT ModMod - Game state"
       }
     },
     {
@@ -2076,7 +2112,8 @@
         "sentimentPro": "53",
         "sentimentNeutral": "4",
         "sentimentAgainst": "43",
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 . 1 - DELAY ModMod - Game state"
       }
     },
     {
@@ -2092,7 +2129,8 @@
         "sentimentPro": "70",
         "sentimentNeutral": "4",
         "sentimentAgainst": "26",
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 . 1 - DELAY Mod - Game state"
       }
     },
     {
@@ -2108,7 +2146,8 @@
         "sentimentPro": "74",
         "sentimentNeutral": "4",
         "sentimentAgainst": "22",
-        "daysSinceGameStart": 92
+        "daysSinceGameStart": 92,
+        "eventId": "4 . 1 - DELAY Rad - Game state"
       }
     },
     {
@@ -2124,7 +2163,7 @@
         "option1A": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
         "option2A": "AB-4_3-option-ACT-Evening_classes",
         "option3A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
-        "eventId": null,
+        "eventId": "4 . 4 - ACT Rad - Council vote suggestions",
         "option1B": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
         "option2B": "AB-4_3-option-ACT-Evening_classes",
         "option3B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop"
@@ -2143,7 +2182,7 @@
         "option1A": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
         "option2A": "AB-4_3-option-ACT-Evening_classes",
         "option3A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
-        "eventId": null,
+        "eventId": "4 . 4 - ACT Mod - Council vote suggestions",
         "option1B": "AB-4_3-option-ACT-Rad/Mod-Universal_basic_income",
         "option2B": "AB-4_3-option-ACT-Evening_classes",
         "option3B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop"
@@ -2162,7 +2201,7 @@
         "option1A": "AB-4_3-option-ACT-Evening_classes",
         "option2A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "option3A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
-        "eventId": null,
+        "eventId": "4 . 4 - ACT ModMod - Council vote suggestions",
         "option1B": "AB-4_3-option-ACT-Evening_classes",
         "option2B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "option3B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies"
@@ -2181,7 +2220,7 @@
         "option1A": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "option2A": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
         "option3A": "AB-4_3-option-DELAY-Local_investor",
-        "eventId": null,
+        "eventId": "4 . 4 - DELAY ModMod - Council vote suggestions",
         "option1B": "AB-4_3-option-ACT/DELAY-Rad-Clothing_repair_shop",
         "option2B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
         "option3B": "AB-4_3-option-DELAY-Local_investor"
@@ -2203,7 +2242,7 @@
         "option1B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
         "option2B": "AB-4_3-option-DELAY-Local_investor",
         "option3B": "B-4_3-option-DELAY-Rad-Relax_environmental_regulations",
-        "eventId": null
+        "eventId": "4 . 4 - DELAY Mod - Council vote suggestions"
       }
     },
     {
@@ -2222,7 +2261,7 @@
         "option1B": "AB-4_3-option-ACT-ModMod/DELAY-Attract_new_companies",
         "option2B": "AB-4_3-option-DELAY-Local_investor",
         "option3B": "B-4_3-option-DELAY-Rad-Relax_environmental_regulations",
-        "eventId": null
+        "eventId": "4 . 4 - DELAY Rad - Council vote suggestions"
       }
     },
     {
@@ -2239,7 +2278,7 @@
         "sentimentNeutral": "4",
         "sentimentAgainst": "62",
         "daysSinceGameStart": 111,
-        "eventId": null
+        "eventId": "4 . 5 - ACT Rad - Game state"
       }
     },
     {
@@ -2255,7 +2294,8 @@
         "sentimentPro": "36",
         "sentimentNeutral": "4",
         "sentimentAgainst": "60",
-        "daysSinceGameStart": 111
+        "daysSinceGameStart": 111,
+        "eventId": "4 . 5 - ACT Mod - Game state"
       }
     },
     {
@@ -2271,7 +2311,8 @@
         "sentimentPro": "56",
         "sentimentNeutral": "4",
         "sentimentAgainst": "40",
-        "daysSinceGameStart": 111
+        "daysSinceGameStart": 111,
+        "eventId": "4 . 5 - ACT ModMod - Game state"
       }
     },
     {
@@ -2287,7 +2328,8 @@
         "sentimentPro": "52",
         "sentimentNeutral": "4",
         "sentimentAgainst": "44",
-        "daysSinceGameStart": 111
+        "daysSinceGameStart": 111,
+        "eventId": "4 . 5 - DELAY ModMod - Game state"
       }
     },
     {
@@ -2303,7 +2345,8 @@
         "sentimentPro": "72",
         "sentimentNeutral": "4",
         "sentimentAgainst": "24",
-        "daysSinceGameStart": 111
+        "daysSinceGameStart": 111,
+        "eventId": "4 . 5 - DELAY Mod - Game state"
       }
     },
     {
@@ -2319,7 +2362,8 @@
         "sentimentPro": "74",
         "sentimentNeutral": "4",
         "sentimentAgainst": "22",
-        "daysSinceGameStart": 111
+        "daysSinceGameStart": 111,
+        "eventId": "4 . 5 - DELAY Rad - Game state"
       }
     },
     {
@@ -2335,7 +2379,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 6 - ACT Rad - Universal basic income",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -2662,7 +2706,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 6 - ACT Mod - Evening classes",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -2681,7 +2725,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 6 - ACT ModMod - Clothing repair shop",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -2703,7 +2747,7 @@
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
-        "eventId": null
+        "eventId": "4 . 6 - DELAY Rad - Relax safety regulations"
       }
     },
     {
@@ -2719,7 +2763,7 @@
         "option1A": "AB-scene-Continue",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 6 - DELAY Mod - Local sponsor",
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null
@@ -2741,7 +2785,7 @@
         "option1B": "AB-scene-Continue",
         "option2B": null,
         "option3B": null,
-        "eventId": null
+        "eventId": "4 . 6 - DELAY ModMod - Attract companies"
       }
     },
     {
@@ -2757,7 +2801,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - ACT Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2776,7 +2820,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - ACT Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2795,7 +2839,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - ACT ModMod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2814,7 +2858,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - DELAY ModMod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2833,7 +2877,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - DELAY Mod - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2852,7 +2896,7 @@
         "option1A": "AB-scene-Let's_stock_up!",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "4 . 7 - DELAY Rad - Time to stock up",
         "option1B": "AB-scene-Let's_stock_up!",
         "option2B": null,
         "option3B": null
@@ -2866,7 +2910,8 @@
         "y": 24967.283877671824
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - ACT Rad - Stock up"
       }
     },
     {
@@ -2877,7 +2922,8 @@
         "y": 24967.383816312507
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - ACT Mod - Stock up"
       }
     },
     {
@@ -2888,7 +2934,8 @@
         "y": 24964.007522032232
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - ACT ModMod - Stock up"
       }
     },
     {
@@ -2899,7 +2946,8 @@
         "y": 24965.975299654412
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - DELAY ModMod - Stock up"
       }
     },
     {
@@ -2910,7 +2958,8 @@
         "y": 24967.87182037268
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - DELAY Mod - Stock up"
       }
     },
     {
@@ -2921,7 +2970,8 @@
         "y": 24968.708317912195
       },
       "data": {
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 - DELAY Rad - Stock up"
       }
     },
     {
@@ -3160,7 +3210,8 @@
         "sentimentPro": "29",
         "sentimentNeutral": "4",
         "sentimentAgainst": "67",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - ACT Rad - Game state"
       }
     },
     {
@@ -3176,7 +3227,8 @@
         "sentimentPro": "31",
         "sentimentNeutral": "4",
         "sentimentAgainst": "65",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - ACT Mod - Game state"
       }
     },
     {
@@ -3192,7 +3244,8 @@
         "sentimentPro": "55",
         "sentimentNeutral": "4",
         "sentimentAgainst": "41",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - ACT ModMod - Game state"
       }
     },
     {
@@ -3208,7 +3261,8 @@
         "sentimentPro": "51",
         "sentimentNeutral": "4",
         "sentimentAgainst": "45",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - DELAY ModMod - Game state"
       }
     },
     {
@@ -3224,7 +3278,8 @@
         "sentimentPro": "75",
         "sentimentNeutral": "4",
         "sentimentAgainst": "21",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - DELAY Mod - Game state"
       }
     },
     {
@@ -3240,7 +3295,8 @@
         "sentimentPro": "77",
         "sentimentNeutral": "4",
         "sentimentAgainst": "19",
-        "daysSinceGameStart": 122
+        "daysSinceGameStart": 122,
+        "eventId": "5 . 1 - DELAY Rad - Game state"
       }
     },
     {
@@ -3406,7 +3462,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 3 - ACT Rad - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
@@ -3441,7 +3497,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 3 - ACT Mod - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
@@ -3476,7 +3532,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 3 - ACT ModMod - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
@@ -3511,7 +3567,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 1 - DELAY ModMod - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
@@ -3546,7 +3602,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 3 - DELAY Mod - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
@@ -3581,7 +3637,7 @@
         "option1A": "AB-5_2-scene-option-What_has_happened",
         "option2A": null,
         "option3A": null,
-        "eventId": null,
+        "eventId": "5 . 3 - DELAY Rad - 2 yrs later",
         "option1B": "AB-5_2-scene-option-What_has_happened",
         "option2B": null,
         "option3B": null
