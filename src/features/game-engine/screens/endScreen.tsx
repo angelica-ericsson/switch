@@ -4,8 +4,8 @@ import { GameLayout } from '../layout/gameLayout';
 import { useEffect, useRef } from 'react';
 import { useGameState } from '../state';
 import { useDemographicStore } from '@/features/onboarding/demographicStore';
-import { useConsentStore } from '@/features/onboarding/consentStore';
-import { submitData } from '@/lib/supabase';
+// import { useConsentStore } from '@/features/onboarding/consentStore';
+// import { submitData } from '@/lib/supabase';
 import { GameButton } from '@/components/ui/gameButton';
 import Confetti from 'react-confetti';
 import { useNavigate } from '@tanstack/react-router';
@@ -43,6 +43,9 @@ export function EndScreen({ node }: EndScreenProps) {
     }
 
     hasSubmittedRef.current = true;
+
+    /**  
+     * Game safe-to-database disabled on 2026-04-01 as no data collection is needed anymore
 
     const gameState = useGameState.getState();
     const demographicData = useDemographicStore.getState();
@@ -82,6 +85,7 @@ export function EndScreen({ node }: EndScreenProps) {
       .catch((error) => {
         console.error('Failed to submit game data to Supabase:', error);
       });
+    */
 
     trackEvent('game-end');
   }, [node.id, totalSales]);
