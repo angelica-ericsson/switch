@@ -1,6 +1,5 @@
 import { useGameState } from '../state';
 import { GAME_MAX_DAYS, GAME_TARGET_SALES } from '../constants';
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { cn } from '@/lib/utils';
 import { Progress } from '@/components/ui/progress';
 import { motion } from 'motion/react';
@@ -68,7 +67,6 @@ function SentimentCircle() {
 
   if (sentimentAgainst === 0 && sentimentPro === 0) sentimentNeutral = 100;
 
-  // Prepare data for sentiment Recharts PieChart
   const sentimentPieData = [
     { name: 'Positive', value: sentimentPro, color: 'var(--color-emerald-600)' },
     { name: 'Neutral', value: sentimentNeutral, color: 'var(--color-stone-400)', opacity: 0.2 },
@@ -79,29 +77,7 @@ function SentimentCircle() {
     <div className="flex w-40 flex-col items-center gap-0.5 transition-opacity">
       <p className="text-sm leading-4 font-medium tracking-tight">{t('statusBar.publicOpinion')}</p>
       <div className="flex flex-row items-center gap-2">
-        <div className="flex h-[60px] w-[60px] items-center gap-2">
-          <ResponsiveContainer width="100%" height="100%">
-            <PieChart>
-              <Pie
-                data={sentimentPieData}
-                cx="50%"
-                cy="50%"
-                cornerRadius="30%"
-                innerRadius="70%"
-                outerRadius="100%"
-                startAngle={90}
-                endAngle={-270}
-                dataKey="value"
-                animationDuration={300}
-                stroke="none"
-              >
-                {sentimentPieData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.color} />
-                ))}
-              </Pie>
-            </PieChart>
-          </ResponsiveContainer>
-        </div>
+        <SentimentDonut segments={sentimentPieData} />
         <div>
           <div className="flex min-w-24 flex-col gap-0.5 text-xs">
             <div className="flex justify-between">
@@ -133,6 +109,47 @@ function SentimentCircle() {
         </div>
       </div>
     </div>
+  );
+}
+
+function SentimentDonut({ segments }: { segments: { value: number; color: string; opacity?: number }[] }) {
+  const size = 60;
+  const cx = size / 2;
+  const cy = size / 2;
+  const outerRadius = 28;
+  const innerRadius = outerRadius * 0.7;
+  const r = (outerRadius + innerRadius) / 2;
+  const strokeWidth = outerRadius - innerRadius;
+  const circumference = 2 * Math.PI * r;
+
+  let cumulative = 0;
+
+  return (
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+      <g transform={`rotate(-90 ${cx} ${cy})`}>
+        {segments.map((seg, i) => {
+          const gap = 2;
+          const dashLength = Math.max(0, (seg.value / 100) * circumference - gap);
+          const offset = circumference - (cumulative / 100) * circumference;
+          cumulative += seg.value;
+          return (
+            <circle
+              key={i}
+              cx={cx}
+              cy={cy}
+              r={r}
+              fill="none"
+              stroke={seg.color}
+              strokeOpacity={seg.opacity ?? 1}
+              strokeWidth={strokeWidth}
+              strokeDasharray={`${dashLength} ${circumference - dashLength}`}
+              strokeDashoffset={offset}
+              style={{ transition: 'stroke-dasharray 0.3s ease, stroke-dashoffset 0.3s ease' }}
+            />
+          );
+        })}
+      </g>
+    </svg>
   );
 }
 
