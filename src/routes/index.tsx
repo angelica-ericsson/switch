@@ -1,9 +1,9 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
 import i18n from '@/i18n';
-import { useConsentStore } from '@/features/onboarding/consentStore';
+// import { useConsentStore } from '@/features/onboarding/consentStore';
 import { useInitializeGame } from '@/features/game-engine/useInitializeGame';
-import { useDemographicStore } from '@/features/onboarding/demographicStore';
+// import { useDemographicStore } from '@/features/onboarding/demographicStore';
 import '../game.css';
 import logoUrl from '../assets/logo.svg';
 import { GameButton } from '@/components/ui/gameButton';
@@ -18,17 +18,17 @@ function Index() {
   useInitializeGame();
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const isConsentValid = useConsentStore((state) => state.validate);
-  const isDemoValid = useDemographicStore((state) => state.validate);
+  // const isConsentValid = useConsentStore((state) => state.validate);
+  // const isDemoValid = useDemographicStore((state) => state.validate);
 
   const handleStartGame = () => {
     trackEvent('page:index:startbutton');
 
-    if (isConsentValid() && isDemoValid()) {
-      navigate({ to: '/game' });
-    } else {
-      navigate({ to: '/consent' });
-    }
+    // if (isConsentValid() && isDemoValid()) {
+    navigate({ to: '/game' });
+    // } else {
+    //   navigate({ to: '/consent' });
+    // }
   };
 
   const handleLanguageChange = (lang: 'en' | 'sv') => {
